@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><EntityModelCatalog>
+
+<dbInfo name="datasourceEvents" uuid="DEB2380315EE8E47AF7052ECFC4FADBC"/>
+
+<dataClasses collectionName="EmployeesCollection" className="Employees" uuid="32A4F49BE1213645A67B01F4F8468A31" tablePos="1">
+
+	<extraProperties ____objectunic="true" panelColor="#8DB3E2">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="25" Y="20"/>
+
+		</panel>
+
+	</extraProperties>
+
+	<attributes name="ID" kind="storage" type="long" uuid="A1427D04A87AE94AAB091A689D652DCA" fieldPos="1" autosequence="true" unique="true" primKey="true"/>
+
+	<attributes name="name" scope="public" uuid="C25B58F1E8BE2347BB4A81082E511BC8" fieldPos="2" type="string" kind="storage"/>
+
+	<attributes name="comp" kind="relatedEntity" type="Companies" uuid="472E967F94F2324BA3BBB470FE605DDF" fieldPos="3" path="Companies" scope="public"/>
+
+</dataClasses>
+
+<dataClasses collectionName="CompaniesCollection" className="Companies" uuid="BF394C7DED650044BE2FA5454AB468C8" tablePos="2">
+
+	<extraProperties ____objectunic="true" panelColor="#B2A2C7">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="284" Y="28"/>
+
+		</panel>
+
+	</extraProperties>
+
+	<attributes name="ID" kind="storage" type="long" uuid="6E7BB6398DC3A547867B7F1A4EEE1A14" fieldPos="1" autosequence="true" unique="true" primKey="true"/>
+
+	<attributes name="name" scope="public" uuid="F0E1C97A1D588A4B9249DC90C68BF283" fieldPos="2" type="string" kind="storage"/>
+
+	<attributes name="emp" scope="public" reversePath="true" path="comp" type="EmployeesCollection" kind="relatedEntities"/>
+
+</dataClasses>
+</EntityModelCatalog>

@@ -1,0 +1,251 @@
+#!/bin/bash
+
+echo "
+ [INFO]-------------------------------------
+ [INFO]
+ [INFO]
+ [INFO] Written by Geoffrey Beauny
+ [INFO] 4D | Auto Test Linux | Wakanda Server 
+ [INFO] ClearFile Shell Script
+ [INFO]
+ [INFO]
+ [INFO]--------------------------------------
+"
+
+echo "
+[INFO]----------------------------
+[INFO]Clear files [tmp, logs, ...]
+[INFO]----------------------------
+"
+
+echo "
+[INFO]------------------------------------------------------------------------------------------
+[INFO]If you want to change this delation with a periodic delation. You have to use a cron tab.
+[INFO]------------------------------------------------------------------------------------------
+
+[INFO]----------------------------------------------------------------------
+[INFO]
+[INFO]
+[INFO]How to use crontab thru Linux OS : 
+[INFO]| | | | |
+[INFO]| | | | ----- Day of week (0 - 7) (Sunday=0 or 7)
+[INFO]| | | ------- Month (1 - 12)
+[INFO]| | --------- Day of month (1 - 31)
+[INFO]| ----------- Hour (0 - 23)
+[INFO]------------- Minute (0 - 59)
+[INFO]
+[INFO]CLI : crontab -e [Edition mode], crontab -l [Listing mode]
+[INFO]
+[INFO]Example : */1 * * * *  user path/to/the/shell/script.sh
+[INFO]
+[INFO]
+[INFO]---------------------------------------------------------------------
+"
+
+function CleanLogsFolders {
+
+if cd ${HomeDirectory}${WorkspaceDirectory}
+
+then
+
+#----------------------------------------------------------------------
+#----------------------------------------------------------------------
+#Clear Log's Solution each time that you have defined through crontab
+#----------------------------------------------------------------------
+#----------------------------------------------------------------------
+
+if find . -name 'solution_log*'
+
+then
+
+  find . -name 'solution_log*' -print0 | xargs -0 rm -rf
+
+else
+
+  echo "There is/are no Log's Solution folders to delete"
+
+fi  
+
+#----------------------------------------------------------------------
+#----------------------------------------------------------------------
+#Clear Core files each time that you have defined through crontab
+#----------------------------------------------------------------------
+#----------------------------------------------------------------------
+
+if find . -name 'coreFiles*'
+
+then
+
+  find . -name 'coreFiles*' -print0 | xargs -0 rm -rf
+
+else
+
+  echo "There is/are no HTTPSOL_log folders to delete"
+fi  
+
+#----------------------------------------------------------------------
+#----------------------------------------------------------------------
+#Clear Log HTTP each time that you have defined through crontab 
+#----------------------------------------------------------------------
+#----------------------------------------------------------------------
+
+if find . -name 'HTTPSOL_log*'
+
+then
+
+  find . -name 'output_log*' -print0 | xargs -0 rm -rf
+
+else
+
+  echo "There is/are no HTTPSOL_log folders to delete"
+
+fi 
+
+#----------------------------------------------------------------------
+#----------------------------------------------------------------------
+#Clear Output Log each time that you have defined through crontab
+#----------------------------------------------------------------------
+#----------------------------------------------------------------------
+
+if find . -name 'output_log*'
+
+then
+
+   find . -name 'output_log*' -print0 | xargs -0 rm -rf
+
+else
+
+   echo "There is/are no output_log folders to delete"
+
+fi
+
+#----------------------------------------------------------------------
+#----------------------------------------------------------------------
+#Clear tmp file each time that you have defined through crontab
+#----------------------------------------------------------------------
+#----------------------------------------------------------------------
+
+if find . -name 'tmp*'
+
+then 
+
+   find . -name 'tmp*' -print0 | xargs -0 rm -rf
+
+else 
+
+   echo "There is/are no tmp folders to delete"
+
+fi 
+#----------------------------------------------------------------------
+#----------------------------------------------------------------------
+
+#----------------------------------------------------------------------
+#----------------------------------------------------------------------
+#Clear main folder each time that you have defined through crontab
+cd ..
+
+if find . -name 'global_log*'
+
+then 
+
+   find . -name 'global_log*' -print0 | xargs -0 rm -rf
+
+else 
+
+   echo "There is/are no global folder to delete"
+
+fi
+#----------------------------------------------------------------------
+#----------------------------------------------------------------------
+else
+
+ echo "Folders doesn't exist"
+
+fi
+
+}
+
+#[INFO]---------------Clean Folders For Wakanda Server-----------------
+#[INFO]----------------------------------------------------------------
+
+function Delation_Folder_DayDebug() {
+
+echo "Delation of files : Day_Debug :" 
+
+rm -rf ${HomeDirectoryDebug}
+echo "done" 
+
+}
+
+function Delation_Folder_DayRelease() {
+
+echo "Delation of files : Day_Release :" 
+
+rm -rf ${HomeDirectoryRelease}
+echo "done" 
+
+}
+#[INFO]----------------------------------------------------------------
+#[INFO]----------------Clean Folders For Wakanda Server----------------
+
+#[INFO]----Clean Folders and Create new Folders For Solution Test------
+#[INFO]----------------------------------------------------------------
+
+function Sol_Renew_Folder_D_R() {
+
+echo "We create a new folder for solution if there isn't"
+cd ${HomeDirectory}/${Directory}
+
+echo "Checkng for solutions folder"
+if [ -e solutions ]
+then
+  rm -rf ${HomeDirectoryDebug}/solutions
+  mkdir ${HomeDirectoryDebug}/solutions
+echo "done"
+else
+  mkdir ${HomeDirectoryDebug}/solutions
+echo "done"
+fi 
+ 
+echo "Checking for debug folder thru solutions folder"
+cd ${Solutions}
+
+if [ -e debug ]
+then
+ echo "Folder is already created well (Debug), then we remove it with solution if there is/are to add new solution(s)..."
+ rm -rf ${Solutions}/debug
+ mkdir ${Solutions}/debug  
+ echo "done"
+else
+ echo "Folder isn't created, we are creating a new folder..."
+ mkdir ${Solutions}/debug
+ echo "done"
+fi
+
+echo "Checking for SolutionTest folder thru Release fodler"
+cd ${Solutions}
+
+echo "Check for SolutionTest folder thru Debug folder"
+if [ -e release ]
+then
+ echo "Folder is already created well (Release), then we remove it with solution if there is/are to add new solution(s)..."
+ rm -rf ${Solutions}/release
+ mkdir ${Solutions}/release
+  echo "done"
+else
+ echo "Folder isn't created, we are creating a new folder..."
+ mkdir ${Solutions}/release
+ echo "done"
+fi
+
+}
+
+#[INFO]----Clean Folders and Create new Folders For Solution Test------
+#[INFO]----------------------------------------------------------------
+
+
+
+
+
+
+

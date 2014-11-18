@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <OPENSSL_ROOT>$(DepotRoot)\openssl\1.0.0d</OPENSSL_ROOT>
+    <OPENSSL_DIRECTORY_Debug>$(DepotRoot)\openssl\1.0.0d\DllDebug</OPENSSL_DIRECTORY_Debug>
+    <OPENSSL_DIRECTORY_Beta>$(OPENSSL_ROOT)\Dll</OPENSSL_DIRECTORY_Beta>
+    <OPENSSL_DIRECTORY_Release>$(OPENSSL_ROOT)\Dll</OPENSSL_DIRECTORY_Release>
+    <OPENSSL_DIRECTORY_Debug_x64>"$(OPENSSL_ROOT)\x64\DllDebug"</OPENSSL_DIRECTORY_Debug_x64>
+    <OPENSSL_DIRECTORY_Beta_x64>"$(OPENSSL_ROOT)\x64\Dll"</OPENSSL_DIRECTORY_Beta_x64>
+    <OPENSSL_DIRECTORY_Release_x64>"$(OPENSSL_ROOT)\x64\Dll"</OPENSSL_DIRECTORY_Release_x64>
+    <OPENSSL_INCLUDE>$(OPENSSL_ROOT)\$(DIRECTORY_x64)openssl\inc32</OPENSSL_INCLUDE>
+    <OPENSSL_INCLUDE_Short>$(OPENSSL_ROOT)\$(DIRECTORY_x64)openssl\inc32\openssl</OPENSSL_INCLUDE_Short>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(OPENSSL_INCLUDE);$(OPENSSL_INCLUDE)\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link />
+    <Link>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <BuildMacro Include="OPENSSL_ROOT">
+      <Value>$(OPENSSL_ROOT)</Value>
+    </BuildMacro>
+    <BuildMacro Include="OPENSSL_DIRECTORY_Debug">
+      <Value>$(OPENSSL_DIRECTORY_Debug)</Value>
+    </BuildMacro>
+    <BuildMacro Include="OPENSSL_DIRECTORY_Beta">
+      <Value>$(OPENSSL_DIRECTORY_Beta)</Value>
+    </BuildMacro>
+    <BuildMacro Include="OPENSSL_DIRECTORY_Release">
+      <Value>$(OPENSSL_DIRECTORY_Release)</Value>
+    </BuildMacro>
+    <BuildMacro Include="OPENSSL_DIRECTORY_Debug_x64">
+      <Value>$(OPENSSL_DIRECTORY_Debug_x64)</Value>
+    </BuildMacro>
+    <BuildMacro Include="OPENSSL_DIRECTORY_Beta_x64">
+      <Value>$(OPENSSL_DIRECTORY_Beta_x64)</Value>
+    </BuildMacro>
+    <BuildMacro Include="OPENSSL_DIRECTORY_Release_x64">
+      <Value>$(OPENSSL_DIRECTORY_Release_x64)</Value>
+    </BuildMacro>
+    <BuildMacro Include="OPENSSL_INCLUDE">
+      <Value>$(OPENSSL_INCLUDE)</Value>
+    </BuildMacro>
+    <BuildMacro Include="OPENSSL_INCLUDE_Short">
+      <Value>$(OPENSSL_INCLUDE_Short)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>

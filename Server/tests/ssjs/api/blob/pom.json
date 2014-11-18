@@ -1,0 +1,8 @@
+{
+    "description": "Tests of the Blob API",
+    "kind": "ssjs",
+    "tester": "geoffrey.beauny@4d.com",
+    "visibility": "public",
+    "developer": "laurent.esnault@4d.com",  
+	"stable": true
+}

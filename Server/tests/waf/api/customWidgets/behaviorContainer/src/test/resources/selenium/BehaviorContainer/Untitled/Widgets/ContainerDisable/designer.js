@@ -1,0 +1,5 @@
+(function(ContainerDisable) {
+
+	ContainerDisable.containerChildrenAreSubWidgets();
+
+});

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><EntityModelCatalog>
+
+<dbInfo name="Model" uuid="20202020202020202020202020202020"/>
+
+<extraProperties ____objectunic="true" version="1">
+
+	<classes ____objectunic="true">
+
+		<ImageWithoutLoadImage ____objectunic="true" panelColor="#B2A2C7">
+
+			<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+				<position ____objectunic="true" X="275" Y="50"/>
+</panel>
+</ImageWithoutLoadImage>
+
+		<ImageWithLoadImage ____objectunic="true" panelColor="#C3D69B">
+
+			<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+				<position ____objectunic="true" X="34" Y="44"/>
+</panel>
+</ImageWithLoadImage>
+
+		<Image ____objectunic="true" panelColor="#D88CFF">
+
+			<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+				<position ____objectunic="true" X="507" Y="50"/>
+</panel>
+</Image>
+</classes>
+
+	<model ____objectunic="true" workspaceLeft="0" workspaceTop="0"/>
+</extraProperties>
+
+<dataClasses name="Image" className="Image" collectionName="ImageCollection" scope="public">
+
+	<attributes name="ID" kind="storage" scope="public" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<attributes name="pics" kind="storage" scope="public" type="image"/>
+
+	<attributes name="info" kind="storage" scope="public" type="number"/>
+
+</dataClasses>
+
+<dataClasses name="ImageWithLoadImage" className="ImageWithLoadImage" collectionName="ImageWithLoadImageCollection" scope="public">
+
+	<attributes name="ID" kind="storage" scope="public" unique="true" autosequence="true" type="long" indexKind="btree" primKey="true"/>
+
+	<attributes name="pics" kind="storage" scope="public" type="image"/>
+
+	<attributes name="info" kind="storage" scope="public" type="number"/>
+
+</dataClasses>
+
+<dataClasses name="ImageWithoutLoadImage" className="ImageWithoutLoadImage" collectionName="ImageWithoutLoadImageCollection" scope="public">
+
+	<attributes name="ID" kind="storage" scope="public" unique="true" autosequence="true" type="long" indexKind="btree" primKey="true"/>
+
+	<attributes name="pics" kind="storage" scope="public" type="image"/>
+
+	<attributes name="info" kind="storage" scope="public" type="number"/>
+
+</dataClasses>
+</EntityModelCatalog>

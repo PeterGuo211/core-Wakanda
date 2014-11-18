@@ -1,0 +1,8 @@
+{
+    "description": "Tests of the ds.backup() method",
+    "kind": "ssjs",
+	"developer": "olivier.randriamanana@4d.com",
+	"tester": "mohamed.elghachi@4d.com",
+    "visibility": "private",
+	"stable": true
+}

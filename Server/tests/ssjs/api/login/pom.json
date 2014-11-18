@@ -1,0 +1,10 @@
+{
+    "description": "Tests of the Login API",
+    "kind": "ssjs",
+    "oldJenkinsName": ["TestServerDirectory", "TestServerDirectoryLoginListener"],
+    "tester": "soufiane.tigrioui@4d.com",
+    "visibility": "public",
+    "developer": "lr@4d.com",
+	"stable": true,
+    "gonogo": true
+}

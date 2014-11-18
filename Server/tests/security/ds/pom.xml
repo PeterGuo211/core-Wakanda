@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.wakanda.qa</groupId>
+	<artifactId>ds-perm</artifactId>
+	<version>1.0</version>
+	<name>datastore-permissions</name>
+
+	<parent>
+		<groupId>org.wakanda.qa.commons</groupId>
+		<artifactId>server-parent</artifactId>
+		<version>LATEST</version>
+	</parent>
+
+	<properties>
+		<jenkins.old.name>DataStorePermissions</jenkins.old.name>
+		<description>Security tests of the DataStore API</description>
+		<tester>soufiane.tigrioui@4d.com</tester>
+		<developer>lr@4d.com</developer>
+		<stable>true</stable>
+		<visibility>public</visibility>
+		<preTestsClass>org.wakanda.qa.test.dataperm.RunServer</preTestsClass>
+		<postTestsClass>org.wakanda.qa.test.dataperm.StopServer</postTestsClass>
+		<gonogo>true</gonogo>
+	</properties>
+
+	<repositories>
+		<repository>
+			<id>snapshots</id>
+			<url>http://194.98.194.72:9000/nexus/content/repositories/snapshots/</url>
+		</repository>
+	</repositories>
+
+</project>

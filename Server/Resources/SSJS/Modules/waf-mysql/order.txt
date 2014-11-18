@@ -1,0 +1,9 @@
+client.js
+constants.js
+mySQLClose.js
+mySQLConnect.js
+mySQLRequest.js
+parsers.js
+protocol.js
+sha1Module.js
+utils.js

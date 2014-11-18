@@ -1,0 +1,9 @@
+{
+    "description": "Main tests of the File API",
+    "kind": "ssjs",
+    "oldJenkinsName": ["TestServerFileBinaryStream", "TestServerFileFile", "TestServerFileFolder", "TestServerFilePath", "TestServerFileTextStream"],
+    "tester": "sebastien.courvoisier@4d.com",
+    "visibility": "public",
+    "developer": "ke-fong.lin@4d.com",
+    "stable": true
+}

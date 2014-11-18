@@ -1,0 +1,10 @@
+{
+    "description": "Tests of the ODBC Module with MSSQL (Miscrosoft SQL Server  2008) data base",
+    "kind": "ssjs",
+    "oldJenkinsName": "TestServerODBCConnectorWithMySQL",
+    "tester": "saad.yousfi@4d.com",
+    "visibility": "public",
+    "developer": "abdessamad.elkasimi@4d.com",
+    "enterpriseOnly": true,
+    "stable": true
+}

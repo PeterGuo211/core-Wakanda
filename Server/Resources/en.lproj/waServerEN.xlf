@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Translation file for 4D products.
+  Copyright (C) 2011 4D SAS.
+  This file is distributed under the same license as the 4D product package.
+-->
+
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN"
+"http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+
+<xliff version="1.0">
+  <file datatype="x-STR#" original="undefined" source-language="en-US" target-language="en-US" product-version="Wakanda Studio">
+    <header>
+      <note>The character &quot;%&quot; (out of a numerical context) is a meta-character that will be replaced (often by a numeric value) before the string is displayed</note>
+      <note>Text between less than (&lt;) and greater than (&gt;) symbols is a variable&apos;s name and must not be localised</note>
+      <note>\r, \t and \n are meta-characters.</note>
+    </header>
+    <body>
+      
+      <group id="1000" resname="RIA Server Errors Text">
+        <trans-unit resname="ERR_iasv_1001" id="1">
+          <source>HTTP Server component not found</source>
+          <target>HTTP Server component not found</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1002" id="2">
+          <source>DB4D Engine component not found</source>
+          <target>DB4D Engine component not found</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1003" id="3">
+          <source>SQL Server component not found</source>
+          <target>SQL Server component not found</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1004" id="4">
+          <source>File '{p1}' not found</source>
+          <target>File '{p1}' not found</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1005" id="5">
+          <source>Security Manager component not found</source>
+          <target>Security Manager component not found</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1006" id="6">
+          <source>HTTP Server Project not found</source>
+          <target>HTTP Server Project not found</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1007" id="7">
+          <source>Users and Groups component not found</source>
+          <target>Users and Groups component not found</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1008" id="8">
+          <source>Language Syntax component not found</source>
+          <target>Language Syntax component not found</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1009" id="9">
+          <source>Cannot load users and groups directory</source>
+          <target>Cannot load users and groups directory</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1010" id="10">
+          <source>Symbols table not found</source>
+          <target>Symbols table not found</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1011" id="11">
+          <source>Cannot open the solution "{p1}" for running</source>
+          <target>Cannot open the solution "{p1}" for running</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1012" id="12">
+          <source>Invalid solution definition</source>
+          <target>Invalid solution definition</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1013" id="13">
+          <source>Cannot open '{p1}' project</source>
+          <target>Cannot open '{p1}' project</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1014" id="14">
+          <source>Cannot start '{p1}' project</source>
+          <target>Cannot start '{p1}' project</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1015" id="15">
+          <source>Invalid application context</source>
+          <target>Invalid application context</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1016" id="16">
+          <source>Unknown application context</source>
+          <target>Unknown application context</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1017" id="17">
+          <source>Invalid project definition</source>
+          <target>Invalid project definition</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1018" id="18">
+          <source>Settings file not found</source>
+          <target>Settings file not found</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1019" id="19">
+          <source>Cannot load the settings files</source>
+          <target>Cannot load the settings files</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1020" id="20">
+          <source>Cannot load the HTTP Server settings</source>
+          <target>Cannot load the HTTP Server settings</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1021" id="21">
+          <source>Cannot load the Project settings</source>
+          <target>Cannot load the Project settings</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1022" id="22">
+          <source>Cannot load the Web App Service settings</source>
+          <target>Cannot load the Web App Service settings</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1023" id="23">
+          <source>Cannot load the SQL Server settings</source>
+          <target>Cannot load the SQL Server settings</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1024" id="24">
+          <source>RPC Service settings not found</source>
+          <target>RPC Service settings not found</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1025" id="25">
+          <source>Data Service settings not found</source>
+          <target>Data Service settings not found</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1026" id="26">
+          <source>Cannot start the SQL Server</source>
+          <target>Cannot start the SQL Server</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1027" id="27">
+          <source>JavaScript file '{p1}' not found</source>
+          <target>JavaScript file '{p1}' not found</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1028" id="28">
+          <source>Cannot create JavaScript language context</source>
+          <target>Cannot create JavaScript language context</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1029" id="29">
+          <source>Cannot evaluate the script '{p1}'</source>
+          <target>Cannot evaluate the script '{p1}'</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1030" id="30">
+          <source>Cannot call the JavaScript request handler</source>
+          <target>Cannot call the JavaScript request handler</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1031" id="31">
+          <source>Cannot add the JavaScript request handler</source>
+          <target>Cannot add the JavaScript request handler</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1032" id="32">
+          <source>call to require('{p1}') failed</source>
+          <target>call to require('{p1}') failed</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1033" id="33">
+          <source>call to '{p1}' function failed</source>
+          <target>call to '{p1}' function failed</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1034" id="34">
+          <source>Cannot start the HTTP Server</source>
+          <target>Cannot start the HTTP Server</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1035" id="35">
+          <source>Cannot open the datastore</source>
+          <target>Cannot open the datastore</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1036" id="36">
+          <source>Cannot enable the Data Service</source>
+          <target>Cannot enable the Data Service</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1037" id="37">
+          <source>Cannot disable the Data Service</source>
+          <target>Cannot disable the Data Service</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1038" id="38">
+          <source>None opened datastore found</source>
+          <target>None opened datastore found</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1039" id="39">
+          <source>Cannot enable the Web App Service</source>
+          <target>Cannot enable the Web App Service</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1040" id="40">
+          <source>Cannot disable the Web App Service</source>
+          <target>Cannot disable the Web App Service</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1041" id="41">
+          <source>Cannot load the RPC methods definition</source>
+          <target>Cannot load the RPC methods definition</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1042" id="42">
+          <source>Cannot enable the RPC Service</source>
+          <target>Cannot enable the RPC Service</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1043" id="43">
+          <source>Cannot disable the RPC Service</source>
+          <target>Cannot disable the RPC Service</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1044" id="44">
+          <source>Cannot enable the File Service</source>
+          <target>Cannot enable the File Service</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1045" id="45">
+          <source>Cannot disable the File Service</source>
+          <target>Cannot disable the File Service</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1046" id="46">
+          <source>Cannot enable Debug Service for Wakanda Studio</source>
+          <target>Cannot enable Debug Service for Wakanda Studio</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1047" id="47">
+          <source>Log files folder not found</source>
+          <target>Log files folder not found</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1048" id="48">
+          <source>Cannot load the datastore settings</source>
+          <target>Cannot load the datastore settings</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1053" id="53">
+          <source>Cannot execute bootstrap file</source>
+          <target>Cannot execute bootstrap file</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1054" id="54">
+          <source>Cannot post '{p1}' message to services</source>
+          <target>Cannot post '{p1}' message to services</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1057" id="57">
+          <source>Cannot remove the JavaScript request handler</source>
+          <target>Cannot remove the JavaScript request handler</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1058" id="58">
+          <source>Not available in this context. A running application is required</source>
+          <target>Not available in this context. A running application is required</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1067" id="67">
+          <source>Model file '{p1}' not found</source>
+          <target>Model file '{p1}' not found</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1068" id="68">
+          <source>Cannot find JavaScript language context</source>
+          <target>Cannot find JavaScript language context</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1069" id="69">
+          <source>Cannot start the debugger</source>
+          <target>Cannot start the debugger</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1070" id="70">
+          <source>Debugging is not authorized</source>
+          <target>Debugging is not authorized</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1071" id="71">
+          <source>This project is not supposed to handle the debugger</source>
+          <target>This project is not supposed to handle the debugger</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1072" id="72">
+          <source>Cannot stop the debugger</source>
+          <target>Cannot stop the debugger</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1073" id="73">
+          <source>Cannot set the debugger</source>
+          <target>Cannot set the debugger</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1074" id="74">
+          <source>Cannot init the debugger</source>
+          <target>Cannot init the debugger</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1075" id="75">
+          <source>One or more JavaScript contexts are in use and cannot be released (number of contexts: {p1})</source>
+          <target>One or more JavaScript contexts are in use and cannot be released (number of contexts: {p1})</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1076" id="76">
+          <source>This project is busy. One or more resources may still have access to it</source>
+          <target>This project is busy. One or more resources may still have access to it</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1077" id="77">
+          <source>Cannot reload the datastore model</source>
+          <target>Cannot reload the datastore model</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1078" id="78">
+          <source>Cannot enable Server Supervisor</source>
+          <target>Cannot enable Server Supervisor</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1079" id="79">
+          <source>Server Supervisor not found</source>
+          <target>Server Supervisor not found</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1080" id="80">
+          <source>Cannot create admin user</source>
+          <target>Cannot create admin user</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1081" id="81">
+          <source>Cannot open the solution "{p1}" for maintenance</source>
+          <target>annot open the solution "{p1}" for maintenance</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1082" id="82">
+          <source>Cannot add the breakpoint</source>
+          <target>Cannot add the breakpoint</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1083" id="83">
+          <source>Cannot remove the breakpoint</source>
+          <target>Cannot remove the breakpoint</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1084" id="84">
+          <source>Cannot get the breakpoints</source>
+          <target>Cannot get the breakpoints</target>
+        </trans-unit>
+        <trans-unit resname="ERR_iasv_1085" id="85">
+          <source>Cannot get the breakpoints timestamp</source>
+          <target>Cannot get the breakpoints timestamp</target>
+        </trans-unit>
+		<trans-unit resname="ERR_iasv_1086" id="86">
+          <source>Cannot perform backup</source>
+          <target>Cannot perform backup</target>
+        </trans-unit>
+		<trans-unit resname="ERR_iasv_1087" id="87">
+          <source>Backup settings not found</source>
+          <target>Backup settings not found</target>
+        </trans-unit>
+		<trans-unit resname="ERR_iasv_1088" id="88">
+          <source>Cannot find current journal "{p1}"</source>
+          <target>Cannot find current journal "{p1}"</target>
+        </trans-unit>
+		<trans-unit resname="ERR_iasv_1089" id="89">
+          <source>Cannot use journal "{p1}"</source>
+          <target>Cannot use journal "{p1}"</target>
+        </trans-unit>
+		<trans-unit resname="ERR_iasv_1090" id="90">
+          <source>Cannot integrate journal "{p1}"</source>
+          <target>Cannot integrate journal "{p1}"</target>
+        </trans-unit>
+		<trans-unit resname="ERR_iasv_1091" id="91">
+          <source>Invalid journal path "{p1}" </source>
+          <target>Invalid journal path "{p1}" </target>
+        </trans-unit>
+      </group>
+      <group id="3000" resname="Permissions Errors Text">
+        <trans-unit resname="ERR_perm_3003" id="3">
+          <source>The group with id "{p1}" used in the permission for the resource "{p2}" doesn't exist</source>
+          <target>The group with id "{p1}" used in the permission for the resource "{p2}" doesn't exist</target>
+        </trans-unit>
+        <trans-unit resname="ERR_perm_3004" id="4">
+          <source>The group named "{p1}" used in the permission for the resource "{p2}" doesn't exist</source>
+          <target>The group named "{p1}" used in the permission for the resource "{p2}" doesn't exist</target>
+        </trans-unit>
+        <trans-unit resname="ERR_perm_3005" id="5">
+          <source>The group with id "{p1}" used in the permission for the resource "{p2}" exists but doesn't match the name</source>
+          <target>The group with id "{p1}" used in the permission for the resource "{p2}" exists but doesn't match the name</target>
+        </trans-unit>
+        <trans-unit resname="ERR_perm_3006" id="6">
+          <source>The group named "{p1}" used in the permission for the resource "{p2}" exists but doesn't match the id</source>
+          <target>The group named "{p1}" used in the permission for the resource "{p2}" exists but doesn't match the id</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

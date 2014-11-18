@@ -1,0 +1,239 @@
+<!--
+* This file is part of Wakanda software, licensed by 4D under
+*  (i) the GNU General Public License version 3 (GNU GPL v3), or
+*  (ii) the Affero General Public License version 3 (AGPL v3) or
+*  (iii) a commercial license.
+* This file remains the exclusive property of 4D and/or its licensors
+* and is protected by national and international legislations.
+* In any event, Licensee's compliance with the terms and conditions
+* of the applicable license constitutes a prerequisite to any use of this file.
+* Except as otherwise expressly stated in the applicable license,
+* such license does not include any other license or rights on this file,
+* 4D's and/or its licensors' trademarks and/or other proprietary rights.
+* Consequently, no title, copyright or other proprietary rights
+* other than those specified in the applicable license is granted.
+-->
+<!DOCTYPE html><html xmlns:waf="http://www.4d.com">
+
+
+
+<head>
+
+
+
+<title>DataProvider</title>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+<meta name="generator" content="Wakanda GUIDesigner"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="WAF.config.datasources" data-type="dataSource" data-source-type="dataClass" data-source="Emp" data-lib="WAF" data-id="EmpsDS_" data-dataType="string" data-autoLoad="true" content="EmpsDS_"/>
+
+
+
+
+
+
+
+
+
+<meta data-type="dataSource" data-source-type="dataClass" data-source="Empty_Single" data-lib="WAF" data-id="EmptyDS" data-dataType="string" class="waf-widget waf-dataSource"/>
+
+<meta data-type="dataSource" data-source-type="scalar" data-source="variable" data-lib="WAF" data-id="VariableDS" data-dataType="number" class="waf-widget waf-dataSource"/>
+
+<meta data-type="dataSource" data-source-type="dataClass" data-source="City" data-lib="WAF" data-id="CitiesDS_" data-dataType="string" class="waf-widget waf-dataSource"/>
+
+<meta name="WAF.config.datasources" data-type="dataSource" data-source-type="array" data-source="arrayDS" data-lib="WAF" data-id="ArrayDS" data-dataType="string" data-autoLoad="true" data-attributes="name:string,pop:number" content="ArrayDS" class="waf-widget waf-dataSource"/>
+
+<meta data-type="dataSource" data-source-type="dataClass" data-source="City" data-lib="WAF" data-id="CitiesDS" data-dataType="string" class="waf-widget waf-dataSource"/>
+
+<meta data-type="dataSource" data-source-type="dataClass" data-source="Emp" data-lib="WAF" data-id="EmpsDS" data-dataType="string" class="waf-widget waf-dataSource"/>
+
+<meta data-type="dataSource" data-source-type="dataClass" data-source="Company" data-lib="WAF" data-id="CompaniesDS" data-dataType="string" class="waf-widget waf-dataSource"/>
+
+<meta data-type="dataSource" data-source-type="dataClass" data-source="CitiesDS_.companies" data-lib="WAF" data-id="CompsByCityDS" data-dataType="string" class="waf-widget waf-dataSource"/>
+
+<meta data-type="dataSource" data-source-type="dataClass" data-source="CompsByCityDS.staff" data-lib="WAF" data-id="EmpsByCompDS" data-dataType="string" class="waf-widget waf-dataSource"/>
+
+<meta name="WAF.config.loadCSS" id="waf-interface-css" content="styles/test.css"/>
+
+<meta name="WAF.config.loadJS" content="scripts/test.js"/>
+
+
+
+</head>
+
+
+
+<body id="waf-body" data-type="document" data-theme="metal" data-rpc-validation="false" data-rpc-namespace="rpc" data-rpc-activate="false" data-lib="WAF" style="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<input type="text" style="width:153px;height:25px;top:372px;left:1340px;position:absolute;" id="textField0" data-type="textField" data-theme="metal inherited" data-multiline="false" data-lib="WAF" data-label-position="left" data-label="Variable DataSource" data-binding="VariableDS" class="waf-widget waf-textField "/>
+
+<label style="width:100px;height:12px;top:372px;left:1235px;position:absolute;" id="label8" data-type="label" data-theme="metal inherited" data-linked="textField0" data-lib="WAF" class="waf-widget waf-label">Variable DataSource</label>
+
+<label style="width:88px;height:12px;top:6px;left:1212px;position:absolute;" id="label7" data-type="label" data-theme="metal inherited" data-linked="dataGrid7" data-lib="WAF" class="waf-widget waf-label">Array DataSource</label>
+
+<div style="width:300px;height:300px;top:23px;left:1212px;position:absolute;" id="dataGrid7" data-type="dataGrid" data-theme="metal inherited" data-lib="WAF" data-label-position="top" data-label="Array DataSource" data-column="[{'sourceAttID':'name','colID':'name','width':'150','title':'name'},{'sourceAttID':'pop','colID':'pop','width':'150','title':'pop'}]" data-binding="ArrayDS" class="waf-widget waf-dataGrid "></div>
+
+<label style="width:75px;height:12px;top:368px;left:719px;position:absolute;" id="label6" data-type="label" data-theme="metal inherited" data-linked="dataGrid6" data-lib="WAF" class="waf-widget waf-label">All Employees</label>
+
+<div style="width:470px;height:328px;top:385px;left:719px;position:absolute;" id="dataGrid6" data-type="dataGrid" data-theme="metal inherited" data-lib="WAF" data-label-position="top" data-label="All Employees" data-column="[]" class="waf-widget waf-dataGrid "></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="width:350px;height:227px;top:26px;left:7px;position:absolute;" id="dataGrid0" data-type="dataGrid" data-theme="metal inherited" data-lib="WAF" data-label-position="top" data-label="All Cities" data-column="[{'sourceAttID':'ID','colID':'ID','width':'70','title':'ID'},{'sourceAttID':'name','colID':'name','width':'150','title':'name'},{'sourceAttID':'pop','colID':'pop','width':'90','title':'pop'}]" data-binding="CitiesDS" class="waf-widget waf-dataGrid "></div><div style="width:329px;height:224px;top:25px;left:367px;position:absolute;" id="dataGrid1" data-type="dataGrid" data-theme="metal inherited" data-lib="WAF" data-label-position="top" data-label="All Companies" data-column="[{'sourceAttID':'ID','colID':'ID','width':'70','title':'ID'},{'sourceAttID':'name','colID':'name','width':'150','title':'name'},{'sourceAttID':'ca','colID':'ca','width':'90','title':'ca'}]" data-binding="CompaniesDS" class="waf-widget waf-dataGrid "></div><div style="width:469px;height:317px;top:25px;left:716px;position:absolute;" id="dataGrid2" data-type="dataGrid" data-theme="metal inherited" data-lib="WAF" data-label-position="top" data-label="All Employees" data-column="[{'sourceAttID':'ID','colID':'ID','width':'70','title':'ID'},{'sourceAttID':'name','colID':'name','width':'150','title':'name'},{'sourceAttID':'salary','colID':'salary','width':'90','title':'salary'},{'sourceAttID':'integration','colID':'integration','width':'100','title':'integration'},{'sourceAttID':'age','colID':'age','width':'90','title':'age'}]" data-binding="EmpsDS" class="waf-widget waf-dataGrid "></div>
+
+<label style="width:75px;height:12px;top:8px;left:716px;position:absolute;" id="label0" data-type="label" data-theme="metal inherited" data-linked="dataGrid2" data-lib="WAF" class="waf-widget waf-label">All Employees</label>
+
+<label style="width:75px;height:12px;top:8px;left:367px;position:absolute;" id="label1" data-type="label" data-theme="metal inherited" data-linked="dataGrid1" data-lib="WAF" class="waf-widget waf-label">All Companies</label>
+
+<label style="width:75px;height:12px;top:9px;left:7px;position:absolute;" id="label2" data-type="label" data-theme="metal inherited" data-linked="dataGrid0" data-lib="WAF" class="waf-widget waf-label">All Cities</label>
+
+<div style="width:350px;height:200px;top:288px;left:9px;position:absolute;" id="dataGrid3" data-type="dataGrid" data-theme="metal inherited" data-lib="WAF" data-label-position="top" data-label="1. Cities" data-column="[{'sourceAttID':'ID','colID':'ID','width':'70','title':'ID'},{'sourceAttID':'name','colID':'name','width':'150','title':'name'},{'sourceAttID':'pop','colID':'pop','width':'90','title':'pop'}]" data-binding="CitiesDS_" class="waf-widget waf-dataGrid "></div>
+
+<label style="width:75px;height:12px;top:271px;left:9px;position:absolute;" id="label3" data-type="label" data-theme="metal inherited" data-linked="dataGrid3" data-lib="WAF" class="waf-widget waf-label">1. Cities</label>
+
+
+
+
+
+<div style="width:322px;height:196px;top:290px;left:377px;position:absolute;" id="dataGrid5" data-type="dataGrid" data-theme="metal inherited" data-lib="WAF" data-label-position="top" data-label="2. Companies" data-column="[{'sourceAttID':'ID','colID':'ID','width':'70','title':'ID'},{'sourceAttID':'name','colID':'name','width':'150','title':'name'},{'sourceAttID':'ca','colID':'ca','width':'90','title':'ca'}]" data-binding="CompsByCityDS" class="waf-widget waf-dataGrid "></div>
+
+<label style="width:75px;height:12px;top:273px;left:377px;position:absolute;" id="label4" data-type="label" data-theme="metal inherited" data-linked="dataGrid5" data-lib="WAF" class="waf-widget waf-label">2. Companies</label>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="width:566px;height:200px;top:519px;left:12px;position:absolute;" id="dataGrid9" data-type="dataGrid" data-theme="metal inherited" data-lib="WAF" data-label-position="top" data-label="3. Employees" data-column="[{'sourceAttID':'ID','colID':'ID','width':'70','title':'ID'},{'sourceAttID':'name','colID':'name','width':'150','title':'name'},{'sourceAttID':'salary','colID':'salary','width':'90','title':'salary'},{'sourceAttID':'integration','colID':'integration','width':'100','title':'integration'},{'sourceAttID':'age','colID':'age','width':'70','title':'age'}]" data-binding="EmpsByCompDS" class="waf-widget waf-dataGrid "></div>
+
+<label style="width:75px;height:12px;top:502px;left:12px;position:absolute;" id="label10" data-type="label" data-theme="metal inherited" data-linked="dataGrid9" data-lib="WAF" class="waf-widget waf-label">3. Employees</label>
+
+
+
+
+
+<div style="width:186px;height:146px;top:449px;left:1221px;position:absolute;" id="dataGrid4" data-type="dataGrid" data-theme="metal inherited" data-lib="WAF" data-label-position="top" data-label="Empty" data-column="[{'sourceAttID':'ID','colID':'ID','width':'70','title':'ID'}]" data-binding="EmptyDS" class="waf-widget waf-dataGrid "></div>
+
+<script type="text/javascript">
+{test}
+var onUnitTestReady = function () {
+    window.setTimeout(function () { unitTest.run(testCase, function () {
+		this.sendXmlReport("http://" + location.host + "/testReporter/", "{jobLocation}{jobId}");
+	});}, 8000);
+};
+</script>
+<script type="text/javascript" src="/waLib/WAF/Loader.js"></script>
+<script type="text/javascript" src="/unitTest.js"></script><label style="width:75px;height:12px;top:432px;left:1221px;position:absolute;" id="label5" data-type="label" data-theme="metal inherited" data-linked="dataGrid4" data-lib="WAF" class="waf-widget waf-label">Empty</label></body></html>

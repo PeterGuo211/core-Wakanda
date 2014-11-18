@@ -1,0 +1,389 @@
+﻿{
+	"toJSON": true,
+	"extraProperties": {
+		"version": "2",
+		"model": {
+			"methodShowMode": "true",
+			"workspaceLeft": 0,
+			"workspaceTop": 0,
+			"scriptMode": "manual",
+			"lastScriptLocation": {
+				"Emp": {
+					"events": "Emp/Emp-events.js"
+				},
+				"City": {
+					"events": "City/City-events.js",
+					"method": "City/City-methods.js"
+				}
+			}
+		},
+		"classes": {
+			"City": {
+				"panelColor": "#fff",
+				"methVisible": "true",
+				"__CDATA": "\n\n\t\t\n",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": "true",
+					"__CDATA": "\n\n\t\t\t\n",
+					"position": {
+						"X": 48,
+						"Y": 200
+					}
+				}
+			},
+			"Company": {
+				"panelColor": "#C3D69B",
+				"methVisible": "true",
+				"__CDATA": "\n\n\t\t\n",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": "true",
+					"__CDATA": "\n\n\t\t\t\n",
+					"position": {
+						"X": "358",
+						"Y": "34"
+					}
+				}
+			},
+			"Emp": {
+				"panelColor": "#CCC1D9",
+				"methVisible": "true",
+				"__CDATA": "\n\n\t\t\n",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": "true",
+					"__CDATA": "\n\n\t\t\t\n",
+					"position": {
+						"X": 659,
+						"Y": 57
+					}
+				}
+			},
+			"Empty_Single": {
+				"panelColor": "#B8CCE4",
+				"methVisible": "true",
+				"__CDATA": "\n\n\t\t\n",
+				"panel": {
+					"isOpen": "true",
+					"__CDATA": "\n\n\t\t\t\n",
+					"pathVisible": false,
+					"position": {
+						"X": "89",
+						"Y": "47"
+					}
+				}
+			},
+			"EventsFlag": {
+				"panelColor": "#548DD4",
+				"methVisible": "true",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": true,
+					"position": {
+						"X": 366,
+						"Y": 488
+					}
+				}
+			},
+			"WidgetDS": {
+				"panelColor": "#B2A2C7",
+				"methVisible": "true",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": true,
+					"position": {
+						"X": 608,
+						"Y": 347
+					}
+				}
+			}
+		}
+	},
+	"dataClasses": [
+		{
+			"name": "City",
+			"className": "City",
+			"collectionName": "Cities",
+			"scope": "public",
+			"uuid": "4EEF0B37B4C0754391B96687C78EC267",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"uuid": "39D47235A72C02489D74A4DD02E5E32F",
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				},
+				{
+					"name": "name",
+					"kind": "storage",
+					"scope": "public",
+					"uuid": "104D995E8A0DBE41A8D056C22A852E0A",
+					"type": "string"
+				},
+				{
+					"name": "pop",
+					"kind": "storage",
+					"scope": "public",
+					"uuid": "27DA0C20EB48A04BBAC49CF213CF6ADA",
+					"type": "number"
+				},
+				{
+					"name": "companies",
+					"kind": "relatedEntities",
+					"scope": "public",
+					"type": "Companies",
+					"reversePath": true,
+					"path": "location"
+				}
+			],
+			"events": [
+				{
+					"kind": "validateremove",
+					"from": "$mainModel.City.events.validateremove"
+				},
+				{
+					"kind": "validateremove",
+					"from": "$mainModel.City.events.validateremove"
+				},
+				{
+					"kind": "validateremove",
+					"from": "$mainModel.City.events.validateremove",
+					"userDefined": true
+				},
+				{
+					"kind": "clientrefresh",
+					"from": "$mainModel.City.events.clientrefresh"
+				},
+				{
+					"kind": "clientrefresh",
+					"from": "$mainModel.City.events.clientrefresh"
+				},
+				{
+					"kind": "clientrefresh",
+					"from": "$mainModel.City.events.clientrefresh",
+					"userDefined": true
+				}
+			],
+			"methods": [
+				{
+					"name": "methodDataClass",
+					"applyTo": "dataClass",
+					"scope": "public",
+					"from": "$mainModel.City.methods.methodDataClass",
+					"userDefined": true
+				},
+				{
+					"name": "methodEntity",
+					"applyTo": "entity",
+					"scope": "public",
+					"from": "$mainModel.City.entityMethods.methodEntity",
+					"userDefined": true
+				},
+				{
+					"name": "methodEntityCollection",
+					"applyTo": "entityCollection",
+					"scope": "public",
+					"from": "$mainModel.City.collectionMethods.methodEntityCollection",
+					"userDefined": true
+				}
+			]
+		},
+		{
+			"name": "Company",
+			"className": "Company",
+			"collectionName": "Companies",
+			"scope": "public",
+			"uuid": "23F96A82437CCE469F034A844772A70E",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"uuid": "75FEC4CB4DB71B4A80BB4BBF4184B020",
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				},
+				{
+					"name": "name",
+					"kind": "storage",
+					"scope": "public",
+					"uuid": "AEF7F7F25CD5AF4A90F8F4E91E078E2C",
+					"type": "string"
+				},
+				{
+					"name": "ca",
+					"kind": "storage",
+					"scope": "public",
+					"uuid": "D5B1934F45DB8344A8F8AD6A3B8F16AD",
+					"type": "number"
+				},
+				{
+					"name": "staff",
+					"kind": "relatedEntities",
+					"scope": "public",
+					"type": "Emps",
+					"reversePath": true,
+					"path": "company"
+				},
+				{
+					"name": "location",
+					"kind": "relatedEntity",
+					"scope": "public",
+					"uuid": "01565D3C876440499B4E0133874A84E9",
+					"type": "City",
+					"path": "Cities"
+				}
+			]
+		},
+		{
+			"name": "Emp",
+			"className": "Emp",
+			"collectionName": "Emps",
+			"scope": "public",
+			"uuid": "182B64A0ADFEB443A2834DB646BDD51E",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"uuid": "B9B5A08FBB549E4FA4D2DBD5C168A5DF",
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				},
+				{
+					"name": "name",
+					"kind": "storage",
+					"scope": "public",
+					"uuid": "D2CBD43945AC064EAD412E142DA2CFA6",
+					"type": "string"
+				},
+				{
+					"name": "salary",
+					"kind": "storage",
+					"scope": "public",
+					"uuid": "281EC5EF12CA3C44982993E3C76D0B05",
+					"type": "number"
+				},
+				{
+					"name": "company",
+					"kind": "relatedEntity",
+					"scope": "public",
+					"uuid": "F702CDAA34442B44930BFC8EB8DBF36F",
+					"type": "Company",
+					"path": "Companies"
+				},
+				{
+					"name": "integration",
+					"kind": "storage",
+					"scope": "public",
+					"uuid": "2CDF1D6A60786F41B66D57709A6A0EDF",
+					"type": "date",
+					"simpleDate": false
+				},
+				{
+					"name": "age",
+					"kind": "storage",
+					"scope": "public",
+					"uuid": "B22E68294882CF4F81B66E68F00740A4",
+					"type": "number"
+				}
+			],
+			"events": [
+				{
+					"kind": "validateremove",
+					"from": "$mainModel.Emp.events.validateremove"
+				},
+				{
+					"kind": "validateremove",
+					"from": "$mainModel.Emp.events.validateremove",
+					"userDefined": true
+				},
+				{
+					"kind": "clientrefresh",
+					"from": "$mainModel.Emp.events.clientrefresh"
+				},
+				{
+					"kind": "clientrefresh",
+					"from": "$mainModel.Emp.events.clientrefresh",
+					"userDefined": true
+				}
+			]
+		},
+		{
+			"name": "Empty_Single",
+			"className": "Empty_Single",
+			"collectionName": "Empty",
+			"scope": "public",
+			"uuid": "14EA8622852DDC4C800C4DEFA1EA39D2",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"uuid": "3BC1648267C9764D9280AD55E790F913",
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				}
+			]
+		},
+		{
+			"name": "EventsFlag",
+			"className": "EventsFlag",
+			"collectionName": "EventsFlagCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				},
+				{
+					"name": "name",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				}
+			]
+		},
+		{
+			"name": "WidgetDS",
+			"className": "WidgetDS",
+			"collectionName": "WidgetDSCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				},
+				{
+					"name": "name",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "num",
+					"kind": "storage",
+					"scope": "public",
+					"type": "long"
+				}
+			]
+		}
+	]
+}

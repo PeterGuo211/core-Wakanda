@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><permissions>
+<allow action="promote" groupID="ED70FEEEF00CBE4ABA0529F663D7F45E" resource="ForcePromoteModel" temporaryForcePermissions="true" type="model"/>
+<allow action="execute" groupID="3D81E23FA45D3545970CD8C0144A15D0" resource="ForcePromoteModel.ForcePromoteModel.promoteRead" temporaryForcePermissions="false" type="method"/>
+<allow action="execute" groupID="3D81E23FA45D3545970CD8C0144A15D0" resource="ForcePromoteModel.ForcePromoteModel.promoteCreate" temporaryForcePermissions="false" type="method"/>
+<allow action="read" groupID="1E873B96CD43EF41A47397F3541BC928" resource="ForcePromoteModel.ForcePromoteModel" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="create" groupID="ED70FEEEF00CBE4ABA0529F663D7F45E" resource="ForcePromoteModel.ForcePromoteModel" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="promote" groupID="1E873B96CD43EF41A47397F3541BC928" resource="ForcePromoteModel.ForcePromoteModel.promoteRead" temporaryForcePermissions="false" type="method"/>
+<allow action="promote" groupID="1E873B96CD43EF41A47397F3541BC928" resource="ForcePromoteModel.ForcePromoteModel.promoteCreate" temporaryForcePermissions="false" type="method"/>
+<allow action="update" groupName="Update" groupID="60EE5734426C794EAF4E7D092AB53C76" resource="ForcePromoteModel.ForcePromoteModel" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="remove" groupName="Remove" groupID="64272E2C4F0DD54882CB8856E946D1AA" resource="ForcePromoteModel.ForcePromoteModel" temporaryForcePermissions="false" type="dataClass"/>
+</permissions>

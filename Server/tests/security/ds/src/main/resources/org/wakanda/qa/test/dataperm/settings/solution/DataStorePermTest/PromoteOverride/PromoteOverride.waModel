@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><EntityModelCatalog>
+
+<dbInfo name="PromoteOverride" uuid="DEB2380315EE8E47AF7052ECFC4FADBC"/>
+
+<dataClasses name="PromoteOverrideDataClass" className="PromoteOverrideDataClass" collectionName="PromoteOverrideDataClassCollection" scope="public" uuid="8CCDA9907113CB4594F42805BC01D6C0" tablePos="2">
+
+	<extraProperties ____objectunic="true" panelColor="#B2A2C7">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="295" Y="20"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" uuid="0553ECD0E42F7B4C95DDBC7E0DEB779F" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<methods name="doAuthCreate" applyTo="dataClass" scope="public" from="guidedModel.PromoteOverrideDataClass.methods.doAuthCreate"/>
+
+	<methods name="doUnauthRead" applyTo="dataClass" scope="public" from="guidedModel.PromoteOverrideDataClass.methods.doUnauthRead"/>
+
+	<methods name="getEntitiesCount" applyTo="dataClass" scope="public" from="guidedModel.PromoteOverrideDataClass.methods.getEntitiesCount"/>
+
+</dataClasses>
+
+<dataClasses name="PromoteOverrideModel" className="PromoteOverrideModel" collectionName="PromoteOverrideModelCollection" scope="public" uuid="A137208BD2506B4EBE866AA1A5AD66D9" tablePos="1">
+
+	<extraProperties ____objectunic="true" panelColor="#C3D69B">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="25" Y="20"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" uuid="15C16E7A12CA494099E441B04D116939" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<methods name="doAuthCreate" applyTo="dataClass" scope="public" from="guidedModel.PromoteOverrideModel.methods.doAuthCreate"/>
+
+	<methods name="doUnauthRead" applyTo="dataClass" scope="public" from="guidedModel.PromoteOverrideModel.methods.doUnauthRead"/>
+
+	<methods name="getEntitiesCount" applyTo="dataClass" scope="public" from="guidedModel.PromoteOverrideModel.methods.getEntitiesCount"/>
+
+</dataClasses>
+</EntityModelCatalog>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><permissions>
+<allow action="execute" groupID="3D81E23FA45D3545970CD8C0144A15D0" resource="PromoteInheritedDataClass.PromoteInheritedDataClassRead.promoteInheritedDataClassRead" temporaryForcePermissions="false" type="method"/>
+<allow action="read" groupID="28BC044C124BC44BBD2B72D331B250A9" resource="PromoteInheritedDataClass.PromoteInheritedDataClassRead" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="create" groupID="28BC044C124BC44BBD2B72D331B250A9" resource="PromoteInheritedDataClass.PromoteInheritedDataClassCreate" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="execute" groupID="3D81E23FA45D3545970CD8C0144A15D0" resource="PromoteInheritedDataClass.PromoteInheritedDataClassCreate.promoteInheritedDataClassCreate" temporaryForcePermissions="false" type="method"/>
+<allow action="execute" groupID="3D81E23FA45D3545970CD8C0144A15D0" resource="PromoteInheritedDataClass.PromoteInheritedDataClassUpdate.promoteInheritedDataClassUpdate" temporaryForcePermissions="false" type="method"/>
+<allow action="remove" groupID="28BC044C124BC44BBD2B72D331B250A9" resource="PromoteInheritedDataClass.PromoteInheritedDataClassRemove" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="execute" groupID="3D81E23FA45D3545970CD8C0144A15D0" resource="PromoteInheritedDataClass.PromoteInheritedDataClassRemove.promoteInheritedDataClassRemove" temporaryForcePermissions="false" type="method"/>
+<allow action="promote" groupID="28BC044C124BC44BBD2B72D331B250A9" resource="PromoteInheritedDataClass.PromoteInheritedDataClassRead" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="promote" groupID="28BC044C124BC44BBD2B72D331B250A9" resource="PromoteInheritedDataClass.PromoteInheritedDataClassCreate" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="update" groupID="28BC044C124BC44BBD2B72D331B250A9" resource="PromoteInheritedDataClass.PromoteInheritedDataClassUpdate" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="promote" groupID="28BC044C124BC44BBD2B72D331B250A9" resource="PromoteInheritedDataClass.PromoteInheritedDataClassUpdate" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="promote" groupID="28BC044C124BC44BBD2B72D331B250A9" resource="PromoteInheritedDataClass.PromoteInheritedDataClassRemove" temporaryForcePermissions="false" type="dataClass"/>
+</permissions>

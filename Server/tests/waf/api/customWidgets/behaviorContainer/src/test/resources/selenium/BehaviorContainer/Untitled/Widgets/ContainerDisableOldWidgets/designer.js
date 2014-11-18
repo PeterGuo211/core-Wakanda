@@ -1,0 +1,5 @@
+(function(ContainerDisableOldWidgets) {
+
+	ContainerDisableOldWidgets.containerDisableCustomNodes();
+
+});

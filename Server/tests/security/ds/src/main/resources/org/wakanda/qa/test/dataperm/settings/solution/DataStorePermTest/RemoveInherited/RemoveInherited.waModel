@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><EntityModelCatalog>
+
+<dbInfo name="RemoveInherited" uuid="DEB2380315EE8E47AF7052ECFC4FADBC"/>
+
+<dataClasses name="InheritedRemovePerm" className="RemoveInherited" collectionName="RemoveInheritedCollection" scope="public" uuid="9A31F867B28232499AAA470A1023E3E0" tablePos="1">
+
+	<extraProperties ____objectunic="true" panelColor="#B8CCE4">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="25" Y="20"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" uuid="C5F60E5F19691B4AB1E7B189B73BA2C4" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<attributes name="name" kind="storage" scope="public" uuid="0F66F5293D3624408B84094B064227D4" fieldPos="2" type="string"/>
+
+</dataClasses>
+</EntityModelCatalog>

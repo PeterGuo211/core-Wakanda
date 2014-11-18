@@ -1,0 +1,41 @@
+{
+    "description": "Tests of calling 4D methods from Wakanda using the 4D bridge",
+    "kind": "ssjs",
+    "enterpriseOnly": true,
+    "tester": "mohamed.elghachi@4d.com",
+    "visibility": "public",
+    "developer": "lr@4d.com",
+    "gonogo": true,
+    "stable": true,
+    "builders": {
+    	"Mac": {
+    		"prebuild": [
+    			{
+    				"type": "Shell",
+    				"command": "nohup &quot;$BUILD_TEST_DIR/4D Server.app/Contents/MacOS/4D Server&quot; &quot;$SERVER_TESTS_PATH/ssjs/api/bridge4d/call4DMethods/call4DMethods/Resources/languages.4dbase/languages.4DB&quot; > /dev/null 2>&amp;1 &amp; echo $!"
+			}
+    		],
+                        "postbuild": [
+                                        {
+                                            "type": "Shell",
+                                            "command": "killall -9 '4D Server'"
+                                    }
+                        ]
+    	},
+    	"Windows": {
+    		"prebuild": [
+    			{
+    				"type": "BatchFile",
+    				"command": "START &quot;&quot; /MIN &quot;%BUILD_TEST_DIR%\\4D Server\\4D Server.exe&quot; &quot;%SERVER_TESTS_PATH%\\ssjs\\api\\bridge4d\\call4DMethods\\call4DMethods\\Resources\\languages.4dbase\\languages.4DB&quot; &amp; exit"
+			}
+    		],
+                        "postbuild": [
+                                        {
+                                            "type": "BatchFile",
+                                            "command": "taskkill /im &quot;4D Server*&quot; /f /t &amp;&amp; exit"
+                                    }
+                        ]
+    	}
+    }
+}
+

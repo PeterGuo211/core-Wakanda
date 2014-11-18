@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><settings>
+	<solution>
+		<directory cacheFolderPath="$(solutionUserCacheDir)Directory/"/>
+		<log folderPath="$(solutionUserCacheDir)Logs/"/>
+	</solution>
+</settings>

@@ -1,0 +1,4648 @@
+
+{
+	"toJSON" : true,
+	"extraProperties" : 
+	{
+		"version" : "2",
+		"__CDATA" : "\n\t\t\n\t\t\n\t",
+		"model" : 
+		{
+			"workspaceLeft" : 0,
+			"workspaceTop" : 4605,
+			"__CDATA" : "\n\t\t\t\n\t\t",
+			"scriptMode" : "manual",
+			"relationCurve" : 
+			{
+				"run" : "true",
+				"mode" : "1"
+			},
+			"lastScriptLocation" : 
+			{
+				"CalculatedAttributes" : 
+				{
+					"computed" : "CalculatedAttributes/CalculatedAttributes-events.js"
+				},
+				"Employee21" : 
+				{
+					"events" : "Employee21/Employee21-events.js"
+				},
+				"WithRestrictingQuery" : 
+				{
+					"events" : "WithRestrictingQuery/WithRestrictingQuery-events.js"
+				},
+				"NewEvents" : 
+				{
+					"events" : "NewEvents/NewEvents-events.js"
+				}
+			}
+		},
+		"classes" : 
+		{
+			"__CDATA" : "\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t",
+			"AddCollection1" : 
+			{
+				"panelColor" : "#BFBFBF",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "true",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "720",
+						"Y" : "1505"
+					}
+				}
+			},
+			"AddCollection2" : 
+			{
+				"panelColor" : "rgb(191, 191, 191)",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "false",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "717",
+						"Y" : "1162"
+					}
+				}
+			},
+			"Attendee" : 
+			{
+				"panelColor" : "#548DD4",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "false",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "379",
+						"Y" : "1870"
+					}
+				}
+			},
+			"Component" : 
+			{
+				"panelColor" : "#8DB3E2",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "false",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "369",
+						"Y" : "634"
+					}
+				}
+			},
+			"Conference" : 
+			{
+				"panelColor" : "#996699",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "true",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "25",
+						"Y" : "1956"
+					}
+				}
+			},
+			"Employee" : 
+			{
+				"panelColor" : "#548DD4",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "true",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "88",
+						"Y" : "2156"
+					}
+				}
+			},
+			"Employee1" : 
+			{
+				"panelColor" : "rgb(255, 255, 0)",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "true",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "58",
+						"Y" : "2517"
+					}
+				}
+			},
+			"Employee2" : 
+			{
+				"panelColor" : "#D88CFF",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "true",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "62",
+						"Y" : "2652"
+					}
+				}
+			},
+			"Employee3" : 
+			{
+				"panelColor" : "#eee",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "true",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "53",
+						"Y" : "2790"
+					}
+				}
+			},
+			"Engineer" : 
+			{
+				"panelColor" : "#7F7F7F",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "true",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "13",
+						"Y" : "1746"
+					}
+				}
+			},
+			"Flags" : 
+			{
+				"panelColor" : "#B7DDE8",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "true",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "440",
+						"Y" : "2861"
+					}
+				}
+			},
+			"MyAutoSequenceNumberClass" : 
+			{
+				"panelColor" : "#CCC1D9",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "true",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "23",
+						"Y" : "1307"
+					}
+				}
+			},
+			"MyAutoSequenceNumberClassAt1" : 
+			{
+				"panelColor" : "#BFBFBF",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "true",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "705",
+						"Y" : "764"
+					}
+				}
+			},
+			"MyClass_IndexedAttributes" : 
+			{
+				"panelColor" : "#eee",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "true",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "736",
+						"Y" : "2326"
+					}
+				}
+			},
+			"MyClass_QueryTests" : 
+			{
+				"panelColor" : "rgb(199, 61, 69)",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "true",
+					"resizedHeight" : "",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "727",
+						"Y" : "1813"
+					}
+				}
+			},
+			"MyClass1" : 
+			{
+				"panelColor" : "#CCC1D9",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "true",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "20",
+						"Y" : "129"
+					}
+				}
+			},
+			"MyClass10" : 
+			{
+				"panelColor" : "#996699",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "false",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "709",
+						"Y" : "1009"
+					}
+				}
+			},
+			"MyClass2" : 
+			{
+				"panelColor" : "#C4BD97",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "false",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "701",
+						"Y" : "155"
+					}
+				}
+			},
+			"MyClass3" : 
+			{
+				"panelColor" : "#D8D8D8",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "false",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "356",
+						"Y" : "477"
+					}
+				}
+			},
+			"MyClass4" : 
+			{
+				"panelColor" : "#548DD4",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "false",
+					"resizedHeight" : "",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "360",
+						"Y" : "289"
+					}
+				}
+			},
+			"MyClass7" : 
+			{
+				"panelColor" : "#B8CCE4",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "false",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "20",
+						"Y" : "530"
+					}
+				}
+			},
+			"MyClass8" : 
+			{
+				"panelColor" : "#70CCC2",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "false",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "711",
+						"Y" : "1315"
+					}
+				}
+			},
+			"MyClass9" : 
+			{
+				"panelColor" : "#D88CFF",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "true",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "362",
+						"Y" : "814"
+					}
+				}
+			},
+			"MyClassForImageTest" : 
+			{
+				"panelColor" : "#fff",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "false",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "376",
+						"Y" : "1429"
+					}
+				}
+			},
+			"MyClassForImageTest2" : 
+			{
+				"panelColor" : "#4FA997",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "false",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "399",
+						"Y" : "2032"
+					}
+				}
+			},
+			"MyClassSave" : 
+			{
+				"panelColor" : "#76923C",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "false",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "358",
+						"Y" : "149"
+					}
+				}
+			},
+			"MyClassWithoutAttributs" : 
+			{
+				"panelColor" : "#996699",
+				"isMinimized" : "false",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "35",
+						"Y" : "17"
+					}
+				}
+			},
+			"MyEmptyClass" : 
+			{
+				"panelColor" : "#B7DDE8",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "false",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "360",
+						"Y" : "14"
+					}
+				}
+			},
+			"MyForEachClass" : 
+			{
+				"panelColor" : "#B2A2C7",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "true",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "373",
+						"Y" : "1591"
+					}
+				}
+			},
+			"MyFromArrayClass" : 
+			{
+				"panelColor" : "#BFBFBF",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "true",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "22",
+						"Y" : "978"
+					}
+				}
+			},
+			"MyNewAutoSequenceNumberClass" : 
+			{
+				"panelColor" : "#996699",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "384",
+						"Y" : "1319"
+					}
+				}
+			},
+			"MyNullClass" : 
+			{
+				"panelColor" : "#B2A2C7",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "false",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "696",
+						"Y" : "20"
+					}
+				}
+			},
+			"MyOrderbyClass" : 
+			{
+				"panelColor" : "#CCC1D9",
+				"isMinimized" : "false",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "true",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "32",
+						"Y" : "1447"
+					}
+				}
+			},
+			"MyRemoveForEachClass" : 
+			{
+				"panelColor" : "#7F7F7F",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "false",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "705",
+						"Y" : "859"
+					}
+				}
+			},
+			"OneToN" : 
+			{
+				"panelColor" : "#4FA997",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "true",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "426",
+						"Y" : "2405"
+					}
+				}
+			},
+			"OneToN2" : 
+			{
+				"panelColor" : "rgb(118, 146, 60)",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "false",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "60",
+						"Y" : "2357"
+					}
+				}
+			},
+			"OnSaveNoValidation" : 
+			{
+				"panelColor" : "#7F7F7F",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "true",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "438",
+						"Y" : "2576"
+					}
+				}
+			},
+			"People" : 
+			{
+				"panelColor" : "#C4BD97",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "true",
+					"resizedHeight" : "",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "22",
+						"Y" : "681"
+					}
+				}
+			},
+			"Personn" : 
+			{
+				"panelColor" : "#76923C",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "true",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "727",
+						"Y" : "1666"
+					}
+				}
+			},
+			"RefuseEvent" : 
+			{
+				"panelColor" : "#B8CCE4",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "true",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "431",
+						"Y" : "3000"
+					}
+				}
+			},
+			"TheComposite" : 
+			{
+				"panelColor" : "#B8CCE4",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "false",
+					"resizedHeight" : "",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "703",
+						"Y" : "589"
+					}
+				}
+			},
+			"ToBeDroped" : 
+			{
+				"panelColor" : "#B8CCE4",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "true",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "378",
+						"Y" : "1729"
+					}
+				}
+			},
+			"ToBeRemoved" : 
+			{
+				"panelColor" : "#D88CFF",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "false",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "698",
+						"Y" : "369"
+					}
+				}
+			},
+			"Users" : 
+			{
+				"panelColor" : "#D7E3BC",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "true",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "66",
+						"Y" : "2919"
+					}
+				}
+			},
+			"JavascriptFunctions" : 
+			{
+				"panelColor" : "#76923C",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "true",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "438",
+						"Y" : "2704"
+					}
+				}
+			},
+			"Parent" : 
+			{
+				"panelColor" : "#4FA997",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "true",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "375",
+						"Y" : "1181"
+					}
+				}
+			},
+			"Related" : 
+			{
+				"panelColor" : "#D88CFF",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "true",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "755",
+						"Y" : "2123"
+					}
+				}
+			},
+			"Child" : 
+			{
+				"panelColor" : "#7F7F7F",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "true",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "398",
+						"Y" : "2194"
+					}
+				}
+			},
+			"Employee4" : 
+			{
+				"panelColor" : "#7F7F7F",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "true",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : "42",
+						"Y" : "3073"
+					}
+				}
+			},
+			"Company4" : 
+			{
+				"panelColor" : "#B7DDE8",
+				"__CDATA" : "\n\t\t\t\t\n\t\t\t",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "true",
+					"__CDATA" : "\n\t\t\t\t\t\n\t\t\t\t",
+					"position" : 
+					{
+						"X" : 567,
+						"Y" : 3177
+					}
+				}
+			},
+			"HaveAlias" : 
+			{
+				"panelColor" : "#4FA997",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 379,
+						"Y" : 3379
+					}
+				}
+			},
+			"RelatedAlias" : 
+			{
+				"panelColor" : "#D7E3BC",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 767,
+						"Y" : 3376
+					}
+				}
+			},
+			"ExtendedFromHaveAlias" : 
+			{
+				"panelColor" : "#7F7F7F",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"position" : 
+					{
+						"X" : 84,
+						"Y" : 3541
+					}
+				}
+			},
+			"NewName" : 
+			{
+				"panelColor" : "#C3D69B",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 399,
+						"Y" : 3807
+					}
+				}
+			},
+			"CalculatedAttributes" : 
+			{
+				"panelColor" : "#BFBFBF",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 645,
+						"Y" : 3852
+					}
+				}
+			},
+			"Employee21" : 
+			{
+				"panelColor" : "#7F7F7F",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 76,
+						"Y" : 4292
+					}
+				}
+			},
+			"WithRestrictingQuery" : 
+			{
+				"panelColor" : "#BFBFBF",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"position" : 
+					{
+						"X" : 397,
+						"Y" : 4041
+					}
+				}
+			},
+			"NewEvents" : 
+			{
+				"panelColor" : "#7F7F7F",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 381,
+						"Y" : 4296
+					}
+				}
+			},
+			"Flags_eventParameters" : 
+			{
+				"panelColor" : "#eee",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 394,
+						"Y" : 4454
+					}
+				}
+			},
+			"Idlong64" : 
+			{
+				"panelColor" : "#996699",
+				"panel" : 
+				{
+					"pathVisible" : true,
+					"isOpen" : "true",
+					"position" : 
+					{
+						"X" : 268,
+						"Y" : 4696
+					}
+				}
+			},
+			"IdNumber" : 
+			{
+				"panelColor" : "#CCC1D9",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"position" : 
+					{
+						"X" : 803,
+						"Y" : 4844
+					}
+				}
+			},
+			"IdString" : 
+			{
+				"panelColor" : "#548DD4",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 479,
+						"Y" : 4695
+					}
+				}
+			},
+			"IdUUID" : 
+			{
+				"panelColor" : "#C4BD97",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 712,
+						"Y" : 4707
+					}
+				}
+			},
+			"GetModifiedAtt" : 
+			{
+				"panelColor" : "#C3D69B",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 58,
+						"Y" : 4836
+					}
+				}
+			},
+			"RelatedModifiedAtt" : 
+			{
+				"panelColor" : "#8DB3E2",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"position" : 
+					{
+						"X" : 447,
+						"Y" : 4887
+					}
+				}
+			},
+			"IdLong" : 
+			{
+				"panelColor" : "#B7DDE8",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 53,
+						"Y" : 4705
+					}
+				}
+			}
+		}
+	},
+	"dataClasses" : 
+	[
+		{
+			"name" : "AddCollection1",
+			"className" : "AddCollection1",
+			"collectionName" : "AddCollection1Collection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "name",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "cnum",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "AddCollection2",
+			"className" : "AddCollection2",
+			"collectionName" : "AddCollection2Collection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "name",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "cnum",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Attendee",
+			"className" : "Attendee",
+			"collectionName" : "AttendeeCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "engineer",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Engineer",
+					"path" : "Engineer"
+				},
+				{
+					"name" : "conference",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Conference",
+					"path" : "Conference"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "CalculatedAttributes",
+			"className" : "CalculatedAttributes",
+			"collectionName" : "CalculatedAttributesCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "alpha1",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "alpha2",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "date1",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "date",
+					"simpleDate" : false
+				},
+				{
+					"name" : "date2",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "date",
+					"simpleDate" : false
+				},
+				{
+					"name" : "boolean1",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "bool"
+				},
+				{
+					"name" : "boolean2",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "bool"
+				},
+				{
+					"name" : "integer1",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "integer2",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "longInt1",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "long"
+				},
+				{
+					"name" : "longInt2",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "long"
+				},
+				{
+					"name" : "integer641",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "long64"
+				},
+				{
+					"name" : "integer642",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "long64"
+				},
+				{
+					"name" : "calculatedAlpha",
+					"kind" : "calculated",
+					"scope" : "public",
+					"type" : "string",
+					"scriptKind" : "javascript",
+					"onGet" : 
+					[
+						{
+							"from" : "$mainModel.CalculatedAttributes.calculatedAlpha.onGet",
+							"userDefined" : true
+						}
+					],
+					"onSet" : 
+					[
+						{
+							"from" : "$mainModel.CalculatedAttributes.calculatedAlpha.onSet",
+							"userDefined" : true
+						}
+					],
+					"onQuery" : 
+					[
+						{
+							"from" : "$mainModel.CalculatedAttributes.calculatedAlpha.onQuery",
+							"userDefined" : true
+						}
+					],
+					"onSort" : 
+					[
+						{
+							"from" : "$mainModel.CalculatedAttributes.calculatedAlpha.onSort",
+							"userDefined" : true
+						}
+					]
+				},
+				{
+					"name" : "calculatedDate",
+					"kind" : "calculated",
+					"scope" : "public",
+					"type" : "date",
+					"simpleDate" : false,
+					"scriptKind" : "javascript",
+					"onGet" : 
+					[
+						{
+							"from" : "$mainModel.CalculatedAttributes.calculatedDate.onGet",
+							"userDefined" : true
+						}
+					],
+					"onSet" : 
+					[
+						{
+							"from" : "$mainModel.CalculatedAttributes.calculatedDate.onSet",
+							"userDefined" : true
+						}
+					],
+					"onQuery" : 
+					[
+						{
+							"from" : "$mainModel.CalculatedAttributes.calculatedDate.onQuery",
+							"userDefined" : true
+						}
+					],
+					"onSort" : 
+					[
+						{
+							"from" : "$mainModel.CalculatedAttributes.calculatedDate.onSort",
+							"userDefined" : true
+						}
+					]
+				},
+				{
+					"name" : "calculatedBoolean",
+					"kind" : "calculated",
+					"scope" : "public",
+					"type" : "bool",
+					"scriptKind" : "javascript",
+					"onGet" : 
+					[
+						{
+							"from" : "$mainModel.CalculatedAttributes.calculatedBoolean.onGet",
+							"userDefined" : true
+						}
+					],
+					"onSet" : 
+					[
+						{
+							"from" : "$mainModel.CalculatedAttributes.calculatedBoolean.onSet",
+							"userDefined" : true
+						}
+					],
+					"onQuery" : 
+					[
+						{
+							"from" : "$mainModel.CalculatedAttributes.calculatedBoolean.onQuery",
+							"userDefined" : true
+						}
+					],
+					"onSort" : 
+					[
+						{
+							"from" : "$mainModel.CalculatedAttributes.calculatedBoolean.onSort",
+							"userDefined" : true
+						}
+					]
+				},
+				{
+					"name" : "calculatedInteger",
+					"kind" : "calculated",
+					"scope" : "public",
+					"type" : "number",
+					"scriptKind" : "javascript",
+					"onGet" : 
+					[
+						{
+							"from" : "$mainModel.CalculatedAttributes.calculatedInteger.onGet",
+							"userDefined" : true
+						}
+					],
+					"onSet" : 
+					[
+						{
+							"from" : "$mainModel.CalculatedAttributes.calculatedInteger.onSet",
+							"userDefined" : true
+						}
+					],
+					"onQuery" : 
+					[
+						{
+							"from" : "$mainModel.CalculatedAttributes.calculatedInteger.onQuery",
+							"userDefined" : true
+						}
+					],
+					"onSort" : 
+					[
+						{
+							"from" : "$mainModel.CalculatedAttributes.calculatedInteger.onSort",
+							"userDefined" : true
+						}
+					]
+				},
+				{
+					"name" : "calculatedLongInt",
+					"kind" : "calculated",
+					"scope" : "public",
+					"type" : "long",
+					"scriptKind" : "javascript",
+					"onGet" : 
+					[
+						{
+							"from" : "$mainModel.CalculatedAttributes.calculatedLongInt.onGet",
+							"userDefined" : true
+						}
+					],
+					"onSet" : 
+					[
+						{
+							"from" : "$mainModel.CalculatedAttributes.calculatedLongInt.onSet",
+							"userDefined" : true
+						}
+					],
+					"onQuery" : 
+					[
+						{
+							"from" : "$mainModel.CalculatedAttributes.calculatedLongInt.onQuery",
+							"userDefined" : true
+						}
+					],
+					"onSort" : 
+					[
+						{
+							"from" : "$mainModel.CalculatedAttributes.calculatedLongInt.onSort",
+							"userDefined" : true
+						}
+					]
+				},
+				{
+					"name" : "calculatedInteger64",
+					"kind" : "calculated",
+					"scope" : "public",
+					"type" : "long64",
+					"scriptKind" : "javascript",
+					"onGet" : 
+					[
+						{
+							"from" : "$mainModel.CalculatedAttributes.calculatedInteger64.onGet",
+							"userDefined" : true
+						}
+					],
+					"onSet" : 
+					[
+						{
+							"from" : "$mainModel.CalculatedAttributes.calculatedInteger64.onSet",
+							"userDefined" : true
+						}
+					],
+					"onQuery" : 
+					[
+						{
+							"from" : "$mainModel.CalculatedAttributes.calculatedInteger64.onQuery",
+							"userDefined" : true
+						}
+					],
+					"onSort" : 
+					[
+						{
+							"from" : "$mainModel.CalculatedAttributes.calculatedInteger64.onSort",
+							"userDefined" : true
+						}
+					]
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Company4",
+			"className" : "Company4",
+			"collectionName" : "Company4Collection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "name",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "employee4Collection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "Employee4Collection",
+					"reversePath" : true,
+					"path" : "employer"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Component",
+			"className" : "Component",
+			"collectionName" : "ComponentCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "name",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "theComposite",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "TheComposite",
+					"path" : "TheComposite"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Conference",
+			"className" : "Conference",
+			"collectionName" : "ConferenceCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "title",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "allAttendees",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "AttendeeCollection",
+					"reversePath" : true,
+					"path" : "conference"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Employee",
+			"className" : "Employee",
+			"collectionName" : "EmployeeCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "name",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "firstname",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Employee1",
+			"className" : "Employee1",
+			"collectionName" : "Employee1Collection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "nom",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				}
+			],
+			"events" : 
+			[
+				{
+					"kind" : "onSave",
+					"from" : "$mainModel.Employee1.events.onSave",
+					"userDefined" : true
+				},
+				{
+					"kind" : "onLoad",
+					"from" : "$mainModel.Employee1.events.onLoad",
+					"userDefined" : true
+				},
+				{
+					"kind" : "onInit",
+					"from" : "$mainModel.Employee1.events.onInit",
+					"userDefined" : true
+				},
+				{
+					"kind" : "onRemove",
+					"from" : "$mainModel.Employee1.events.onRemove",
+					"userDefined" : true
+				},
+				{
+					"kind" : "onValidate",
+					"from" : "$mainModel.Employee1.events.onValidate",
+					"userDefined" : true
+				},
+				{
+					"kind" : "onRestrictingQuery",
+					"from" : "$mainModel.Employee1.events.onRestrictingQuery",
+					"userDefined" : true
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Employee2",
+			"className" : "Employee2",
+			"collectionName" : "Employee2Collection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "nom",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string",
+					"events" : 
+					[
+						{
+							"kind" : "onSave",
+							"from" : "$mainModel.Employee2.nom.events.onSave",
+							"userDefined" : true
+						},
+						{
+							"kind" : "onLoad",
+							"from" : "$mainModel.Employee2.nom.events.onLoad",
+							"userDefined" : true
+						},
+						{
+							"kind" : "onInit",
+							"from" : "$mainModel.Employee2.nom.events.onInit",
+							"userDefined" : true
+						},
+						{
+							"kind" : "onRemove",
+							"from" : "$mainModel.Employee2.nom.events.onRemove",
+							"userDefined" : true
+						},
+						{
+							"kind" : "onValidate",
+							"from" : "$mainModel.Employee2.nom.events.onValidate",
+							"userDefined" : true
+						},
+						{
+							"kind" : "onSet",
+							"from" : "$mainModel.Employee2.nom.events.onSet",
+							"userDefined" : true
+						}
+					]
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Employee21",
+			"className" : "Employee21",
+			"collectionName" : "Employee21Collection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "nom",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string",
+					"events" : 
+					[
+						{
+							"kind" : "save",
+							"from" : "$mainModel.Employee21.nom.events.save",
+							"userDefined" : true
+						}
+					]
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Employee3",
+			"className" : "Employee3",
+			"collectionName" : "Employee3Collection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "nom",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string",
+					"events" : 
+					[
+						{
+							"kind" : "onSave",
+							"from" : "$mainModel.Employee3.nom.events.onSave",
+							"userDefined" : true
+						},
+						{
+							"kind" : "onLoad",
+							"from" : "$mainModel.Employee3.nom.events.onLoad",
+							"userDefined" : true
+						},
+						{
+							"kind" : "onInit",
+							"from" : "$mainModel.Employee3.nom.events.onInit",
+							"userDefined" : true
+						},
+						{
+							"kind" : "onRemove",
+							"from" : "$mainModel.Employee3.nom.events.onRemove",
+							"userDefined" : true
+						},
+						{
+							"kind" : "onValidate",
+							"from" : "$mainModel.Employee3.nom.events.onValidate",
+							"userDefined" : true
+						},
+						{
+							"kind" : "onSet",
+							"from" : "$mainModel.Employee3.nom.events.onSet",
+							"userDefined" : true
+						}
+					]
+				}
+			],
+			"events" : 
+			[
+				{
+					"kind" : "onSave",
+					"from" : "$mainModel.Employee3.events.onSave",
+					"userDefined" : true
+				},
+				{
+					"kind" : "onLoad",
+					"from" : "$mainModel.Employee3.events.onLoad",
+					"userDefined" : true
+				},
+				{
+					"kind" : "onInit",
+					"from" : "$mainModel.Employee3.events.onInit",
+					"userDefined" : true
+				},
+				{
+					"kind" : "onRemove",
+					"from" : "$mainModel.Employee3.events.onRemove",
+					"userDefined" : true
+				},
+				{
+					"kind" : "onValidate",
+					"from" : "$mainModel.Employee3.events.onValidate",
+					"userDefined" : true
+				},
+				{
+					"kind" : "onRestrictingQuery",
+					"from" : "$mainModel.Employee3.events.onRestrictingQuery",
+					"userDefined" : true
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Employee4",
+			"className" : "Employee4",
+			"collectionName" : "Employee4Collection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "name",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "age",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "salary",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "manager",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Employee4",
+					"path" : "Employee4"
+				},
+				{
+					"name" : "isManager",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "bool"
+				},
+				{
+					"name" : "directReports",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "Employee4Collection",
+					"reversePath" : true,
+					"path" : "manager"
+				},
+				{
+					"name" : "employer",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Company4",
+					"path" : "Company4"
+				}
+			],
+			"methods" : 
+			[
+				{
+					"name" : "getAgeAverage",
+					"applyTo" : "entityCollection",
+					"scope" : "publicOnServer",
+					"from" : "$mainModel.Employee4.collectionMethods.getAgeAverage",
+					"userDefined" : true
+				},
+				{
+					"name" : "getCoWorkers",
+					"applyTo" : "entity",
+					"scope" : "publicOnServer",
+					"from" : "$mainModel.Employee4.entityMethods.getCoWorkers",
+					"userDefined" : true
+				},
+				{
+					"name" : "getLargestSalary",
+					"applyTo" : "dataClass",
+					"scope" : "publicOnServer",
+					"from" : "$mainModel.Employee4.methods.getLargestSalary",
+					"userDefined" : true
+				},
+				{
+					"name" : "getStaticToClass",
+					"applyTo" : "dataClass",
+					"scope" : "publicOnServer",
+					"from" : "$mainModel.Employee4.methods.getStaticToClass",
+					"userDefined" : true
+				},
+				{
+					"name" : "getStaticToColl",
+					"applyTo" : "entityCollection",
+					"scope" : "publicOnServer",
+					"from" : "$mainModel.Employee4.collectionMethods.getStaticToColl",
+					"userDefined" : true
+				},
+				{
+					"name" : "getStaticToEntity",
+					"applyTo" : "entity",
+					"scope" : "publicOnServer",
+					"from" : "$mainModel.Employee4.entityMethods.getStaticToEntity",
+					"userDefined" : true
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Engineer",
+			"className" : "Engineer",
+			"collectionName" : "EngineerCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "name",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "allAttendees",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "AttendeeCollection",
+					"reversePath" : true,
+					"path" : "engineer"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Flags",
+			"className" : "Flags",
+			"collectionName" : "FlagsCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "event",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Flags_eventParameters",
+			"className" : "Flags_eventParameters",
+			"collectionName" : "Flags_eventParametersCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "eventKind",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "attributeName",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "dataClassName",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "GetModifiedAtt",
+			"className" : "GetModifiedAtt",
+			"collectionName" : "GetModifiedAttCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "cnumber",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "clong",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "long"
+				},
+				{
+					"name" : "clong64",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "long64"
+				},
+				{
+					"name" : "cstring",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "cbool",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "bool"
+				},
+				{
+					"name" : "cdate",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "date",
+					"simpleDate" : false
+				},
+				{
+					"name" : "cduration",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "duration"
+				},
+				{
+					"name" : "cblob",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "blob"
+				},
+				{
+					"name" : "cimage",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "image"
+				},
+				{
+					"name" : "clink",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "RelatedModifiedAtt",
+					"path" : "RelatedModifiedAtt"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "HaveAlias",
+			"className" : "HaveAlias",
+			"collectionName" : "HaveAliasCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "Link_15",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "RelatedAlias",
+					"path" : "RelatedAlias"
+				},
+				{
+					"name" : "alphaAlias",
+					"kind" : "alias",
+					"scope" : "publicOnServer",
+					"type" : "string",
+					"path" : "Link_15.calpha"
+				},
+				{
+					"name" : "blobAlias",
+					"kind" : "alias",
+					"scope" : "public",
+					"type" : "blob",
+					"path" : "Link_15.cblob"
+				},
+				{
+					"name" : "boolAlias",
+					"kind" : "alias",
+					"scope" : "public",
+					"type" : "bool",
+					"path" : "Link_15.cbool"
+				},
+				{
+					"name" : "dateAlias",
+					"kind" : "alias",
+					"scope" : "public",
+					"type" : "date",
+					"simpleDate" : true,
+					"path" : "Link_15.cdate"
+				},
+				{
+					"name" : "floatAlias",
+					"kind" : "alias",
+					"scope" : "public",
+					"type" : "number",
+					"path" : "Link_15.cfloat"
+				},
+				{
+					"name" : "integer64Alias",
+					"kind" : "alias",
+					"scope" : "public",
+					"type" : "long64",
+					"path" : "Link_15.cinteger64"
+				},
+				{
+					"name" : "integerAlias",
+					"kind" : "alias",
+					"scope" : "public",
+					"type" : "number",
+					"path" : "Link_15.cinteger"
+				},
+				{
+					"name" : "longintegerAlias",
+					"kind" : "alias",
+					"scope" : "public",
+					"type" : "long",
+					"path" : "Link_15.clonginteger"
+				},
+				{
+					"name" : "pictureAlias",
+					"kind" : "alias",
+					"scope" : "public",
+					"type" : "image",
+					"path" : "Link_15.cpicture"
+				},
+				{
+					"name" : "textAlias",
+					"kind" : "alias",
+					"scope" : "public",
+					"type" : "string",
+					"path" : "Link_15.ctext"
+				},
+				{
+					"name" : "timeAlias",
+					"kind" : "alias",
+					"scope" : "public",
+					"type" : "number",
+					"path" : "Link_15.ctime"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "ExtendedFromHaveAlias",
+			"className" : "ExtendedFromHaveAlias",
+			"collectionName" : "ExtendedFromHaveAliasColl",
+			"scope" : "public",
+			"extends" : "HaveAlias",
+			"noEdit" : true,
+			"noSave" : true,
+			"attributes" : 
+			[
+				{
+					"name" : "newalphaAlias",
+					"kind" : "alias",
+					"scope" : "public",
+					"type" : "string",
+					"path" : "Link_15.calpha"
+				},
+				{
+					"name" : "newtextAlias",
+					"kind" : "alias",
+					"scope" : "public",
+					"type" : "string",
+					"path" : "Link_15.ctext"
+				},
+				{
+					"name" : "newdateAlias",
+					"kind" : "alias",
+					"scope" : "public",
+					"type" : "date",
+					"simpleDate" : true,
+					"path" : "Link_15.cdate"
+				},
+				{
+					"name" : "newtimeAlias",
+					"kind" : "alias",
+					"scope" : "public",
+					"type" : "number",
+					"path" : "Link_15.ctime"
+				},
+				{
+					"name" : "newboolAlias",
+					"kind" : "alias",
+					"scope" : "public",
+					"type" : "bool",
+					"path" : "Link_15.cbool"
+				},
+				{
+					"name" : "newintegerAlias",
+					"kind" : "alias",
+					"scope" : "public",
+					"type" : "number",
+					"path" : "Link_15.cinteger"
+				},
+				{
+					"name" : "newlongintegerAlias",
+					"kind" : "alias",
+					"scope" : "public",
+					"type" : "long",
+					"path" : "Link_15.clonginteger"
+				},
+				{
+					"name" : "newinteger64Alias",
+					"kind" : "alias",
+					"scope" : "public",
+					"type" : "long64",
+					"path" : "Link_15.cinteger64"
+				},
+				{
+					"name" : "newfloatAlias",
+					"kind" : "alias",
+					"scope" : "public",
+					"type" : "number",
+					"path" : "Link_15.cfloat"
+				},
+				{
+					"name" : "newblobAlias",
+					"kind" : "alias",
+					"scope" : "public",
+					"type" : "blob",
+					"path" : "Link_15.cblob"
+				},
+				{
+					"name" : "newpictureAlias",
+					"kind" : "alias",
+					"scope" : "public",
+					"type" : "image",
+					"path" : "Link_15.cpicture"
+				}
+			]
+		},
+		{
+			"name" : "IdLong",
+			"className" : "IdLong",
+			"collectionName" : "IdLongCollection",
+			"matchTable" : "Idlong,IdLong",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Idlong64",
+			"className" : "Idlong64",
+			"collectionName" : "Idlong64Collection",
+			"matchTable" : "IdLong64",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long64",
+					"indexKind" : "btree"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "IdNumber",
+			"className" : "IdNumber",
+			"collectionName" : "IdNumberCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "IdString",
+			"className" : "IdString",
+			"collectionName" : "IdStringCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "string",
+					"indexKind" : "btree"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "IdUUID",
+			"className" : "IdUUID",
+			"collectionName" : "IdUUIDCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "uuid",
+					"indexKind" : "btree"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "IndexedDate",
+			"className" : "IndexedDate",
+			"collectionName" : "IndexedDateCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "cdate_Btree",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"type" : "date",
+					"simpleDate" : false,
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "cdate_Cluster",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"type" : "date",
+					"simpleDate" : false,
+					"indexKind" : "cluster"
+				},
+				{
+					"name" : "cdate_Keywords",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "date",
+					"simpleDate" : false,
+					"indexKind" : "keywords"
+				},
+				{
+					"name" : "cdate_Automatic",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"type" : "date",
+					"simpleDate" : false,
+					"indexKind" : "auto"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "JavascriptFunctions",
+			"className" : "JavascriptFunctions",
+			"collectionName" : "JavascriptFunctionsCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "name",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "firstname",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "MyAutoSequenceNumberClass",
+			"className" : "MyAutoSequenceNumberClass",
+			"collectionName" : "MyAutoSequenceNumberClassCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "cnum",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "MyAutoSequenceNumberClassAt1",
+			"className" : "MyAutoSequenceNumberClassAt1",
+			"collectionName" : "MyAutoSequenceNumberClassAt1Collection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "MyClass_IndexedAttributes",
+			"className" : "MyClass_IndexedAttributes",
+			"collectionName" : "MyClass_IndexedAttributesCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "cnum_Btree",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"type" : "number",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "cnum_Cluster",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"type" : "number",
+					"indexKind" : "cluster"
+				},
+				{
+					"name" : "cnum_Keywords",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number",
+					"indexKind" : "keywords"
+				},
+				{
+					"name" : "cnum_Automatic",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"type" : "number",
+					"indexKind" : "auto"
+				},
+				{
+					"name" : "cstring_Btree",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"type" : "string",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "cstring_Cluster",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"type" : "string",
+					"indexKind" : "cluster"
+				},
+				{
+					"name" : "cstring_Keywords",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string",
+					"indexKind" : "keywords"
+				},
+				{
+					"name" : "cstring_Automatic",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"type" : "string",
+					"indexKind" : "auto"
+				},
+				{
+					"name" : "clong_Btree",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "clong_Cluster",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"type" : "long",
+					"indexKind" : "cluster"
+				},
+				{
+					"name" : "clong_Keywords",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "long",
+					"indexKind" : "keywords"
+				},
+				{
+					"name" : "clong_Automatic",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"type" : "long",
+					"indexKind" : "auto"
+				},
+				{
+					"name" : "cduration_Btree",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"type" : "duration",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "cduration_Cluster",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"type" : "duration",
+					"indexKind" : "cluster"
+				},
+				{
+					"name" : "cduration_Keywords",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "duration",
+					"indexKind" : "keywords"
+				},
+				{
+					"name" : "cduration_Automatic",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"type" : "duration",
+					"indexKind" : "auto"
+				},
+				{
+					"name" : "cword_Btree",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"type" : "word",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "cword_Cluster",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"type" : "word",
+					"indexKind" : "cluster"
+				},
+				{
+					"name" : "cword_Keywords",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "word",
+					"indexKind" : "keywords"
+				},
+				{
+					"name" : "cword_Automatic",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"type" : "word",
+					"indexKind" : "auto"
+				},
+				{
+					"name" : "cdate_Btree",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"type" : "date",
+					"simpleDate" : false,
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "cdate_Cluster",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"type" : "date",
+					"simpleDate" : false,
+					"indexKind" : "cluster"
+				},
+				{
+					"name" : "cdate_Keywords",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "date",
+					"simpleDate" : false,
+					"indexKind" : "keywords"
+				},
+				{
+					"name" : "cdate_Automatic",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"type" : "date",
+					"simpleDate" : false,
+					"indexKind" : "auto"
+				},
+				{
+					"name" : "cbyte_Btree",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"type" : "byte",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "cbyte_Automatic",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"type" : "byte",
+					"indexKind" : "auto"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "MyClass_QueryTests",
+			"className" : "MyClass_QueryTests",
+			"collectionName" : "MyClass_QueryTestsCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "name",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "cnum",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "cbyte",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "byte"
+				},
+				{
+					"name" : "clong",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "long"
+				},
+				{
+					"name" : "cduration",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "duration"
+				},
+				{
+					"name" : "cbool",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "bool"
+				},
+				{
+					"name" : "cdate",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "date",
+					"simpleDate" : false
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "MyClass1",
+			"className" : "MyClass1",
+			"collectionName" : "MyClass1Collection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "name",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "cnum",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "cdate",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "date",
+					"simpleDate" : false
+				},
+				{
+					"name" : "cblob",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "blob"
+				},
+				{
+					"name" : "cbyte",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "byte"
+				},
+				{
+					"name" : "clong",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "long"
+				},
+				{
+					"name" : "cword",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "word"
+				},
+				{
+					"name" : "cuuid",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "uuid"
+				},
+				{
+					"name" : "cduration",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "duration"
+				},
+				{
+					"name" : "cimage",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "image"
+				},
+				{
+					"name" : "clink",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "MyClass3",
+					"path" : "MyClass3Collection"
+				},
+				{
+					"name" : "cbool",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "bool"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "MyClass10",
+			"className" : "MyClass10",
+			"collectionName" : "MyClass10Collection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "cname",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "myClass9Collection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "MyClass9Collection",
+					"reversePath" : true,
+					"path" : "clink"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "MyClass2",
+			"className" : "MyClass2",
+			"collectionName" : "MyClass2Collection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "distinct",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "cnum",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "asc",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "desc",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "MyClass3",
+			"className" : "MyClass3",
+			"collectionName" : "MyClass3Collection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "cnum",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "myClass1Collection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "MyClass1Collection",
+					"reversePath" : true,
+					"path" : "clink"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "MyClass4",
+			"className" : "MyClass4",
+			"collectionName" : "MyClass4Collection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "name",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "cbool",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "bool"
+				},
+				{
+					"name" : "toBeRemoved",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "ToBeRemoved",
+					"path" : "ToBeRemoved"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "MyClass7",
+			"className" : "MyClass7",
+			"collectionName" : "MyClass7Collection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "name",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "cnum",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "MyClass8",
+			"className" : "MyClass8",
+			"collectionName" : "MyClass8Collection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "name",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "age",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "salary",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "MyClass9",
+			"className" : "MyClass9",
+			"collectionName" : "MyClass9Collection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "name",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "cnum",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "cdate",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "date",
+					"simpleDate" : false,
+					"defaultFormat" : 
+					[
+						{
+							"format" : "yyyy/mm/dd",
+							"presentation" : "text"
+						}
+					]
+				},
+				{
+					"name" : "cblob",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "blob"
+				},
+				{
+					"name" : "cbyte",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "byte"
+				},
+				{
+					"name" : "clong",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "long"
+				},
+				{
+					"name" : "cword",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "word"
+				},
+				{
+					"name" : "cuuid",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "uuid"
+				},
+				{
+					"name" : "cduration",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "duration"
+				},
+				{
+					"name" : "clink",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "MyClass10",
+					"path" : "MyClass10"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "MyClassForImageTest",
+			"className" : "MyClassForImageTest",
+			"collectionName" : "MyClassForImageTestCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "cname",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "cimage",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "image"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "MyClassForImageTest2",
+			"className" : "MyClassForImageTest2",
+			"collectionName" : "MyClassForImageTest2Collection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "cname",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "cimage",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "image"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "MyClassSave",
+			"className" : "MyClassSave",
+			"collectionName" : "MyClassSaveCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "cnum",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "MyClassWithoutAttributs",
+			"className" : "MyClassWithoutAttributs",
+			"collectionName" : "MyClassWithoutAttributsCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "MyEmptyClass",
+			"className" : "MyEmptyClass",
+			"collectionName" : "MyEmptyClassCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "cnum",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "MyForEachClass",
+			"className" : "MyForEachClass",
+			"collectionName" : "MyForEachClassCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "cname",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "MyFromArrayClass",
+			"className" : "MyFromArrayClass",
+			"collectionName" : "MyFromArrayClassCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "name",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "cnum",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "cdate",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "date",
+					"simpleDate" : false
+				},
+				{
+					"name" : "cblob",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "blob"
+				},
+				{
+					"name" : "cbyte",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "byte"
+				},
+				{
+					"name" : "clong",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "long"
+				},
+				{
+					"name" : "cword",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "word"
+				},
+				{
+					"name" : "cuuid",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "uuid"
+				},
+				{
+					"name" : "cduration",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "duration"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "MyNewAutoSequenceNumberClass",
+			"className" : "MyNewAutoSequenceNumberClass",
+			"collectionName" : "MyNewAutoSequenceNumberClassCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "MyNullClass",
+			"className" : "MyNullClass",
+			"collectionName" : "MyNullClassCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "cnum",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "MyOrderbyClass",
+			"className" : "MyOrderbyClass",
+			"collectionName" : "MyOrderbyClassCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "cnum",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "cstring",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "cdate",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "date",
+					"simpleDate" : false
+				},
+				{
+					"name" : "cduration",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "duration"
+				},
+				{
+					"name" : "cuuid",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "uuid"
+				},
+				{
+					"name" : "cstringAsBlob",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "cblob",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "blob"
+				},
+				{
+					"name" : "cimage",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "image"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "MyRemoveForEachClass",
+			"className" : "MyRemoveForEachClass",
+			"collectionName" : "MyRemoveForEachClassCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "cname",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "NewEvents",
+			"className" : "NewEvents",
+			"collectionName" : "NewEventsCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "cstring",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string",
+					"events" : 
+					[
+						{
+							"kind" : "save",
+							"from" : "$mainModel.NewEvents.cstring.events.save",
+							"userDefined" : true
+						},
+						{
+							"kind" : "load",
+							"from" : "$mainModel.NewEvents.cstring.events.load",
+							"userDefined" : true
+						},
+						{
+							"kind" : "init",
+							"from" : "$mainModel.NewEvents.cstring.events.init",
+							"userDefined" : true
+						},
+						{
+							"kind" : "remove",
+							"from" : "$mainModel.NewEvents.cstring.events.remove",
+							"userDefined" : true
+						},
+						{
+							"kind" : "validate",
+							"from" : "$mainModel.NewEvents.cstring.events.validate",
+							"userDefined" : true
+						},
+						{
+							"kind" : "set",
+							"from" : "$mainModel.NewEvents.cstring.events.set",
+							"userDefined" : true
+						}
+					]
+				}
+			],
+			"events" : 
+			[
+				{
+					"kind" : "save",
+					"from" : "$mainModel.NewEvents.events.save",
+					"userDefined" : true
+				},
+				{
+					"kind" : "load",
+					"from" : "$mainModel.NewEvents.events.load",
+					"userDefined" : true
+				},
+				{
+					"kind" : "init",
+					"from" : "$mainModel.NewEvents.events.init",
+					"userDefined" : true
+				},
+				{
+					"kind" : "remove",
+					"from" : "$mainModel.NewEvents.events.remove",
+					"userDefined" : true
+				},
+				{
+					"kind" : "validate",
+					"from" : "$mainModel.NewEvents.events.validate",
+					"userDefined" : true
+				},
+				{
+					"kind" : "restrict",
+					"from" : "$mainModel.NewEvents.events.restrict",
+					"userDefined" : true
+				},
+				{
+					"kind" : "validateremove",
+					"from" : "$mainModel.NewEvents.events.validateremove",
+					"userDefined" : true
+				},
+				{
+					"kind" : "clientrefresh",
+					"from" : "$mainModel.NewEvents.events.clientrefresh",
+					"userDefined" : true
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "NewName",
+			"className" : "NewName",
+			"collectionName" : "NewNameCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "cstring",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "OneToN",
+			"className" : "OneToN",
+			"collectionName" : "OneToNCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "name",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "oneToN",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "OneToN2",
+					"path" : "OneToN2"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "OneToN2",
+			"className" : "OneToN2",
+			"collectionName" : "OneToN2Collection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "name",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "clink",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "OneToNCollection",
+					"reversePath" : true,
+					"path" : "oneToN"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "OnSaveNoValidation",
+			"className" : "OnSaveNoValidation",
+			"collectionName" : "OnSaveNoValidationCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "nom",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				}
+			],
+			"events" : 
+			[
+				{
+					"kind" : "onSave",
+					"from" : "$mainModel.OnSaveNoValidation.events.onSave",
+					"userDefined" : true
+				},
+				{
+					"kind" : "onRemove",
+					"from" : "$mainModel.OnSaveNoValidation.events.onRemove",
+					"userDefined" : true
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Parent",
+			"className" : "Parent",
+			"collectionName" : "ParentCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "name",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "related",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Related",
+					"path" : "Related"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Child",
+			"className" : "Child",
+			"collectionName" : "ChildCollection",
+			"scope" : "public",
+			"extends" : "Parent"
+		},
+		{
+			"name" : "People",
+			"className" : "People",
+			"collectionName" : "PeopleCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "name",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "father",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "People",
+					"path" : "People"
+				},
+				{
+					"name" : "people_father",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "PeopleCollection",
+					"reversePath" : true,
+					"path" : "father"
+				},
+				{
+					"name" : "mother",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "People",
+					"path" : "People"
+				},
+				{
+					"name" : "people_mother",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "PeopleCollection",
+					"reversePath" : true,
+					"path" : "mother"
+				},
+				{
+					"name" : "sexe",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Personn",
+			"className" : "Personn",
+			"collectionName" : "PersonnCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "personn",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "RefuseEvent",
+			"className" : "RefuseEvent",
+			"collectionName" : "RefuseEventCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "nom",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "cbool",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "bool"
+				}
+			],
+			"events" : 
+			[
+				{
+					"kind" : "onSave",
+					"from" : "$mainModel.RefuseEvent.events.onSave",
+					"userDefined" : true
+				},
+				{
+					"kind" : "onValidate",
+					"from" : "$mainModel.RefuseEvent.events.onValidate",
+					"userDefined" : true
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Related",
+			"className" : "Related",
+			"collectionName" : "RelatedCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "name",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "parentCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "ParentCollection",
+					"reversePath" : true,
+					"path" : "related"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "RelatedAlias",
+			"className" : "RelatedAlias",
+			"collectionName" : "RelatedAliasCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "calpha",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "ctext",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "cdate",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "date",
+					"simpleDate" : false
+				},
+				{
+					"name" : "ctime",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "cbool",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "bool"
+				},
+				{
+					"name" : "cinteger",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "clonginteger",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "long"
+				},
+				{
+					"name" : "cinteger64",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "long64"
+				},
+				{
+					"name" : "creal",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "cfloat",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "cblob",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "blob"
+				},
+				{
+					"name" : "cpicture",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "image"
+				},
+				{
+					"name" : "Link_15_return",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "HaveAliasCollection",
+					"reversePath" : true,
+					"path" : "Link_15"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "RelatedModifiedAtt",
+			"className" : "RelatedModifiedAtt",
+			"collectionName" : "RelatedModifiedAttCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "getModifiedAttCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "GetModifiedAttCollection",
+					"reversePath" : true,
+					"path" : "clink"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "TheComposite",
+			"className" : "TheComposite",
+			"collectionName" : "ComposeOf1Collection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "name",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "compnent",
+					"kind" : "composition",
+					"scope" : "public",
+					"type" : "ComponentCollection",
+					"reversePath" : true,
+					"path" : "theComposite"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "ToBeDroped",
+			"className" : "ToBeDroped",
+			"collectionName" : "ToBeDropedCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "name",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "ToBeRemoved",
+			"className" : "ToBeRemoved",
+			"collectionName" : "ToBeRemovedCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "name",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "age",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "clink",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "MyClass4Collection",
+					"reversePath" : true,
+					"path" : "toBeRemoved"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Users",
+			"className" : "Users",
+			"collectionName" : "UsersCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "name",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "WithRestrictingQuery",
+			"className" : "WithRestrictingQuery",
+			"collectionName" : "WithRestrictingQueryCollection",
+			"scope" : "public",
+			"restrictingQuery" : 
+			[
+				{
+					"queryStatement" : "ID < 4"
+				}
+			],
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				}
+			],
+			"events" : 
+			[
+				{
+					"kind" : "restrict",
+					"from" : "$mainModel.WithRestrictingQuery.events.restrict",
+					"userDefined" : true
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		}
+	]
+}

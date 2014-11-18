@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><permissions>
+<allow action="create" groupID="9A3DFFED2436A34BBBE53EFECAF274E2" resource="ForceCreate" temporaryForcePermissions="true" type="model"/>
+<allow action="create" groupID="10EFBEFCF938EC4C9F189DCA691DB353" resource="ForceCreate.ForceCreate" temporaryForcePermissions="false" type="dataClass"/>
+</permissions>

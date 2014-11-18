@@ -1,0 +1,72 @@
+﻿{
+	"toJSON": true,
+	"dbInfo": [
+		{
+			"name": "Model",
+			"uuid": "20202020202020202020202020202020"
+		}
+	],
+	"extraProperties": {
+		"version": "1",
+		"classes": {
+			"Epmloyees": {
+				"panelColor": "#fff",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": true,
+					"position": {
+						"X": 25,
+						"Y": 20
+					}
+				}
+			}
+		},
+		"model": {}
+	},
+	"dataClasses": [
+		{
+			"name": "Epmloyees",
+			"className": "Epmloyees",
+			"collectionName": "EpmloyeesCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				},
+				{
+					"name": "Nom",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "Prenom",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "Age",
+					"kind": "storage",
+					"scope": "public",
+					"type": "number"
+				}
+			],
+			"methods": [
+				{
+					"name": "staticMethod",
+					"applyTo": "dataClass",
+					"scope": "public",
+					"from": "guidedModel.Epmloyees.methods.staticMethod"
+				}
+			]
+		}
+	],
+	"type": []
+}

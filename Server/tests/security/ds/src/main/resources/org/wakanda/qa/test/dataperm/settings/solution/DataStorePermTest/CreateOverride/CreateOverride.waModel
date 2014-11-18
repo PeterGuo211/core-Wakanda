@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><EntityModelCatalog>
+
+<dbInfo name="CreateOverride" uuid="DEB2380315EE8E47AF7052ECFC4FADBC"/>
+
+<dataClasses collectionName="CreateOverrideCollection" className="CreateOverride" uuid="55774A3653F03A4F9B582C54B539A29C" tablePos="1">
+
+	<extraProperties ____objectunic="true" panelColor="#996699">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="25" Y="20"/>
+
+		</panel>
+
+	</extraProperties>
+
+	<attributes name="ID" kind="storage" type="long" uuid="143B8BDB6CF1B343B9ED0D8608E53619" fieldPos="1" autosequence="true" unique="true" primKey="true"/>
+
+	<attributes name="name" scope="public" uuid="FA31178AAEBD3A41B1AE50B8B70EE1E5" fieldPos="2" type="string" kind="storage"/>
+
+</dataClasses>
+</EntityModelCatalog>

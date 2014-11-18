@@ -1,0 +1,89 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.wakanda.debugger.chrome</groupId>
+	<artifactId>debugger</artifactId>
+	<version>1.0</version>
+	<properties>
+		<tester>jamal.oukkassou@4d.com</tester>
+		<developer>guy.herman@4d.com@4d.com</developer>
+		<visibility>public</visibility>
+		<description>Tests of debugger chrome</description>
+		<artifacts>Errors/*.flv, Errors\*.flv</artifacts>
+		<gonogo>true</gonogo>
+	</properties>
+
+	
+		
+	
+	<dependencies>
+		<dependency>
+			<groupId>org.wakanda.qa</groupId>
+			<artifactId>gui-runtime-utils</artifactId>
+			<version>LATEST</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.media</groupId>
+			<artifactId>jmf</artifactId>
+			<version>2.1.1e</version>
+		</dependency>
+		<dependency>
+			<groupId>xuggle</groupId>
+			<artifactId>xuggle-xuggler</artifactId>
+			<version>5.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.codehaus.plexus</groupId>
+			<artifactId>plexus-utils</artifactId>
+			<version>1.5.7</version>
+		</dependency>
+	</dependencies>
+
+	<repositories>
+		<repository>
+			<id>releases</id>
+			<url>http://194.98.194.72:9000/nexus/content/repositories/releases/</url>
+		</repository>
+		<repository>
+			<id>xuggle repo</id>
+			<url>http://xuggle.googlecode.com/svn/trunk/repo/share/java/</url>
+		</repository>
+	</repositories>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>2.2</version>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>test-jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.9</version>
+				<configuration>
+					<test>TestsEntry</test>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<name>debugger</name>
+</project>

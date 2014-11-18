@@ -1,0 +1,8 @@
+{
+    "description": "Unit tests for WebSocket API from W3C",
+    "kind": "ssjs",
+    "tester": "geoffrey.beauny@4d.com",
+    "developer": "ke-fong.lin@4d.com",
+    "visibility": "private",
+	"stable": true
+}

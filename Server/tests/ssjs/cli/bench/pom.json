@@ -1,0 +1,16 @@
+{
+    "description": "Benchs of the CLI mode (in milliseconds, smaller is better)",
+    "kind": "cli",
+    "bench": true,
+    "oldJenkinsName": "TestCLIBench",
+    "plotTitle": "Loops",
+    "axisLabel": "Time (ms)",
+    "exclusionValues": "3,4,5,6,7,8",
+    "plotGroup": "Bench",
+    "numBuilds": 5,
+    "plotStyle": "line",
+    "tester": "sebastien.courvoisier@4d.com",
+    "visibility": "public",
+    "developer": "stephane.clairet@4d.com",
+    "stable": true
+}

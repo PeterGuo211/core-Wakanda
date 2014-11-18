@@ -1,0 +1,123 @@
+#!/usr/bin/tclsh
+
+#http://www2.tcl.tk/8984
+#http://www.w3schools.com/dom/default.asp
+
+package require tdom
+
+set channel [open configurations.xml]
+fconfigure $channel -encoding utf-8
+set doc [dom parse [read $channel]]
+close $channel
+
+set conflist [$doc getElementsByTagName conf]
+
+array set items {}
+
+set confcount 0
+
+set modifcount 0
+
+foreach conf $conflist {
+
+	set confname [$conf getAttribute name]
+
+	puts "$confname"
+
+	set workdir [$conf selectNodes makefileType/makeTool/buildCommandWorkingDir/text()]
+	puts "	build dir : [$workdir nodeValue]"
+
+	set buildcmd [$conf selectNodes makefileType/makeTool/buildCommand/text()]
+	puts "	build cmd : [$buildcmd nodeValue]"
+
+	set cleancmd [$conf selectNodes makefileType/makeTool/cleanCommand/text()]
+	puts "	clean cmd : [$cleancmd nodeValue]"
+
+	set execpath [$conf selectNodes makefileType/makeTool/executablePath/text()]
+	puts "	exec path : [$execpath nodeValue]"
+	
+	incr confcount
+
+	#set pathlist [$conf selectNodes item/@path]
+	set itemlist [$conf selectNodes item]
+
+	set itemcount 0
+
+	foreach item $itemlist {
+
+		set itempath [$item getAttribute path]
+
+		incr itemcount
+
+		if {[info exists items($itempath)]} {
+
+			set foundconf $items($itempath)
+
+			lappend foundconf $confname
+
+		} else {
+
+			set foundconf [list $confname]
+
+		}
+
+		set items($itempath) $foundconf	
+
+
+		#Suppression des noeuds item/ccTool qui sont en general vides
+
+		set cctool [$item selectNodes ccTool]
+
+		if { $cctool != {} } {
+
+			$cctool delete
+
+			incr modifcount
+		}
+		
+		#Suppression des item référençant des entêtes
+		#(ainsi que les .s, .asm, .ci)
+		set ext [file extension $itempath]
+
+		if { $ext == ".h"  || $ext == ".hpp" ||
+			 $ext == ".s"  || $ext == ".S"   ||
+			 $ext == ".ci" || $ext == ".asm" } {
+
+			$item delete		
+			
+			incr modifcount
+		}
+	}
+	
+	puts "	src count : $itemcount"
+	
+	puts ""
+}
+
+set log [open "./log.txt" "w"]
+
+set it [array startsearch items]
+
+while {[array anymore items $it]} {
+	
+	set itempath [array nextelement items $it]
+	set foundconf $items($itempath)
+	set foundcount [llength $foundconf]
+
+	puts $log "$foundcount ; $itempath ; $foundconf"
+}
+
+close $log
+
+puts "Look at log.txt to see file per configuration relationship"
+
+if { $modifcount > 0 } {
+
+	set channel [open ./configurations.new.xml w]
+	fconfigure $channel -encoding utf-8
+	$doc asXML -channel $channel
+	close $channel
+
+	puts "Look at configurations.new.xml for an alternate configuration file ($modifcount modifications)"
+
+}

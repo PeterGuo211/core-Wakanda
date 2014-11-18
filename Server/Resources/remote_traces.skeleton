@@ -1,0 +1,282 @@
+<html>
+<head>
+
+</head>
+
+<body>
+
+<script type="text/javascript">
+
+var BrowserDetect = {
+	init: function () {
+		this.browser = this.searchString(this.dataBrowser) || "An unknown browser";
+		this.version = this.searchVersion(navigator.userAgent)
+			|| this.searchVersion(navigator.appVersion)
+			|| "an unknown version";
+		this.OS = this.searchString(this.dataOS) || "an unknown OS";
+	},
+	searchString: function (data) {
+		for (var i=0;i<data.length;i++)	{
+			var dataString = data[i].string;
+			var dataProp = data[i].prop;
+			this.versionSearchString = data[i].versionSearch || data[i].identity;
+			if (dataString) {
+				if (dataString.indexOf(data[i].subString) != -1)
+					return data[i].identity;
+			}
+			else if (dataProp)
+				return data[i].identity;
+		}
+	},
+	searchVersion: function (dataString) {
+		var index = dataString.indexOf(this.versionSearchString);
+		if (index == -1) return;
+		return parseFloat(dataString.substring(index+this.versionSearchString.length+1));
+	},
+	dataBrowser: [
+		{
+			string: navigator.userAgent,
+			subString: "Chrome",
+			identity: "Chrome"
+		},
+		{ 	string: navigator.userAgent,
+			subString: "OmniWeb",
+			versionSearch: "OmniWeb/",
+			identity: "OmniWeb"
+		},
+		{
+			string: navigator.vendor,
+			subString: "Apple",
+			identity: "Safari",
+			versionSearch: "Version"
+		},
+		{
+			prop: window.opera,
+			identity: "Opera",
+			versionSearch: "Version"
+		},
+		{
+			string: navigator.vendor,
+			subString: "iCab",
+			identity: "iCab"
+		},
+		{
+			string: navigator.vendor,
+			subString: "KDE",
+			identity: "Konqueror"
+		},
+		{
+			string: navigator.userAgent,
+			subString: "Firefox",
+			identity: "Firefox"
+		},
+		{
+			string: navigator.vendor,
+			subString: "Camino",
+			identity: "Camino"
+		},
+		{		// for newer Netscapes (6+)
+			string: navigator.userAgent,
+			subString: "Netscape",
+			identity: "Netscape"
+		},
+		{
+			string: navigator.userAgent,
+			subString: "MSIE",
+			identity: "Explorer",
+			versionSearch: "MSIE"
+		},
+		{
+			string: navigator.userAgent,
+			subString: "Gecko",
+			identity: "Mozilla",
+			versionSearch: "rv"
+		},
+		{ 		// for older Netscapes (4-)
+			string: navigator.userAgent,
+			subString: "Mozilla",
+			identity: "Netscape",
+			versionSearch: "Mozilla"
+		}
+	],
+	dataOS : [
+		{
+			string: navigator.platform,
+			subString: "Win",
+			identity: "Windows"
+		},
+		{
+			string: navigator.platform,
+			subString: "Mac",
+			identity: "Mac"
+		},
+		{
+			   string: navigator.userAgent,
+			   subString: "iPhone",
+			   identity: "iPhone/iPod"
+	    },
+		{
+			string: navigator.platform,
+			subString: "Linux",
+			identity: "Linux"
+		}
+	]
+
+};
+
+
+function refreshHtml() {
+	document.getElementById("wakserv_host").innerHTML = WAKANDA_SERVER_HOST;
+	document.getElementById("wakserv_port").innerHTML = WAKANDA_SERVER_PORT;
+	switch(ws.readyState) {
+	case ws.CLOSED:
+		document.getElementById("wakserv_state").innerHTML = "CLOSED";
+		document.getElementById("wakserv_state").style.color = "red";
+		break;
+	case ws.CLOSING:
+		document.getElementById("wakserv_state").innerHTML = "CLOSING";
+		document.getElementById("wakserv_state").style.color = "red";
+		break;
+	case ws.CONNECTING:
+		document.getElementById("wakserv_state").innerHTML = "CONNECTING";
+		document.getElementById("wakserv_state").style.color = "red";
+		break;
+	case ws.OPEN:
+		document.getElementById("wakserv_state").innerHTML = "OPEN";
+		document.getElementById("wakserv_state").style.color = "green";
+		break;
+	default:
+		document.getElementById("wakserv_state").innerHTML = "UNKNOWN STATE :" + ws.readyState;
+		document.getElementById("wakserv_state").style.color = "red";
+	}
+}
+var lineNb = 0;
+function addItem(isError,value) {
+			/*var frontend_ref;
+			frontend_ref = document.createElement("a");
+			frontend_ref.href = "#";//hash[jsonMsg.contextId].url;
+			//frontend_ref.onclick = function(event){treatOpenWindow(jsonMsg.contextId); };
+			frontend_ref.title = lineNb;
+			frontend_ref.className = "frontend_ref";*/
+			lineNb++;
+			var text = document.createElement("div");
+			text.className = "rmt_dbgr";
+			text.innerText = "L" + lineNb + ": " + value;
+			text.style.color = ( isError ? "red" : "green" );
+			//frontend_ref.appendChild(text);
+
+			var item = document.createElement("p");
+			item.className = "item";
+			item.id = lineNb;
+			item.appendChild(text);
+
+			document.getElementById("items").appendChild(item);
+}
+
+function treatMessage(msg) {
+	var hdl;
+	refreshHtml();
+	console.log("treatMessage called, state=", state," ,ws_state=",ws.readyState," received: ",msg.data);
+	if (state < CONNECTING_STATE) {
+		console.log("treatMessage BAD STATE");
+		ws.close();
+		return;
+	}
+	var jsonMsg = JSON.parse(msg.data);
+	
+	if (state == CONNECTING_STATE) {
+		//if (jsonMsg.result == "ok") {
+			state = CONNECTED_STATE;
+		//	return;
+		//}
+	}
+	if (state != CONNECTED_STATE) {
+		console.log("treatMessage BAD STATE2");
+		return;
+	}
+	if (jsonMsg.type == "ERROR") {
+		addItem(true,jsonMsg.value);
+	}
+	if (jsonMsg.type == "INFO") {
+		addItem(false,jsonMsg.value);
+	}
+}
+
+function treatClose(msg) {
+	console.log("treatClose called, state=",ws.readyState);
+
+	state = STOPPED_STATE;
+	refreshHtml();
+}
+
+function treatOpen() {
+	console.log("treatOpen called");
+	if (state != STOPPED_STATE) {
+		console.log("treatOpen bad state=",state);
+		ws.close();
+	} else {
+		state = CONNECTING_STATE;
+		//ws.send('{"method":"connect","id":"GuyHERMANN"}');
+	}
+	refreshHtml();
+}
+
+
+console.log("start");
+
+var id = 1000;
+var WAKANDA_SERVER_HOST = "__TEMPLATE_WAKANDA_SERVER_HOST__";
+var WAKANDA_SERVER_PORT = "__TEMPLATE_WAKANDA_SERVER_PORT__";
+var WAKANDA_SERVER_WS_URL = "ws://" + WAKANDA_SERVER_HOST + ":" + WAKANDA_SERVER_PORT + "/devtools/remote_traces_ws";
+
+var STOPPED_STATE = 0;
+var CONNECTING_STATE = 1;
+var CONNECTED_STATE = 2;
+
+var state = STOPPED_STATE;
+
+BrowserDetect.init();
+BrowserDetect.isCompatible = false;
+if ( (BrowserDetect.browser == "Chrome") && (BrowserDetect.version >= 19) ) {
+	BrowserDetect.isCompatible = true;
+}
+if ( (BrowserDetect.browser == "Safari")  && (BrowserDetect.version >= 6) ) {
+	BrowserDetect.isCompatible = true;
+}
+
+if (!BrowserDetect.isCompatible) {
+	window.alert("Your browser is not compatible for WAKANDA remote debug!!!"); 
+}
+else {
+	console.log("trying to connect to ",WAKANDA_SERVER_WS_URL);
+	var ws = new WebSocket(WAKANDA_SERVER_WS_URL); 
+	ws.onmessage = treatMessage;
+	ws.onclose = treatClose;
+	ws.onopen = treatOpen;
+	console.log("readystate=", ws.readyState);
+}
+
+</script>
+
+<h1 style="text-align : center;">WAKANDA REMOTE TRACES</h1>
+<div> 
+
+<p>
+
+<span>Host:</span>
+<span id="wakserv_host"></span>
+
+<span>Port:</span>
+<span id="wakserv_port"></span>
+
+<span>Connexion State:</span>
+<span id="wakserv_state"></span>
+
+</p>
+
+</div>
+<div id="items" width=400 height=500></div>
+
+</body>
+
+</html>

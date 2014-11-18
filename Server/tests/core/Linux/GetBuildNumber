@@ -1,0 +1,44 @@
+#!/bin/bash
+
+echo "
+ [INFO]-------------------------------------
+ [INFO]
+ [INFO]
+ [INFO] Written by Geoffrey Beauny
+ [INFO] 4D | Auto Test Linux | Wakanda Server 
+ [INFO] GetBuildNumber Shell Script
+ [INFO]
+ [INFO]
+ [INFO]--------------------------------------
+"
+
+echo "
+[INFO]---------------------------------------
+[INFO] Get the Build number on the 4D NetWork 
+[INFO]---------------------------------------
+"
+
+function GetBuildNumber_Network() {
+
+#Améliorer le test vérifier la présence du dossier Wakanda_Serveur si non prendre la prochaine changelist
+IFS="
+"
+for n in $(find "${WakandaBuild}" -regex ".*/[0-9]+" -prune  | sort -gr)
+do
+    cl=$(basename ${n})
+    
+    Wakanda=${n}/Release/US/Linux_US_x86_64/Wakanda\ Server/Wakanda
+
+    if [ -x ${Wakanda} ]
+    then
+       	break
+	
+    else
+        
+echo "Ok"
+	
+    fi
+done
+
+}
+

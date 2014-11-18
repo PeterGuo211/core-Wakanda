@@ -1,0 +1,21 @@
+[
+    {
+           "name":"IMAGES",
+           "parent":"PROJECT",
+           "path":"WebFolder/images/",
+           "writable":false
+    }, 
+    {
+           "name":"IMAGES0",
+           "parent":"PROJECT",
+           "path":"WebFolder/images/", 
+           "writable":false
+    },
+    {
+           "name":"POSIXNNOT",
+           "parent":"PROJECT",
+           "path":"WebFolder\\images\\",
+           "writable":false
+    }
+    
+]

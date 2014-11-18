@@ -1,0 +1,10 @@
+{
+    "description": "Tests of the DataStore API",
+    "kind": "ssjs",
+    "oldJenkinsName": ["TestServerMySQLBridgeDataClass","TestServerMySQLBridgeQuery", "TestServerDatastoreDataClass", "TestServerDatastoreDataClassPart2", "TestServerDatastoreEvents", "TestServerDatastoreQuery", "TestServerDatastoreMethods", "TestServerDatastoreAlias", "TestServerDatastoreCalculatedAttribute"],
+    "tester": "mohamed.elghachi@4d.com",
+    "visibility": "public",
+    "developer": "lr@4d.com",
+    "gonogo": true,
+	"stable": true
+}

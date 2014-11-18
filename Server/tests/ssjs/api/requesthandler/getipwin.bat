@@ -1,0 +1,1 @@
+ipconfig | findstr /R /C:"Adresse IPv4"

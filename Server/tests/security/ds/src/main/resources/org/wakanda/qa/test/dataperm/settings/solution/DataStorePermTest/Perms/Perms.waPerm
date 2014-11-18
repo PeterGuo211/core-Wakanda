@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><permissions>
+<allow action="read" groupID="A5AFEC032F2E904EA6F28AE2829D0AB3" resource="Perms.Read" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="create" groupID="10EFBEFCF938EC4C9F189DCA691DB353" resource="Perms.Create" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="update" groupID="60EE5734426C794EAF4E7D092AB53C76" resource="Perms.Update" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="remove" groupID="64272E2C4F0DD54882CB8856E946D1AA" resource="Perms.Remove" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="execute" groupID="3D81E23FA45D3545970CD8C0144A15D0" resource="Perms.Execute.secured" temporaryForcePermissions="false" type="method"/>
+<allow action="create" groupID="40ADFAFA61A95D4884C8D968C011846D" resource="Perms.Promote" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="execute" groupID="3D81E23FA45D3545970CD8C0144A15D0" resource="Perms.Promote.promote" temporaryForcePermissions="false" type="method"/>
+<allow action="promote" groupID="40ADFAFA61A95D4884C8D968C011846D" resource="Perms.Promote.promote" temporaryForcePermissions="false" type="method"/>
+<allow action="read" groupID="40ADFAFA61A95D4884C8D968C011846D" resource="Perms.PromoteRead" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="execute" groupID="3D81E23FA45D3545970CD8C0144A15D0" resource="Perms.PromoteRead.promoteRead" temporaryForcePermissions="false" type="method"/>
+<allow action="promote" groupID="40ADFAFA61A95D4884C8D968C011846D" resource="Perms.PromoteRead.promoteRead" temporaryForcePermissions="false" type="method"/>
+<allow action="execute" groupID="3D81E23FA45D3545970CD8C0144A15D0" resource="Perms.PromoteUpdate.promoteUpdate" temporaryForcePermissions="false" type="method"/>
+<allow action="promote" groupID="40ADFAFA61A95D4884C8D968C011846D" resource="Perms.PromoteUpdate.promoteUpdate" temporaryForcePermissions="false" type="method"/>
+<allow action="update" groupID="40ADFAFA61A95D4884C8D968C011846D" resource="Perms.PromoteUpdate" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="execute" groupID="3D81E23FA45D3545970CD8C0144A15D0" resource="Perms.PromoteRemove.promoteRemove" temporaryForcePermissions="false" type="method"/>
+<allow action="promote" groupID="40ADFAFA61A95D4884C8D968C011846D" resource="Perms.PromoteRemove.promoteRemove" temporaryForcePermissions="false" type="method"/>
+<allow action="remove" groupID="40ADFAFA61A95D4884C8D968C011846D" resource="Perms.PromoteRemove" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="execute" groupID="3D81E23FA45D3545970CD8C0144A15D0" resource="Perms.PromoteCreate.promoteCreate" temporaryForcePermissions="false" type="method"/>
+<allow action="promote" groupID="40ADFAFA61A95D4884C8D968C011846D" resource="Perms.PromoteCreate.promoteCreate" temporaryForcePermissions="false" type="method"/>
+<allow action="read" groupID="40ADFAFA61A95D4884C8D968C011846D" resource="Perms.NonPromoteRead" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="execute" groupID="3D81E23FA45D3545970CD8C0144A15D0" resource="Perms.NonPromoteRead.nonPromoteRead" temporaryForcePermissions="false" type="method"/>
+<allow action="create" groupID="40ADFAFA61A95D4884C8D968C011846D" resource="Perms.PromoteCreate" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="create" groupID="40ADFAFA61A95D4884C8D968C011846D" resource="Perms.NonPromoteCreate" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="execute" groupID="3D81E23FA45D3545970CD8C0144A15D0" resource="Perms.NonPromoteCreate.nonPromoteCreate" temporaryForcePermissions="false" type="method"/>
+<allow action="execute" groupID="3D81E23FA45D3545970CD8C0144A15D0" resource="Perms.NonPromoteUpdate.nonPromoteUpdate" temporaryForcePermissions="false" type="method"/>
+<allow action="update" groupID="40ADFAFA61A95D4884C8D968C011846D" resource="Perms.NonPromoteUpdate" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="remove" groupID="40ADFAFA61A95D4884C8D968C011846D" resource="Perms.NonPromoteRemove" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="execute" groupID="3D81E23FA45D3545970CD8C0144A15D0" resource="Perms.NonPromoteRemove.nonPromoteRemove" temporaryForcePermissions="false" type="method"/>
+<allow action="update" groupName="Update" groupID="60EE5734426C794EAF4E7D092AB53C76" resource="Perms.Read" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="remove" groupName="Remove" groupID="64272E2C4F0DD54882CB8856E946D1AA" resource="Perms.Read" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="update" groupName="Promote" groupID="40ADFAFA61A95D4884C8D968C011846D" resource="Perms.PromoteRead" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="remove" groupName="Promote" groupID="40ADFAFA61A95D4884C8D968C011846D" resource="Perms.PromoteRead" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="update" groupName="Promote" groupID="40ADFAFA61A95D4884C8D968C011846D" resource="Perms.NonPromoteRead" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="remove" groupName="Promote" groupID="40ADFAFA61A95D4884C8D968C011846D" resource="Perms.NonPromoteRead" temporaryForcePermissions="false" type="dataClass"/>
+</permissions>

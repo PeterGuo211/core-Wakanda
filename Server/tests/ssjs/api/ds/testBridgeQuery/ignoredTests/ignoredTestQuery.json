@@ -1,0 +1,25 @@
+{
+	
+	"testQuery_NToNRelationAttributes" : true,
+	"testQuery_NToNRelationAttributes_Placeholder" :true,
+	"testQuery_NToOneRelationAttributes" : true,
+	"testQuery_NToOneRelationAttributes_Placeholder" : true,
+	"testQuery_NToOneRelationAttributes_SameDataclass_LevelOne" : true,
+	"testQuery_NToOneRelationAttributes_SameDataclass_LevelOne_Placeholder" : true,
+	"testQuery_NToOneRelationAttributes_SameDataclass_LevelTow" :true,
+	"testQuery_NToOneRelationAttributes_SameDataclass_LevelTow_Placeholder" :true,
+	"testQuery_JavascriptFunctions" : true,
+	
+	
+	"testQuery_ArrayOfBooleansAndPlaceholders_false" :true,
+	"testQuery_ArrayOfBooleansAndPlaceholders_true" :true,
+	"testQuery_ArrayOfBytesAndPlaceholders" :true,
+	"testQuery_ArrayOfDurationsAndPlaceholders" :true,
+	"testQuery_ArrayOfLongsAndPlaceholders" :true,
+	"testQuery_ArrayOfNumbersAndPlaceholders" :true,
+	"testQuery_ArrayOfStingsAndPlaceholders" :true,
+	"testQuery_ArrayOfStings2AndPlaceholders" :true,
+	"testQuery_ArrayAndConjunction1" :true,
+	"testQuery_ArrayAndConjunction2" :true
+	
+}

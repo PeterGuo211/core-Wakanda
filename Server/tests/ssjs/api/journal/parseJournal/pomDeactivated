@@ -1,0 +1,7 @@
+{
+    "description": "Tests for parseJournal API",
+    "kind": "ssjs",
+	"developper": "olivier.randriamanana@4d.com",
+	"tester": "mohamed.elghachi@4d.com",
+	"stable": false
+}

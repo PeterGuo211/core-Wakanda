@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><EntityModelCatalog>
+
+<dbInfo name="Perms" uuid="DEB2380315EE8E47AF7052ECFC4FADBC"/>
+
+<dataClasses name="Create" className="Create" collectionName="CreateCollection" scope="public" uuid="671AE00E930D21499E35B4FD09970AC3" tablePos="2">
+
+	<extraProperties ____objectunic="true" panelColor="#7F7F7F">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="234" Y="24"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" uuid="A96C77A61C72D3418E35C82E4DE1A273" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<attributes name="name" kind="storage" scope="public" uuid="A1726E08E305F8418F710961C1E4056A" fieldPos="2" type="string"/>
+
+</dataClasses>
+
+<dataClasses name="Execute" className="Execute" collectionName="ExecuteCollection" scope="public" uuid="9D06F7D032244A4B9AD09BB054FEF31B" tablePos="5">
+
+	<extraProperties ____objectunic="true" panelColor="#B2A2C7">
+
+		<panel ____objectunic="true" isOpen="true">
+
+			<position ____objectunic="true" X="25" Y="170"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" uuid="F99FDF551F8CB64A92906016B390F52D" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<methods name="secured" applyTo="dataClass" scope="public" from="guidedModel.Execute.methods.secured"/>
+
+</dataClasses>
+
+<dataClasses name="NonPromoteCreate" className="NonPromoteCreate" collectionName="NonPromoteCreateCollection" scope="public" uuid="2591FD59B5345E4CA9D2F4B0E5146751" tablePos="12">
+
+	<extraProperties ____objectunic="true" panelColor="#E5B9B7">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="311" Y="507"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" uuid="AE1318476C5510498EA7163972146D4A" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<attributes name="name" kind="storage" scope="public" uuid="FD3D383E1DC12E428C14B701859F4C04" fieldPos="2" type="string"/>
+
+	<methods name="nonPromoteCreate" applyTo="dataClass" scope="public" from="guidedModel.NonPromoteCreate.methods.nonPromoteCreate"/>
+
+</dataClasses>
+
+<dataClasses name="NonPromoteRead" className="NonPromoteRead" collectionName="NonPromoteReadCollection" scope="public" uuid="2B6402DBACA4494D97639228C3F876DD" tablePos="11">
+
+	<extraProperties ____objectunic="true" panelColor="#B8CCE4">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="36" Y="500"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" uuid="78CCEF0618BB2C40912CF8895417D793" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<attributes name="name" kind="storage" scope="public" uuid="AA58D2B306D1A5409382F2E0C5C91D27" fieldPos="2" type="string"/>
+
+	<methods name="nonPromoteRead" applyTo="dataClass" scope="public" from="guidedModel.NonPromoteRead.methods.nonPromoteRead"/>
+
+</dataClasses>
+
+<dataClasses name="NonPromoteRemove" className="NonPromoteRemove" collectionName="NonPromoteRemoveCollection" scope="public" uuid="84A99307736912488EE6AD81E175DF4B" tablePos="14">
+
+	<extraProperties ____objectunic="true" panelColor="#C4BD97">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="50" Y="667"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" uuid="99157E7BA057A549945EBBC8DF7F01AE" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<attributes name="name" kind="storage" scope="public" uuid="9DB34EA000106A46AEFE60144CFEB597" fieldPos="2" type="string"/>
+
+	<methods name="nonPromoteRemove" applyTo="dataClass" scope="public" from="guidedModel.NonPromoteRemove.methods.nonPromoteRemove"/>
+
+</dataClasses>
+
+<dataClasses name="NonPromoteUpdate" className="NonPromoteUpdate" collectionName="NonPromoteUpdateCollection" scope="public" uuid="A892135141841346A3870DBC482A1ACD" tablePos="13">
+
+	<extraProperties ____objectunic="true" panelColor="#996699">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="587" Y="512"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" uuid="13B68911F8B23245A6DEB852259B45BA" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<attributes name="name" kind="storage" scope="public" uuid="AF01F3499BC1964A852954000E55EBAC" fieldPos="2" type="string"/>
+
+	<methods name="nonPromoteUpdate" applyTo="dataClass" scope="public" from="guidedModel.NonPromoteUpdate.methods.nonPromoteUpdate"/>
+
+</dataClasses>
+
+<dataClasses name="Promote" className="Promote" collectionName="PromoteCollection" scope="public" uuid="8F7AAA2B6762FB40AD451DF7A28EFD06" tablePos="6">
+
+	<extraProperties ____objectunic="true" panelColor="#8DB3E2">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="249" Y="169"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" uuid="A9A33C98B9454241AEC5D7BC7A7D24B1" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<attributes name="name" kind="storage" scope="public" uuid="18F2EB0187783B48B530D95B6903871E" fieldPos="2" type="string"/>
+
+	<methods name="promote" applyTo="dataClass" scope="public" from="guidedModel.Promote.methods.promote"/>
+
+</dataClasses>
+
+<dataClasses name="PromoteCreate" className="PromoteCreate" collectionName="PromoteCreateCollection" scope="public" uuid="055728028CDA154DBA0EE6BE2F3E4E70" tablePos="8">
+
+	<extraProperties ____objectunic="true" panelColor="#548DD4">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="41" Y="333"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" uuid="DC91AD95843C8542AD790DA043B86F83" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<attributes name="name" kind="storage" scope="public" uuid="6A921C5495046847BECA7B019ECF2EDE" fieldPos="2" type="string"/>
+
+	<methods name="promoteCreate" applyTo="dataClass" scope="public" from="guidedModel.PromoteCreate.methods.promoteCreate"/>
+
+</dataClasses>
+
+<dataClasses name="PromoteRead" className="PromoteRead" collectionName="PromoteReadCollection" scope="public" uuid="EA808CE92BA436488EB9B4168DE1AA99" tablePos="7">
+
+	<extraProperties ____objectunic="true" panelColor="#B7DDE8">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="470" Y="167"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" uuid="7D7A1FF88DFDD84D97826F41F87832AB" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<attributes name="name" kind="storage" scope="public" uuid="E5C4F61628B0CA4CAB68911893E20E29" fieldPos="2" type="string"/>
+
+	<methods name="promoteRead" applyTo="dataClass" scope="public" from="guidedModel.PromoteRead.methods.promoteRead"/>
+
+</dataClasses>
+
+<dataClasses name="PromoteRemove" className="PromoteRemove" collectionName="PromoteRemoveCollection" scope="public" uuid="7B71793621140B439A74C760BAE18553" tablePos="10">
+
+	<extraProperties ____objectunic="true" panelColor="#C4BD97">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="510" Y="335"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" uuid="1E9C57311801554888D5AAE2109F886D" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<attributes name="name" kind="storage" scope="public" uuid="4BC54E353E5D9C4D8F335631A88229AB" fieldPos="2" type="string"/>
+
+	<methods name="promoteRemove" applyTo="dataClass" scope="public" from="guidedModel.PromoteRemove.methods.promoteRemove"/>
+
+</dataClasses>
+
+<dataClasses name="PromoteUpdate" className="PromoteUpdate" collectionName="PromoteUpdateCollection" scope="public" uuid="7A647E58F600D84590CDC56D87595395" tablePos="9">
+
+	<extraProperties ____objectunic="true" panelColor="#4FA997">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="273" Y="336"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" uuid="906C34F177209644AAD457D21A63B549" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<attributes name="name" kind="storage" scope="public" uuid="D418C52E5B6F714F95A7BBC246E030BE" fieldPos="2" type="string"/>
+
+	<methods name="promoteUpdate" applyTo="dataClass" scope="public" from="guidedModel.PromoteUpdate.methods.promoteUpdate"/>
+
+</dataClasses>
+
+<dataClasses name="Read" className="Read" collectionName="ReadCollection" scope="public" uuid="94F9BECC562D5543AF3A4B5980A99AD4" tablePos="1">
+
+	<extraProperties ____objectunic="true" panelColor="#B2A2C7">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="25" Y="20"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" uuid="EA560091101100469B74FE43B0501220" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<attributes name="name" kind="storage" scope="public" uuid="4AF6B8FCF6960242936AE83BB3822D07" fieldPos="2" type="string"/>
+
+</dataClasses>
+
+<dataClasses name="Remove" className="Remove" collectionName="RemoveCollection" scope="public" uuid="B21F00F01E3BC842B8E8D5D343724774" tablePos="4">
+
+	<extraProperties ____objectunic="true" panelColor="#7F7F7F">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="645" Y="24"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" uuid="9C3F0F366640804AB8E34906483CBA4F" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<attributes name="name" kind="storage" scope="public" uuid="C27936E6C6210A42B4CE38D101062DDE" fieldPos="2" type="string"/>
+
+</dataClasses>
+
+<dataClasses name="Update" className="Update" collectionName="UpdateCollection" scope="public" uuid="C919F718C351394186B2D912C7A63B61" tablePos="3">
+
+	<extraProperties ____objectunic="true" panelColor="#4FA997">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="438" Y="26"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" uuid="9561E574DE5A9B41B9CB753C0ED8074B" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<attributes name="name" kind="storage" scope="public" uuid="72FEA908763E624495DBCE851E23CBC6" fieldPos="2" type="string"/>
+
+</dataClasses>
+</EntityModelCatalog>

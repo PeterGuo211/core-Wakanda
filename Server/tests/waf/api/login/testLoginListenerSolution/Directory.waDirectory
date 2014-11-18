@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><directory>
+
+<group ID="01000000000000000000000000000000" name="Admin"/>
+
+<group ID="2FAE34401E365044AF313E557E86F4C8" name="Default">
+
+	<include user="in-directory" ID="34D3CDEFF8E09E44B238C5EB90DAA63D"/>
+</group>
+
+<group ID="939352B8F3DAD24FA6981CC84AD63380" name="Whatever"/>
+
+<user ID="34D3CDEFF8E09E44B238C5EB90DAA63D" name="in-directory" fullName="" password="8bed26d8c2c8276108baf189e5743364"/>
+
+<user ID="0BA7B0B8EFCF1D4E84823D18F61D34E2" name="rejected-by-ls" fullName="" password="3d4e9e2e7fb7f1b0daf1aaf73649c05f"/>
+</directory>

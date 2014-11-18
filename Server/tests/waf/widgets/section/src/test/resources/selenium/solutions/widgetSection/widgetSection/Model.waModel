@@ -1,0 +1,53 @@
+﻿{
+	"toJSON": true,
+	"extraProperties": {
+		"version": "2",
+		"classes": {
+			"Employees": {
+				"panelColor": "#D88CFF",
+				"panel": {
+					"isOpen": "true",
+					"position": {
+						"X": 25,
+						"Y": 20
+					},
+					"pathVisible": true
+				}
+			}
+		},
+		"model": {
+			"workspaceLeft": 0,
+			"workspaceTop": 0,
+			"scriptMode": "manual"
+		}
+	},
+	"dataClasses": [
+		{
+			"collectionName": "EmployeesCollection",
+			"className": "Employees",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"type": "long",
+					"autosequence": "true",
+					"unique": "true",
+					"primKey": "true"
+				},
+				{
+					"name": "name",
+					"scope": "public",
+					"type": "string",
+					"kind": "storage"
+				},
+				{
+					"name": "useCar",
+					"scope": "public",
+					"type": "bool",
+					"kind": "storage"
+				}
+			]
+		}
+	],
+	"type": []
+}

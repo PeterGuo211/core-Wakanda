@@ -1,0 +1,1249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="App - RIA Server Beta|Win32">
+      <Configuration>App - RIA Server Beta</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="App - RIA Server Beta|x64">
+      <Configuration>App - RIA Server Beta</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="App - RIA Server Debug|Win32">
+      <Configuration>App - RIA Server Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="App - RIA Server Debug|x64">
+      <Configuration>App - RIA Server Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="App - RIA Server Enterprise Beta|Win32">
+      <Configuration>App - RIA Server Enterprise Beta</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="App - RIA Server Enterprise Beta|x64">
+      <Configuration>App - RIA Server Enterprise Beta</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="App - RIA Server Enterprise Debug|Win32">
+      <Configuration>App - RIA Server Enterprise Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="App - RIA Server Enterprise Debug|x64">
+      <Configuration>App - RIA Server Enterprise Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="App - RIA Server Enterprise Release|Win32">
+      <Configuration>App - RIA Server Enterprise Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="App - RIA Server Enterprise Release|x64">
+      <Configuration>App - RIA Server Enterprise Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="App - RIA Server Release|Win32">
+      <Configuration>App - RIA Server Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="App - RIA Server Release|x64">
+      <Configuration>App - RIA Server Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>App - RIA Server</ProjectName>
+    <ProjectGuid>{FC628201-B63F-40C5-A767-38CE5C958721}</ProjectGuid>
+    <RootNamespace>App - RIA Server</RootNamespace>
+    <SccProjectName>"//depot/Wakanda/WAK9"</SccProjectName>
+    <SccLocalPath>..\..\..</SccLocalPath>
+    <SccProvider>MSSCCI:Perforce SCM</SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Enterprise Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Enterprise Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Enterprise Beta|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Beta|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Enterprise Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Enterprise Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Enterprise Beta|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Beta|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Enterprise Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC70.props" />
+    <Import Project="manifest.props" />
+    <Import Project="$(Solutiondir)\Default Compiler Settings.props" />
+    <Import Project="$(SolutionDir)\WebKit_Settings.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Enterprise Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC70.props" />
+    <Import Project="manifest.props" />
+    <Import Project="$(Solutiondir)\Default Compiler Settings.props" />
+    <Import Project="$(SolutionDir)\WebKit_Settings.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Enterprise Beta|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC70.props" />
+    <Import Project="manifest.props" />
+    <Import Project="$(Solutiondir)\Default Compiler Settings.props" />
+    <Import Project="$(SolutionDir)\WebKit_Settings.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Beta|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC70.props" />
+    <Import Project="manifest.props" />
+    <Import Project="$(Solutiondir)\Default Compiler Settings.props" />
+    <Import Project="$(SolutionDir)\WebKit_Settings.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC70.props" />
+    <Import Project="manifest.props" />
+    <Import Project="$(Solutiondir)\Default Compiler Settings.props" />
+    <Import Project="$(SolutionDir)\WebKit_Settings.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC70.props" />
+    <Import Project="manifest.props" />
+    <Import Project="$(Solutiondir)\Default Compiler Settings.props" />
+    <Import Project="$(SolutionDir)\WebKit_Settings.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Enterprise Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC70.props" />
+    <Import Project="manifest x64.props" />
+    <Import Project="$(Solutiondir)\Default Compiler Settings x64.props" />
+    <Import Project="$(SolutionDir)\WebKit_Settings.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Enterprise Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC70.props" />
+    <Import Project="manifest x64.props" />
+    <Import Project="$(Solutiondir)\Default Compiler Settings x64.props" />
+    <Import Project="$(SolutionDir)\WebKit_Settings.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Enterprise Beta|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC70.props" />
+    <Import Project="manifest x64.props" />
+    <Import Project="$(Solutiondir)\Default Compiler Settings x64.props" />
+    <Import Project="$(SolutionDir)\WebKit_Settings.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Beta|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC70.props" />
+    <Import Project="manifest x64.props" />
+    <Import Project="$(Solutiondir)\Default Compiler Settings x64.props" />
+    <Import Project="$(SolutionDir)\WebKit_Settings.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC70.props" />
+    <Import Project="manifest x64.props" />
+    <Import Project="$(Solutiondir)\Default Compiler Settings x64.props" />
+    <Import Project="$(SolutionDir)\WebKit_Settings.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC70.props" />
+    <Import Project="manifest x64.props" />
+    <Import Project="$(Solutiondir)\Default Compiler Settings x64.props" />
+    <Import Project="$(SolutionDir)\WebKit_Settings.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.60610.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Debug|Win32'">
+    <OutDir>..\..\..\Apps\Win\Debug\Wakanda Server\</OutDir>
+    <IntDir>.\ObjH\$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>Wakanda Server</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Debug|x64'">
+    <OutDir>..\..\..\Apps\Win64\Debug\Wakanda Server\</OutDir>
+    <IntDir>.\ObjH\$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>Wakanda Server</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Release|Win32'">
+    <OutDir>..\..\..\Apps\Win\Final\Wakanda Server\</OutDir>
+    <IntDir>.\ObjH\$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>Wakanda Server</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Release|x64'">
+    <OutDir>..\..\..\Apps\Win64\Final\Wakanda Server\</OutDir>
+    <IntDir>.\ObjH\$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>Wakanda Server</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Beta|Win32'">
+    <OutDir>..\..\..\Apps\Win\Beta\Wakanda Server\</OutDir>
+    <IntDir>.\ObjH\$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>Wakanda Server</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Beta|x64'">
+    <OutDir>..\..\..\Apps\Win64\Beta\Wakanda Server\</OutDir>
+    <IntDir>.\ObjH\$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>Wakanda Server</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Enterprise Beta|Win32'">
+    <OutDir>..\..\..\Apps\Win\Beta\Wakanda Enterprise Server\</OutDir>
+    <IntDir>.\ObjH\$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>Wakanda Server</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Enterprise Beta|x64'">
+    <OutDir>..\..\..\Apps\Win64\Beta\Wakanda Enterprise Server\</OutDir>
+    <IntDir>.\ObjH\$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>Wakanda Server</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Enterprise Debug|Win32'">
+    <OutDir>..\..\..\Apps\Win\Debug\Wakanda Enterprise Server\</OutDir>
+    <IntDir>.\ObjH\$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>Wakanda Server</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Enterprise Debug|x64'">
+    <OutDir>..\..\..\Apps\Win64\Debug\Wakanda Enterprise Server\</OutDir>
+    <IntDir>.\ObjH\$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>Wakanda Server</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Enterprise Release|Win32'">
+    <OutDir>..\..\..\Apps\Win\Final\Wakanda Enterprise Server\</OutDir>
+    <IntDir>.\ObjH\$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>Wakanda Server</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Enterprise Release|x64'">
+    <OutDir>..\..\..\Apps\Win64\Final\Wakanda Enterprise Server\</OutDir>
+    <IntDir>.\ObjH\$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>Wakanda Server</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Debug|Win32'">
+    <PreBuildEvent>
+      <Message>Versionning $(TargetName) ...</Message>
+      <Command>if exist "$(TargetDir)walib\minifiedCoresWAF\" (rd /s /q "$(TargetDir)walib\minifiedCoresWAF\")
+if exist c:\perl\bin\perl.exe c:\perl\bin\perl.exe $(SolutionDir)..\..\Tools\Versionning\Wakanda_versionning_win.perl "$(ProjectDir)\WakandaVersNum.h"
+if exist c:\perl\bin\perl.exe c:\perl\bin\perl.exe $(SolutionDir)..\..\Tools\Versionning\versionning_waf.pl    "$(ProjectDir)\..\..\..\walib\WAF\Loader.js"
+</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>RIA Server CopyFiles</Message>
+      <Command>CALL "$(SolutionDir)\..\..\Tools\Build\scripts_compil_$(BranchName)\Scripts\CopyFilesVS9.bat" "$(TargetDir)" E
+CALL "$(SolutionDir)\..\..\Tools\Build\Update.bat" "$(SolutionDir)\walib\WAF" "$(TargetDir)walib\minifiedCoresWAF\mobile.core.min.css"
+set RC=%ERRORLEVEL%
+IF "%RC%" EQU "1" (echo del /Q /F "$(TargetDir)walib\minifiedCoresWAF\*.*")
+IF "%RC%" EQU "1" (del /Q /F "$(TargetDir)walib\minifiedCoresWAF\*.*")
+
+exit 0</Command>
+      <Outputs>AllFile for RIA Server;%(Outputs)</Outputs>
+    </CustomBuildStep>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\HSRC;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>..\..\Apps\Win\Debug\Wakanda Server.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <OmitFramePointers>false</OmitFramePointers>
+      <AdditionalIncludeDirectories>..\..\Sources;..\..\..\Common\Sources;..\..\..\..\..\XToolbox\$(BranchName)\;..\..\..\..\..\Components\$(BranchName)\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;xdebug=1;WIN32;_WINDOWS;MACVER=0;WINVER=0x500;VERS_65=1;NEWNC=1;xserver=1;XBACKUP=1;TESTS_IN_4D=1;RIA_SERVER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>headers4d.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ProgramDataBaseFileName>$(IntDir)</ProgramDataBaseFileName>
+      <BrowseInformation />
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CallingConvention>StdCall</CallingConvention>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;RIA_SERVER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\Common\Visual\;$(SolutionDir)\..\..\CoreRuntime\$(BranchName)\Resources\MergedResources.WIN\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>shfolder.lib;delayimp.lib;imm32.lib;winmm.lib;version.lib;oledlg.lib;ws2_32.lib;sensapi.lib;Rpcrt4.lib;Iphlpapi.lib;shlwapi.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib;libc.lib;libcd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <StackReserveSize>262144</StackReserveSize>
+      <StackCommitSize>65536</StackCommitSize>
+      <LargeAddressAware>true</LargeAddressAware>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Debug|x64'">
+    <PreBuildEvent>
+      <Message>Versionning $(TargetName) ...</Message>
+      <Command>if exist "$(TargetDir)walib\minifiedCoresWAF\" (rd /s /q "$(TargetDir)walib\minifiedCoresWAF\")
+if exist c:\perl\bin\perl.exe c:\perl\bin\perl.exe $(SolutionDir)..\..\Tools\Versionning\Wakanda_versionning_win.perl "$(ProjectDir)\WakandaVersNum.h"
+if exist c:\perl\bin\perl.exe c:\perl\bin\perl.exe $(SolutionDir)..\..\Tools\Versionning\versionning_waf.pl    "$(ProjectDir)\..\..\..\walib\WAF\Loader.js"
+</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>RIA Server CopyFiles</Message>
+      <Command>CALL "$(SolutionDir)\..\..\Tools\Build\scripts_compil_$(BranchName)\Scripts\CopyFilesVS9.bat" "$(TargetDir)" E
+CALL "$(SolutionDir)\..\..\Tools\Build\Update.bat" "$(SolutionDir)\walib\WAF" "$(TargetDir)walib\minifiedCoresWAF\mobile.core.min.css"
+set RC=%ERRORLEVEL%
+IF "%RC%" EQU "1" (echo del /Q /F "$(TargetDir)walib\minifiedCoresWAF\*.*")
+IF "%RC%" EQU "1" (del /Q /F "$(TargetDir)walib\minifiedCoresWAF\*.*")
+
+exit 0</Command>
+      <Outputs>AllFile for RIA Server;%(Outputs)</Outputs>
+    </CustomBuildStep>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\HSRC;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>X64</TargetEnvironment>
+      <TypeLibraryName>..\..\Apps\Win\Debug\Wakanda Server.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <OmitFramePointers>false</OmitFramePointers>
+      <AdditionalIncludeDirectories>..\..\Sources;..\..\..\Common\Sources;..\..\..\..\..\XToolbox\$(BranchName)\;..\..\..\..\..\Components\$(BranchName)\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;xdebug=1;WIN64;_WIN64;WIN32;_WINDOWS;MACVER=0;WINVER=0x500;VERS_65=1;NEWNC=1;xserver=1;XBACKUP=1;TESTS_IN_4D=1;RIA_SERVER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>headers4d.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ProgramDataBaseFileName>$(IntDir)</ProgramDataBaseFileName>
+      <BrowseInformation />
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CallingConvention>StdCall</CallingConvention>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;RIA_SERVER;_WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\Common\Visual\;$(SolutionDir)\..\..\CoreRuntime\$(BranchName)\Resources\MergedResources.WIN\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>shfolder.lib;delayimp.lib;imm32.lib;winmm.lib;version.lib;oledlg.lib;ws2_32.lib;sensapi.lib;Rpcrt4.lib;Iphlpapi.lib;shlwapi.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib;libc.lib;libcd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <StackReserveSize>262144</StackReserveSize>
+      <StackCommitSize>65536</StackCommitSize>
+      <LargeAddressAware>true</LargeAddressAware>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Release|Win32'">
+    <PreBuildEvent>
+      <Message>Versionning $(TargetName) ...</Message>
+      <Command>if exist "$(TargetDir)walib\minifiedCoresWAF\" (rd /s /q "$(TargetDir)walib\minifiedCoresWAF\")
+if exist c:\perl\bin\perl.exe c:\perl\bin\perl.exe $(SolutionDir)..\..\Tools\Versionning\Wakanda_versionning_win.perl "$(ProjectDir)\WakandaVersNum.h"
+if exist c:\perl\bin\perl.exe c:\perl\bin\perl.exe $(SolutionDir)..\..\Tools\Versionning\versionning_waf.pl    "$(ProjectDir)\..\..\..\walib\WAF\Loader.js"
+</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>RIA Server CopyFiles</Message>
+      <Command>CALL "$(SolutionDir)\..\..\Tools\Build\scripts_compil_$(BranchName)\Scripts\CopyFilesVS9.bat" "$(TargetDir)" E
+CALL "$(SolutionDir)\..\..\Tools\Build\Update.bat" "$(SolutionDir)\walib\WAF" "$(TargetDir)walib\minifiedCoresWAF\mobile.core.min.css"
+set RC=%ERRORLEVEL%
+IF "%RC%" EQU "1" (echo del /Q /F "$(TargetDir)walib\minifiedCoresWAF\*.*")
+IF "%RC%" EQU "1" (del /Q /F "$(TargetDir)walib\minifiedCoresWAF\*.*")
+
+exit 0</Command>
+      <Outputs>AllFile for RIA Server;%(Outputs)</Outputs>
+    </CustomBuildStep>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\HSRC;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\..\Apps\Win\Final\Wakanda Server.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\..\Sources;..\..\..\Common\Sources;..\..\..\..\..\XToolbox\$(BranchName)\;..\..\..\..\..\Components\$(BranchName)\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;newlicence=1;WIN32;_WINDOWS;MACVER=0;WINVER=0x500;VERS_65=1;NEWNC=1;xserver=1;XBACKUP=1;TESTS_IN_4D=1;RIA_SERVER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>headers4d.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ProgramDataBaseFileName>$(IntDir)</ProgramDataBaseFileName>
+      <BrowseInformation />
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <CallingConvention>StdCall</CallingConvention>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;RIA_SERVER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\Common\Visual\;$(SolutionDir)\..\..\CoreRuntime\$(BranchName)\Resources\MergedResources.WIN\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>shfolder.lib;delayimp.lib;imm32.lib;winmm.lib;version.lib;oledlg.lib;ws2_32.lib;sensapi.lib;Rpcrt4.lib;Iphlpapi.lib;shlwapi.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <StackReserveSize>262144</StackReserveSize>
+      <StackCommitSize>65536</StackCommitSize>
+      <LargeAddressAware>true</LargeAddressAware>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Release|x64'">
+    <PreBuildEvent>
+      <Message>Versionning $(TargetName) ...</Message>
+      <Command>if exist "$(TargetDir)walib\minifiedCoresWAF\" (rd /s /q "$(TargetDir)walib\minifiedCoresWAF\")
+if exist c:\perl\bin\perl.exe c:\perl\bin\perl.exe $(SolutionDir)..\..\Tools\Versionning\Wakanda_versionning_win.perl "$(ProjectDir)\WakandaVersNum.h"
+if exist c:\perl\bin\perl.exe c:\perl\bin\perl.exe $(SolutionDir)..\..\Tools\Versionning\versionning_waf.pl    "$(ProjectDir)\..\..\..\walib\WAF\Loader.js"
+</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>RIA Server CopyFiles</Message>
+      <Command>CALL "$(SolutionDir)\..\..\Tools\Build\scripts_compil_$(BranchName)\Scripts\CopyFilesVS9.bat" "$(TargetDir)" E
+CALL "$(SolutionDir)\..\..\Tools\Build\Update.bat" "$(SolutionDir)\walib\WAF" "$(TargetDir)walib\minifiedCoresWAF\mobile.core.min.css"
+set RC=%ERRORLEVEL%
+IF "%RC%" EQU "1" (echo del /Q /F "$(TargetDir)walib\minifiedCoresWAF\*.*")
+IF "%RC%" EQU "1" (del /Q /F "$(TargetDir)walib\minifiedCoresWAF\*.*")
+
+exit 0</Command>
+      <Outputs>AllFile for RIA Server;%(Outputs)</Outputs>
+    </CustomBuildStep>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\HSRC;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>X64</TargetEnvironment>
+      <TypeLibraryName>.\..\..\Apps\Win\Final\Wakanda Server.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\..\Sources;..\..\..\Common\Sources;..\..\..\..\..\XToolbox\$(BranchName)\;..\..\..\..\..\Components\$(BranchName)\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;newlicence=1;WIN32;WIN64;_WIN64;_WINDOWS;MACVER=0;WINVER=0x500;VERS_65=1;NEWNC=1;xserver=1;XBACKUP=1;TESTS_IN_4D=1;RIA_SERVER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>headers4d.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ProgramDataBaseFileName>$(IntDir)</ProgramDataBaseFileName>
+      <BrowseInformation />
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <CallingConvention>StdCall</CallingConvention>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;RIA_SERVER;_WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\Common\Visual\;$(SolutionDir)\..\..\CoreRuntime\$(BranchName)\Resources\MergedResources.WIN\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>shfolder.lib;delayimp.lib;imm32.lib;winmm.lib;version.lib;oledlg.lib;ws2_32.lib;sensapi.lib;Rpcrt4.lib;Iphlpapi.lib;shlwapi.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LargeAddressAware>true</LargeAddressAware>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Beta|Win32'">
+    <PreBuildEvent>
+      <Message>Versionning $(TargetName) ...</Message>
+      <Command>if exist "$(TargetDir)walib\minifiedCoresWAF\" (rd /s /q "$(TargetDir)walib\minifiedCoresWAF\")
+if exist c:\perl\bin\perl.exe c:\perl\bin\perl.exe $(SolutionDir)..\..\Tools\Versionning\Wakanda_versionning_win.perl "$(ProjectDir)\WakandaVersNum.h"
+if exist c:\perl\bin\perl.exe c:\perl\bin\perl.exe $(SolutionDir)..\..\Tools\Versionning\versionning_waf.pl    "$(ProjectDir)\..\..\..\walib\WAF\Loader.js"
+</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>RIA Server CopyFiles</Message>
+      <Command>CALL "$(SolutionDir)\..\..\Tools\Build\scripts_compil_$(BranchName)\Scripts\CopyFilesVS9.bat" "$(TargetDir)" E
+CALL "$(SolutionDir)\..\..\Tools\Build\Update.bat" "$(SolutionDir)\walib\WAF" "$(TargetDir)walib\minifiedCoresWAF\mobile.core.min.css"
+set RC=%ERRORLEVEL%
+IF "%RC%" EQU "1" (echo del /Q /F "$(TargetDir)walib\minifiedCoresWAF\*.*")
+IF "%RC%" EQU "1" (del /Q /F "$(TargetDir)walib\minifiedCoresWAF\*.*")
+
+exit 0</Command>
+      <Outputs>AllFile for RIA Server;%(Outputs)</Outputs>
+    </CustomBuildStep>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\HSRC;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\..\Apps\Win\Final\Wakanda Server.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\..\Sources;..\..\..\Common\Sources;..\..\..\..\..\XToolbox\$(BranchName)\;..\..\..\..\..\Components\$(BranchName)\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;newlicence=1;WIN32;_WINDOWS;MACVER=0;WINVER=0x500;VERS_65=1;NEWNC=1;xserver=1;XBACKUP=1;TESTS_IN_4D=1;RIA_SERVER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>headers4d.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ProgramDataBaseFileName>$(IntDir)</ProgramDataBaseFileName>
+      <BrowseInformation />
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CallingConvention>StdCall</CallingConvention>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;RIA_SERVER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\Common\Visual\;$(SolutionDir)\..\..\CoreRuntime\$(BranchName)\Resources\MergedResources.WIN\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>shfolder.lib;delayimp.lib;imm32.lib;winmm.lib;version.lib;oledlg.lib;ws2_32.lib;sensapi.lib;Rpcrt4.lib;Iphlpapi.lib;shlwapi.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <StackReserveSize>262144</StackReserveSize>
+      <StackCommitSize>65536</StackCommitSize>
+      <LargeAddressAware>true</LargeAddressAware>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Beta|x64'">
+    <PreBuildEvent>
+      <Message>Versionning $(TargetName) ...</Message>
+      <Command>if exist "$(TargetDir)walib\minifiedCoresWAF\" (rd /s /q "$(TargetDir)walib\minifiedCoresWAF\")
+if exist c:\perl\bin\perl.exe c:\perl\bin\perl.exe $(SolutionDir)..\..\Tools\Versionning\Wakanda_versionning_win.perl "$(ProjectDir)\WakandaVersNum.h"
+if exist c:\perl\bin\perl.exe c:\perl\bin\perl.exe $(SolutionDir)..\..\Tools\Versionning\versionning_waf.pl    "$(ProjectDir)\..\..\..\walib\WAF\Loader.js"
+</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>RIA Server CopyFiles</Message>
+      <Command>CALL "$(SolutionDir)\..\..\Tools\Build\scripts_compil_$(BranchName)\Scripts\CopyFilesVS9.bat" "$(TargetDir)" E
+CALL "$(SolutionDir)\..\..\Tools\Build\Update.bat" "$(SolutionDir)\walib\WAF" "$(TargetDir)walib\minifiedCoresWAF\mobile.core.min.css"
+set RC=%ERRORLEVEL%
+IF "%RC%" EQU "1" (echo del /Q /F "$(TargetDir)walib\minifiedCoresWAF\*.*")
+IF "%RC%" EQU "1" (del /Q /F "$(TargetDir)walib\minifiedCoresWAF\*.*")
+
+exit 0</Command>
+      <Outputs>AllFile for RIA Server;%(Outputs)</Outputs>
+    </CustomBuildStep>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\HSRC;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>X64</TargetEnvironment>
+      <TypeLibraryName>.\..\..\Apps\Win\Final\Wakanda Server.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\..\Sources;..\..\..\Common\Sources;..\..\..\..\..\XToolbox\$(BranchName)\;..\..\..\..\..\Components\$(BranchName)\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;newlicence=1;WIN32;WIN64;_WIN64;_WINDOWS;MACVER=0;WINVER=0x500;VERS_65=1;NEWNC=1;xserver=1;XBACKUP=1;TESTS_IN_4D=1;RIA_SERVER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>headers4d.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ProgramDataBaseFileName>$(IntDir)</ProgramDataBaseFileName>
+      <BrowseInformation />
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <CallingConvention>StdCall</CallingConvention>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;RIA_SERVER;_WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\Common\Visual\;$(SolutionDir)\..\..\CoreRuntime\$(BranchName)\Resources\MergedResources.WIN\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>shfolder.lib;delayimp.lib;imm32.lib;winmm.lib;version.lib;oledlg.lib;ws2_32.lib;sensapi.lib;Rpcrt4.lib;Iphlpapi.lib;shlwapi.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LargeAddressAware>true</LargeAddressAware>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Enterprise Beta|Win32'">
+    <PreBuildEvent>
+      <Message>Versionning $(TargetName) ...</Message>
+      <Command>if exist "$(TargetDir)walib\minifiedCoresWAF\" (rd /s /q "$(TargetDir)walib\minifiedCoresWAF\")
+if exist c:\perl\bin\perl.exe c:\perl\bin\perl.exe $(SolutionDir)..\..\Tools\Versionning\Wakanda_versionning_win.perl "$(ProjectDir)\WakandaVersNum.h"
+if exist c:\perl\bin\perl.exe c:\perl\bin\perl.exe $(SolutionDir)..\..\Tools\Versionning\versionning_waf.pl    "$(ProjectDir)\..\..\..\walib\WAF\Loader.js"
+</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>RIA Server CopyFiles</Message>
+      <Command>CALL "$(SolutionDir)\..\..\Tools\Build\scripts_compil_$(BranchName)\Scripts\CopyFilesVS9.bat" "$(TargetDir)" E
+CALL "$(SolutionDir)\..\..\Tools\Build\Update.bat" "$(SolutionDir)\walib\WAF" "$(TargetDir)walib\minifiedCoresWAF\mobile.core.min.css"
+set RC=%ERRORLEVEL%
+IF "%RC%" EQU "1" (echo del /Q /F "$(TargetDir)walib\minifiedCoresWAF\*.*")
+IF "%RC%" EQU "1" (del /Q /F "$(TargetDir)walib\minifiedCoresWAF\*.*")
+
+exit 0</Command>
+      <Outputs>AllFile for RIA Server;%(Outputs)</Outputs>
+    </CustomBuildStep>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\HSRC;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\..\Apps\Win\Final\Wakanda Server.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\..\Sources;..\..\..\Common\Sources;..\..\..\..\..\XToolbox\$(BranchName)\;..\..\..\..\..\Components\$(BranchName)\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;newlicence=1;WIN32;_WINDOWS;MACVER=0;WINVER=0x500;VERS_65=1;NEWNC=1;xserver=1;XBACKUP=1;TESTS_IN_4D=1;RIA_SERVER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>headers4d.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ProgramDataBaseFileName>$(IntDir)</ProgramDataBaseFileName>
+      <BrowseInformation />
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CallingConvention>StdCall</CallingConvention>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;RIA_SERVER;ENTERPRISE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\Common\Visual\;$(SolutionDir)\..\..\CoreRuntime\$(BranchName)\Resources\MergedResources.WIN\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>shfolder.lib;delayimp.lib;imm32.lib;winmm.lib;version.lib;oledlg.lib;ws2_32.lib;sensapi.lib;Rpcrt4.lib;Iphlpapi.lib;shlwapi.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <StackReserveSize>262144</StackReserveSize>
+      <StackCommitSize>65536</StackCommitSize>
+      <LargeAddressAware>true</LargeAddressAware>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Enterprise Beta|x64'">
+    <PreBuildEvent>
+      <Message>Versionning $(TargetName) ...</Message>
+      <Command>if exist "$(TargetDir)walib\minifiedCoresWAF\" (rd /s /q "$(TargetDir)walib\minifiedCoresWAF\")
+if exist c:\perl\bin\perl.exe c:\perl\bin\perl.exe $(SolutionDir)..\..\Tools\Versionning\Wakanda_versionning_win.perl "$(ProjectDir)\WakandaVersNum.h"
+if exist c:\perl\bin\perl.exe c:\perl\bin\perl.exe $(SolutionDir)..\..\Tools\Versionning\versionning_waf.pl    "$(ProjectDir)\..\..\..\walib\WAF\Loader.js"
+</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>RIA Server CopyFiles</Message>
+      <Command>CALL "$(SolutionDir)\..\..\Tools\Build\scripts_compil_$(BranchName)\Scripts\CopyFilesVS9.bat" "$(TargetDir)" E
+CALL "$(SolutionDir)\..\..\Tools\Build\Update.bat" "$(SolutionDir)\walib\WAF" "$(TargetDir)walib\minifiedCoresWAF\mobile.core.min.css"
+set RC=%ERRORLEVEL%
+IF "%RC%" EQU "1" (echo del /Q /F "$(TargetDir)walib\minifiedCoresWAF\*.*")
+IF "%RC%" EQU "1" (del /Q /F "$(TargetDir)walib\minifiedCoresWAF\*.*")
+
+exit 0</Command>
+      <Outputs>AllFile for RIA Server;%(Outputs)</Outputs>
+    </CustomBuildStep>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\HSRC;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>X64</TargetEnvironment>
+      <TypeLibraryName>.\..\..\Apps\Win\Final\Wakanda Server.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\..\Sources;..\..\..\Common\Sources;..\..\..\..\..\XToolbox\$(BranchName)\;..\..\..\..\..\Components\$(BranchName)\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;newlicence=1;WIN32;WIN64;_WIN64;_WINDOWS;MACVER=0;WINVER=0x500;VERS_65=1;NEWNC=1;xserver=1;XBACKUP=1;TESTS_IN_4D=1;RIA_SERVER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>headers4d.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ProgramDataBaseFileName>$(IntDir)</ProgramDataBaseFileName>
+      <BrowseInformation />
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <CallingConvention>StdCall</CallingConvention>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;RIA_SERVER;_WIN64;ENTERPRISE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\Common\Visual\;$(SolutionDir)\..\..\CoreRuntime\$(BranchName)\Resources\MergedResources.WIN\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>shfolder.lib;delayimp.lib;imm32.lib;winmm.lib;version.lib;oledlg.lib;ws2_32.lib;sensapi.lib;Rpcrt4.lib;Iphlpapi.lib;shlwapi.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LargeAddressAware>true</LargeAddressAware>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Enterprise Debug|Win32'">
+    <PreBuildEvent>
+      <Message>Versionning $(TargetName) ...</Message>
+      <Command>if exist "$(TargetDir)walib\minifiedCoresWAF\" (rd /s /q "$(TargetDir)walib\minifiedCoresWAF\")
+if exist c:\perl\bin\perl.exe c:\perl\bin\perl.exe $(SolutionDir)..\..\Tools\Versionning\Wakanda_versionning_win.perl "$(ProjectDir)\WakandaVersNum.h"
+if exist c:\perl\bin\perl.exe c:\perl\bin\perl.exe $(SolutionDir)..\..\Tools\Versionning\versionning_waf.pl    "$(ProjectDir)\..\..\..\walib\WAF\Loader.js"
+</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>RIA Server CopyFiles</Message>
+      <Command>CALL "$(SolutionDir)\..\..\Tools\Build\scripts_compil_$(BranchName)\Scripts\CopyFilesVS9.bat" "$(TargetDir)" E
+CALL "$(SolutionDir)\..\..\Tools\Build\Update.bat" "$(SolutionDir)\walib\WAF" "$(TargetDir)walib\minifiedCoresWAF\mobile.core.min.css"
+set RC=%ERRORLEVEL%
+IF "%RC%" EQU "1" (echo del /Q /F "$(TargetDir)walib\minifiedCoresWAF\*.*")
+IF "%RC%" EQU "1" (del /Q /F "$(TargetDir)walib\minifiedCoresWAF\*.*")
+
+exit 0</Command>
+      <Outputs>AllFile for RIA Server;%(Outputs)</Outputs>
+    </CustomBuildStep>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\HSRC;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>..\..\Apps\Win\Debug\Wakanda Server.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <OmitFramePointers>false</OmitFramePointers>
+      <AdditionalIncludeDirectories>..\..\Sources;..\..\..\Common\Sources;..\..\..\..\..\XToolbox\$(BranchName)\;..\..\..\..\..\Components\$(BranchName)\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;xdebug=1;WIN32;_WINDOWS;MACVER=0;WINVER=0x500;VERS_65=1;NEWNC=1;xserver=1;XBACKUP=1;TESTS_IN_4D=1;RIA_SERVER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>headers4d.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ProgramDataBaseFileName>$(IntDir)</ProgramDataBaseFileName>
+      <BrowseInformation />
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CallingConvention>StdCall</CallingConvention>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;RIA_SERVER;ENTERPRISE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\Common\Visual\;$(SolutionDir)\..\..\CoreRuntime\$(BranchName)\Resources\MergedResources.WIN\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>shfolder.lib;delayimp.lib;imm32.lib;winmm.lib;version.lib;oledlg.lib;ws2_32.lib;sensapi.lib;Rpcrt4.lib;Iphlpapi.lib;shlwapi.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib;libc.lib;libcd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <StackReserveSize>262144</StackReserveSize>
+      <StackCommitSize>65536</StackCommitSize>
+      <LargeAddressAware>true</LargeAddressAware>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Enterprise Debug|x64'">
+    <PreBuildEvent>
+      <Message>Versionning $(TargetName) ...</Message>
+      <Command>if exist "$(TargetDir)walib\minifiedCoresWAF\" (rd /s /q "$(TargetDir)walib\minifiedCoresWAF\")
+if exist c:\perl\bin\perl.exe c:\perl\bin\perl.exe $(SolutionDir)..\..\Tools\Versionning\Wakanda_versionning_win.perl "$(ProjectDir)\WakandaVersNum.h"
+if exist c:\perl\bin\perl.exe c:\perl\bin\perl.exe $(SolutionDir)..\..\Tools\Versionning\versionning_waf.pl    "$(ProjectDir)\..\..\..\walib\WAF\Loader.js"
+</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>RIA Server CopyFiles</Message>
+      <Command>CALL "$(SolutionDir)\..\..\Tools\Build\scripts_compil_$(BranchName)\Scripts\CopyFilesVS9.bat" "$(TargetDir)" E
+CALL "$(SolutionDir)\..\..\Tools\Build\Update.bat" "$(SolutionDir)\walib\WAF" "$(TargetDir)walib\minifiedCoresWAF\mobile.core.min.css"
+set RC=%ERRORLEVEL%
+IF "%RC%" EQU "1" (echo del /Q /F "$(TargetDir)walib\minifiedCoresWAF\*.*")
+IF "%RC%" EQU "1" (del /Q /F "$(TargetDir)walib\minifiedCoresWAF\*.*")
+
+exit 0</Command>
+      <Outputs>AllFile for RIA Server;%(Outputs)</Outputs>
+    </CustomBuildStep>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\HSRC;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>X64</TargetEnvironment>
+      <TypeLibraryName>..\..\Apps\Win\Debug\Wakanda Server.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <OmitFramePointers>false</OmitFramePointers>
+      <AdditionalIncludeDirectories>..\..\Sources;..\..\..\Common\Sources;..\..\..\..\..\XToolbox\$(BranchName)\;..\..\..\..\..\Components\$(BranchName)\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;xdebug=1;WIN64;_WIN64;WIN32;_WINDOWS;MACVER=0;WINVER=0x500;VERS_65=1;NEWNC=1;xserver=1;XBACKUP=1;TESTS_IN_4D=1;RIA_SERVER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>headers4d.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ProgramDataBaseFileName>$(IntDir)</ProgramDataBaseFileName>
+      <BrowseInformation />
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CallingConvention>StdCall</CallingConvention>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;RIA_SERVER;_WIN64;ENTERPRISE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\Common\Visual\;$(SolutionDir)\..\..\CoreRuntime\$(BranchName)\Resources\MergedResources.WIN\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>shfolder.lib;delayimp.lib;imm32.lib;winmm.lib;version.lib;oledlg.lib;ws2_32.lib;sensapi.lib;Rpcrt4.lib;Iphlpapi.lib;shlwapi.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib;libc.lib;libcd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <StackReserveSize>262144</StackReserveSize>
+      <StackCommitSize>65536</StackCommitSize>
+      <LargeAddressAware>true</LargeAddressAware>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Enterprise Release|Win32'">
+    <PreBuildEvent>
+      <Message>Versionning $(TargetName) ...</Message>
+      <Command>if exist "$(TargetDir)walib\minifiedCoresWAF\" (rd /s /q "$(TargetDir)walib\minifiedCoresWAF\")
+if exist c:\perl\bin\perl.exe c:\perl\bin\perl.exe $(SolutionDir)..\..\Tools\Versionning\Wakanda_versionning_win.perl "$(ProjectDir)\WakandaVersNum.h"
+if exist c:\perl\bin\perl.exe c:\perl\bin\perl.exe $(SolutionDir)..\..\Tools\Versionning\versionning_waf.pl    "$(ProjectDir)\..\..\..\walib\WAF\Loader.js"
+</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>RIA Server CopyFiles</Message>
+      <Command>CALL "$(SolutionDir)\..\..\Tools\Build\scripts_compil_$(BranchName)\Scripts\CopyFilesVS9.bat" "$(TargetDir)" E
+CALL "$(SolutionDir)\..\..\Tools\Build\Update.bat" "$(SolutionDir)\walib\WAF" "$(TargetDir)walib\minifiedCoresWAF\mobile.core.min.css"
+set RC=%ERRORLEVEL%
+IF "%RC%" EQU "1" (echo del /Q /F "$(TargetDir)walib\minifiedCoresWAF\*.*")
+IF "%RC%" EQU "1" (del /Q /F "$(TargetDir)walib\minifiedCoresWAF\*.*")
+
+exit 0</Command>
+      <Outputs>AllFile for RIA Server;%(Outputs)</Outputs>
+    </CustomBuildStep>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\HSRC;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\..\Apps\Win\Final\Wakanda Server.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\..\Sources;..\..\..\Common\Sources;..\..\..\..\..\XToolbox\$(BranchName)\;..\..\..\..\..\Components\$(BranchName)\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;newlicence=1;WIN32;_WINDOWS;MACVER=0;WINVER=0x500;VERS_65=1;NEWNC=1;xserver=1;XBACKUP=1;TESTS_IN_4D=1;RIA_SERVER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>headers4d.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ProgramDataBaseFileName>$(IntDir)</ProgramDataBaseFileName>
+      <BrowseInformation />
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <CallingConvention>StdCall</CallingConvention>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;RIA_SERVER;ENTERPRISE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\Common\Visual\;$(SolutionDir)\..\..\CoreRuntime\$(BranchName)\Resources\MergedResources.WIN\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>shfolder.lib;delayimp.lib;imm32.lib;winmm.lib;version.lib;oledlg.lib;ws2_32.lib;sensapi.lib;Rpcrt4.lib;Iphlpapi.lib;shlwapi.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <StackReserveSize>262144</StackReserveSize>
+      <StackCommitSize>65536</StackCommitSize>
+      <LargeAddressAware>true</LargeAddressAware>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Enterprise Release|x64'">
+    <PreBuildEvent>
+      <Message>Versionning $(TargetName) ...</Message>
+      <Command>if exist "$(TargetDir)walib\minifiedCoresWAF\" (rd /s /q "$(TargetDir)walib\minifiedCoresWAF\")
+if exist c:\perl\bin\perl.exe c:\perl\bin\perl.exe $(SolutionDir)..\..\Tools\Versionning\Wakanda_versionning_win.perl "$(ProjectDir)\WakandaVersNum.h"
+if exist c:\perl\bin\perl.exe c:\perl\bin\perl.exe $(SolutionDir)..\..\Tools\Versionning\versionning_waf.pl    "$(ProjectDir)\..\..\..\walib\WAF\Loader.js"
+</Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Message>RIA Server CopyFiles</Message>
+      <Command>CALL "$(SolutionDir)\..\..\Tools\Build\scripts_compil_$(BranchName)\Scripts\CopyFilesVS9.bat" "$(TargetDir)" E
+CALL "$(SolutionDir)\..\..\Tools\Build\Update.bat" "$(SolutionDir)\walib\WAF" "$(TargetDir)walib\minifiedCoresWAF\mobile.core.min.css"
+set RC=%ERRORLEVEL%
+IF "%RC%" EQU "1" (echo del /Q /F "$(TargetDir)walib\minifiedCoresWAF\*.*")
+IF "%RC%" EQU "1" (del /Q /F "$(TargetDir)walib\minifiedCoresWAF\*.*")
+
+exit 0</Command>
+      <Outputs>AllFile for RIA Server;%(Outputs)</Outputs>
+    </CustomBuildStep>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\HSRC;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>X64</TargetEnvironment>
+      <TypeLibraryName>.\..\..\Apps\Win\Final\Wakanda Server.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\..\Sources;..\..\..\Common\Sources;..\..\..\..\..\XToolbox\$(BranchName)\;..\..\..\..\..\Components\$(BranchName)\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;newlicence=1;WIN32;WIN64;_WIN64;_WINDOWS;MACVER=0;WINVER=0x500;VERS_65=1;NEWNC=1;xserver=1;XBACKUP=1;TESTS_IN_4D=1;RIA_SERVER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>headers4d.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ProgramDataBaseFileName>$(IntDir)</ProgramDataBaseFileName>
+      <BrowseInformation />
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <CallingConvention>StdCall</CallingConvention>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;RIA_SERVER;_WIN64;ENTERPRISE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\Common\Visual\;$(SolutionDir)\..\..\CoreRuntime\$(BranchName)\Resources\MergedResources.WIN\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>shfolder.lib;delayimp.lib;imm32.lib;winmm.lib;version.lib;oledlg.lib;ws2_32.lib;sensapi.lib;Rpcrt4.lib;Iphlpapi.lib;shlwapi.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LargeAddressAware>true</LargeAddressAware>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Wakanda.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WakandaVersNum.h" />
+    <ClInclude Include="..\..\Sources\testMySQLConnector.h" />
+    <ClInclude Include="..\..\Sources\headers4d.h" />
+    <ClInclude Include="..\..\..\Common\Sources\VRIAServerConstants.h" />
+    <ClInclude Include="..\..\Sources\VRIAServerLogger.h" />
+    <ClInclude Include="..\..\Sources\VRIAServerProgressIndicator.h" />
+    <ClInclude Include="..\..\Sources\VRIAServerTools.h" />
+    <ClInclude Include="..\..\Sources\VRIAServerTypes.h" />
+    <ClInclude Include="..\..\..\Common\Sources\VRIAUTIs.h" />
+    <ClInclude Include="..\..\Sources\VBreakPointsManager.h" />
+    <ClInclude Include="..\..\Sources\VDataService.h" />
+    <ClInclude Include="..\..\..\Common\Sources\VProject.h" />
+    <ClInclude Include="..\..\..\Common\Sources\VProjectItem.h" />
+    <ClInclude Include="..\..\..\Common\Sources\VProjectItemBehaviour.h" />
+    <ClInclude Include="..\..\Sources\VRemoteDebuggerBreakpointsManager.h" />
+    <ClInclude Include="..\..\Sources\VRIAServerHTTPRequestHandler.h" />
+    <ClInclude Include="..\..\Sources\VRIAServerProject.h" />
+    <ClInclude Include="..\..\Sources\VRIAServerProjectContext.h" />
+    <ClInclude Include="..\..\Sources\VRIAServerSolution.h" />
+    <ClInclude Include="..\..\..\Common\Sources\VSolution.h" />
+    <ClInclude Include="..\..\..\Common\Sources\VSolutionManagerConstants.h" />
+    <ClInclude Include="..\..\..\Common\Sources\VSolutionStartupParameters.h" />
+    <ClInclude Include="..\..\Sources\VRIAJSDebuggerSettings.h" />
+    <ClInclude Include="..\..\Sources\VRIAServerComponentBridge.h" />
+    <ClInclude Include="..\..\..\Common\Sources\VRIAServerComponentBridgeAbstract.h" />
+    <ClInclude Include="..\..\..\Common\Sources\VRIAServerComponentBridgeTypes.h" />
+    <ClInclude Include="..\..\Sources\VRIAServerSupervisor.h" />
+    <ClInclude Include="..\..\Sources\VRIAServerApplication.h" />
+    <ClInclude Include="..\..\..\Common\Sources\commonJSAPI.h" />
+    <ClInclude Include="..\..\Sources\VJSApplication.h" />
+    <ClInclude Include="..\..\Sources\VJSConsole.h" />
+    <ClInclude Include="..\..\Sources\VJSDataServiceCore.h" />
+    <ClInclude Include="..\..\Sources\VJSPermissions.h" />
+    <ClInclude Include="..\..\Sources\VJSRPCCatalog.h" />
+    <ClInclude Include="..\..\Sources\VJSRPCServiceCore.h" />
+    <ClInclude Include="..\..\Sources\VJSSolution.h" />
+    <ClInclude Include="..\..\Sources\VJSWebAppServiceCore.h" />
+    <ClInclude Include="..\..\Sources\VRIAServerJSAPI.h" />
+    <ClInclude Include="..\..\Sources\VRIAServerJSContextMgr.h" />
+    <ClInclude Include="..\..\Sources\VRIAServerJSCore.h" />
+    <ClInclude Include="..\..\..\Common\Sources\VProjectSettings.h" />
+    <ClInclude Include="..\..\..\Common\Sources\VRIASettingsFile.h" />
+    <ClInclude Include="..\..\..\Common\Sources\VRIASettingsKeys.h" />
+    <ClInclude Include="..\..\..\Common\Sources\VSolutionSettings.h" />
+    <ClInclude Include="..\..\..\Common\Sources\VRPCCatalog.h" />
+    <ClInclude Include="..\..\Sources\VRPCService.h" />
+    <ClInclude Include="..\..\..\Common\Sources\VRIAPermissions.h" />
+    <ClInclude Include="..\..\Sources\VRIAServerHTTPSession.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Sources\testMySQLConnector.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Beta|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Beta|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Enterprise Beta|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Enterprise Beta|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Enterprise Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Enterprise Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Enterprise Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Enterprise Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\VRIAServer.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Beta|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Beta|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Enterprise Beta|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Enterprise Beta|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Enterprise Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Enterprise Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Enterprise Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Enterprise Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='App - RIA Server Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Sources\VRIAServerConstants.cpp" />
+    <ClCompile Include="..\..\Sources\VRIAServerLogger.cpp" />
+    <ClCompile Include="..\..\Sources\VRIAServerProgressIndicator.cpp" />
+    <ClCompile Include="..\..\Sources\VRIAServerTools.cpp" />
+    <ClCompile Include="..\..\..\Common\Sources\VRIAUTIs.cpp" />
+    <ClCompile Include="..\..\Sources\VDataService.cpp" />
+    <ClCompile Include="..\..\..\Common\Sources\VProject.cpp" />
+    <ClCompile Include="..\..\..\Common\Sources\VProjectItem.cpp" />
+    <ClCompile Include="..\..\..\Common\Sources\VProjectItemBehaviour.cpp" />
+    <ClCompile Include="..\..\Sources\VRemoteDebuggerBreakpointsManager.cpp" />
+    <ClCompile Include="..\..\Sources\VRIAServerHTTPRequestHandler.cpp" />
+    <ClCompile Include="..\..\Sources\VRIAServerProject.cpp" />
+    <ClCompile Include="..\..\Sources\VRIAServerProjectContext.cpp" />
+    <ClCompile Include="..\..\Sources\VRIAServerSolution.cpp" />
+    <ClCompile Include="..\..\..\Common\Sources\VSolution.cpp" />
+    <ClCompile Include="..\..\..\Common\Sources\VSolutionStartupParameters.cpp" />
+    <ClCompile Include="..\..\Sources\VRIAJSDebuggerSettings.cpp" />
+    <ClCompile Include="..\..\Sources\VRIAServerComponentBridge.cpp" />
+    <ClCompile Include="..\..\Sources\VRIAServerSupervisor.cpp" />
+    <ClCompile Include="..\..\Sources\main.cpp" />
+    <ClCompile Include="..\..\Sources\VRIAServerApplication.cpp" />
+    <ClCompile Include="..\..\..\Common\Sources\commonJSAPI.cpp" />
+    <ClCompile Include="..\..\Sources\VJSApplication.cpp" />
+    <ClCompile Include="..\..\Sources\VJSConsole.cpp" />
+    <ClCompile Include="..\..\Sources\VJSDataServiceCore.cpp" />
+    <ClCompile Include="..\..\Sources\VJSPermissions.cpp" />
+    <ClCompile Include="..\..\Sources\VJSRPCCatalog.cpp" />
+    <ClCompile Include="..\..\Sources\VJSRPCServiceCore.cpp" />
+    <ClCompile Include="..\..\Sources\VJSSolution.cpp" />
+    <ClCompile Include="..\..\Sources\VJSWebAppServiceCore.cpp" />
+    <ClCompile Include="..\..\Sources\VRIAServerJSAPI.cpp" />
+    <ClCompile Include="..\..\Sources\VRIAServerJSContextMgr.cpp" />
+    <ClCompile Include="..\..\Sources\VRIAServerJSCore.cpp" />
+    <ClCompile Include="..\..\..\Common\Sources\VProjectSettings.cpp" />
+    <ClCompile Include="..\..\..\Common\Sources\VRIASettingsFile.cpp" />
+    <ClCompile Include="..\..\..\Common\Sources\VRIASettingsKeys.cpp" />
+    <ClCompile Include="..\..\..\Common\Sources\VSolutionSettings.cpp" />
+    <ClCompile Include="..\..\..\Common\Sources\VRPCCatalog.cpp" />
+    <ClCompile Include="..\..\Sources\VRPCService.cpp" />
+    <ClCompile Include="..\..\..\Common\Sources\VRIAPermissions.cpp" />
+    <ClCompile Include="..\..\Sources\VRIAServerHTTPSession.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\Components\WAK9\DB4D\projects\win\DB4D.vcxproj">
+      <Project>{c5b99565-524c-4d34-b6ea-4fee9bd64266}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\XToolbox\WAK9\Graphics\Projects\Visual\Graphics.vcxproj">
+      <Project>{b0378f32-5d26-4221-a3b5-d6f1adca06d4}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\XToolbox\WAK9\JavaScript\Projects\Visual\JavaScript.vcxproj">
+      <Project>{6e9f29c6-2757-45fb-b9a4-aa30f5e852f4}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\XToolbox\WAK9\JSDebugger\Projects\Visual\JSDebugger.vcxproj">
+      <Project>{db837075-3cf7-429c-995e-b39e3087e37b}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\XToolbox\WAK9\KernelIPC\Projects\Visual\KernelIPC.vcxproj">
+      <Project>{3b6f655c-f3eb-4330-9fea-657af963969e}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\XToolbox\WAK9\Kernel\Projects\Visual\Kernel.vcxproj">
+      <Project>{7b41a191-cd46-43cf-b33e-90211fc865ad}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\XToolbox\WAK9\ServerNet\Projects\Visual\ServerNet.vcxproj">
+      <Project>{745b73eb-6200-44c0-8552-ac602a9b0eed}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\XToolbox\WAK9\XML\Projects\Visual\XML.vcxproj">
+      <Project>{86c7e508-5e7c-4ad5-bdd4-893d9c95876d}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

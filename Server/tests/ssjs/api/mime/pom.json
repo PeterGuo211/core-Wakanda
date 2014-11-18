@@ -1,0 +1,9 @@
+{
+    "description": "Tests of the MIME API",
+    "kind": "ssjs",
+    "tester": "soufiane.tigrioui@4d.com",
+    "visibility": "public",
+    "developer": "yannick.trinh@4d.com",
+	"stable": true,
+    "gonogo": true
+}

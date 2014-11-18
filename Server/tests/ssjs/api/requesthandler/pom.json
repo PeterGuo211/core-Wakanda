@@ -1,0 +1,9 @@
+{
+    "description": "Tests of the RequestHandler API",
+    "kind": "ssjs",
+    "oldJenkinsName": "TestServerRemoteRemoteTest",
+    "tester": "sebastien.courvoisier@4d.com",
+    "visibility": "public",
+    "developer": "stephane.clairet@4d.com",
+    "stable": true
+}

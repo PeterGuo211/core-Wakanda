@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><EntityModelCatalog>
+
+<dbInfo uuid="DEB2380315EE8E47AF7052ECFC4FADBC" collation_locale="fr"/>
+
+<dataClasses collectionName="TaskCollection" className="Task" uuid="F7F6CA59389BD247807A2BD122B1736E" tablePos="1">
+
+	<extraProperties ____objectunic="true" panelColor="#70CCC2">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="25" Y="20"/>
+
+		</panel>
+
+	</extraProperties>
+
+	<attributes name="ID" kind="storage" type="long" uuid="BCF63989BE5B4E47A842443CB87E1721" fieldPos="1" autosequence="true" unique="true" primKey="true"/>
+
+	<attributes name="todo" scope="public" uuid="E9FC3E8A36A6B740A72D6350DBF5931F" fieldPos="2" type="string" kind="storage"/>
+
+	<attributes name="expires" scope="public" uuid="C1AD0F3AB2199F48B37A70BE0CB774C5" fieldPos="3" type="date" kind="storage"/>
+
+</dataClasses>
+</EntityModelCatalog>

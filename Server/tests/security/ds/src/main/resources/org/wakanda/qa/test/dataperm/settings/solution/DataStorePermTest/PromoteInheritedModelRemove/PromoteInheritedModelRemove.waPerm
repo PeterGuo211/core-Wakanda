@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><permissions>
+<allow action="execute" groupID="3D81E23FA45D3545970CD8C0144A15D0" resource="PromoteInheritedModelRemove.PromoteInheritedModelRemove.promoteInheritedModelRemove" temporaryForcePermissions="false" type="method"/>
+<allow action="remove" groupID="40ADFAFA61A95D4884C8D968C011846D" resource="PromoteInheritedModelRemove.PromoteInheritedModelRemove" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="promote" groupID="40ADFAFA61A95D4884C8D968C011846D" resource="PromoteInheritedModelRemove" temporaryForcePermissions="false" type="model"/>
+</permissions>

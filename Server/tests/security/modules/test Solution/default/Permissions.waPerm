@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><permissions>
+	<allow type="module" resource="SecureModule" action="executeFromClient" groupID="01000000000000000000000000000000"/>
+<!--	<allow type="module" resource="NotSecureModule" action="promote" groupID="861A69A73BBDB54C87BECD01DFFD4350"/>-->
+<!--	<allow type="function" resource="NotSecureModule/defaultAccessSecured" action="promote" groupID="861A69A73BBDB54C87BECD01DFFD4350"/>-->
+	<allow type="function" resource="NotSecureModule/defaultAccessSecured" action="executeFromClient" groupID="01000000000000000000000000000000"/>
+	<allow type="module" resource="ModuleWithDefaultPermissions" action="executeFromClient"/>
+	<allow type="function" resource="ModuleWithDefaultPermissions/defaultAccessSecured" action="executeFromClient" groupID="01000000000000000000000000000000"/>
+	
+</permissions>

@@ -1,0 +1,1 @@
+//Populate Companiesfor (var i = 0; i < 10; i++){	var comp = new ds.Companies();	comp.name = "comp_"+i;	comp.save();}//Populate Employeesds.Companies.forEach(function(event){	for (var i = 0; i < 100; i++)	{		var emp = new ds.Employees();		emp.name = "emp_"+i;		emp.comp = event;			emp.save();	}});

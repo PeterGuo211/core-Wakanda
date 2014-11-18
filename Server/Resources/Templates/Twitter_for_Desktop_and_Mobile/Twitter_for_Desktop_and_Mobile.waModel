@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><EntityModelCatalog>
+
+<dbInfo name="Mobile Project" uuid="DEB2380315EE8E47AF7052ECFC4FADBC"/>
+
+<extraProperties ____objectunic="true" methodShowMode="false">
+
+	<relationCurve ____objectunic="true" run="false" mode="2"/>
+</extraProperties>
+
+<dataClasses name="Accounts" className="Accounts" collectionName="AccountsCollection" uuid="0C6585042BB64EF39B86B123DCE0E870" tablePos="2">
+
+	<extraProperties ____objectunic="true" panelColor="#BFBFBF" methVisible="false">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="424" Y="104"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" uuid="BDFE561AC49E475493753161FEB760DE" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<attributes name="name" kind="storage" scope="public" uuid="491903F0E2C849C89E5AF66515FC01C0" fieldPos="2" type="string"/>
+
+</dataClasses>
+
+<dataClasses name="News" className="News" collectionName="NewsCollection" uuid="441F579A7B38479BB99DDEFFF513393D" tablePos="1">
+
+	<extraProperties ____objectunic="true" panelColor="#fff" methVisible="false">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="56" Y="79"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" uuid="E728CDB5C02A453EB58DD216C19FEAF7" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<attributes name="content" kind="storage" scope="public" uuid="BB2261FC07994D3692B04B3CA8B81E38" fieldPos="3" type="string"/>
+
+	<methods name="removeAll" applyTo="dataClass" scope="public" from="guidedModel.News.methods.removeAll"/>
+
+</dataClasses>
+</EntityModelCatalog>

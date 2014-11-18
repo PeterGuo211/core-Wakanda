@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><permissions>
+<allow action="promote" groupID="330DF5F875676645B80DA0081E1B1B40" resource="PromoteOverride" temporaryForcePermissions="false" type="model"/>
+<allow action="read" groupID="330DF5F875676645B80DA0081E1B1B40" resource="PromoteOverride.PromoteOverrideModel" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="create" groupID="40ADFAFA61A95D4884C8D968C011846D" resource="PromoteOverride.PromoteOverrideModel" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="execute" groupID="3D81E23FA45D3545970CD8C0144A15D0" resource="PromoteOverride.PromoteOverrideModel.doAuthCreate" temporaryForcePermissions="false" type="method"/>
+<allow action="execute" groupID="3D81E23FA45D3545970CD8C0144A15D0" resource="PromoteOverride.PromoteOverrideModel.doUnauthRead" temporaryForcePermissions="false" type="method"/>
+<allow action="promote" groupID="40ADFAFA61A95D4884C8D968C011846D" resource="PromoteOverride.PromoteOverrideModel.doUnauthRead" temporaryForcePermissions="false" type="method"/>
+<allow action="promote" groupID="40ADFAFA61A95D4884C8D968C011846D" resource="PromoteOverride.PromoteOverrideModel.doAuthCreate" temporaryForcePermissions="false" type="method"/>
+<allow action="promote" groupID="28BC044C124BC44BBD2B72D331B250A9" resource="PromoteOverride.PromoteOverrideDataClass" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="execute" groupID="3D81E23FA45D3545970CD8C0144A15D0" resource="PromoteOverride.PromoteOverrideDataClass.doAuthCreate" temporaryForcePermissions="false" type="method"/>
+<allow action="promote" groupID="40ADFAFA61A95D4884C8D968C011846D" resource="PromoteOverride.PromoteOverrideDataClass.doAuthCreate" temporaryForcePermissions="false" type="method"/>
+<allow action="execute" groupID="3D81E23FA45D3545970CD8C0144A15D0" resource="PromoteOverride.PromoteOverrideDataClass.doUnauthRead" temporaryForcePermissions="false" type="method"/>
+<allow action="promote" groupID="40ADFAFA61A95D4884C8D968C011846D" resource="PromoteOverride.PromoteOverrideDataClass.doUnauthRead" temporaryForcePermissions="false" type="method"/>
+<allow action="read" groupID="28BC044C124BC44BBD2B72D331B250A9" resource="PromoteOverride.PromoteOverrideDataClass" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="create" groupID="40ADFAFA61A95D4884C8D968C011846D" resource="PromoteOverride.PromoteOverrideDataClass" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="update" groupName="Update" groupID="60EE5734426C794EAF4E7D092AB53C76" resource="PromoteOverride.PromoteOverrideModel" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="remove" groupName="Remove" groupID="64272E2C4F0DD54882CB8856E946D1AA" resource="PromoteOverride.PromoteOverrideModel" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="update" groupName="Update" groupID="60EE5734426C794EAF4E7D092AB53C76" resource="PromoteOverride.PromoteOverrideDataClass" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="remove" groupName="Remove" groupID="64272E2C4F0DD54882CB8856E946D1AA" resource="PromoteOverride.PromoteOverrideDataClass" temporaryForcePermissions="false" type="dataClass"/>
+</permissions>

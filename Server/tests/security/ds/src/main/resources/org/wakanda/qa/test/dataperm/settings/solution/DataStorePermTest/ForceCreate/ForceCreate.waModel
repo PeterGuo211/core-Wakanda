@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><EntityModelCatalog>
+
+<dbInfo name="ForceCreate" uuid="DEB2380315EE8E47AF7052ECFC4FADBC"/>
+
+<dataClasses collectionName="ForceCreateCollection" className="ForceCreate" uuid="86E4BA411C85E14C8FED5FE1F73A9D5F" tablePos="1">
+
+	<extraProperties ____objectunic="true" panelColor="#fff">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="25" Y="20"/>
+
+		</panel>
+
+	</extraProperties>
+
+	<attributes name="ID" kind="storage" type="long" uuid="3323AB3C0CFA944D8C25E3C3E8E4C0D5" fieldPos="1" autosequence="true" unique="true" primKey="true"/>
+
+	<attributes name="name" scope="public" uuid="E0FB751900A8D64A86795BF4DD768A46" fieldPos="2" type="string" kind="storage"/>
+
+</dataClasses>
+</EntityModelCatalog>

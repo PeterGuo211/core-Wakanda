@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><EntityModelCatalog>
+
+<dbInfo name="RemoveOverride" uuid="DEB2380315EE8E47AF7052ECFC4FADBC"/>
+
+<dataClasses collectionName="RemoveOverrideCollection" className="RemoveOverride" uuid="1A2BD979348B8947A6F06F313273DC7E" tablePos="1">
+
+	<extraProperties ____objectunic="true" panelColor="#4FA997">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="25" Y="20"/>
+
+		</panel>
+
+	</extraProperties>
+
+	<attributes name="ID" kind="storage" type="long" uuid="83AA0C1DCBA93F47AFC4ADEFADB7CC9C" fieldPos="1" autosequence="true" unique="true" primKey="true"/>
+
+	<attributes name="name" scope="public" uuid="1AF453C7AAAABA478FC163D31677FD35" fieldPos="2" type="string" kind="storage"/>
+
+</dataClasses>
+</EntityModelCatalog>

@@ -1,0 +1,44 @@
+2013-11-25 10:40:27 [com.wakanda-software.supervisor] INFO - solution closed
+2013-11-25 10:40:27 [com.wakanda-software] INFO - Opens the solution "C:\Perforce\depot\Wakanda\main\Server\Tests\ssjs\api\ds\backup-restore\WithoutJournal\BackupDataStore\src\main\resources\org\wakanda\qa\test\backup\settings\solution\TempoSol\TempoSol Solution\TempoSol.waSolution" for running
+2013-11-25 10:40:27 [com.wakanda-software.TempoSol] INFO - Users and groups directory opened
+2013-11-25 10:40:27 [com.wakanda-software.TempoSol.TempoSol] INFO - Datastore opened
+2013-11-25 10:40:27 [com.wakanda-software.TempoSol.TempoSol] INFO - "TempoSol" project opened
+2013-11-25 10:40:27 [com.wakanda-software.TempoSol.ServerAdmin] INFO - "ServerAdmin" project opened
+2013-11-25 10:40:27 [com.wakanda-software.TempoSol] INFO - "TempoSol" solution opened
+2013-11-25 10:40:27 [com.wakanda-software] INFO - Starts "TempoSol" solution
+2013-11-25 10:40:27 [com.wakanda-software.TempoSol.ServerAdmin] INFO - >buildInit()
+2013-11-25 10:40:27 [com.wakanda-software.TempoSol.ServerAdmin.console] INFO - {"data":[">buildInit()"]}
+2013-11-25 10:40:27 [com.wakanda-software.TempoSol.ServerAdmin] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2013-11-25 10:40:27 [com.wakanda-software.TempoSol.ServerAdmin.console] INFO - {"data":[">buildInit() - minified core files detected - try to add package definition to storage"]}
+2013-11-25 10:40:27 [com.wakanda-software.TempoSol.ServerAdmin] INFO - >buildInit() - added package definition to storage
+2013-11-25 10:40:27 [com.wakanda-software.TempoSol.ServerAdmin.console] INFO - {"data":[">buildInit() - added package definition to storage"]}
+2013-11-25 10:40:27 [com.wakanda-software.TempoSol.ServerAdmin] INFO - <buildInit()
+2013-11-25 10:40:27 [com.wakanda-software.TempoSol.ServerAdmin.console] INFO - {"data":["<buildInit()"]}
+2013-11-25 10:40:27 [com.wakanda-software.TempoSol.ServerAdmin] INFO - HTTP Server started
+2013-11-25 10:40:27 [com.wakanda-software.TempoSol.ServerAdmin] INFO - "ServerAdmin" project started
+2013-11-25 10:40:27 [com.wakanda-software.TempoSol.TempoSol] INFO - >buildInit()
+2013-11-25 10:40:27 [com.wakanda-software.TempoSol.TempoSol.console] INFO - {"data":[">buildInit()"]}
+2013-11-25 10:40:27 [com.wakanda-software.TempoSol.TempoSol] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2013-11-25 10:40:27 [com.wakanda-software.TempoSol.TempoSol.console] INFO - {"data":[">buildInit() - minified core files detected - try to add package definition to storage"]}
+2013-11-25 10:40:27 [com.wakanda-software.TempoSol.TempoSol] INFO - >buildInit() - added package definition to storage
+2013-11-25 10:40:27 [com.wakanda-software.TempoSol.TempoSol.console] INFO - {"data":[">buildInit() - added package definition to storage"]}
+2013-11-25 10:40:27 [com.wakanda-software.TempoSol.TempoSol] INFO - <buildInit()
+2013-11-25 10:40:27 [com.wakanda-software.TempoSol.TempoSol.console] INFO - {"data":["<buildInit()"]}
+2013-11-25 10:40:27 [com.wakanda-software.TempoSol.TempoSol] INFO - HTTP Server started
+2013-11-25 10:40:27 [com.wakanda-software.TempoSol.TempoSol] INFO - "TempoSol" project started
+2013-11-25 10:40:27 [com.wakanda-software.TempoSol.ServerAdmin] INFO - Executes the bootstrap file(s)
+2013-11-25 10:40:27 [com.wakanda-software.TempoSol.ServerAdmin] INFO - Bootstrap file(s) executed
+2013-11-25 10:40:27 [com.wakanda-software.TempoSol.TempoSol] INFO - Executes the bootstrap file(s)
+2013-11-25 10:40:27 [com.wakanda-software.TempoSol.TempoSol.xbox] ERROR - [600] Le chemin d’accès spécifié est introuvable.
+, task #250820
+2013-11-25 10:40:27 [com.wakanda-software.TempoSol.TempoSol.JS4D] ERROR - [2] Error evaluating javascript file:///C:/Perforce/depot/Wakanda/main/Server/Tests/ssjs/api/ds/backup-restore/WithoutJournal/BackupDataStore/src/main/resources/org/wakanda/qa/test/backup/settings/solution/TempoSol/TempoSol/DefaultConf.js, task #250820
+2013-11-25 10:40:27 [com.wakanda-software.TempoSol.TempoSol.iasv] ERROR - [1053] Cannot execute bootstrap file, task #250820
+2013-11-25 10:40:27 [com.wakanda-software.TempoSol.TempoSol] WARN - Bootstrap file(s) executed with errors
+2013-11-25 10:40:27 [com.wakanda-software.TempoSol.iasv] ERROR - [1014] Cannot start 'TempoSol' project, task #250820
+2013-11-25 10:40:28 [com.wakanda-software.TempoSol.TempoSol] INFO - "TempoSol" project stopped
+2013-11-25 10:40:28 [com.wakanda-software.TempoSol] WARN - "TempoSol" solution started with errors
+2013-11-25 10:40:29 [com.wakanda-software.TempoSol.ServerAdmin] INFO - "ServerAdmin" project stopped
+2013-11-25 10:40:29 [com.wakanda-software.TempoSol] INFO - "TempoSol" solution stopped
+2013-11-25 10:40:30 [com.wakanda-software.TempoSol.TempoSol] INFO - "TempoSol" project closed
+2013-11-25 10:40:30 [com.wakanda-software.TempoSol.ServerAdmin] INFO - "ServerAdmin" project closed
+2013-11-25 10:40:30 [com.wakanda-software.TempoSol] INFO - "TempoSol" solution closed

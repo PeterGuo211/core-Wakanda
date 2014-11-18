@@ -1,0 +1,9 @@
+{
+    "description": "Tests of the Net Module (server side)",
+    "kind": "ssjs",
+    "oldJenkinsName": ["TestServerServerNetJenkinsRun_01", "TestServerServerNetJenkinsRun_02", "TestServerServerNetJenkinsRun_03"],
+    "tester": "sebastien.courvoisier@4d.com",
+    "visibility": "public",
+    "developer": "julien.montmartin@4d.com",
+    "stable": true
+}

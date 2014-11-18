@@ -1,0 +1,8 @@
+{
+    "description": "Tests of the Mail Module",
+    "kind": "ssjs",
+    "oldJenkinsName": "TestServerMail",
+    "tester": "sebastien.courvoisier@4d.com",
+    "visibility": "public",
+    "developer": "ke-fong.lin@4d.com"
+}

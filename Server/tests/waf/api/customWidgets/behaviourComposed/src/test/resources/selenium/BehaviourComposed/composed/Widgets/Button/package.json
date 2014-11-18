@@ -1,0 +1,12 @@
+{
+    "name": "Button",
+    "version": "1.0.0",
+    "loadDependencies": [
+        {"id": "Widget_V2"},
+        {"id": "Text/package.json", "path": "WIDGETS_CUSTOM"},
+        {"id": "Button/widget.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "Button/css/widget.css", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "Button/icons/widget.png", "studioOnly": true, "path": "WIDGETS_CUSTOM", "type":"icon"},
+        {"id": "Button/designer.js", "studioOnly": true, "version": "1.0.0", "path": "WIDGETS_CUSTOM"}
+    ]
+}

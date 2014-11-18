@@ -1,0 +1,3 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><permissions>
+<allow action="execute" groupID="D2F7B46AC2578548ABAF6E214F83BD11" resource="ExecuteInheritedModel" temporaryForcePermissions="false" type="model"/>
+</permissions>

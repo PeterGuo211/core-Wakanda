@@ -1,0 +1,2298 @@
+﻿{
+	"toJSON": true,
+	"extraProperties": {
+		"version": "2",
+		"__CDATA": "\n\n\t\n\n\t\n",
+		"classes": {
+			"__CDATA": "\n\n\t\t\n\n\t\t\n\n\t\t\n\n\t\t\n\n\t\t\n\n\t\t\n\n\t\t\n\n\t\t\n\n\t\t\n\n\t\t\n\n\t\t\n\n\t\t\n\n\t\t\n\n\t\t\n\n\t\t\n\n\t\t\n\n\t\t\n\n\t\t\n\n\t\t\n\n\t\t\n\n\t\t\n\n\t\t\n\n\t\t\n\n\t\t\n\n\t\t\n\n\t\t\n\n\t\t\n",
+			"MethodCaseSensitive": {
+				"panelColor": "#70CCC2",
+				"__CDATA": "\n\n\t\t\t\n",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": "false",
+					"__CDATA": "\n\n\t\t\t\t\n",
+					"position": {
+						"X": "799",
+						"Y": "16"
+					}
+				}
+			},
+			"AttributeCaseSensitive": {
+				"panelColor": "#B8CCE4",
+				"__CDATA": "\n\n\t\t\t\n",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": "false",
+					"__CDATA": "\n\n\t\t\t\t\n",
+					"position": {
+						"X": "1063",
+						"Y": "26"
+					}
+				}
+			},
+			"Stamp": {
+				"panelColor": "#C3D69B",
+				"__CDATA": "\n\n\t\t\t\n",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": "false",
+					"__CDATA": "\n\n\t\t\t\t\n",
+					"position": {
+						"X": "320",
+						"Y": "196"
+					}
+				}
+			},
+			"Master1": {
+				"panelColor": "#eee",
+				"__CDATA": "\n\n\t\t\t\n",
+				"panel": {
+					"pathVisible": "false",
+					"isOpen": "true",
+					"__CDATA": "\n\n\t\t\t\t\n",
+					"position": {
+						"X": 577,
+						"Y": 249
+					}
+				}
+			},
+			"Master2": {
+				"panelColor": "#D8D8D8",
+				"__CDATA": "\n\n\t\t\t\n",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": "false",
+					"__CDATA": "\n\n\t\t\t\t\n",
+					"position": {
+						"X": 839,
+						"Y": 256
+					}
+				}
+			},
+			"SimpleFilter": {
+				"panelColor": "#70CCC2",
+				"__CDATA": "\n\n\t\t\t\n",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": "false",
+					"__CDATA": "\n\n\t\t\t\t\n",
+					"position": {
+						"X": 583,
+						"Y": 24
+					}
+				}
+			},
+			"Simple": {
+				"panelColor": "#548DD4",
+				"__CDATA": "\n\n\t\t\t\n",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": "true",
+					"__CDATA": "\n\n\t\t\t\t\n",
+					"position": {
+						"X": "305",
+						"Y": "11"
+					}
+				}
+			},
+			"ScopePublic": {
+				"panelColor": "#BFBFBF",
+				"__CDATA": "\n\n\t\t\t\n",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": "false",
+					"__CDATA": "\n\n\t\t\t\t\n",
+					"position": {
+						"X": "18",
+						"Y": "11"
+					}
+				}
+			},
+			"ScopePublicOnServer": {
+				"panelColor": "#C3D69B",
+				"__CDATA": "\n\n\t\t\t\n",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": "false",
+					"__CDATA": "\n\n\t\t\t\t\n",
+					"position": {
+						"X": "35",
+						"Y": "330"
+					}
+				}
+			},
+			"SubComplex": {
+				"panelColor": "#C3D69B",
+				"__CDATA": "\n\n\t\t\t\n",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": "true",
+					"__CDATA": "\n\n\t\t\t\t\n",
+					"position": {
+						"X": "827",
+						"Y": "548"
+					}
+				}
+			},
+			"SuperComplex": {
+				"panelColor": "#76923C",
+				"__CDATA": "\n\n\t\t\t\n",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": "false",
+					"__CDATA": "\n\n\t\t\t\t\n",
+					"position": {
+						"X": 587,
+						"Y": 532
+					}
+				}
+			},
+			"Complex": {
+				"panelColor": "#D88CFF",
+				"__CDATA": "\n\n\t\t\t\n",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": "false",
+					"__CDATA": "\n\n\t\t\t\t\n",
+					"position": {
+						"X": "32",
+						"Y": "460"
+					}
+				}
+			},
+			"MasterComplex": {
+				"panelColor": "#A88CFF",
+				"__CDATA": "\n\n\t\t\t\n",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": "false",
+					"__CDATA": "\n\n\t\t\t\t\n",
+					"position": {
+						"X": "305",
+						"Y": "684"
+					}
+				}
+			},
+			"Attributes": {
+				"panelColor": "#76923C",
+				"__CDATA": "\n\n\t\t\t\n",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": "true",
+					"__CDATA": "\n\n\t\t\t\t\n",
+					"position": {
+						"X": "1081",
+						"Y": "200"
+					}
+				}
+			},
+			"Alias": {
+				"panelColor": "#76923C",
+				"__CDATA": "\n\n\t\t\t\n",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": "true",
+					"__CDATA": "\n\n\t\t\t\t\n",
+					"position": {
+						"X": "321",
+						"Y": "349"
+					}
+				}
+			},
+			"Slave1": {
+				"panelColor": "#BFBFBF",
+				"__CDATA": "\n\n\t\t\t\n",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": "false",
+					"__CDATA": "\n\n\t\t\t\t\n",
+					"position": {
+						"X": "302",
+						"Y": "469"
+					}
+				}
+			},
+			"KeyLong": {
+				"panelColor": "#B8CCE4",
+				"__CDATA": "\n\n\t\t\t\n",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": "true",
+					"__CDATA": "\n\n\t\t\t\t\n",
+					"position": {
+						"X": "47",
+						"Y": "1254"
+					}
+				}
+			},
+			"KeyString": {
+				"panelColor": "#D8D8D8",
+				"__CDATA": "\n\n\t\t\t\n",
+				"panel": {
+					"isOpen": "true",
+					"__CDATA": "\n\n\t\t\t\t\n",
+					"position": {
+						"X": "48",
+						"Y": "1450"
+					}
+				}
+			},
+			"KeyNumber": {
+				"panelColor": "#8DB3E2",
+				"__CDATA": "\n\n\t\t\t\n",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": "true",
+					"__CDATA": "\n\n\t\t\t\t\n",
+					"position": {
+						"X": "290",
+						"Y": "1255"
+					}
+				}
+			},
+			"KeyUuid": {
+				"panelColor": "#7F7F7F",
+				"__CDATA": "\n\n\t\t\t\n",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": "true",
+					"__CDATA": "\n\n\t\t\t\t\n",
+					"position": {
+						"X": "293",
+						"Y": "1450"
+					}
+				}
+			},
+			"KeyLong64": {
+				"panelColor": "#C3D69B",
+				"__CDATA": "\n\n\t\t\t\n",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": "true",
+					"__CDATA": "\n\n\t\t\t\t\n",
+					"position": {
+						"X": "52",
+						"Y": "1641"
+					}
+				}
+			},
+			"Master3": {
+				"panelColor": "#548DD4",
+				"__CDATA": "\n\n\t\t\t\n",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": "true",
+					"__CDATA": "\n\n\t\t\t\t\n",
+					"position": {
+						"X": "291",
+						"Y": "1643"
+					}
+				}
+			},
+			"Method": {
+				"panelColor": "#996699",
+				"__CDATA": "\n\n\t\t\t\n",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": "true",
+					"__CDATA": "\n\n\t\t\t\t\n",
+					"position": {
+						"X": "672",
+						"Y": "1653"
+					}
+				}
+			},
+			"UpdateComplex": {
+				"panelColor": "#70CCC2",
+				"__CDATA": "\n\n\t\t\t\n",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": "true",
+					"__CDATA": "\n\n\t\t\t\t\n",
+					"position": {
+						"X": "316",
+						"Y": "2068"
+					}
+				}
+			},
+			"UpdateSimple": {
+				"panelColor": "#7F7F7F",
+				"__CDATA": "\n\n\t\t\t\n",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": "true",
+					"__CDATA": "\n\n\t\t\t\t\n",
+					"position": {
+						"X": "42",
+						"Y": "2069"
+					}
+				}
+			}
+		},
+		"model": {
+			"workspaceLeft": 0,
+			"workspaceTop": 0,
+			"__CDATA": "\n\n\t\t\n",
+			"scriptMode": "manual",
+			"relationCurve": {
+				"run": "true",
+				"mode": "1"
+			}
+		}
+	},
+	"dataClasses": [
+		{
+			"name": "Alias",
+			"className": "Alias",
+			"collectionName": "AliasCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"indexKind": "btree",
+					"primKey": true
+				}
+			]
+		},
+		{
+			"name": "AttributeCaseSensitive",
+			"className": "AttributeCaseSensitive",
+			"collectionName": "AttributeCaseSensitiveCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"indexKind": "btree",
+					"primKey": true
+				},
+				{
+					"name": "as_StRiNg",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "as_sTrInG",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				}
+			]
+		},
+		{
+			"name": "Attributes",
+			"className": "Attributes",
+			"collectionName": "AttributesCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"indexKind": "btree",
+					"primKey": true
+				},
+				{
+					"name": "as_string",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "as_number",
+					"kind": "storage",
+					"scope": "public",
+					"type": "number"
+				},
+				{
+					"name": "ac_string",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "string",
+					"scriptKind": "javascript",
+					"onGet": [
+						{
+							"from": "$mainModel.Attributes.ac_string.onGet",
+							"userDefined": true
+						}
+					]
+				},
+				{
+					"name": "ac_number",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "number",
+					"scriptKind": "javascript",
+					"onGet": [
+						{
+							"from": "$mainModel.Attributes.ac_number.onGet",
+							"userDefined": true
+						}
+					]
+				},
+				{
+					"name": "ar_master2",
+					"kind": "relatedEntity",
+					"scope": "public",
+					"type": "Master2",
+					"path": "Master2"
+				},
+				{
+					"name": "aa_master2__as_string",
+					"kind": "alias",
+					"scope": "public",
+					"type": "string",
+					"path": "ar_master2.as_string"
+				},
+				{
+					"name": "aaa_master2__ar_master1__as_number",
+					"kind": "alias",
+					"scope": "public",
+					"type": "number",
+					"path": "ar_master2.ar_master1.as_number"
+				}
+			],
+			"methods": [
+				{
+					"name": "mcls_getar",
+					"applyTo": "dataClass",
+					"scope": "public",
+					"from": "$mainModel.Attributes.methods.mcls_getar",
+					"userDefined": true
+				},
+				{
+					"name": "mcls_getec",
+					"applyTo": "dataClass",
+					"scope": "public",
+					"from": "$mainModel.Attributes.methods.mcls_getec",
+					"userDefined": true
+				},
+				{
+					"name": "mcls_param_getar",
+					"applyTo": "dataClass",
+					"scope": "public",
+					"from": "$mainModel.Attributes.methods.mcls_param_getar",
+					"userDefined": true
+				},
+				{
+					"name": "mcls_param_getec",
+					"applyTo": "dataClass",
+					"scope": "public",
+					"from": "$mainModel.Attributes.methods.mcls_param_getec",
+					"userDefined": true
+				},
+				{
+					"name": "mcol_getar",
+					"applyTo": "entityCollection",
+					"scope": "public",
+					"from": "$mainModel.Attributes.collectionMethods.mcol_getar",
+					"userDefined": true
+				},
+				{
+					"name": "mcol_getec",
+					"applyTo": "entityCollection",
+					"scope": "public",
+					"from": "$mainModel.Attributes.collectionMethods.mcol_getec",
+					"userDefined": true
+				},
+				{
+					"name": "mcol_param_getar",
+					"applyTo": "entityCollection",
+					"scope": "public",
+					"from": "$mainModel.Attributes.collectionMethods.mcol_param_getar",
+					"userDefined": true
+				},
+				{
+					"name": "mcol_param_getec",
+					"applyTo": "entityCollection",
+					"scope": "public",
+					"from": "$mainModel.Attributes.collectionMethods.mcol_param_getec",
+					"userDefined": true
+				}
+			]
+		},
+		{
+			"name": "Complex",
+			"className": "Complex",
+			"collectionName": "ComplexCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"indexKind": "btree",
+					"primKey": true
+				},
+				{
+					"name": "as_string",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "as_bool",
+					"kind": "storage",
+					"scope": "public",
+					"type": "bool"
+				},
+				{
+					"name": "as_byte",
+					"kind": "storage",
+					"scope": "public",
+					"type": "byte"
+				},
+				{
+					"name": "as_word",
+					"kind": "storage",
+					"scope": "public",
+					"type": "word"
+				},
+				{
+					"name": "as_long",
+					"kind": "storage",
+					"scope": "public",
+					"type": "long"
+				},
+				{
+					"name": "as_long64",
+					"kind": "storage",
+					"scope": "public",
+					"type": "long64"
+				},
+				{
+					"name": "as_number",
+					"kind": "storage",
+					"scope": "public",
+					"type": "number"
+				},
+				{
+					"name": "as_duration",
+					"kind": "storage",
+					"scope": "public",
+					"type": "duration"
+				},
+				{
+					"name": "as_uuid",
+					"kind": "storage",
+					"scope": "public",
+					"type": "uuid"
+				},
+				{
+					"name": "as_date",
+					"kind": "storage",
+					"scope": "public",
+					"type": "date",
+					"simpleDate": false
+				},
+				{
+					"name": "as_blob",
+					"kind": "storage",
+					"scope": "public",
+					"type": "blob"
+				},
+				{
+					"name": "as_image",
+					"kind": "storage",
+					"scope": "public",
+					"type": "image"
+				},
+				{
+					"name": "ac_string",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "string",
+					"scriptKind": "javascript",
+					"onGet": [
+						{
+							"from": "$mainModel.Complex.ac_string.onGet",
+							"userDefined": true
+						}
+					]
+				},
+				{
+					"name": "ac_bool",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "bool",
+					"scriptKind": "javascript",
+					"onGet": [
+						{
+							"from": "$mainModel.Complex.ac_bool.onGet",
+							"userDefined": true
+						}
+					]
+				},
+				{
+					"name": "ac_byte",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "byte",
+					"scriptKind": "javascript",
+					"onGet": [
+						{
+							"from": "$mainModel.Complex.ac_byte.onGet",
+							"userDefined": true
+						}
+					]
+				},
+				{
+					"name": "ac_word",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "word",
+					"scriptKind": "javascript",
+					"onGet": [
+						{
+							"from": "$mainModel.Complex.ac_word.onGet",
+							"userDefined": true
+						}
+					]
+				},
+				{
+					"name": "ac_long",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "long",
+					"scriptKind": "javascript",
+					"onGet": [
+						{
+							"from": "$mainModel.Complex.ac_long.onGet",
+							"userDefined": true
+						}
+					]
+				},
+				{
+					"name": "ac_long64",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "long64",
+					"scriptKind": "javascript",
+					"onGet": [
+						{
+							"from": "$mainModel.Complex.ac_long64.onGet",
+							"userDefined": true
+						}
+					]
+				},
+				{
+					"name": "ac_number",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "number",
+					"scriptKind": "javascript",
+					"onGet": [
+						{
+							"from": "$mainModel.Complex.ac_number.onGet",
+							"userDefined": true
+						}
+					]
+				},
+				{
+					"name": "ac_duration",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "duration",
+					"scriptKind": "javascript",
+					"onGet": [
+						{
+							"from": "$mainModel.Complex.ac_duration.onGet",
+							"userDefined": true
+						}
+					]
+				},
+				{
+					"name": "ac_uuid",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "uuid",
+					"scriptKind": "javascript",
+					"onGet": [
+						{
+							"from": "$mainModel.Complex.ac_uuid.onGet",
+							"userDefined": true
+						}
+					]
+				},
+				{
+					"name": "ac_date",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "date",
+					"simpleDate": false,
+					"scriptKind": "javascript",
+					"onGet": [
+						{
+							"from": "$mainModel.Complex.ac_date.onGet",
+							"userDefined": true
+						}
+					]
+				},
+				{
+					"name": "ac_blob",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "blob",
+					"scriptKind": "javascript",
+					"onGet": [
+						{
+							"from": "$mainModel.Complex.ac_blob.onGet",
+							"userDefined": true
+						}
+					]
+				},
+				{
+					"name": "ac_image",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "image",
+					"scriptKind": "javascript",
+					"onGet": [
+						{
+							"from": "$mainModel.Complex.ac_image.onGet",
+							"userDefined": true
+						}
+					]
+				},
+				{
+					"name": "ar_masterComplex",
+					"kind": "relatedEntity",
+					"scope": "public",
+					"type": "MasterComplex",
+					"path": "MasterComplex"
+				},
+				{
+					"name": "ars_slave1",
+					"kind": "relatedEntities",
+					"scope": "public",
+					"type": "Slave1Collection",
+					"reversePath": true,
+					"path": "ar_complex"
+				},
+				{
+					"name": "aa_masterComplex__as_string",
+					"kind": "alias",
+					"scope": "public",
+					"type": "string",
+					"path": "ar_masterComplex.as_string"
+				}
+			]
+		},
+		{
+			"name": "KeyLong",
+			"className": "KeyLong",
+			"collectionName": "KeyLongCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID_long",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"indexKind": "btree",
+					"primKey": true
+				},
+				{
+					"name": "as_string",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "as_number",
+					"kind": "storage",
+					"scope": "public",
+					"type": "number"
+				},
+				{
+					"name": "ar_master3",
+					"kind": "relatedEntity",
+					"scope": "public",
+					"type": "Master3",
+					"path": "Master3"
+				}
+			]
+		},
+		{
+			"name": "KeyLong64",
+			"className": "KeyLong64",
+			"collectionName": "KeyLong64Collection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID_long64",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long64",
+					"indexKind": "btree",
+					"primKey": true
+				},
+				{
+					"name": "as_string",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "as_number",
+					"kind": "storage",
+					"scope": "public",
+					"type": "number"
+				},
+				{
+					"name": "ar_master3",
+					"kind": "relatedEntity",
+					"scope": "public",
+					"type": "Master3",
+					"path": "Master3"
+				}
+			]
+		},
+		{
+			"name": "KeyNumber",
+			"className": "KeyNumber",
+			"collectionName": "KeyNumberCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID_number",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"type": "number",
+					"indexKind": "btree",
+					"primKey": true
+				},
+				{
+					"name": "as_string",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "as_number",
+					"kind": "storage",
+					"scope": "public",
+					"type": "number"
+				},
+				{
+					"name": "ar_master3",
+					"kind": "relatedEntity",
+					"scope": "public",
+					"type": "Master3",
+					"path": "Master3"
+				}
+			]
+		},
+		{
+			"name": "KeyString",
+			"className": "KeyString",
+			"collectionName": "KeyStringCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID_string",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"type": "string",
+					"indexKind": "btree",
+					"primKey": true
+				},
+				{
+					"name": "as_string",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "as_number",
+					"kind": "storage",
+					"scope": "public",
+					"type": "number"
+				},
+				{
+					"name": "ar_master3",
+					"kind": "relatedEntity",
+					"scope": "public",
+					"type": "Master3",
+					"path": "Master3"
+				}
+			]
+		},
+		{
+			"name": "KeyUuid",
+			"className": "KeyUuid",
+			"collectionName": "KeyUuidCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID_uuid",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"autogenerate": true,
+					"type": "uuid",
+					"indexKind": "btree",
+					"primKey": true
+				},
+				{
+					"name": "as_string",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "as_number",
+					"kind": "storage",
+					"scope": "public",
+					"type": "number"
+				},
+				{
+					"name": "ar_master3",
+					"kind": "relatedEntity",
+					"scope": "public",
+					"type": "Master3",
+					"path": "Master3"
+				}
+			]
+		},
+		{
+			"name": "Master1",
+			"className": "Master1",
+			"collectionName": "Master1Collection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"indexKind": "btree",
+					"primKey": true
+				},
+				{
+					"name": "as_string",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "as_number",
+					"kind": "storage",
+					"scope": "public",
+					"type": "number"
+				},
+				{
+					"name": "ars_master2",
+					"kind": "relatedEntities",
+					"scope": "public",
+					"type": "Master2Collection",
+					"reversePath": true,
+					"path": "ar_master1"
+				},
+				{
+					"name": "ars_updateComplex",
+					"kind": "relatedEntities",
+					"scope": "public",
+					"type": "UpdateComplexCollection",
+					"reversePath": true,
+					"path": "ar_master1"
+				},
+				{
+					"name": "ars_updateSimple",
+					"kind": "relatedEntities",
+					"scope": "public",
+					"type": "UpdateSimpleCollection",
+					"reversePath": true,
+					"path": "ar_master1"
+				}
+			]
+		},
+		{
+			"name": "Master2",
+			"className": "Master2",
+			"collectionName": "Master2Collection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"indexKind": "btree",
+					"primKey": true
+				},
+				{
+					"name": "as_string",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "as_number",
+					"kind": "storage",
+					"scope": "public",
+					"type": "number"
+				},
+				{
+					"name": "ar_master1",
+					"kind": "relatedEntity",
+					"scope": "public",
+					"type": "Master1",
+					"path": "Master1"
+				},
+				{
+					"name": "ars_attributes",
+					"kind": "relatedEntities",
+					"scope": "public",
+					"type": "AttributesCollection",
+					"reversePath": true,
+					"path": "ar_master2"
+				}
+			]
+		},
+		{
+			"name": "Master3",
+			"className": "Master3",
+			"collectionName": "Master3Collection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"indexKind": "btree",
+					"primKey": true
+				},
+				{
+					"name": "as_string",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "as_number",
+					"kind": "storage",
+					"scope": "public",
+					"type": "number"
+				},
+				{
+					"name": "ars_keyLong",
+					"kind": "relatedEntities",
+					"scope": "public",
+					"type": "KeyLongCollection",
+					"reversePath": true,
+					"path": "ar_master3"
+				},
+				{
+					"name": "ars_keyNumber",
+					"kind": "relatedEntities",
+					"scope": "public",
+					"type": "KeyNumberCollection",
+					"reversePath": true,
+					"path": "ar_master3"
+				},
+				{
+					"name": "ars_keyString",
+					"kind": "relatedEntities",
+					"scope": "public",
+					"type": "KeyStringCollection",
+					"reversePath": true,
+					"path": "ar_master3"
+				},
+				{
+					"name": "ars_keyUuid",
+					"kind": "relatedEntities",
+					"scope": "public",
+					"type": "KeyUuidCollection",
+					"reversePath": true,
+					"path": "ar_master3"
+				},
+				{
+					"name": "ars_keyLong64",
+					"kind": "relatedEntities",
+					"scope": "public",
+					"type": "KeyLong64Collection",
+					"reversePath": true,
+					"path": "ar_master3"
+				}
+			]
+		},
+		{
+			"name": "MasterComplex",
+			"className": "MasterComplex",
+			"collectionName": "MasterComplexCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"indexKind": "btree",
+					"primKey": true
+				},
+				{
+					"name": "as_string",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "as_bool",
+					"kind": "storage",
+					"scope": "public",
+					"type": "bool"
+				},
+				{
+					"name": "as_byte",
+					"kind": "storage",
+					"scope": "public",
+					"type": "byte"
+				},
+				{
+					"name": "as_word",
+					"kind": "storage",
+					"scope": "public",
+					"type": "word"
+				},
+				{
+					"name": "as_long",
+					"kind": "storage",
+					"scope": "public",
+					"type": "long"
+				},
+				{
+					"name": "as_long64",
+					"kind": "storage",
+					"scope": "public",
+					"type": "long64"
+				},
+				{
+					"name": "as_number",
+					"kind": "storage",
+					"scope": "public",
+					"type": "number"
+				},
+				{
+					"name": "as_duration",
+					"kind": "storage",
+					"scope": "public",
+					"type": "duration"
+				},
+				{
+					"name": "as_uuid",
+					"kind": "storage",
+					"scope": "public",
+					"type": "uuid"
+				},
+				{
+					"name": "as_date",
+					"kind": "storage",
+					"scope": "public",
+					"type": "date",
+					"simpleDate": false
+				},
+				{
+					"name": "as_blob",
+					"kind": "storage",
+					"scope": "public",
+					"type": "blob"
+				},
+				{
+					"name": "as_image",
+					"kind": "storage",
+					"scope": "public",
+					"type": "image"
+				},
+				{
+					"name": "ars_complex",
+					"kind": "relatedEntities",
+					"scope": "public",
+					"type": "ComplexCollection",
+					"reversePath": true,
+					"path": "ar_masterComplex"
+				},
+				{
+					"name": "ar_superComplex",
+					"kind": "relatedEntities",
+					"scope": "public",
+					"type": "SuperComplexCollection",
+					"reversePath": true,
+					"path": "ari_masterComplex"
+				}
+			]
+		},
+		{
+			"name": "Method",
+			"className": "Method",
+			"collectionName": "MethodCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"indexKind": "btree",
+					"primKey": true
+				},
+				{
+					"name": "as_string",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "as_long",
+					"kind": "storage",
+					"scope": "public",
+					"type": "long"
+				}
+			],
+			"methods": [
+				{
+					"name": "mcls_getar",
+					"applyTo": "dataClass",
+					"scope": "public",
+					"from": "$mainModel.Method.methods.mcls_getar",
+					"userDefined": true
+				},
+				{
+					"name": "mcls_getec",
+					"applyTo": "dataClass",
+					"scope": "public",
+					"from": "$mainModel.Method.methods.mcls_getec",
+					"userDefined": true
+				},
+				{
+					"name": "mcls_getString",
+					"applyTo": "dataClass",
+					"scope": "public",
+					"from": "$mainModel.Method.methods.mcls_getString",
+					"userDefined": true
+				},
+				{
+					"name": "mcls_param_getar",
+					"applyTo": "dataClass",
+					"scope": "public",
+					"from": "$mainModel.Method.methods.mcls_param_getar",
+					"userDefined": true
+				},
+				{
+					"name": "mcls_param_getec",
+					"applyTo": "dataClass",
+					"scope": "public",
+					"from": "$mainModel.Method.methods.mcls_param_getec",
+					"userDefined": true
+				},
+				{
+					"name": "mcls_param_getString",
+					"applyTo": "dataClass",
+					"scope": "public",
+					"from": "$mainModel.Method.methods.mcls_param_getString",
+					"userDefined": true
+				},
+				{
+					"name": "mcol_getar",
+					"applyTo": "entityCollection",
+					"scope": "public",
+					"from": "$mainModel.Method.collectionMethods.mcol_getar",
+					"userDefined": true
+				},
+				{
+					"name": "mcol_getec",
+					"applyTo": "entityCollection",
+					"scope": "public",
+					"from": "$mainModel.Method.collectionMethods.mcol_getec",
+					"userDefined": true
+				},
+				{
+					"name": "mcol_getString",
+					"applyTo": "entityCollection",
+					"scope": "public",
+					"from": "$mainModel.Method.collectionMethods.mcol_getString",
+					"userDefined": true
+				},
+				{
+					"name": "mcol_param_getar",
+					"applyTo": "entityCollection",
+					"scope": "public",
+					"from": "$mainModel.Method.collectionMethods.mcol_param_getar",
+					"userDefined": true
+				},
+				{
+					"name": "mcol_param_getec",
+					"applyTo": "entityCollection",
+					"scope": "public",
+					"from": "$mainModel.Method.collectionMethods.mcol_param_getec",
+					"userDefined": true
+				},
+				{
+					"name": "mcol_param_getString",
+					"applyTo": "entityCollection",
+					"scope": "public",
+					"from": "$mainModel.Method.collectionMethods.mcol_param_getString",
+					"userDefined": true
+				}
+			]
+		},
+		{
+			"name": "MethodCaseSensitive",
+			"className": "MethodCaseSensitive",
+			"collectionName": "MethodCaseSensitiveCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"indexKind": "btree",
+					"primKey": true
+				},
+				{
+					"name": "as_string",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				}
+			],
+			"methods": [
+				{
+					"name": "mcls_cAsEsEnSiTivE",
+					"applyTo": "dataClass",
+					"scope": "public",
+					"from": "$mainModel.MethodCaseSensitive.methods.mcls_cAsEsEnSiTivE",
+					"userDefined": true
+				},
+				{
+					"name": "mcls_CaSeSeNsItIvE",
+					"applyTo": "dataClass",
+					"scope": "public",
+					"from": "$mainModel.MethodCaseSensitive.methods.mcls_CaSeSeNsItIvE",
+					"userDefined": true
+				}
+			]
+		},
+		{
+			"name": "ScopePublic",
+			"className": "ScopePublic",
+			"collectionName": "ScopePublicCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"indexKind": "btree",
+					"primKey": true
+				},
+				{
+					"name": "as_scope_private",
+					"kind": "storage",
+					"scope": "private",
+					"type": "string"
+				},
+				{
+					"name": "as_scope_protected",
+					"kind": "storage",
+					"scope": "protected",
+					"type": "string"
+				},
+				{
+					"name": "as_scope_public_on_server",
+					"kind": "storage",
+					"scope": "publicOnServer",
+					"type": "string"
+				},
+				{
+					"name": "as_scope_public",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				}
+			],
+			"methods": [
+				{
+					"name": "mcls_scope_private",
+					"applyTo": "dataClass",
+					"scope": "private",
+					"from": "$mainModel.ScopePublic.methods.mcls_scope_private",
+					"userDefined": true
+				},
+				{
+					"name": "mcls_scope_protected",
+					"applyTo": "dataClass",
+					"scope": "protected",
+					"from": "$mainModel.ScopePublic.methods.mcls_scope_protected",
+					"userDefined": true
+				},
+				{
+					"name": "mcls_scope_public",
+					"applyTo": "dataClass",
+					"scope": "public",
+					"from": "$mainModel.ScopePublic.methods.mcls_scope_public",
+					"userDefined": true
+				},
+				{
+					"name": "mcls_scope_public_on_server",
+					"applyTo": "dataClass",
+					"scope": "publicOnServer",
+					"from": "$mainModel.ScopePublic.methods.mcls_scope_public_on_server",
+					"userDefined": true
+				}
+			]
+		},
+		{
+			"name": "ScopePublicOnServer",
+			"className": "ScopePublicOnServer",
+			"collectionName": "ScopePublicOnServerCollection",
+			"scope": "publicOnServer",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"indexKind": "btree",
+					"primKey": true
+				},
+				{
+					"name": "a_scope_public",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				}
+			]
+		},
+		{
+			"name": "Simple",
+			"className": "Simple",
+			"collectionName": "SimpleCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"indexKind": "btree",
+					"primKey": true
+				},
+				{
+					"name": "as_string",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "as_long",
+					"kind": "storage",
+					"scope": "public",
+					"type": "long"
+				},
+				{
+					"name": "as_date",
+					"kind": "storage",
+					"scope": "public",
+					"type": "date",
+					"simpleDate": false
+				}
+			]
+		},
+		{
+			"name": "SimpleFilter",
+			"className": "SimpleFilter",
+			"collectionName": "SimpleFilterCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"indexKind": "btree",
+					"primKey": true
+				},
+				{
+					"name": "as_string",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "as_long",
+					"kind": "storage",
+					"scope": "public",
+					"type": "long"
+				},
+				{
+					"name": "as_date",
+					"kind": "storage",
+					"scope": "public",
+					"type": "date",
+					"simpleDate": false
+				}
+			]
+		},
+		{
+			"name": "Slave1",
+			"className": "Slave1",
+			"collectionName": "Slave1Collection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"indexKind": "btree",
+					"primKey": true
+				},
+				{
+					"name": "as_string",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "as_long",
+					"kind": "storage",
+					"scope": "public",
+					"type": "long"
+				},
+				{
+					"name": "ar_superComplex",
+					"kind": "relatedEntity",
+					"scope": "public",
+					"type": "SuperComplex",
+					"path": "SuperComplex"
+				},
+				{
+					"name": "ar_complex",
+					"kind": "relatedEntity",
+					"scope": "public",
+					"type": "Complex",
+					"path": "Complex"
+				},
+				{
+					"name": "ar_updateComplex",
+					"kind": "relatedEntity",
+					"scope": "public",
+					"type": "UpdateComplex",
+					"path": "UpdateComplex"
+				}
+			]
+		},
+		{
+			"name": "Stamp",
+			"className": "Stamp",
+			"collectionName": "StampCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"indexKind": "btree",
+					"primKey": true
+				},
+				{
+					"name": "as_string",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "as_long",
+					"kind": "storage",
+					"scope": "public",
+					"type": "long"
+				}
+			]
+		},
+		{
+			"name": "SuperComplex",
+			"className": "SuperComplex",
+			"collectionName": "SuperComplexCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"indexKind": "btree",
+					"primKey": true
+				},
+				{
+					"name": "asi_string",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "asi_bool",
+					"kind": "storage",
+					"scope": "public",
+					"type": "bool"
+				},
+				{
+					"name": "asi_byte",
+					"kind": "storage",
+					"scope": "public",
+					"type": "byte"
+				},
+				{
+					"name": "asi_word",
+					"kind": "storage",
+					"scope": "public",
+					"type": "word"
+				},
+				{
+					"name": "asi_long",
+					"kind": "storage",
+					"scope": "public",
+					"type": "long"
+				},
+				{
+					"name": "asi_long64",
+					"kind": "storage",
+					"scope": "public",
+					"type": "long64"
+				},
+				{
+					"name": "asi_number",
+					"kind": "storage",
+					"scope": "public",
+					"type": "number"
+				},
+				{
+					"name": "asi_duration",
+					"kind": "storage",
+					"scope": "public",
+					"type": "duration"
+				},
+				{
+					"name": "asi_uuid",
+					"kind": "storage",
+					"scope": "public",
+					"type": "uuid"
+				},
+				{
+					"name": "asi_date",
+					"kind": "storage",
+					"scope": "public",
+					"type": "date",
+					"simpleDate": false
+				},
+				{
+					"name": "asi_blob",
+					"kind": "storage",
+					"scope": "public",
+					"type": "blob"
+				},
+				{
+					"name": "asi_image",
+					"kind": "storage",
+					"scope": "public",
+					"type": "image"
+				},
+				{
+					"name": "aci_string",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "string",
+					"scriptKind": "javascript",
+					"onGet": [
+						{
+							"from": "$mainModel.SuperComplex.aci_string.onGet",
+							"userDefined": true
+						}
+					]
+				},
+				{
+					"name": "aci_bool",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "bool",
+					"scriptKind": "javascript",
+					"onGet": [
+						{
+							"from": "$mainModel.SuperComplex.aci_bool.onGet",
+							"userDefined": true
+						}
+					]
+				},
+				{
+					"name": "aci_byte",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "byte",
+					"scriptKind": "javascript",
+					"onGet": [
+						{
+							"from": "$mainModel.SuperComplex.aci_byte.onGet",
+							"userDefined": true
+						}
+					]
+				},
+				{
+					"name": "aci_word",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "word",
+					"scriptKind": "javascript",
+					"onGet": [
+						{
+							"from": "$mainModel.SuperComplex.aci_word.onGet",
+							"userDefined": true
+						}
+					]
+				},
+				{
+					"name": "aci_long",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "long",
+					"scriptKind": "javascript",
+					"onGet": [
+						{
+							"from": "$mainModel.SuperComplex.aci_long.onGet",
+							"userDefined": true
+						}
+					]
+				},
+				{
+					"name": "aci_long64",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "long64",
+					"scriptKind": "javascript",
+					"onGet": [
+						{
+							"from": "$mainModel.SuperComplex.aci_long64.onGet",
+							"userDefined": true
+						}
+					]
+				},
+				{
+					"name": "aci_number",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "number",
+					"scriptKind": "javascript",
+					"onGet": [
+						{
+							"from": "$mainModel.SuperComplex.aci_number.onGet",
+							"userDefined": true
+						}
+					]
+				},
+				{
+					"name": "aci_duration",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "duration",
+					"scriptKind": "javascript",
+					"onGet": [
+						{
+							"from": "$mainModel.SuperComplex.aci_duration.onGet",
+							"userDefined": true
+						}
+					]
+				},
+				{
+					"name": "aci_uuid",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "uuid",
+					"scriptKind": "javascript",
+					"onGet": [
+						{
+							"from": "$mainModel.SuperComplex.aci_uuid.onGet",
+							"userDefined": true
+						}
+					]
+				},
+				{
+					"name": "aci_date",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "date",
+					"simpleDate": false,
+					"scriptKind": "javascript",
+					"onGet": [
+						{
+							"from": "$mainModel.SuperComplex.aci_date.onGet",
+							"userDefined": true
+						}
+					]
+				},
+				{
+					"name": "aci_blob",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "blob",
+					"scriptKind": "javascript",
+					"onGet": [
+						{
+							"from": "$mainModel.SuperComplex.aci_blob.onGet",
+							"userDefined": true
+						}
+					]
+				},
+				{
+					"name": "aci_image",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "image",
+					"scriptKind": "javascript",
+					"onGet": [
+						{
+							"from": "$mainModel.SuperComplex.aci_image.onGet",
+							"userDefined": true
+						}
+					]
+				},
+				{
+					"name": "ari_masterComplex",
+					"kind": "relatedEntity",
+					"scope": "public",
+					"type": "MasterComplex",
+					"path": "MasterComplex"
+				},
+				{
+					"name": "arsi_slave1",
+					"kind": "relatedEntities",
+					"scope": "public",
+					"type": "Slave1Collection",
+					"reversePath": true,
+					"path": "ar_superComplex"
+				}
+			]
+		},
+		{
+			"name": "SubComplex",
+			"className": "SubComplex",
+			"collectionName": "SubComplexCollection",
+			"scope": "public",
+			"extends": "SuperComplex",
+			"attributes": [
+				{
+					"name": "asi_string",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "asi_bool",
+					"kind": "storage",
+					"scope": "public",
+					"type": "bool"
+				},
+				{
+					"name": "asi_byte",
+					"kind": "storage",
+					"scope": "public",
+					"type": "byte"
+				},
+				{
+					"name": "asi_word",
+					"kind": "storage",
+					"scope": "public",
+					"type": "word"
+				},
+				{
+					"name": "asi_long",
+					"kind": "storage",
+					"scope": "public",
+					"type": "long"
+				},
+				{
+					"name": "asi_long64",
+					"kind": "storage",
+					"scope": "public",
+					"type": "long64"
+				},
+				{
+					"name": "asi_number",
+					"kind": "storage",
+					"scope": "public",
+					"type": "number"
+				},
+				{
+					"name": "asi_duration",
+					"kind": "storage",
+					"scope": "public",
+					"type": "duration"
+				},
+				{
+					"name": "asi_uuid",
+					"kind": "storage",
+					"scope": "public",
+					"type": "uuid"
+				},
+				{
+					"name": "asi_date",
+					"kind": "storage",
+					"scope": "public",
+					"type": "date",
+					"simpleDate": false
+				},
+				{
+					"name": "asi_blob",
+					"kind": "storage",
+					"scope": "public",
+					"type": "blob"
+				},
+				{
+					"name": "asi_image",
+					"kind": "storage",
+					"scope": "public",
+					"type": "image"
+				},
+				{
+					"name": "aci_string",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "string",
+					"scriptKind": "javascript",
+					"onGet": [
+						{
+							"from": "$mainModel.SuperComplex.aci_string.onGet",
+							"userDefined": true
+						}
+					]
+				},
+				{
+					"name": "aci_bool",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "bool",
+					"scriptKind": "javascript",
+					"onGet": [
+						{
+							"from": "$mainModel.SuperComplex.aci_bool.onGet",
+							"userDefined": true
+						}
+					]
+				},
+				{
+					"name": "aci_byte",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "byte",
+					"scriptKind": "javascript",
+					"onGet": [
+						{
+							"from": "$mainModel.SuperComplex.aci_byte.onGet",
+							"userDefined": true
+						}
+					]
+				},
+				{
+					"name": "arsi_slave1",
+					"kind": "relatedEntities",
+					"scope": "public",
+					"type": "Slave1Collection",
+					"path": "ar_superComplex"
+				},
+				{
+					"name": "ac_string",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "string",
+					"scriptKind": "javascript",
+					"onGet": [
+						{
+							"from": "$mainModel.SubComplex.ac_string.onGet",
+							"userDefined": true
+						}
+					]
+				},
+				{
+					"name": "ac_bool",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "bool",
+					"scriptKind": "javascript"
+				},
+				{
+					"name": "ac_byte",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "byte",
+					"scriptKind": "javascript"
+				},
+				{
+					"name": "ac_word",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "word",
+					"scriptKind": "javascript"
+				},
+				{
+					"name": "ac_long",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "long",
+					"scriptKind": "javascript"
+				},
+				{
+					"name": "ac_long64",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "long64",
+					"scriptKind": "javascript"
+				},
+				{
+					"name": "ac_number",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "number",
+					"scriptKind": "javascript"
+				},
+				{
+					"name": "ac_duration",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "duration",
+					"scriptKind": "javascript"
+				},
+				{
+					"name": "ac_uuid",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "uuid",
+					"scriptKind": "javascript"
+				},
+				{
+					"name": "ac_date",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "date",
+					"simpleDate": false,
+					"scriptKind": "javascript"
+				},
+				{
+					"name": "ac_blob",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "blob",
+					"scriptKind": "javascript"
+				},
+				{
+					"name": "ac_image",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "image",
+					"scriptKind": "javascript"
+				}
+			]
+		},
+		{
+			"name": "UpdateComplex",
+			"className": "UpdateComplex",
+			"collectionName": "UpdateComplexCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"indexKind": "btree",
+					"primKey": true
+				},
+				{
+					"name": "as_string",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "as_bool",
+					"kind": "storage",
+					"scope": "public",
+					"type": "bool"
+				},
+				{
+					"name": "as_byte",
+					"kind": "storage",
+					"scope": "public",
+					"type": "byte"
+				},
+				{
+					"name": "as_word",
+					"kind": "storage",
+					"scope": "public",
+					"type": "word"
+				},
+				{
+					"name": "as_long",
+					"kind": "storage",
+					"scope": "public",
+					"type": "long"
+				},
+				{
+					"name": "as_long64",
+					"kind": "storage",
+					"scope": "public",
+					"type": "long64"
+				},
+				{
+					"name": "as_number",
+					"kind": "storage",
+					"scope": "public",
+					"type": "number"
+				},
+				{
+					"name": "as_duration",
+					"kind": "storage",
+					"scope": "public",
+					"type": "duration"
+				},
+				{
+					"name": "as_uuid",
+					"kind": "storage",
+					"scope": "public",
+					"type": "uuid"
+				},
+				{
+					"name": "as_date",
+					"kind": "storage",
+					"scope": "public",
+					"type": "date",
+					"simpleDate": false
+				},
+				{
+					"name": "as_blob",
+					"kind": "storage",
+					"scope": "public",
+					"type": "blob"
+				},
+				{
+					"name": "as_image",
+					"kind": "storage",
+					"scope": "public",
+					"type": "image"
+				},
+				{
+					"name": "ar_master1",
+					"kind": "relatedEntity",
+					"scope": "public",
+					"type": "Master1",
+					"path": "Master1"
+				},
+				{
+					"name": "ars_slave1",
+					"kind": "relatedEntities",
+					"scope": "public",
+					"type": "Slave1Collection",
+					"reversePath": true,
+					"path": "ar_updateComplex"
+				}
+			]
+		},
+		{
+			"name": "UpdateSimple",
+			"className": "UpdateSimple",
+			"collectionName": "UpdateSimpleCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"indexKind": "btree",
+					"primKey": true
+				},
+				{
+					"name": "as_string",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "as_long",
+					"kind": "storage",
+					"scope": "public",
+					"type": "long"
+				},
+				{
+					"name": "as_date",
+					"kind": "storage",
+					"scope": "public",
+					"type": "date",
+					"simpleDate": false
+				},
+				{
+					"name": "ar_master1",
+					"kind": "relatedEntity",
+					"scope": "public",
+					"type": "Master1",
+					"path": "Master1"
+				}
+			]
+		}
+	]
+}

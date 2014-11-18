@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><EntityModelCatalog>
+
+<dbInfo name="ForcePromoteModel" uuid="DEB2380315EE8E47AF7052ECFC4FADBC"/>
+
+<dataClasses name="ForcePromoteModel" className="ForcePromoteModel" collectionName="ForcePromoteModelCollection" scope="public" uuid="73A6F08A3A2F8243A1DEA40F60CBB45B" tablePos="1">
+
+	<extraProperties ____objectunic="true" panelColor="#eee">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="25" Y="20"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" uuid="ECFE74A9D2B1F74694B7049BE9EF3EA5" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<attributes name="name" kind="storage" scope="public" uuid="77D1DBAFC1E7E041803A48B8C6474C84" fieldPos="2" type="string"/>
+
+	<methods name="getEntitiesCount" applyTo="dataClass" scope="publicOnServer" from="guidedModel.ForcePromoteModel.methods.getEntitiesCount"/>
+
+	<methods name="promoteCreate" applyTo="dataClass" scope="public" from="guidedModel.ForcePromoteModel.methods.promoteCreate"/>
+
+	<methods name="promoteRead" applyTo="dataClass" scope="public" from="guidedModel.ForcePromoteModel.methods.promoteRead"/>
+
+</dataClasses>
+</EntityModelCatalog>

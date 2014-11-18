@@ -1,0 +1,9 @@
+{
+    "description": "Tests of the Wakanda installers for Windows",
+    "kind": "cli",
+    "bench": false,
+    "tester": "yann.jego@4d.com",
+    "visibility": "private",
+    "developer": "mathieu.steininger@4d.com",
+    "stable": true
+}

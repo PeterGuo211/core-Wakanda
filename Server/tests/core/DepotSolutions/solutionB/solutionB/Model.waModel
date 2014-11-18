@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><EntityModelCatalog>
+
+<dbInfo name="Model" uuid="DEB2380315EE8E47AF7052ECFC4FADBC"/>
+
+<dataClasses name="Dataclasse1" className="Dataclasse1" collectionName="Dataclasse1Collection" scope="public">
+
+	<extraProperties ____objectunic="true" panelColor="#D8D8D8">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="51" Y="46"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<attributes name="attribute1" kind="storage" scope="public" type="string"/>
+
+	<attributes name="attribute2" kind="storage" scope="public" type="number"/>
+
+</dataClasses>
+</EntityModelCatalog>

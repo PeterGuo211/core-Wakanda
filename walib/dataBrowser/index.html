@@ -1,0 +1,85 @@
+<!--
+* This file is part of Wakanda software, licensed by 4D under
+*  (i) the GNU General Public License version 3 (GNU GPL v3), or
+*  (ii) the Affero General Public License version 3 (AGPL v3) or
+*  (iii) a commercial license.
+* This file remains the exclusive property of 4D and/or its licensors
+* and is protected by national and international legislations.
+* In any event, Licensee's compliance with the terms and conditions
+* of the applicable license constitutes a prerequisite to any use of this file.
+* Except as otherwise expressly stated in the applicable license,
+* such license does not include any other license or rights on this file,
+* 4D's and/or its licensors' trademarks and/or other proprietary rights.
+* Consequently, no title, copyright or other proprietary rights
+* other than those specified in the applicable license is granted.
+-->
+<!DOCTYPE html><html>
+    <head>
+        <title>Wakanda Data Browser</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="generator" content="Wakanda GUIDesigner"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    	<meta name="build" content="0001"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=10, user-scalable=1"/>
+		<meta name="apple-mobile-web-app-capable" content="yes"/>
+		<meta name="WAF.config.loadCSS" id="waf-interface-css" content="/walib/dataBrowser/styles/index.css"/>
+<!-- 		load in js -->
+<!-- 		<meta name="WAF.config.loadCSS" id="waf-palette" content="/walib/WAF/widget/palette/css/widget-palette-default.css"/> -->
+		<meta name="WAF.config.loadCSS" id="waf-interface-custom" content="/walib/dataBrowser/styles/index-custom.css"/>
+		<meta name="WAF.config.loadJS" id="waf-script" content="/walib/dataBrowser/scripts/index.js"/>
+		<meta name="wakanda-version" content="V2 Dev"/>
+		<meta name="wakanda-build" content="0001"/>
+	</head>
+	<body id="waf-body" data-type="document" data-theme="default" data-rpc-validation="false" data-rpc-namespace="rpc" data-rpc-activate="false" data-platform="desktop" data-lib="WAF" data-group="[['databrowser_tabview','menuBarTabView']]" class="default">
+		
+		<div id="loginToDataBrowser" data-user-label="User: " data-user-display="Signed in as " data-type="login" data-password-label="Password: " data-logout-action="Logout" data-login-title="Login to Data Browser" data-login-button="Login" data-login-action="Login" data-lib="WAF" data-constraint-left="true" data-constraint-right="true" data-constraint-top="true" data-constraint-bottom="true" class="waf-widget waf-login default inherited" style="z-index: 99;"></div>
+		
+		<!-- <div id="container1" data-type="container" data-lib="WAF" data-constraint-right="true" class="waf-widget waf-container default inherited not-selectable">
+			<ul id="toolbar_dataBrowser" data-type="menuBar" data-tab-margin="1" data-subMenuShow="hover" data-lib="WAF" data-display="horizontal" data-constraint-top="true" data-constraint-right="true" data-constraint-left="true" data-constraint-bottom="true" class="waf-widget waf-menuBar default inherited">
+				<li id="dataBrowserCloseAll" data-type="menuItem" data-lib="WAF" class="waf-widget waf-menuItem default inherited "><p class="waf-menuItem-text waf-menuItem-icon-top"><span>Close All</span></p></li>
+				<li id="dataBrowserExportDataClass" data-type="menuItem" data-lib="WAF" class="waf-widget waf-menuItem default inherited"><p class="waf-menuItem-text waf-menuItem-icon-top"><span>Export</span></p></li>
+				<li id="dataBrowserImportDataClass" data-type="menuItem" data-lib="WAF" class="waf-widget waf-menuItem default inherited" style="display: none;"><p class="waf-menuItem-text waf-menuItem-icon-top"><span>Import</span></p></li>
+			</ul>
+		</div> -->
+
+		<div id="container_dataBrowser" data-type="container" data-lib="WAF" data-constraint-top="true" data-constraint-right="true" data-constraint-left="true" data-constraint-bottom="true" class="waf-widget waf-container default inherited not-selectable">
+			<div id="container3" data-type="container" data-lib="WAF" data-constraint-top="true" data-constraint-right="true" data-constraint-left="true" data-constraint-bottom="true" class="waf-widget waf-container default inherited">
+				<div id="container_list_dataclass" data-type="container" data-lib="WAF" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" class="waf-widget waf-container default inherited waf-split-container">
+					<div id="dataClassContent" data-type="container" data-lib="WAF" data-constraint-right="true" data-constraint-bottom="true" class="waf-widget waf-container default inherited" data-constraint-left="true" data-constraint-top="true">
+					</div>
+				</div>
+				<div id="container_dataclass" data-type="container" data-lib="WAF" data-constraint-top="true" data-constraint-right="true" data-constraint-left="true" data-constraint-bottom="true" class="waf-widget waf-container default inherited waf-split-container ">
+					<div id="databrowser_tabview" data-type="tabView" data-menu-position="top left" data-linked-tag="menuBarTabView,container4" data-lib="WAF" data-constraint-top="true" data-constraint-right="true" data-constraint-left="true" data-constraint-bottom="true" class="waf-widget waf-tabView default inherited">
+						<ul id="menuBarTabView" data-type="menuBar" data-tab-margin="5" data-subMenuShow="hover" data-linked-tag="databrowser_tabview" data-lib="WAF" data-display="horizontal" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" class="waf-widget waf-menuBar default inherited waf-tabView-menuBar ">
+							<li id="menuItem1_dataBrowser" data-type="menuItem" data-linked-tag="container4" data-lib="WAF" class="waf-widget waf-menuItem default inherited"><p class="waf-menuItem-text waf-menuItem-icon-top"><span>Tabs1</span></p></li>
+						</ul>
+						<div id="container4" data-type="container" data-linked-tag="menuItem3" data-lib="WAF" data-constraint-top="true" data-constraint-right="true" data-constraint-left="true" data-constraint-bottom="true" class="waf-widget waf-container default inherited">
+						</div>
+						
+						<div id="dataBrowserCloseAll" data-type="buttonImage" data-target="_blank" data-linked-tag="icon1" data-lib="WAF" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" data-action="simple" class="waf-widget waf-buttonImage default inherited waf-project-adminButtonAction ">
+					 		<span id="icon1" data-type="icon" data-linked-tag="dataBrowserCloseAll" data-lib="WAF" data-label-position="bottom" data-label="Close All" data-image-state1="images/onebit_35-sprite.png" data-icon-type="sprite" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" class="waf-widget waf-icon default inherited  "></span>
+					 		<label id="label1" for="icon1" data-valign="middle" data-type="label" data-margin="5" data-lib="WAF" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" class="waf-widget waf-label default inherited waf-label-icon ">Close All</label>
+				 	 	</div>
+				 	 	
+						<div id="dataBrowserExportDataClass" data-type="buttonImage" data-target="_blank" data-linked-tag="icon2" data-lib="WAF" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" data-action="simple" class="waf-widget waf-buttonImage default inherited waf-project-adminButtonAction ">
+					 		<span id="icon2" data-type="icon" data-linked-tag="dataBrowserExportDataClass" data-lib="WAF" data-label-position="bottom" data-label="Export" data-image-state1="images/exportDataEm24.png" data-image-state3="images/exportDataEm24.png" data-image-state2="images/exportDataEm24Hover.png" data-image-state4="images/exportDataEm24.png" data-icon-type="images" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" class="waf-widget waf-icon default inherited  ">
+					 			<img src="images/exportDataEm24.png" class="waf-icon-state1"/>
+								<img src="images/exportDataEm24Hover.png" class="waf-icon-state2"/>
+								<img src="images/exportDataEm24.png" class="waf-icon-state3"/>
+								<img src="images/exportDataEm24Hover.png" class="waf-icon-state4"/>
+					 		</span>
+					 		<label id="label2" for="icon2" data-valign="middle" data-type="label" data-margin="5" data-lib="WAF" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" class="waf-widget waf-label default inherited waf-label-icon ">Export</label>
+				 	 	</div>
+  	 	 			</div>
+				</div>
+			</div>
+		</div>
+		<div id="importExportTips" class="dataBrowser-exportTips" style="display: none;"></div>
+		<div id="tabToWindowDraggingDiv" style="display: none;"> </div>
+		<div id="confirmExportDialog" style="display: none;">
+			<div id="confirmExportDialogContent"></div>
+		</div>
+		<div id="dataBrowserLoding"></div>
+		<script type="text/javascript" src="/waLib/WAF/Loader.js"></script>
+	</body>
+</html>

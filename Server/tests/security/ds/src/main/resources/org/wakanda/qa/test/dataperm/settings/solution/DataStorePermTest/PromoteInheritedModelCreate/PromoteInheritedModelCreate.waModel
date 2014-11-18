@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><EntityModelCatalog>
+
+<dbInfo name="PromoteInheritedModelCreate" uuid="DEB2380315EE8E47AF7052ECFC4FADBC"/>
+
+<dataClasses name="PromoteInheritedModelCreate" className="PromoteInheritedModelCreate" collectionName="PromoteInheritedModelCreateCollection" scope="public" uuid="98ADD0C5647CFC4FA2FB45056CBC562B" tablePos="1">
+
+	<extraProperties ____objectunic="true" panelColor="#996699">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="25" Y="20"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" uuid="DA8A9DA3D0E6544EB07455FC049BCF37" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<attributes name="name" kind="storage" scope="public" uuid="EAB4832A1E9CBE468C7F3F4AEBA73251" fieldPos="2" type="string"/>
+
+	<methods name="promoteInheritedModelCreate" applyTo="dataClass" scope="public" from="guidedModel.PromoteInheritedModelCreate.methods.promoteInheritedModelCreate"/>
+
+</dataClasses>
+</EntityModelCatalog>

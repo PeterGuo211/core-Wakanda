@@ -1,0 +1,8 @@
+{
+    "description": "Tests of the Restore API",
+    "kind": "ssjs",
+    "oldJenkinsName": "TestServerRestoreAPIRestoreAPI",
+	"developer": "olivier.randriamanana@4d.com",
+	"tester": "mohamed.elghachi@4d.com",
+	"stable": true
+}

@@ -1,0 +1,173 @@
+# Les fichiers sont classes par rpertoire de destination
+# Le 1er et le 2eme flag indique la langue L suivit de l'initial de la langue 
+# F pour French, E pour English, A pour automatique, et * pour toutes les langues 
+# le 3eme & le 4eme flag indique le produit Wakanda Enterprise Server : S et son Mode
+# le 5eme & le 6eme flag indique le produit Wakanda Server : s et son Mode
+# 
+# Pour le mode on peut avoir 
+# A pour tous les modes, D pour debug, B pour beta et R pour release
+# ou les complements
+# d pour tous les modes sauf debug,
+# b pour tous les modes sauf beta,
+# r pour tous les modes sauf release,
+# * pour les fichier pdb qui seront copie pour debug et beta et les releases issues uniquement de la compilation
+#
+# Chaque fichier est contenu dans des sections pour indiquer leur destination 
+# ATTENTION NE PAS METTRE D ESPACE APRES LES [] SINON PLANTAGE
+#
+# Voici les variables que vous avez a dispo
+# %DEPOT% pour l'emplacement du depot sur votre poste
+# %PRODUCT_NAME%
+# %DIR_COMPONENT%
+# %LibModeCompil% libele du mode Debug, Beta, ou Final
+# %Lib2Langue%
+# %LibMode_SR% libl du mode Debug, Beta ou vide pour Release
+#
+# Si le chemin est un nom de repertoire 
+#    sans / correspond  une copy du repertoire (arboresence compris)
+#    avec / correspond  une copy de tout le contenue du repertoire (arboresence compris) 
+#
+
+
+
+#LE SERVEUR#######################
+LASAsA [%TARGET%]
+LASAs_ %DEPOT%Wakanda/%branch%/Server/Projet/CMake/Build/%LibMode%%ARCHS%/WakandaEnterprise
+LAS_sA %DEPOT%Wakanda/%branch%/Server/Projet/CMake/Build/%LibMode%%ARCHS%/Wakanda
+
+#LES FRAMEWORKS#######################
+LASAsA [%TARGET%Libs]
+LASAsA %DEPOT%XToolbox/%BRANCH%/JSDebugger/Projects/CMake/Build/%LibMode%%ARCHS%/JsDebugger%LibMode_SR%.so
+LASAsA %DEPOT%XToolbox/%BRANCH%/Kernel/Projects/CMake/Build/%LibMode%%ARCHS%/Kernel%LibMode_SR%.so
+LASAsA %DEPOT%XToolbox/%BRANCH%/TextCore/Projects/CMake/Build/%LibMode%%ARCHS%/TextCore%LibMode_SR%.so
+LASAsA %DEPOT%XToolbox/%BRANCH%/KernelIPC/Projects/CMake/Build/%LibMode%%ARCHS%/KernelIPC%LibMode_SR%.so
+LASAsA %DEPOT%XToolbox/%BRANCH%/ServerNet/Projects/CMake/Build/%LibMode%%ARCHS%/ServerNet%LibMode_SR%.so
+LASAsA %DEPOT%XToolbox/%BRANCH%/XML/Projects/CMake/Build/%LibMode%%ARCHS%/Xml%LibMode_SR%.so
+LASAsA %DEPOT%XToolbox/%BRANCH%/JavaScript/Projects/CMake/Build/%LibMode%%ARCHS%/JavaScript%LibMode_SR%.so
+LASAsA %DEPOT%XToolbox/%BRANCH%/Graphics/Projects/CMake/Build/%LibMode%%ARCHS%/Graphics%LibMode_SR%.so
+
+LASAsA %DEPOT%webkit/534.53/JavaScriptCore/CMake/Build/%BRANCH%%LibMode%%ARCHS%/JsCore%LibMode_SR%.so
+LASAsA %DEPOT%curl/7.19.7/CMake/Build/%BRANCH%%LibMode%%ARCHS%/Curl%LibMode_SR%.so
+LASAsA %DEPOT%icu/4.8/projets/CMake/Build/%BRANCH%%LibMode%%ARCHS%/Icu%LibMode_SR%.so
+LASAs_ %DEPOT%unixODBC/2.3.1/Projects/CMake/Build/%BRANCH%%LibMode%%ARCHS%/UnixODBC%LibMode_SR%.so
+
+LASAsA %DEPOT%libzip/0.10/Projects/CMake/Build/%BRANCH%%LibMode%%ARCHS%/LibZip%LibMode_SR%.so
+LASAsA %DEPOT%openssl/1.0.0d/Build/%BRANCH%%LibMode%%ARCHS%/openssl/libcrypto.so.1.0.0
+LASAsA %DEPOT%openssl/1.0.0d/Build/%BRANCH%%LibMode%%ARCHS%/openssl/libssl.so.1.0.0
+LASAsA %DEPOT%xerces/3.0.1/xerces/projects/CMake/Build/%BRANCH%%LibMode%%ARCHS%/Xerces%LibMode_SR%.so
+LASAsA %DEPOT%zlib/1.2.5/projects/CMake/Build/%BRANCH%%LibMode%%ARCHS%/ZLib%LibMode_SR%.so
+
+LASAsA %DEPOT%libbsd/4.2/CMake/Build/%BRANCH%%LibMode%%ARCHS%/Bsd%LibMode_SR%.so
+LASAsA %DEPOT%libuuid/2.22/CMake/Build/%BRANCH%%LibMode%%ARCHS%/Uuid%LibMode_SR%.so
+
+# jmo - From now on, DB4D is a dynamic library
+LASAsA %DEPOT%Components/%BRANCH%/DB4D/projects/CMake/Build/%LibMode%%ARCHS%/DB4D%LibMode_SR%.so
+
+#zlib
+
+LASAs_ %DEPOT%XToolbox/%BRANCH%/SQL/Projects/CMake/Build/%LibMode%%ARCHS%/SQLUtilities%LibMode_SR%.so
+LASAs_ %DEPOT%XToolbox/%BRANCH%/SQLModel/Projects/CMake/Build/%LibMode%%ARCHS%/SQLModel%LibMode_SR%.so
+
+# jmo - Je considre que les remote entities seront gres comme une lib dynamique et non comme un composant
+LASAs_ %DEPOT%Components/%BRANCH%/RemoteEntity/Projects/CMake/Build/%LibMode%%ARCHS%/RemoteEntity%LibMode_SR%.so
+LASAs_ %DEPOT%Components/%BRANCH%/SQLEntity/Projects/CMake/Build/%LibMode%%ARCHS%/SQLEntity%LibMode_SR%.so
+
+#LES PLUGINS#######################
+
+#LES COMPOSANTS#######################
+
+#LES COMPOSANTS INTERNES#######################
+LASAsA [%TARGET%%DIR_COMPONENT%Native Components/HTTPServer%LibMode_SR%.bundle/Contents/Linux]
+LASAsA %DEPOT%Components/%BRANCH%/HTTPServer/Projects/CMake/Build/%LibMode%%ARCHS%/HTTPServer%LibMode_SR%.so
+
+LASAsA [%TARGET%%DIR_COMPONENT%Native Components/LanguageSyntax%LibMode_SR%.bundle/Contents/Linux]
+LASAsA %DEPOT%Components/%BRANCH%/Language Syntax/Projects/CMake/Build/%LibMode%%ARCHS%/LanguageSyntax%LibMode_SR%.so
+
+LASAsA [%TARGET%%DIR_COMPONENT%Native Components/UsersAndGroups%LibMode_SR%.bundle/Contents/Linux]
+LASAsA %DEPOT%Components/%BRANCH%/UsersAndGroups/projects/CMake/Build/%LibMode%%ARCHS%/UsersAndGroups%LibMode_SR%.so
+
+LASAsA [%TARGET%%DIR_COMPONENT%Native Components/SecurityManager%LibMode_SR%.bundle/Contents/Linux]
+LASAsA %DEPOT%Components/%BRANCH%/Security Manager/Projects/CMake/Build/%LibMode%%ARCHS%/SecurityManager%LibMode_SR%.so
+
+LASAsA [%TARGET%%DIR_COMPONENT%Native Components/Zip%LibMode_SR%.bundle/Contents/Linux]
+LASAsA %DEPOT%Components/%BRANCH%/Zip/Projects/CMake/Build/%LibMode%%ARCHS%/Zip%LibMode_SR%.so
+
+LASAs_ [%TARGET%%DIR_COMPONENT%Native Components/MySQLConnector%LibMode_SR%.bundle/Contents/Linux]
+LASAs_ %DEPOT%Components/%BRANCH%/MySQLConnector/Projects/CMake/Build/%LibMode%%ARCHS%/MySQLConnector%LibMode_SR%.so
+
+LASAs_ [%TARGET%%DIR_COMPONENT%Native Components/MSSQLConnector%LibMode_SR%.bundle/Contents/Linux]
+LASAs_ %DEPOT%Components/%BRANCH%/MSSQLConnector/Projects/CMake/Build/%LibMode%%ARCHS%/MSSQLConnector%LibMode_SR%.so
+
+LASAs_ [%TARGET%%DIR_COMPONENT%Native Components/ODBCConnector%LibMode_SR%.bundle/Contents/Linux]
+LASAs_ %DEPOT%Components/%BRANCH%/ODBCConnector/Projects/CMake/Build/%LibMode%%ARCHS%/ODBCConnector%LibMode_SR%.so
+
+#LES XLIFF COMPOSANTS#######################
+LASAsA [%TARGET%%DIR_COMPONENT%Native Components/HTTPServer%LibMode_SR%.bundle/Contents/]
+LASAsA %DEPOT%Components/%BRANCH%/HTTPServer/Resources
+
+LASAsA [%TARGET%%DIR_COMPONENT%Native Components/LanguageSyntax%LibMode_SR%.bundle/Contents/]
+LASAsA %DEPOT%Components/%BRANCH%/Language Syntax/Resources
+
+LASAsA [%TARGET%%DIR_COMPONENT%Native Components/UsersAndGroups%LibMode_SR%.bundle/Contents/]
+LASAsA %DEPOT%Components/%BRANCH%/UsersAndGroups/Resources
+
+LASAsA [%TARGET%%DIR_COMPONENT%Native Components/Zip%LibMode_SR%.bundle/Contents/]
+LASAsA %DEPOT%Components/%BRANCH%/Zip/Resources
+
+LASAs_ [%TARGET%%DIR_COMPONENT%Native Components/MySQLConnector%LibMode_SR%.bundle/Contents/]
+LASAs_ %DEPOT%Components/%BRANCH%/MySQLConnector/Resources
+
+LASAs_ [%TARGET%%DIR_COMPONENT%Native Components/MSSQLConnector%LibMode_SR%.bundle/Contents/]
+LASAs_ %DEPOT%Components/%BRANCH%/MSSQLConnector/Resources
+
+LASAs_ [%TARGET%%DIR_COMPONENT%Native Components/ODBCConnector%LibMode_SR%.bundle/Contents/]
+LASAs_ %DEPOT%Components/%BRANCH%/ODBCConnector/Resources
+
+#LES RESSOURCES#######################
+LASAsA [%TARGET%Resources]
+LASAsA %DEPOT%Wakanda/%branch%/Server/Resources/Info.plist
+LASAsA %DEPOT%Wakanda/%branch%/Server/Resources/Default Solution
+LASAsA %DEPOT%Wakanda/%branch%/Server/Resources/remote_traces.skeleton
+LASAsA %DEPOT%Wakanda/%branch%/Server/Resources/supportedCSSProperties.txt
+LASAsA %DEPOT%Wakanda/%branch%/Server/Resources/%LibLangueLproj%
+LASAsA %DEPOT%Wakanda/%branch%/Server/Resources/Templates
+#jmo - Build fix Faut-il supprimer ce rep ou a-t-il simplement bouge ?
+#LASAsA %DEPOT%Wakanda/%branch%/Studio/Resources/JavaScript Support Files
+LASAsA %DEPOT%Wakanda/%branch%/Common/Resources/
+
+LASAsA %DEPOT%XToolbox/%BRANCH%/Kernel/Resources/BasicUTIs.WIN.plist
+
+LASAsA [%TARGET%Resources/Templates/Blank/WebFolder/images]
+
+LASAsA [%TARGET%walib]
+LASAsA %DEPOT%Wakanda/%branch%/walib/WAF
+LASAsA %DEPOT%Wakanda/%branch%/walib/dataBrowser
+LASAsA %DEPOT%Wakanda/%branch%/walib/debugger
+LASAsA %DEPOT%Wakanda/%branch%/walib/minifiedCoresWAF
+
+LASAsA [%TARGET%]
+L*SAsA %DEPOT%Wakanda/%branch%/Server/Resources/SSJS/Modules
+
+LASAsA [%TARGET%Resources/Templates]
+LASAsA %DEPOT%Wakanda/%branch%/Server/Resources/Default Solution/Admin
+
+LASAsA [%TARGET%Resources/%LibLangueLproj%]
+LASAsA %DEPOT%XToolbox/%BRANCH%/Kernel/Resources/%LibLangueLproj%/Errors_xbox_%Lib2Langue%.xlf
+LASAsA %DEPOT%XToolbox/%BRANCH%/JavaScript/Resources/%LibLangueLproj%/Errors_javascript_%Lib2Langue%.xlf
+LASAsA %DEPOT%XToolbox/%BRANCH%/ServerNet/Resources/%LibLangueLproj%/ServerNet%Lib2Langue%.xlf
+LASAsA %DEPOT%Components/%BRANCH%/DB4D/Resources/%LibLangueLproj%/
+
+LASAsA [%TARGET%Resources/DB4D]
+LASAsA %DEPOT%Components/%BRANCH%/DB4D/Resources/directoryRest.js
+LASAsA %DEPOT%Components/%BRANCH%/DB4D/Resources/ImpExpRest.js
+LASAsA %DEPOT%Components/%BRANCH%/DB4D/Resources/methodCall.js
+LASAsA %DEPOT%Components/%BRANCH%/DB4D/Resources/ModelLoadTime.js
+LASAsA %DEPOT%Components/%BRANCH%/DB4D/Resources/ModelPrepare.js
+LASAsA %DEPOT%Components/%BRANCH%/DB4D/Resources/RemoteMethodCall.js
+LASAsA %DEPOT%Components/%BRANCH%/DB4D/Resources/reporting.js
+
+LASAsA [%TARGET%Resources/wkhtmltopdf]
+LASAsA %DEPOT%Wakanda/%branch%/Server/Resources/wkhtmltopdf.LINUX/
+
+LASAs_ [%TARGET%Modules]
+L*SA   %DEPOT%Wakanda/%branch%/Server/Resources/SSJS/ModulesEnterprise/

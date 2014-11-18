@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <DLL_ICU_DEBUG>icuDebug.dll</DLL_ICU_DEBUG>
+    <DLL_ICU_BETA>icuBeta.dll</DLL_ICU_BETA>
+    <DLL_ICU_RELEASE>icu.dll</DLL_ICU_RELEASE>
+    <LIB_ICU_DIRECTORY>$(DepotRoot)\icu\4.8\projets\win\$(VisualStudioVersion)\$(PlatformName)\$(ConfigurationName)</LIB_ICU_DIRECTORY>
+    <ICU_INCLUDE>$(DepotRoot)\icu\4.8\icu\include\</ICU_INCLUDE>
+    <DLL_ICU_DIRECTORY>$(DepotRoot)\icu\4.8\projets\win\$(VisualStudioVersion)\$(PlatformName)\$(ConfigurationName)</DLL_ICU_DIRECTORY>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(DepotRoot)\icu\4.8\icu\source\common\;$(DepotRoot)\icu\4.8\icu\source\i18n\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>xbox_icu=icu_48;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <BuildMacro Include="DLL_ICU_DEBUG">
+      <Value>$(DLL_ICU_DEBUG)</Value>
+    </BuildMacro>
+    <BuildMacro Include="DLL_ICU_BETA">
+      <Value>$(DLL_ICU_BETA)</Value>
+    </BuildMacro>
+    <BuildMacro Include="DLL_ICU_RELEASE">
+      <Value>$(DLL_ICU_RELEASE)</Value>
+    </BuildMacro>
+    <BuildMacro Include="LIB_ICU_DIRECTORY">
+      <Value>$(LIB_ICU_DIRECTORY)</Value>
+    </BuildMacro>
+    <BuildMacro Include="ICU_INCLUDE">
+      <Value>$(ICU_INCLUDE)</Value>
+    </BuildMacro>
+    <BuildMacro Include="DLL_ICU_DIRECTORY">
+      <Value>$(DLL_ICU_DIRECTORY)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>

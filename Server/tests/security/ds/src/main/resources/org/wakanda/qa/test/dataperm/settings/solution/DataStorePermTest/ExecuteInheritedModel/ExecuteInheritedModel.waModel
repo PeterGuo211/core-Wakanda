@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><EntityModelCatalog>
+
+<dbInfo name="ExecuteInheritedModel" uuid="DEB2380315EE8E47AF7052ECFC4FADBC"/>
+
+<dataClasses name="ExecuteInheritedModel" className="ExecuteInheritedModel" collectionName="ExecuteInheritedModelCollection" scope="public" uuid="17E59D7D1C3E6A45885007E1503C6B19" tablePos="1">
+
+	<extraProperties ____objectunic="true" panelColor="#fff">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="25" Y="20"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" uuid="17BB54E777C9CB49A37D26824E9C02D6" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<methods name="secured" applyTo="dataClass" scope="public" from="guidedModel.ExecuteInheritedModel.methods.secured"/>
+
+</dataClasses>
+</EntityModelCatalog>

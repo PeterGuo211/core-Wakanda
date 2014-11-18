@@ -1,0 +1,42 @@
+#!/bin/bash
+
+echo "
+ [INFO]-------------------------------------
+ [INFO]
+ [INFO]
+ [INFO] Written by Geoffrey Beauny
+ [INFO] 4D | Auto Test Linux | Wakanda Server 
+ [INFO] DiskMount Shell Script
+ [INFO]
+ [INFO]
+ [INFO]--------------------------------------
+"
+
+echo "
+[INFO]----------------------------
+[INFO] Checking MountDisk on 4D Network
+[INFO]----------------------------
+"
+
+function DiskMountCheck_Compile() {
+
+if [ ! -d ${CompiledOnEng} ]
+then
+    echo "Mount Disk for Compiled failed !"
+    exit 1
+
+fi
+
+}
+
+function DiskMountCheck_Solutions() {
+
+if [ ! -d ${Solutions} ]
+then
+    echo "Mount Disk for Compiled failed !"
+    exit 1
+
+fi
+
+}
+

@@ -1,0 +1,9 @@
+{
+    "description": "Tests of the SystemWorker API",
+    "kind": "ssjs",
+    "oldJenkinsName": "TestServerSystemWorkerTest",
+    "tester": "sebastien.courvoisier@4d.com",
+    "visibility": "public",
+    "developer": "ke-fong.lin@4d.com",
+    "stable": true
+}

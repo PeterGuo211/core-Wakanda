@@ -1,0 +1,213 @@
+/*
+* This file is part of Wakanda software, licensed by 4D under
+*  (i) the GNU General Public License version 3 (GNU GPL v3), or
+*  (ii) the Affero General Public License version 3 (AGPL v3) or
+*  (iii) a commercial license.
+* This file remains the exclusive property of 4D and/or its licensors
+* and is protected by national and international legislations.
+* In any event, Licensee's compliance with the terms and conditions
+* of the applicable license constitutes a prerequisite to any use of this file.
+* Except as otherwise expressly stated in the applicable license,
+* such license does not include any other license or rights on this file,
+* 4D's and/or its licensors' trademarks and/or other proprietary rights.
+* Consequently, no title, copyright or other proprietary rights
+* other than those specified in the applicable license is granted.
+*/
+/* DEV ================================================================================ */
+
+* {
+    /*border: 1px solid red;*/
+}
+/* =================================================================================== */
+
+html, body {
+    margin: 0;
+    padding: 5px;
+    cursor: default;
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: left;
+    color: black;
+    -webkit-user-select: none;
+}
+.page h1 {
+    display: block;
+    border-bottom: 1px solid #ccc;
+    color: #53637D;
+    font-weight: normal;
+    font-size: 26px;
+    margin: 0;
+    padding: 10px 0 5px 0;
+}
+
+#settings {
+    display: table;
+    max-width: 888px;
+    width: 700px;
+    margin: 0 0 0 13px;
+}
+
+#settings > section {
+    display: table-row;
+    max-width: 888px;
+    width: 700px;
+    -webkit-box-orient: horizontal;
+}
+
+#settings > section > * {
+    display: table-cell;
+    vertical-align: baseline;
+    border-bottom: 1px solid #ccc;
+    padding-top: 17px;
+    padding-bottom: 20px;
+}
+
+#settings > section > h3 {
+    width: 180px;
+
+    font-size: 14px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+#settings > section > .group {
+    -webkit-box-flex: 1;
+}
+
+.title {
+    text-align: left;
+    font-size: 26px;
+    font-weight: normal;
+    color: #53637D;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+}
+.groupTitle {
+    vertical-align: 50%;
+    text-align: left;
+    font-size: 14px;
+    font-weight: normal;
+    color: #53637D;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.groupTitle span {
+    text-align: left;
+    font-size: 13px;
+    color: #000000;
+}
+
+
+.groupTab {
+    margin-left: 5px;
+    margin-top: 0px;
+}
+.item, label {
+    text-align: left;
+    font-weight: normal;
+    color: dimGray;
+    background-color: white;
+    margin: 10px;
+    padding: 0;
+}
+.item {
+    font-size: 12px;
+}
+.element {	
+    margin-top: 10px;
+}
+.bold {
+    font-weight: bold;
+}
+label {
+    font-size: 12px;
+}
+.group {
+    border: 0;
+    /*border-left: 2px solid #eee;*/
+    margin: 10px;
+    padding: 5px;
+}
+.leftAlign {
+    /*float:left;*/
+}
+.rightAlign {
+    /*float:right;*/
+}
+.inline {
+    display: inline;
+}
+.list {
+    display: block;
+}
+.level2 {
+    margin-left: 22px;
+}
+.level4 {
+    margin-left: 44px;
+}
+.level6 {
+    margin-left: 66px;
+}
+.warning {
+	color: red;
+}
+.cached {
+    display: none;
+}
+.hidden {
+    visibility: hidden;
+}
+.spacer {
+    margin-top: 30px;
+}
+input {
+    border: 1px solid #eee;
+    color: lightgray;
+    border-radius: 5px;
+    font-size: 1em;
+    padding: 2px;
+    margin-left: 5px;
+    text-align: left;
+}
+input:enabled {
+    color: black;
+}
+input[type='file'] {
+    opacity: 0.0;
+}
+input[type='button'] {
+    text-align: center;
+    background-color: white;
+    border-width: 1px;
+    border-color: lightGray;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+input[disabled] {
+    color : darkGrey;
+    background-color: white;    
+}
+select {
+    border: 1px solid #eee;
+    -webkit-appearance: menulist-button;
+}
+.stepper {
+    vertical-align: center;
+    position: absolute;
+    margin: 5px 0 0 5px;
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    background: url(../images/numButton.png) no-repeat;
+}
+.min {
+    background-position: 0 -16px;
+    margin-left: 24px;
+}
+

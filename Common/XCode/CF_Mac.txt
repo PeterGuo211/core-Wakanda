@@ -1,0 +1,245 @@
+# Les fichiers sont classes par rpertoire de destination
+# Le 1er et le 2eme flag indique la langue L suivit de l'initial de la langue 
+# F pour French, E pour English, A pour automatique, et * pour toutes les langues 
+# le 3eme et le 4 eme flag indique le produit Mono : M et son Mode
+# le 5eme et le 6 eme flag indique le produit Serveur : S et son Mode
+# le 7eme et le 8 eme flag indique le produit Engine : E et son Mode
+# le 9eme et le 10eme flag indique le produit Wakanda Studio : m et son Mode
+# le 11eme & le 12eme flag indique le produit Wakanda Server : s et son Mode
+# 
+# Pour le mode on peut avoir 
+# A pour tous les modes, D pour debug, B pour beta et R pour release
+# ou les complements
+# d pour tous les modes sauf debug,
+# b pour tous les modes sauf beta,
+# r pour tous les modes sauf release,
+#
+# Chaque fichier est contenu dans des sections pour indiquer leur destination 
+# ATTENTION NE PAS METTRE D ESPACE APRES LES [] SINON PLANTAGE
+#
+# Voici les variables que vous avez a dispo
+# %DEPOT% pour l'emplacement du depot sur votre poste
+# %PRODUCT_NAME%
+# %DIR_COMPONENT%
+# %LibModeCompil% libele du mode Debug, Beta, ou Final
+# %Lib2Langue%
+# %LibMode_SR% libl du mode Debug, Beta ou vide pour Release
+#
+# Si le chemin est un nom de repertoire 
+#    sans / correspond  une copy du repertoire (arboresence compris)
+#    avec / correspond  une copy de tout le contenue du repertoire (arboresence compris) 
+#
+
+#LES EXTENSIONS#######################
+
+#LES FRAMEWORKS#######################
+LAMASA__mAsA [%TARGET%%PRODUCT_NAME%.app/Contents/Frameworks]
+LAMASA__mAsA %DEPOT%XToolbox/%BRANCH%/Frameworks/Graphics%LibMode_SR%.framework
+LAMAS___mAs_ %DEPOT%XToolbox/%BRANCH%/Frameworks/GUI%LibMode_SR%.framework
+LAMASA__mAsA %DEPOT%XToolbox/%BRANCH%/Frameworks/TextCore%LibMode_SR%.framework
+LAMASA__mAsA %DEPOT%XToolbox/%BRANCH%/Frameworks/JSDebugger%LibMode_SR%.framework
+LAMASA__mAsA %DEPOT%XToolbox/%BRANCH%/Frameworks/Kernel%LibMode_SR%.framework
+LAMASA__mAsA %DEPOT%XToolbox/%BRANCH%/Frameworks/KernelIPC%LibMode_SR%.framework
+LAMASA__mAsA %DEPOT%XToolbox/%BRANCH%/Frameworks/ServerNet%LibMode_SR%.framework
+LAMASA__mAsA %DEPOT%XToolbox/%BRANCH%/Frameworks/XML%LibMode_SR%.framework
+LAMASA__mAsA %DEPOT%XToolbox/%BRANCH%/Frameworks/4DJavaScript%LibMode_SR%.framework
+
+LAMBSB__mBsB %DEPOT%XToolbox/%BRANCH%/Frameworks/Graphics%LibMode_SR%.framework.dSYM
+LAMBSB__mBsB %DEPOT%XToolbox/%BRANCH%/Frameworks/JSDebugger%LibMode_SR%.framework.dSYM
+LAMBSB__mBsB %DEPOT%XToolbox/%BRANCH%/Frameworks/Kernel%LibMode_SR%.framework.dSYM
+LAMBSB__mBsB %DEPOT%XToolbox/%BRANCH%/Frameworks/KernelIPC%LibMode_SR%.framework.dSYM
+#LAMBSB__mBsB %DEPOT%XToolbox/%BRANCH%/Frameworks/ServerNet%LibMode_SR%.framework.dSYM
+LAMBSB__mBsB %DEPOT%XToolbox/%BRANCH%/Frameworks/XML%LibMode_SR%.framework.dSYM
+LAMBSB__mBsB %DEPOT%XToolbox/%BRANCH%/Frameworks/4DJavaScript%LibMode_SR%.framework.dSYM
+
+LAMbSb__mbsb %DEPOT%webkit/534.53/JavaScriptCore/build_i386 x86_64/%LibModeCompil%/4DJavaScriptCore.framework
+LAMBSB__mBsB %DEPOT%webkit/534.53/JavaScriptCore/build_i386 x86_64/Production/4DJavaScriptCore.framework
+LAMbS___mbs_ %DEPOT%webkit/534.53/WebCore/build_i386/%LibModeCompil%/4DWebCore.framework
+LAMBS___mBs_ %DEPOT%webkit/534.53/WebCore/build_i386/Production/4DWebCore.framework
+LAMbS___mbs_ %DEPOT%webkit/534.53/WebKit/build_i386/%LibModeCompil%/4DWebKit.framework
+LAMBS___mBs_ %DEPOT%webkit/534.53/WebKit/build_i386/Production/4DWebKit.framework
+
+LAMASA__mAsA %DEPOT%icu/4.8/Frameworks/icu%LibMode_SR%.framework
+LAMpSp__mpsp %DEPOT%libzip/0.10/Frameworks/libzip%LibMode_SR%.framework
+LAMPSP__mPsP %DEPOT%libzip/0.10/Frameworks/libzip.framework
+LAMpSp__mpsp %DEPOT%openssl/1.0.0d/Frameworks/OpenSSL%LibMode_SR%.framework
+LAMPSP__mPsP %DEPOT%openssl/1.0.0d/Frameworks/OpenSSLBeta.framework
+LAMASA__mAsA %DEPOT%xerces/3.0.1/Frameworks/Xerces%LibMode_SR%.framework
+LAMpSp__mpsp %DEPOT%zlib/1.2.5/Frameworks/zlib%LibMode_SR%.framework
+LAMPSP__mPsP %DEPOT%zlib/1.2.5/Frameworks/zlib.framework
+
+LAMASA__mAsA %DEPOT%Components/%BRANCH%/Frameworks/%LibMode%/DB4D%LibMode_SR%.framework
+LAMBSB__mBsB %DEPOT%Components/%BRANCH%/Frameworks/%LibMode%/DB4D%LibMode_SR%.framework.dSYM
+
+#LES INFOS#######################
+LAMASA__mAsA [%TARGET%%PRODUCT_NAME%.app/Contents]
+LAMASA__mAsA %DEPOT%Wakanda/%branch%/Apps/%MachoCompil%/%LibModeCompil%/%PRODUCT_NAME%.app/Contents/PkgInfo
+LAMASA__mAsA %DEPOT%Wakanda/%branch%/Apps/%MachoCompil%/%LibModeCompil%/%PRODUCT_NAME%.app/Contents/Info.plist
+LAMAS___mAs_ %DEPOT%Wakanda/%branch%/Studio/Extensions
+
+#L APPLICATION#######################
+LAMASA__mAsA [%TARGET%%PRODUCT_NAME%.app/Contents/MacOS]
+LAMASA__mAsA %DEPOT%Wakanda/%branch%/Apps/%MachoCompil%/%LibModeCompil%/%PRODUCT_NAME%.app/Contents/MacOS/%PRODUCT_NAME%
+LAM_SA__m_sA %DEPOT%HelperTools/1.0/Projects/build/%LibModeCompil%/HelperTool
+LAM_SA__m_sA %DEPOT%HelperTools/1.0/Projects/build/%LibModeCompil%/InstallTool
+
+#LES COMPOSANTS INTERNES#######################
+LAMASA__mAsA [%TARGET%%DIR_COMPONENT%Native Components/]
+LAMAS___mAs_ %DEPOT%Components/%BRANCH%/components/%LibModeCompil%/CodeEditor%LibMode_SR%.bundle
+
+LAMBSB__mBsB %DEPOT%Components/%BRANCH%/components/%LibModeCompil%/HTTPServer%LibMode_SR%.bundle.dSYM
+LAMBSB__mBsB %DEPOT%Components/%BRANCH%/components/%LibModeCompil%/LanguageSyntax%LibMode_SR%.bundle.dSYM
+LAMBSB__mBsB %DEPOT%Components/%BRANCH%/components/%LibModeCompil%/SecurityManager%LibMode_SR%.bundle.dSYM
+LAMBSB__mBsB %DEPOT%Components/%BRANCH%/components/%LibModeCompil%/UsersAndGroups%LibMode_SR%.bundle.dSYM
+
+LAMASA__mAsA [%TARGET%%DIR_COMPONENT%Native Components/HTTPServer%LibMode_SR%.bundle/Contents/]
+LAMASA__mAsA %DEPOT%Components/%BRANCH%/components/%LibModeCompil%/HTTPServer%LibMode_SR%.bundle/Contents/MacOS
+LAMASA__mAsA %DEPOT%Components/%BRANCH%/components/%LibModeCompil%/HTTPServer%LibMode_SR%.bundle/Contents/info.plist
+LAMASA__mAsA %DEPOT%Components/%BRANCH%/HTTPServer/Resources
+
+LAMASA__mAsA [%TARGET%%DIR_COMPONENT%Native Components/LanguageSyntax%LibMode_SR%.bundle/Contents/]
+LAMASA__mAsA %DEPOT%Components/%BRANCH%/components/%LibModeCompil%/LanguageSyntax%LibMode_SR%.bundle/Contents/MacOS
+LAMASA__mAsA %DEPOT%Components/%BRANCH%/components/%LibModeCompil%/LanguageSyntax%LibMode_SR%.bundle/Contents/info.plist
+LAMASA__mAsA %DEPOT%Components/%BRANCH%/Language Syntax/Resources
+
+LAMASA__mAsA [%TARGET%%DIR_COMPONENT%Native Components/SecurityManager%LibMode_SR%.bundle/Contents/]
+LAMASA__mAsA %DEPOT%Components/%BRANCH%/components/%LibModeCompil%/SecurityManager%LibMode_SR%.bundle/Contents/MacOS
+LAMASA__mAsA %DEPOT%Components/%BRANCH%/components/%LibModeCompil%/SecurityManager%LibMode_SR%.bundle/Contents/info.plist
+
+LAMASA__mAsA [%TARGET%%DIR_COMPONENT%Native Components/UsersAndGroups%LibMode_SR%.bundle/Contents/]
+LAMASA__mAsA %DEPOT%Components/%BRANCH%/components/%LibModeCompil%/UsersAndGroups%LibMode_SR%.bundle/Contents/MacOS
+LAMASA__mAsA %DEPOT%Components/%BRANCH%/components/%LibModeCompil%/UsersAndGroups%LibMode_SR%.bundle/Contents/info.plist
+LAMASA__mAsA %DEPOT%Components/%BRANCH%/UsersAndGroups/Resources
+
+LAMAS___mAs_ [%TARGET%%DIR_COMPONENT%Native Components/WebViewerWebkit%LibMode_SR%.bundle/Contents/]
+LAMAS___mAs_ %DEPOT%Components/%BRANCH%/components/%LibModeCompil%/WebViewerWebkit%LibMode_SR%.bundle/Contents/MacOS
+LAMAS___mAs_ %DEPOT%Components/%BRANCH%/components/%LibModeCompil%/WebViewerWebkit%LibMode_SR%.bundle/Contents/info.plist
+
+LAMAS___mAs_ %DEPOT%Components/%BRANCH%/Web/Resources
+
+LAMASA__mAsA [%TARGET%%DIR_COMPONENT%Native Components/Zip%LibMode_SR%.bundle/Contents/]
+LAMASA__mAsA %DEPOT%Components/%BRANCH%/components/%LibModeCompil%/Zip%LibMode_SR%.bundle/Contents/MacOS
+LAMASA__mAsA %DEPOT%Components/%BRANCH%/components/%LibModeCompil%/Zip%LibMode_SR%.bundle/Contents/info.plist
+LAMASA__mAsA %DEPOT%Components/%BRANCH%/Zip/Resources
+
+#LES COMPOSANTS INTERNES#######################
+LAMAS___mAs_ [%TARGET%%PRODUCT_NAME%.app/Contents/Resources/Internal Components/studio.4dbase]
+LAMDS___mDs_ %DEPOT%Wakanda/%branch%/Studio/Internal Components/studio_%branch%.4dbase/
+LAMdS___mds_ %DEPOT%Wakanda/%branch%/Studio/Internal Components/Build/Components/studio.4dbase/
+LAMdS___mds_ %DEPOT%Wakanda/%branch%/Studio/Internal Components/studio_%branch%.4dbase/Resources
+
+LAMAS___mAs_ [%TARGET%%PRODUCT_NAME%.app/Contents/Resources/Internal Components/coreDialog.4dbase]
+LAMDS___mDs_ %DEPOT%4DComponents/%branch%/Internal Components/coreDialog.4dbase/
+LAMdS___mds_ %DEPOT%4DComponents/%branch%/Internal Components/Build/Components/coreDialog.4dbase/
+LAMdS___mds_ %DEPOT%4DComponents/%branch%/Internal Components/coreDialog.4dbase/Resources
+
+#LES RESSOURCES#######################
+LAMASA__mAsA [%TARGET%%PRODUCT_NAME%.app/Contents/Resources]
+LAM_S___m_sA %DEPOT%Wakanda/%branch%/Server/Projet/XCode/Wakanda Server.icns
+LAM_SA__m_s_ %DEPOT%Wakanda/%branch%/Server/Projet/XCode/Wakanda Enterprise Server.icns
+LAM_S___mAs_ %DEPOT%Wakanda/%branch%/Studio/Projet/XCode/Wakanda Studio.icns
+LAMAS___m_s_ %DEPOT%Wakanda/%branch%/Studio/Projet/XCode/Wakanda Enterprise Studio.icns
+LAM_S___mAsA %DEPOT%Wakanda/%branch%/Common/XCode/Wakanda Generic.icns
+LAMASA__m_s_ %DEPOT%Wakanda/%branch%/Common/XCode/Wakanda Enterprise Generic.icns
+
+LAMAS___mAs_ %DEPOT%CoreRuntime/%branch%/Resources/Language Support
+LAMAS___mAs_ %DEPOT%CoreRuntime/%branch%/Resources/ByteSwap.TXT
+LAMAS___mAs_ %DEPOT%CoreRuntime/%branch%/Resources/KeyboardMapping.MAC.xml
+LAMAS___mAs_ %DEPOT%CoreRuntime/%branch%/Resources/Images
+
+LAMAS___mAs_ %DEPOT%Wakanda/%branch%/Studio/Resources/
+LAM_SA__m_sA %DEPOT%Wakanda/%branch%/Server/Resources/Default Solution
+LAM_SA__m_sA %DEPOT%Wakanda/%branch%/Server/Resources/remote_traces.skeleton
+LAM_SA__m_sA %DEPOT%Wakanda/%branch%/Server/Resources/supportedCSSProperties.txt
+LAM_SA__m_sA %DEPOT%Wakanda/%branch%/Server/Resources/%LibLangueLproj%
+LAMASA__mAsA %DEPOT%Wakanda/%branch%/Common/Resources/
+
+LAMAS___mAs_ %DEPOT%CoreRuntime/%branch%/Resources/default.4DSettings
+LAMAS___mAs_ %DEPOT%CoreRuntime/%branch%/Resources/gram.4dsyntax
+LAMAS___mAs_ %DEPOT%CoreRuntime/%branch%/Resources/PreferencesPages.xml
+LAMAS___mAs_ %DEPOT%CoreRuntime/%branch%/Resources/OpenOptions.MAC.nib/
+LAMAS___mAs_ %DEPOT%CoreRuntime/%branch%/Resources/OpenOptionsCocoa.MAC.nib/
+
+#Optimisation a faire en 1 ligne
+
+LAMAS___mAs_ [%TARGET%%PRODUCT_NAME%.app/Contents/Resources/Templates/Blank/WebFolder/images]
+
+LAMASA__mAsA [%TARGET%%PRODUCT_NAME%.app/Contents/]
+L*MASA__mAsA %DEPOT%Wakanda/%branch%/Server/Resources/SSJS/Modules
+
+LAM_SA__m_sA [%TARGET%%PRODUCT_NAME%.app/Contents/walib]
+LAMAS___mAs_ [%TARGET%%PRODUCT_NAME%.app/Contents/Resources/Web Components/walib]
+LAMASA__mAsA %DEPOT%Wakanda/%branch%/walib/WAF
+LAM_SA__m_sA %DEPOT%Wakanda/%branch%/walib/dataBrowser
+LAM_SA__m_sA %DEPOT%Wakanda/%branch%/walib/debugger
+LAM_SA__m_sA %DEPOT%Wakanda/%branch%/walib/minifiedCoresWAF
+
+LAM_SA__m_sA [%TARGET%%PRODUCT_NAME%.app/Contents/Resources/Templates]
+LAM_SA__m_sA %DEPOT%Wakanda/%branch%/Server/Resources/Default Solution/Admin
+
+LAMASA__mAsA [%TARGET%%PRODUCT_NAME%.app/Contents/Resources/%LibLangueLproj%]
+LAMASA__mAsA %DEPOT%XToolbox/%branch%/JavaScript/Resources/%LibLangueLproj%/Errors_javascript_%Lib2Langue%.xlf
+LAMASA__mAsA %DEPOT%XToolbox/%branch%/Kernel/Resources/%LibLangueLproj%/Errors_xbox_%Lib2Langue%.xlf
+LAMASA__mAsA %DEPOT%XToolbox/%branch%/ServerNet/Resources/%LibLangueLproj%/ServerNet%Lib2Langue%.xlf
+LAMAS___mAs_ %DEPOT%CoreRuntime/%branch%/Resources/%LibLangueLproj%/4D_Themes%Lib2Langue%.xlf
+LAMAS___mAs_ %DEPOT%CoreRuntime/%branch%/Resources/%LibLangueLproj%/4D_Constants%Lib2Langue%.xlf
+LAMAS___mAs_ %DEPOT%CoreRuntime/%branch%/Resources/%LibLangueLproj%/4D_LangEditKeyWords%Lib2Langue%.xlf
+LAMAS___mAs_ %DEPOT%CoreRuntime/%branch%/Resources/%LibLangueLproj%/4DAppCommon%Lib2Langue%.xlf
+LAMAS___mAs_ %DEPOT%CoreRuntime/%branch%/Resources/%LibLangueLproj%/4DDBError%Lib2Langue%.xlf
+LAMAS___mAs_ %DEPOT%CoreRuntime/%branch%/Resources/%LibLangueLproj%/4DDebugger%Lib2Langue%.xlf
+LAMAS___mAs_ %DEPOT%CoreRuntime/%branch%/Resources/%LibLangueLproj%/Common%Lib2Langue%.xlf
+LAMAS___mAs_ %DEPOT%CoreRuntime/%branch%/Resources/%LibLangueLproj%/Errors_4d_%Lib2Langue%.xlf
+LAMAS___mAs_ %DEPOT%CoreRuntime/%branch%/Resources/%LibLangueLproj%/ToolBox%Lib2Langue%.xlf
+
+LAMASA__mAsA %DEPOT%Components/%branch%/DB4D/Resources/%LibLangueLproj%/
+
+LAMASA__mAsA [%TARGET%%PRODUCT_NAME%.app/Contents/Resources/DB4D]
+LAMASA__mAsA %DEPOT%Components/%branch%/DB4D/Resources/directoryRest.js
+LAMASA__mAsA %DEPOT%Components/%branch%/DB4D/Resources/ImpExpRest.js
+LAMASA__mAsA %DEPOT%Components/%branch%/DB4D/Resources/methodCall.js
+LAMASA__mAsA %DEPOT%Components/%branch%/DB4D/Resources/ModelLoadTime.js
+LAMASA__mAsA %DEPOT%Components/%branch%/DB4D/Resources/RemoteMethodCall.js
+LAMASA__mAsA %DEPOT%Components/%branch%/DB4D/Resources/reporting.js
+LAMASA__mAsA %DEPOT%Components/%branch%/DB4D/Resources/ModelPrepare.js
+
+LAM_SA__m_sA [%TARGET%%PRODUCT_NAME%.app/Contents/Resources/wkhtmltopdf]
+LAM_SA__m_sA %DEPOT%Wakanda/%branch%/Server/Resources/wkhtmltopdf.MAC/
+
+LAMAS___mAs_ [%TARGET%%PRODUCT_NAME%.app/Contents/Resources/Cursors]
+LAMAS___mAs_ %DEPOT%XToolbox/%branch%/GUI/Resources/Cursors.MAC/
+
+#LES FRAMEWORKS#######################
+LAMASA______ [%TARGET%%PRODUCT_NAME%.app/Contents/Frameworks]
+LAMASA______ %DEPOT%XToolbox/%BRANCH%/Frameworks/SQLUtilities%LibMode_SR%.framework
+LAMASA______ %DEPOT%XToolbox/%BRANCH%/Frameworks/SQLModel%LibMode_SR%.framework
+LAMASA______ %DEPOT%Components/%BRANCH%/Frameworks/%LibMode%/RemoteEntity%LibMode_SR%.framework
+LAMASA______ %DEPOT%Components/%BRANCH%/Frameworks/%LibMode%/SQLEntity%LibMode_SR%.framework
+
+#LES COMPOSANTS INTERNES#######################
+LAMASA______ [%TARGET%%DIR_COMPONENT%Native Components/]
+LAMBSB______ %DEPOT%Components/%BRANCH%/components/%LibModeCompil%/MySQLConnector%LibMode_SR%.bundle.dSYM
+
+LAMASA______ [%TARGET%%DIR_COMPONENT%Native Components/MySQLConnector%LibMode_SR%.bundle/Contents/]
+LAMASA______ %DEPOT%Components/%BRANCH%/components/%LibModeCompil%/MySQLConnector%LibMode_SR%.bundle/Contents/MacOS
+LAMASA______ %DEPOT%Components/%BRANCH%/components/%LibModeCompil%/MySQLConnector%LibMode_SR%.bundle/Contents/info.plist
+LAMASA______ %DEPOT%Components/%BRANCH%/MySQLConnector/Resources
+
+LAMASA______ [%TARGET%%DIR_COMPONENT%Native Components/]
+LAMBSB______ %DEPOT%Components/%BRANCH%/components/%LibModeCompil%/MSSQLConnector%LibMode_SR%.bundle.dSYM
+
+LAMASA______ [%TARGET%%DIR_COMPONENT%Native Components/MSSQLConnector%LibMode_SR%.bundle/Contents/]
+LAMASA______ %DEPOT%Components/%BRANCH%/components/%LibModeCompil%/MSSQLConnector%LibMode_SR%.bundle/Contents/MacOS
+LAMASA______ %DEPOT%Components/%BRANCH%/components/%LibModeCompil%/MSSQLConnector%LibMode_SR%.bundle/Contents/info.plist
+LAMASA______ %DEPOT%Components/%BRANCH%/MSSQLConnector/Resources
+
+LAMASA______ [%TARGET%%DIR_COMPONENT%Native Components/]
+LAMBSB______ %DEPOT%Components/%BRANCH%/components/%LibModeCompil%/ODBCConnector%LibMode_SR%.bundle.dSYM
+
+LAMASA______ [%TARGET%%DIR_COMPONENT%Native Components/ODBCConnector%LibMode_SR%.bundle/Contents/]
+LAMASA______ %DEPOT%Components/%BRANCH%/components/%LibModeCompil%/ODBCConnector%LibMode_SR%.bundle/Contents/MacOS
+LAMASA______ %DEPOT%Components/%BRANCH%/components/%LibModeCompil%/ODBCConnector%LibMode_SR%.bundle/Contents/info.plist
+LAMASA______ %DEPOT%Components/%BRANCH%/ODBCConnector/Resources
+
+LAMASA______ [%TARGET%%PRODUCT_NAME%.app/Contents/Modules/]
+L*MASA______ %DEPOT%Wakanda/%branch%/Server/Resources/SSJS/ModulesEnterprise/
+

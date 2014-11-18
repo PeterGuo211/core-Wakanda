@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><permissions>
+
+<allow action="remove" groupID="157296910853164B849597BC24349966" resource="RemoveInherited" temporaryForcePermissions="false" type="model"/>
+</permissions>

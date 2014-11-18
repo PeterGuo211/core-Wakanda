@@ -1,0 +1,10 @@
+{
+    "description": "Tests of the MSSQLConnector Module",
+    "kind": "ssjs",
+    "oldJenkinsName": "TestServerMSSQLConnectorMSSQLConnector",
+    "tester": "saad.yousfi@4d.com",
+    "visibility": "public",
+    "developer": "ayoub.serti@4d.com@4d.com",
+    "enterpriseOnly": true,
+    "gonogo": true
+}

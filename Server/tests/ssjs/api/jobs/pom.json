@@ -1,0 +1,8 @@
+{
+    "description": "Tests of the Jobs API",
+    "kind": "ssjs",
+    "tester": "geoffrey.beauny@4d.com",
+    "visibility": "public",
+    "developer": "guy.hermann@4d.com",
+	"stable": true
+}

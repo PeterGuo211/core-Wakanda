@@ -1,0 +1,1566 @@
+2013-04-30 15:42:59 [com.wakanda-software.DebuggerTests] INFO - Opening the solution
+2013-04-30 15:42:59 [com.wakanda-software.DebuggerTests] INFO - Opening the users and groups directory
+2013-04-30 15:42:59 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened (duration: 18 ms)
+2013-04-30 15:42:59 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Opening the project
+2013-04-30 15:42:59 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Opening the database
+2013-04-30 15:42:59 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Database opened (duration: 8 ms)
+2013-04-30 15:42:59 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project opened (duration: 34 ms)
+2013-04-30 15:42:59 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Opening the project
+2013-04-30 15:42:59 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project opened (duration: 4 ms)
+2013-04-30 15:42:59 [com.wakanda-software.DebuggerTests] INFO - Solution opened (duration: 111 ms)
+2013-04-30 15:42:59 [com.wakanda-software.DebuggerTests] INFO - Starting the solution
+2013-04-30 15:42:59 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Starting the project
+2013-04-30 15:42:59 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Starting the HTTP server
+2013-04-30 15:42:59 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP server started (duration: 34 ms)
+2013-04-30 15:42:59 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project started (duration: 75 ms)
+2013-04-30 15:42:59 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Starting the project
+2013-04-30 15:42:59 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Starting the HTTP server
+2013-04-30 15:43:00 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP server started (duration: 30 ms)
+2013-04-30 15:43:00 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project started (duration: 76 ms)
+2013-04-30 15:43:00 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executing the bootstrap(s)
+2013-04-30 15:43:00 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Bootstrap(s) executed (duration: 6 ms)
+2013-04-30 15:43:00 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executing the bootstrap(s)
+2013-04-30 15:43:00 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap(s) executed (duration: 11 ms)
+2013-04-30 15:43:00 [com.wakanda-software.DebuggerTests] INFO - Solution started (duration: 170 ms)
+2013-04-30 15:44:08 [com.wakanda-software.DebuggerTests] INFO - Stopping the solution
+2013-04-30 15:44:08 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Stopping the project
+2013-04-30 15:44:10 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project stopped (duration: 2088 ms)
+2013-04-30 15:44:10 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Stopping the project
+2013-04-30 15:44:12 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project stopped (duration: 2050 ms)
+2013-04-30 15:44:12 [com.wakanda-software.DebuggerTests] INFO - Solution stopped (duration: 4139 ms)
+2013-04-30 15:44:12 [com.wakanda-software.DebuggerTests] INFO - Closing the solution
+2013-04-30 15:44:12 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Closing the project
+2013-04-30 15:44:12 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Closing the database
+2013-04-30 15:44:13 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Database closed (duration: 422 ms)
+2013-04-30 15:44:13 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project closed (duration: 446 ms)
+2013-04-30 15:44:13 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Closing the project
+2013-04-30 15:44:13 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project closed (duration: 29 ms)
+2013-04-30 15:44:13 [com.wakanda-software.DebuggerTests] INFO - Solution closed (duration: 920 ms)
+2013-04-30 15:44:18 [com.wakanda-software.DebuggerTests] INFO - Opening the solution
+2013-04-30 15:44:18 [com.wakanda-software.DebuggerTests] INFO - Opening the users and groups directory
+2013-04-30 15:44:18 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened (duration: 15 ms)
+2013-04-30 15:44:18 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Opening the project
+2013-04-30 15:44:18 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Opening the database
+2013-04-30 15:44:18 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Database opened (duration: 7 ms)
+2013-04-30 15:44:18 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project opened (duration: 16 ms)
+2013-04-30 15:44:18 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Opening the project
+2013-04-30 15:44:18 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project opened (duration: 4 ms)
+2013-04-30 15:44:18 [com.wakanda-software.DebuggerTests] INFO - Solution opened (duration: 88 ms)
+2013-04-30 15:44:18 [com.wakanda-software.DebuggerTests] INFO - Starting the solution
+2013-04-30 15:44:18 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Starting the project
+2013-04-30 15:44:18 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Starting the HTTP server
+2013-04-30 15:44:18 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP server started (duration: 24 ms)
+2013-04-30 15:44:18 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project started (duration: 60 ms)
+2013-04-30 15:44:18 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Starting the project
+2013-04-30 15:44:18 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Starting the HTTP server
+2013-04-30 15:44:18 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP server started (duration: 29 ms)
+2013-04-30 15:44:18 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project started (duration: 67 ms)
+2013-04-30 15:44:18 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executing the bootstrap(s)
+2013-04-30 15:44:18 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Bootstrap(s) executed (duration: 6 ms)
+2013-04-30 15:44:18 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executing the bootstrap(s)
+2013-04-30 15:44:18 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap(s) executed (duration: 11 ms)
+2013-04-30 15:44:18 [com.wakanda-software.DebuggerTests] INFO - Solution started (duration: 146 ms)
+2013-04-30 15:44:45 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - {"data":["mljkmljkmlkj"]}, HTTP connection handler
+2013-04-30 15:44:45 [com.wakanda-software.DebuggerTests.DebuggerTests.console] INFO - {"data":["mljkmljkmlkj"]}, HTTP connection handler
+2013-04-30 15:44:53 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - {"data":["mljkmljkmlkj"]}, HTTP connection handler
+2013-04-30 15:44:53 [com.wakanda-software.DebuggerTests.DebuggerTests.console] INFO - {"data":["mljkmljkmlkj"]}, HTTP connection handler
+2013-04-30 15:45:40 [com.wakanda-software.DebuggerTests] INFO - Stopping the solution
+2013-04-30 15:45:40 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Stopping the project
+2013-04-30 15:45:42 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project stopped (duration: 2089 ms)
+2013-04-30 15:45:42 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Stopping the project
+2013-04-30 15:45:44 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project stopped (duration: 2049 ms)
+2013-04-30 15:45:44 [com.wakanda-software.DebuggerTests] INFO - Solution stopped (duration: 4141 ms)
+2013-04-30 15:45:44 [com.wakanda-software.DebuggerTests] INFO - Closing the solution
+2013-04-30 15:45:44 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Closing the project
+2013-04-30 15:45:44 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Closing the database
+2013-04-30 15:45:45 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Database closed (duration: 423 ms)
+2013-04-30 15:45:45 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project closed (duration: 455 ms)
+2013-04-30 15:45:45 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Closing the project
+2013-04-30 15:45:45 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project closed (duration: 30 ms)
+2013-04-30 15:45:45 [com.wakanda-software.DebuggerTests] INFO - Solution closed (duration: 927 ms)
+2013-04-30 15:50:31 [com.wakanda-software.DebuggerTests] INFO - Opening the solution
+2013-04-30 15:50:31 [com.wakanda-software.DebuggerTests] INFO - Opening the users and groups directory
+2013-04-30 15:50:31 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened (duration: 14 ms)
+2013-04-30 15:50:31 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Opening the project
+2013-04-30 15:50:31 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Opening the database
+2013-04-30 15:50:31 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Database opened (duration: 5 ms)
+2013-04-30 15:50:31 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project opened (duration: 14 ms)
+2013-04-30 15:50:31 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Opening the project
+2013-04-30 15:50:31 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project opened (duration: 4 ms)
+2013-04-30 15:50:31 [com.wakanda-software.DebuggerTests] INFO - Solution opened (duration: 85 ms)
+2013-04-30 15:50:31 [com.wakanda-software.DebuggerTests] INFO - Starting the solution
+2013-04-30 15:50:31 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Starting the project
+2013-04-30 15:50:31 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Starting the HTTP server
+2013-04-30 15:50:31 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP server started (duration: 23 ms)
+2013-04-30 15:50:31 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project started (duration: 58 ms)
+2013-04-30 15:50:31 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Starting the project
+2013-04-30 15:50:31 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Starting the HTTP server
+2013-04-30 15:50:31 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP server started (duration: 25 ms)
+2013-04-30 15:50:31 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project started (duration: 62 ms)
+2013-04-30 15:50:31 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executing the bootstrap(s)
+2013-04-30 15:50:31 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Bootstrap(s) executed (duration: 6 ms)
+2013-04-30 15:50:31 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executing the bootstrap(s)
+2013-04-30 15:50:31 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap(s) executed (duration: 10 ms)
+2013-04-30 15:50:31 [com.wakanda-software.DebuggerTests] INFO - Solution started (duration: 138 ms)
+2013-05-02 10:51:20 [com.wakanda-software.DebuggerTests] INFO - Opening the solution, Logger
+2013-05-02 10:51:20 [com.wakanda-software.DebuggerTests] INFO - Opening the users and groups directory, Logger
+2013-05-02 10:51:20 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened (duration: 36 ms), Logger
+2013-05-02 10:51:20 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Opening the project, Logger
+2013-05-02 10:51:20 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Opening the database, Logger
+2013-05-02 10:51:20 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Database opened (duration: 31 ms), Logger
+2013-05-02 10:51:20 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project opened (duration: 68 ms), Logger
+2013-05-02 10:51:20 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Opening the project, Logger
+2013-05-02 10:51:20 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project opened (duration: 15 ms), Logger
+2013-05-02 10:51:20 [com.wakanda-software.DebuggerTests] INFO - Solution opened (duration: 167 ms), Logger
+2013-05-02 10:51:20 [com.wakanda-software.DebuggerTests] INFO - Starting the solution, Logger
+2013-05-02 10:51:20 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Starting the project, Logger
+2013-05-02 10:51:20 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Starting the HTTP server, Logger
+2013-05-02 10:51:20 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP server started (duration: 40 ms), Logger
+2013-05-02 10:51:20 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project started (duration: 93 ms), Logger
+2013-05-02 10:51:20 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Starting the project, Logger
+2013-05-02 10:51:20 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Starting the HTTP server, Logger
+2013-05-02 10:51:20 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP server started (duration: 22 ms), Logger
+2013-05-02 10:51:20 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project started (duration: 52 ms), Logger
+2013-05-02 10:51:20 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executing the bootstrap(s), Logger
+2013-05-02 10:51:20 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap(s) executed (duration: 18 ms), Logger
+2013-05-02 10:51:20 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executing the bootstrap(s), Logger
+2013-05-02 10:51:20 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Bootstrap(s) executed (duration: 4 ms), Logger
+2013-05-02 10:51:20 [com.wakanda-software.DebuggerTests] INFO - Solution started (duration: 170 ms), Logger
+2013-05-02 10:51:24 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Calling JavaScript request handler, Logger
+2013-05-02 10:51:24 [com.wakanda-software.DebuggerTests.ServerAdmin.iasv] ERROR - [1068] Cannot find JavaScript language context, Logger
+2013-05-02 14:41:40 [com.wakanda-software.DebuggerTests] INFO - Opening the solution, Logger
+2013-05-02 14:41:40 [com.wakanda-software.DebuggerTests] INFO - Opening the users and groups directory, Logger
+2013-05-02 14:41:40 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened (duration: 30 ms), Logger
+2013-05-02 14:41:40 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Opening the project, Logger
+2013-05-02 14:41:40 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Opening the database, Logger
+2013-05-02 14:41:40 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Database opened (duration: 6 ms), Logger
+2013-05-02 14:41:40 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project opened (duration: 14 ms), Logger
+2013-05-02 14:41:40 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Opening the project, Logger
+2013-05-02 14:41:40 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project opened (duration: 3 ms), Logger
+2013-05-02 14:41:40 [com.wakanda-software.DebuggerTests] INFO - Solution opened (duration: 93 ms), Logger
+2013-05-02 14:41:40 [com.wakanda-software.DebuggerTests] INFO - Starting the solution, Logger
+2013-05-02 14:41:40 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Starting the project, Logger
+2013-05-02 14:41:40 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Starting the HTTP server, Logger
+2013-05-02 14:41:40 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP server started (duration: 25 ms), Logger
+2013-05-02 14:41:40 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project started (duration: 58 ms), Logger
+2013-05-02 14:41:40 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Starting the project, Logger
+2013-05-02 14:41:40 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Starting the HTTP server, Logger
+2013-05-02 14:41:40 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP server started (duration: 23 ms), Logger
+2013-05-02 14:41:40 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project started (duration: 53 ms), Logger
+2013-05-02 14:41:40 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executing the bootstrap(s), Logger
+2013-05-02 14:41:40 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap(s) executed (duration: 10 ms), Logger
+2013-05-02 14:41:40 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executing the bootstrap(s), Logger
+2013-05-02 14:41:40 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Bootstrap(s) executed (duration: 4 ms), Logger
+2013-05-02 14:41:40 [com.wakanda-software.DebuggerTests] INFO - Solution started (duration: 127 ms), Logger
+2013-05-02 14:57:58 [com.wakanda-software.DebuggerTests] INFO - Stopping the solution, Logger
+2013-05-02 14:57:58 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Stopping the project, Logger
+2013-05-02 14:58:00 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project stopped (duration: 2047 ms), Logger
+2013-05-02 14:58:00 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Stopping the project, Logger
+2013-05-02 14:58:02 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project stopped (duration: 2040 ms), Logger
+2013-05-02 14:58:02 [com.wakanda-software.DebuggerTests] INFO - Solution stopped (duration: 4089 ms), Logger
+2013-05-02 14:58:02 [com.wakanda-software.DebuggerTests] INFO - Closing the solution, Logger
+2013-05-02 14:58:02 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Closing the project, Logger
+2013-05-02 14:58:02 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Closing the database, Logger
+2013-05-02 14:58:02 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Database closed (duration: 418 ms), Logger
+2013-05-02 14:58:03 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project closed (duration: 447 ms), Logger
+2013-05-02 14:58:03 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Closing the project, Logger
+2013-05-02 14:58:03 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project closed (duration: 0 ms), Logger
+2013-05-02 15:36:01 [com.wakanda-software.DebuggerTests] INFO - Opening the solution, Logger
+2013-05-02 15:36:01 [com.wakanda-software.DebuggerTests] INFO - Opening the users and groups directory, Logger
+2013-05-02 15:36:01 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened (duration: 31 ms), Logger
+2013-05-02 15:36:01 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Opening the project, Logger
+2013-05-02 15:36:01 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Opening the database, Logger
+2013-05-02 15:36:01 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Database opened (duration: 5 ms), Logger
+2013-05-02 15:36:01 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project opened (duration: 13 ms), Logger
+2013-05-02 15:36:01 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Opening the project, Logger
+2013-05-02 15:36:01 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project opened (duration: 3 ms), Logger
+2013-05-02 15:36:01 [com.wakanda-software.DebuggerTests] INFO - Solution opened (duration: 92 ms), Logger
+2013-05-02 15:36:01 [com.wakanda-software.DebuggerTests] INFO - Starting the solution, Logger
+2013-05-02 15:36:01 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Starting the project, Logger
+2013-05-02 15:36:01 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Starting the HTTP server, Logger
+2013-05-02 15:36:02 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP server started (duration: 25 ms), Logger
+2013-05-02 15:36:02 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project started (duration: 59 ms), Logger
+2013-05-02 15:36:02 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Starting the project, Logger
+2013-05-02 15:36:02 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Starting the HTTP server, Logger
+2013-05-02 15:36:02 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP server started (duration: 23 ms), Logger
+2013-05-02 15:36:02 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project started (duration: 53 ms), Logger
+2013-05-02 15:36:02 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executing the bootstrap(s), Logger
+2013-05-02 15:36:02 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap(s) executed (duration: 82 ms), Logger
+2013-05-02 15:36:02 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executing the bootstrap(s), Logger
+2013-05-02 15:36:02 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Bootstrap(s) executed (duration: 38 ms), Logger
+2013-05-02 15:36:02 [com.wakanda-software.DebuggerTests] INFO - Solution started (duration: 234 ms), Logger
+2013-05-02 15:36:29 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Calling JavaScript request handler, Logger
+2013-05-02 15:36:29 [com.wakanda-software.DebuggerTests.ServerAdmin.iasv] ERROR - [1068] Cannot find JavaScript language context, Logger
+2013-05-07 15:10:42 [com.wakanda-software.DebuggerTests] INFO - Opening the solution, Logger
+2013-05-07 15:10:42 [com.wakanda-software.DebuggerTests] INFO - Opening the users and groups directory, Logger
+2013-05-07 15:10:42 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened (duration: 17 ms), Logger
+2013-05-07 15:10:42 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Opening the project, Logger
+2013-05-07 15:10:42 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Opening the database, Logger
+2013-05-07 15:10:42 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Database opened (duration: 21 ms), Logger
+2013-05-07 15:10:42 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project opened (duration: 29 ms), Logger
+2013-05-07 15:10:42 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Opening the project, Logger
+2013-05-07 15:10:42 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project opened (duration: 3 ms), Logger
+2013-05-07 15:10:42 [com.wakanda-software.DebuggerTests] INFO - Solution opened (duration: 123 ms), Logger
+2013-05-07 15:10:42 [com.wakanda-software.DebuggerTests] INFO - Starting the solution, Logger
+2013-05-07 15:10:42 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Starting the project, Logger
+2013-05-07 15:10:42 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Starting the HTTP server, Logger
+2013-05-07 15:10:42 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP server started (duration: 25 ms), Logger
+2013-05-07 15:10:42 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project started (duration: 57 ms), Logger
+2013-05-07 15:10:42 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Starting the project, Logger
+2013-05-07 15:10:42 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Starting the HTTP server, Logger
+2013-05-07 15:10:42 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP server started (duration: 23 ms), Logger
+2013-05-07 15:10:42 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project started (duration: 54 ms), Logger
+2013-05-07 15:10:42 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executing the bootstrap(s), Logger
+2013-05-07 15:10:42 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap(s) executed (duration: 72 ms), Logger
+2013-05-07 15:10:42 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executing the bootstrap(s), Logger
+2013-05-07 15:10:42 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Bootstrap(s) executed (duration: 4 ms), Logger
+2013-05-07 15:10:42 [com.wakanda-software.DebuggerTests] INFO - Solution started (duration: 189 ms), Logger
+2013-05-07 15:10:45 [com.wakanda-software.DebuggerTests.ServerAdmin.iasv] ERROR - [1068] Cannot find JavaScript language context, task #4832, HTTP connection handler
+2013-05-07 15:10:45 [com.wakanda-software.HTTP] ERROR - [500] , task #4832, HTTP connection handler
+2013-05-07 15:10:56 [com.wakanda-software.DebuggerTests.ServerAdmin.iasv] ERROR - [1068] Cannot find JavaScript language context, task #2828, HTTP connection handler
+2013-05-07 15:10:56 [com.wakanda-software.HTTP] ERROR - [500] , task #2828, HTTP connection handler
+2013-05-07 15:11:12 [com.wakanda-software.DebuggerTests.ServerAdmin.iasv] ERROR - [1068] Cannot find JavaScript language context, task #2828, HTTP connection handler
+2013-05-07 15:11:12 [com.wakanda-software.HTTP] ERROR - [500] , task #2828, HTTP connection handler
+2013-05-07 15:11:26 [com.wakanda-software.DebuggerTests] INFO - Stopping the solution, Logger
+2013-05-07 15:11:26 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Stopping the project, Logger
+2013-05-07 15:11:27 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project stopped (duration: 1453 ms), Logger
+2013-05-07 15:11:27 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Stopping the project, Logger
+2013-05-07 15:11:29 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project stopped (duration: 1571 ms), Logger
+2013-05-07 15:11:29 [com.wakanda-software.DebuggerTests] INFO - Solution stopped (duration: 3156 ms), Logger
+2013-05-07 15:11:29 [com.wakanda-software.DebuggerTests] INFO - Closing the solution, Logger
+2013-05-07 15:11:29 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Closing the project, Logger
+2013-05-07 15:11:29 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Closing the database, Logger
+2013-05-07 15:11:30 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Database closed (duration: 425 ms), Logger
+2013-05-07 15:11:30 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project closed (duration: 465 ms), Logger
+2013-05-07 15:11:30 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Closing the project, Logger
+2013-05-07 15:11:30 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project closed (duration: 37 ms), Logger
+2013-05-07 15:11:37 [com.wakanda-software.DebuggerTests] INFO - Opening the solution, Logger
+2013-05-07 15:11:37 [com.wakanda-software.DebuggerTests] INFO - Opening the users and groups directory, Logger
+2013-05-07 15:11:37 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened (duration: 13 ms), Logger
+2013-05-07 15:11:37 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Opening the project, Logger
+2013-05-07 15:11:37 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Opening the database, Logger
+2013-05-07 15:11:37 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Database opened (duration: 6 ms), Logger
+2013-05-07 15:11:37 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project opened (duration: 14 ms), Logger
+2013-05-07 15:11:37 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Opening the project, Logger
+2013-05-07 15:11:37 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project opened (duration: 2 ms), Logger
+2013-05-07 15:11:37 [com.wakanda-software.DebuggerTests] INFO - Solution opened (duration: 80 ms), Logger
+2013-05-07 15:11:37 [com.wakanda-software.DebuggerTests] INFO - Starting the solution, Logger
+2013-05-07 15:11:37 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Starting the project, Logger
+2013-05-07 15:11:37 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Starting the HTTP server, Logger
+2013-05-07 15:11:37 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP server started (duration: 26 ms), Logger
+2013-05-07 15:11:37 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project started (duration: 57 ms), Logger
+2013-05-07 15:11:37 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Starting the project, Logger
+2013-05-07 15:11:37 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Starting the HTTP server, Logger
+2013-05-07 15:11:37 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP server started (duration: 24 ms), Logger
+2013-05-07 15:11:37 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project started (duration: 55 ms), Logger
+2013-05-07 15:11:37 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executing the bootstrap(s), Logger
+2013-05-07 15:11:37 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap(s) executed (duration: 78 ms), Logger
+2013-05-07 15:11:37 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executing the bootstrap(s), Logger
+2013-05-07 15:11:37 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Bootstrap(s) executed (duration: 40 ms), Logger
+2013-05-07 15:11:37 [com.wakanda-software.DebuggerTests] INFO - Solution started (duration: 232 ms), Logger
+2013-05-07 15:11:41 [com.wakanda-software.DebuggerTests.ServerAdmin.iasv] ERROR - [1068] Cannot find JavaScript language context, task #2796, HTTP connection handler
+2013-05-07 15:11:41 [com.wakanda-software.HTTP] ERROR - [500] , task #2796, HTTP connection handler
+2013-05-07 15:11:57 [com.wakanda-software.DebuggerTests] INFO - Stopping the solution, Logger
+2013-05-07 15:11:57 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Stopping the project, Logger
+2013-05-07 15:11:58 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project stopped (duration: 1505 ms), Logger
+2013-05-07 15:11:58 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Stopping the project, Logger
+2013-05-07 15:12:00 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project stopped (duration: 1579 ms), Logger
+2013-05-07 15:12:00 [com.wakanda-software.DebuggerTests] INFO - Solution stopped (duration: 3238 ms), Logger
+2013-05-07 15:12:00 [com.wakanda-software.DebuggerTests] INFO - Closing the solution, Logger
+2013-05-07 15:12:00 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Closing the project, Logger
+2013-05-07 15:12:00 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Closing the database, Logger
+2013-05-07 15:12:00 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Database closed (duration: 426 ms), Logger
+2013-05-07 15:12:00 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project closed (duration: 451 ms), Logger
+2013-05-07 15:12:00 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Closing the project, Logger
+2013-05-07 15:12:00 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project closed (duration: 30 ms), Logger
+2013-05-07 15:12:26 [com.wakanda-software.DebuggerTests] INFO - Opening the solution, Logger
+2013-05-07 15:12:27 [com.wakanda-software.DebuggerTests] INFO - Opening the users and groups directory, Logger
+2013-05-07 15:12:27 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened (duration: 14 ms), Logger
+2013-05-07 15:12:27 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Opening the project, Logger
+2013-05-07 15:12:27 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Opening the database, Logger
+2013-05-07 15:12:27 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Database opened (duration: 5 ms), Logger
+2013-05-07 15:12:27 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project opened (duration: 13 ms), Logger
+2013-05-07 15:12:27 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Opening the project, Logger
+2013-05-07 15:12:27 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project opened (duration: 3 ms), Logger
+2013-05-07 15:12:27 [com.wakanda-software.DebuggerTests] INFO - Solution opened (duration: 85 ms), Logger
+2013-05-07 15:12:27 [com.wakanda-software.DebuggerTests] INFO - Starting the solution, Logger
+2013-05-07 15:12:27 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Starting the project, Logger
+2013-05-07 15:12:27 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Starting the HTTP server, Logger
+2013-05-07 15:12:27 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP server started (duration: 25 ms), Logger
+2013-05-07 15:12:27 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project started (duration: 56 ms), Logger
+2013-05-07 15:12:27 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Starting the project, Logger
+2013-05-07 15:12:27 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Starting the HTTP server, Logger
+2013-05-07 15:12:27 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP server started (duration: 22 ms), Logger
+2013-05-07 15:12:27 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project started (duration: 52 ms), Logger
+2013-05-07 15:12:27 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executing the bootstrap(s), Logger
+2013-05-07 15:12:27 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap(s) executed (duration: 72 ms), Logger
+2013-05-07 15:12:27 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executing the bootstrap(s), Logger
+2013-05-07 15:12:27 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Bootstrap(s) executed (duration: 39 ms), Logger
+2013-05-07 15:12:27 [com.wakanda-software.DebuggerTests] INFO - Solution started (duration: 221 ms), Logger
+2013-05-07 15:12:31 [com.wakanda-software.DebuggerTests.ServerAdmin.iasv] ERROR - [1068] Cannot find JavaScript language context, task #4592, HTTP connection handler
+2013-05-07 15:12:31 [com.wakanda-software.HTTP] ERROR - [500] , task #4592, HTTP connection handler
+2013-05-07 15:12:34 [com.wakanda-software.xbox] ERROR - [3] , task #8396, HTTP connection handler
+2013-05-07 15:12:34 [com.wakanda-software.xbox] ERROR - [1] Une opération a été tentée sur autre chose qu’un socket.
+, task #8396, HTTP connection handler
+2013-05-07 15:12:34 [com.wakanda-software.xbox] ERROR - [3] , task #8396, HTTP connection handler
+2013-05-07 15:12:34 [com.wakanda-software.xbox] ERROR - [1] Une opération a été tentée sur autre chose qu’un socket.
+, task #8396, HTTP connection handler
+2013-05-07 15:12:34 [com.wakanda-software.srvr] ERROR - [16] NULL end-point, task #8396, HTTP connection handler
+2013-05-07 15:12:40 [com.wakanda-software.DebuggerTests] INFO - Stopping the solution, Logger
+2013-05-07 15:12:40 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Stopping the project, Logger
+2013-05-07 15:12:42 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project stopped (duration: 1505 ms), Logger
+2013-05-07 15:12:42 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Stopping the project, Logger
+2013-05-07 15:12:43 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project stopped (duration: 1577 ms), Logger
+2013-05-07 15:12:43 [com.wakanda-software.DebuggerTests] INFO - Solution stopped (duration: 3252 ms), Logger
+2013-05-07 15:12:43 [com.wakanda-software.DebuggerTests] INFO - Closing the solution, Logger
+2013-05-07 15:12:43 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Closing the project, Logger
+2013-05-07 15:12:43 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Closing the database, Logger
+2013-05-07 15:12:44 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Database closed (duration: 437 ms), Logger
+2013-05-07 15:12:44 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project closed (duration: 495 ms), Logger
+2013-05-07 15:12:44 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Closing the project, Logger
+2013-05-07 15:12:44 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project closed (duration: 20 ms), Logger
+2013-05-07 15:13:01 [com.wakanda-software.DebuggerTests] INFO - Opening the solution, Logger
+2013-05-07 15:13:01 [com.wakanda-software.DebuggerTests] INFO - Opening the users and groups directory, Logger
+2013-05-07 15:13:01 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened (duration: 12 ms), Logger
+2013-05-07 15:13:01 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Opening the project, Logger
+2013-05-07 15:13:01 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Opening the database, Logger
+2013-05-07 15:13:01 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Database opened (duration: 5 ms), Logger
+2013-05-07 15:13:01 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project opened (duration: 13 ms), Logger
+2013-05-07 15:13:01 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Opening the project, Logger
+2013-05-07 15:13:01 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project opened (duration: 2 ms), Logger
+2013-05-07 15:13:01 [com.wakanda-software.DebuggerTests] INFO - Solution opened (duration: 76 ms), Logger
+2013-05-07 15:13:01 [com.wakanda-software.DebuggerTests] INFO - Starting the solution, Logger
+2013-05-07 15:13:01 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Starting the project, Logger
+2013-05-07 15:13:01 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Starting the HTTP server, Logger
+2013-05-07 15:13:02 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP server started (duration: 25 ms), Logger
+2013-05-07 15:13:02 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project started (duration: 56 ms), Logger
+2013-05-07 15:13:02 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Starting the project, Logger
+2013-05-07 15:13:02 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Starting the HTTP server, Logger
+2013-05-07 15:13:02 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP server started (duration: 22 ms), Logger
+2013-05-07 15:13:02 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project started (duration: 53 ms), Logger
+2013-05-07 15:13:02 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executing the bootstrap(s), Logger
+2013-05-07 15:13:02 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap(s) executed (duration: 110 ms), Logger
+2013-05-07 15:13:02 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executing the bootstrap(s), Logger
+2013-05-07 15:13:02 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Bootstrap(s) executed (duration: 4 ms), Logger
+2013-05-07 15:13:02 [com.wakanda-software.DebuggerTests] INFO - Solution started (duration: 226 ms), Logger
+2013-05-07 15:13:06 [com.wakanda-software.DebuggerTests.ServerAdmin.iasv] ERROR - [1068] Cannot find JavaScript language context, task #4784, HTTP connection handler
+2013-05-07 15:13:06 [com.wakanda-software.HTTP] ERROR - [500] , task #4784, HTTP connection handler
+2013-05-07 15:13:51 [com.wakanda-software.DebuggerTests.DebuggerTests.JS4D] ERROR - [1] Unable to resolve "mathh"!, task #4812, HTTP connection handler
+2013-05-07 15:13:51 [com.wakanda-software.DebuggerTests.DebuggerTests.JS4D] ERROR - [2] Error evaluating javascript file:///D:/DebuggerTests/DebuggerTests/main2.js, task #4812, HTTP connection handler
+2013-05-07 15:13:59 [com.wakanda-software.DebuggerTests.DebuggerTests.JS4D] ERROR - [1] Unable to resolve "mathh"!, task #9008, HTTP connection handler
+2013-05-07 15:13:59 [com.wakanda-software.DebuggerTests.DebuggerTests.JS4D] ERROR - [2] Error evaluating javascript file:///D:/DebuggerTests/DebuggerTests/main2.js, task #9008, HTTP connection handler
+2013-05-07 15:14:04 [com.wakanda-software.DebuggerTests] INFO - Stopping the solution, Logger
+2013-05-07 15:14:04 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Stopping the project, Logger
+2013-05-07 15:14:05 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project stopped (duration: 1455 ms), Logger
+2013-05-07 15:14:05 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Stopping the project, Logger
+2013-05-07 15:14:07 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project stopped (duration: 1575 ms), Logger
+2013-05-07 15:14:07 [com.wakanda-software.DebuggerTests] INFO - Solution stopped (duration: 3217 ms), Logger
+2013-05-07 15:14:07 [com.wakanda-software.DebuggerTests] INFO - Closing the solution, Logger
+2013-05-07 15:14:07 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Closing the project, Logger
+2013-05-07 15:14:07 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Closing the database, Logger
+2013-05-07 15:14:08 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Database closed (duration: 518 ms), Logger
+2013-05-07 15:14:08 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project closed (duration: 666 ms), Logger
+2013-05-07 15:14:08 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Closing the project, Logger
+2013-05-07 15:14:08 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project closed (duration: 37 ms), Logger
+2013-05-07 15:14:18 [com.wakanda-software.DebuggerTests] INFO - Opening the solution, Logger
+2013-05-07 15:14:18 [com.wakanda-software.DebuggerTests] INFO - Opening the users and groups directory, Logger
+2013-05-07 15:14:18 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened (duration: 13 ms), Logger
+2013-05-07 15:14:18 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Opening the project, Logger
+2013-05-07 15:14:18 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Opening the database, Logger
+2013-05-07 15:14:18 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Database opened (duration: 6 ms), Logger
+2013-05-07 15:14:18 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project opened (duration: 14 ms), Logger
+2013-05-07 15:14:18 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Opening the project, Logger
+2013-05-07 15:14:18 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project opened (duration: 3 ms), Logger
+2013-05-07 15:14:18 [com.wakanda-software.DebuggerTests] INFO - Solution opened (duration: 97 ms), Logger
+2013-05-07 15:14:18 [com.wakanda-software.DebuggerTests] INFO - Starting the solution, Logger
+2013-05-07 15:14:18 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Starting the project, Logger
+2013-05-07 15:14:18 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Starting the HTTP server, Logger
+2013-05-07 15:14:18 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP server started (duration: 25 ms), Logger
+2013-05-07 15:14:18 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project started (duration: 57 ms), Logger
+2013-05-07 15:14:18 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Starting the project, Logger
+2013-05-07 15:14:18 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Starting the HTTP server, Logger
+2013-05-07 15:14:18 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP server started (duration: 95 ms), Logger
+2013-05-07 15:14:18 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project started (duration: 126 ms), Logger
+2013-05-07 15:14:18 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executing the bootstrap(s), Logger
+2013-05-07 15:14:18 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap(s) executed (duration: 27 ms), Logger
+2013-05-07 15:14:18 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executing the bootstrap(s), Logger
+2013-05-07 15:14:18 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Bootstrap(s) executed (duration: 4 ms), Logger
+2013-05-07 15:14:18 [com.wakanda-software.DebuggerTests] INFO - Solution started (duration: 216 ms), Logger
+2013-05-07 15:14:23 [com.wakanda-software.DebuggerTests.ServerAdmin.iasv] ERROR - [1068] Cannot find JavaScript language context, task #520, HTTP connection handler
+2013-05-07 15:14:23 [com.wakanda-software.HTTP] ERROR - [500] , task #520, HTTP connection handler
+2013-05-07 15:14:34 [com.wakanda-software.DebuggerTests.ServerAdmin.iasv] ERROR - [1068] Cannot find JavaScript language context, task #4200, HTTP connection handler
+2013-05-07 15:14:34 [com.wakanda-software.HTTP] ERROR - [500] , task #4200, HTTP connection handler
+2013-05-07 15:14:34 [com.wakanda-software.DebuggerTests.DebuggerTests.JS4D] ERROR - [1] Unable to resolve "mathh"!, task #6924, HTTP connection handler
+2013-05-07 15:14:34 [com.wakanda-software.DebuggerTests.DebuggerTests.JS4D] ERROR - [2] Error evaluating javascript file:///D:/DebuggerTests/DebuggerTests/main2.js, task #6924, HTTP connection handler
+2013-05-07 15:14:34 [com.wakanda-software.DebuggerTests.ServerAdmin.iasv] ERROR - [1068] Cannot find JavaScript language context, task #4200, HTTP connection handler
+2013-05-07 15:14:34 [com.wakanda-software.HTTP] ERROR - [500] , task #4200, HTTP connection handler
+2013-05-07 15:14:46 [com.wakanda-software.DebuggerTests] INFO - Stopping the solution, Logger
+2013-05-07 15:14:46 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Stopping the project, Logger
+2013-05-07 15:14:47 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project stopped (duration: 1045 ms), Logger
+2013-05-07 15:14:47 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Stopping the project, Logger
+2013-05-07 15:14:48 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project stopped (duration: 1040 ms), Logger
+2013-05-07 15:14:48 [com.wakanda-software.DebuggerTests] INFO - Solution stopped (duration: 2087 ms), Logger
+2013-05-07 15:14:48 [com.wakanda-software.DebuggerTests] INFO - Closing the solution, Logger
+2013-05-07 15:14:48 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Closing the project, Logger
+2013-05-07 15:14:48 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Closing the database, Logger
+2013-05-07 15:14:49 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Database closed (duration: 464 ms), Logger
+2013-05-07 15:14:49 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project closed (duration: 592 ms), Logger
+2013-05-07 15:14:49 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Closing the project, Logger
+2013-05-07 15:14:49 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project closed (duration: 52 ms), Logger
+2013-05-07 17:52:41 [com.wakanda-software.DebuggerTests] INFO - Opening the solution
+2013-05-07 17:52:41 [com.wakanda-software.DebuggerTests] INFO - Opening the users and groups directory
+2013-05-07 17:52:41 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened (duration: 46 ms)
+2013-05-07 17:52:41 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Opening the project
+2013-05-07 17:52:41 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Opening the database
+2013-05-07 17:52:41 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Database opened (duration: 12 ms)
+2013-05-07 17:52:41 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project opened (duration: 53 ms)
+2013-05-07 17:52:41 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Opening the project
+2013-05-07 17:52:41 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project opened (duration: 9 ms)
+2013-05-07 17:52:41 [com.wakanda-software.DebuggerTests] INFO - Solution opened (duration: 193 ms)
+2013-05-07 17:52:41 [com.wakanda-software.DebuggerTests] INFO - Starting the solution
+2013-05-07 17:52:41 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Starting the project
+2013-05-07 17:52:42 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Starting the HTTP server
+2013-05-07 17:52:42 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP server started (duration: 22 ms)
+2013-05-07 17:52:42 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project started (duration: 122 ms)
+2013-05-07 17:52:42 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Starting the project
+2013-05-07 17:52:42 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Starting the HTTP server
+2013-05-07 17:52:42 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP server started (duration: 23 ms)
+2013-05-07 17:52:42 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project started (duration: 74 ms)
+2013-05-07 17:52:42 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executing the bootstrap(s)
+2013-05-07 17:52:42 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Bootstrap(s) executed (duration: 4 ms)
+2013-05-07 17:52:42 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executing the bootstrap(s)
+2013-05-07 17:52:42 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap(s) executed (duration: 16 ms)
+2013-05-07 17:52:42 [com.wakanda-software.DebuggerTests] INFO - Solution started (duration: 219 ms)
+2013-05-08 09:01:34 [com.wakanda-software.DebuggerTests] INFO - Stopping the solution
+2013-05-08 09:01:34 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Stopping the project
+2013-05-08 09:01:36 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project stopped (duration: 2058 ms)
+2013-05-08 09:01:36 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Stopping the project
+2013-05-08 09:01:38 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project stopped (duration: 2040 ms)
+2013-05-08 09:01:38 [com.wakanda-software.DebuggerTests] INFO - Solution stopped (duration: 4101 ms)
+2013-05-08 09:01:38 [com.wakanda-software.DebuggerTests] INFO - Closing the solution
+2013-05-08 09:01:38 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Closing the project
+2013-05-08 09:01:38 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Closing the database
+2013-05-08 09:01:38 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Database closed (duration: 431 ms)
+2013-05-08 09:01:38 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project closed (duration: 480 ms)
+2013-05-08 09:01:38 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Closing the project
+2013-05-08 09:01:38 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project closed (duration: 37 ms)
+2013-05-08 09:01:39 [com.wakanda-software.DebuggerTests] INFO - Solution closed (duration: 1157 ms)
+2013-05-08 09:21:36 [com.wakanda-software] INFO - Opens the solution "D:\DebuggerTests\DebuggerTests Solution\DebuggerTests.waSolution" for running
+2013-05-08 09:21:36 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened
+2013-05-08 09:21:36 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Datastore opened
+2013-05-08 09:21:36 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project opened
+2013-05-08 09:21:36 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project opened
+2013-05-08 09:21:36 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution opened
+2013-05-08 09:21:36 [com.wakanda-software] INFO - Starts "DebuggerTests" solution
+2013-05-08 09:21:36 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP Server started
+2013-05-08 09:21:36 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project started
+2013-05-08 09:21:36 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP Server started
+2013-05-08 09:21:36 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project started
+2013-05-08 09:21:36 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executes the bootstrap file(s)
+2013-05-08 09:21:36 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap file(s) executed
+2013-05-08 09:21:36 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executes the bootstrap file(s)
+2013-05-08 09:21:36 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Bootstrap file(s) executed
+2013-05-08 09:21:36 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution started
+2013-05-08 09:21:36 [com.wakanda-software] INFO - "DebuggerTests" solution has been successfully opened for running (duration: 414 ms)
+2013-05-08 09:22:39 [com.wakanda-software] INFO - Stops "DebuggerTests" solution
+2013-05-08 09:22:40 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project stopped
+2013-05-08 09:22:41 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project stopped
+2013-05-08 09:22:41 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution stopped
+2013-05-08 09:22:41 [com.wakanda-software] INFO - Closes "DebuggerTests" solution
+2013-05-08 09:22:42 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project closed
+2013-05-08 09:22:42 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project closed
+2013-05-08 09:22:42 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution closed
+2013-05-08 09:23:15 [com.wakanda-software.DebuggerTests] INFO - Opening the solution
+2013-05-08 09:23:15 [com.wakanda-software.DebuggerTests] INFO - Opening the users and groups directory
+2013-05-08 09:23:15 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened (duration: 63 ms)
+2013-05-08 09:23:15 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Opening the project
+2013-05-08 09:23:15 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Opening the database
+2013-05-08 09:23:15 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Database opened (duration: 21 ms)
+2013-05-08 09:23:15 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project opened (duration: 50 ms)
+2013-05-08 09:23:15 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Opening the project
+2013-05-08 09:23:15 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project opened (duration: 21 ms)
+2013-05-08 09:23:15 [com.wakanda-software.DebuggerTests] INFO - Solution opened (duration: 194 ms)
+2013-05-08 09:23:15 [com.wakanda-software.DebuggerTests] INFO - Starting the solution
+2013-05-08 09:23:15 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Starting the project
+2013-05-08 09:23:15 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Starting the HTTP server
+2013-05-08 09:23:15 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP server started (duration: 21 ms)
+2013-05-08 09:23:15 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project started (duration: 148 ms)
+2013-05-08 09:23:15 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Starting the project
+2013-05-08 09:23:15 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Starting the HTTP server
+2013-05-08 09:23:15 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP server started (duration: 23 ms)
+2013-05-08 09:23:15 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project started (duration: 94 ms)
+2013-05-08 09:23:15 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executing the bootstrap(s)
+2013-05-08 09:23:15 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Bootstrap(s) executed (duration: 7 ms)
+2013-05-08 09:23:15 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executing the bootstrap(s)
+2013-05-08 09:23:15 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap(s) executed (duration: 25 ms)
+2013-05-08 09:23:15 [com.wakanda-software.DebuggerTests] INFO - Solution started (duration: 275 ms)
+2013-05-08 09:23:26 [com.wakanda-software.DebuggerTests.DebuggerTests.JS4D] ERROR - [1] Unable to resolve "mathh"!, HTTP connection handler
+2013-05-08 09:23:26 [com.wakanda-software.DebuggerTests.DebuggerTests.JS4D] ERROR - [2] Error evaluating javascript file:///D:/DebuggerTests/DebuggerTests/main2.js, HTTP connection handler
+2013-05-08 09:23:33 [com.wakanda-software.DebuggerTests.DebuggerTests.JS4D] ERROR - [1] Unable to resolve "mathh"!, HTTP connection handler
+2013-05-08 09:23:33 [com.wakanda-software.DebuggerTests.DebuggerTests.JS4D] ERROR - [2] Error evaluating javascript file:///D:/DebuggerTests/DebuggerTests/main2.js, HTTP connection handler
+2013-05-08 09:23:50 [com.wakanda-software.DebuggerTests] INFO - Stopping the solution
+2013-05-08 09:23:50 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Stopping the project
+2013-05-08 09:23:52 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project stopped (duration: 2042 ms)
+2013-05-08 09:23:52 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Stopping the project
+2013-05-08 09:23:54 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project stopped (duration: 2039 ms)
+2013-05-08 09:23:54 [com.wakanda-software.DebuggerTests] INFO - Solution stopped (duration: 4083 ms)
+2013-05-08 09:23:54 [com.wakanda-software.DebuggerTests] INFO - Closing the solution
+2013-05-08 09:23:54 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Closing the project
+2013-05-08 09:23:54 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Closing the database
+2013-05-08 09:23:54 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Database closed (duration: 419 ms)
+2013-05-08 09:23:54 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project closed (duration: 467 ms)
+2013-05-08 09:23:54 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Closing the project
+2013-05-08 09:23:54 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project closed (duration: 31 ms)
+2013-05-08 09:23:55 [com.wakanda-software.DebuggerTests] INFO - Solution closed (duration: 934 ms)
+2013-05-08 09:56:27 [com.wakanda-software.DebuggerTests] INFO - Opening the solution
+2013-05-08 09:56:27 [com.wakanda-software.DebuggerTests] INFO - Opening the users and groups directory
+2013-05-08 09:56:27 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened (duration: 12 ms)
+2013-05-08 09:56:27 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Opening the project
+2013-05-08 09:56:27 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Opening the database
+2013-05-08 09:56:27 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Database opened (duration: 4 ms)
+2013-05-08 09:56:27 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project opened (duration: 12 ms)
+2013-05-08 09:56:27 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Opening the project
+2013-05-08 09:56:27 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project opened (duration: 3 ms)
+2013-05-08 09:56:27 [com.wakanda-software.DebuggerTests] INFO - Solution opened (duration: 77 ms)
+2013-05-08 09:56:27 [com.wakanda-software.DebuggerTests] INFO - Starting the solution
+2013-05-08 09:56:27 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Starting the project
+2013-05-08 09:56:27 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Starting the HTTP server
+2013-05-08 09:56:27 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP server started (duration: 21 ms)
+2013-05-08 09:56:27 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project started (duration: 52 ms)
+2013-05-08 09:56:27 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Starting the project
+2013-05-08 09:56:27 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Starting the HTTP server
+2013-05-08 09:56:27 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP server started (duration: 22 ms)
+2013-05-08 09:56:27 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project started (duration: 54 ms)
+2013-05-08 09:56:27 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executing the bootstrap(s)
+2013-05-08 09:56:27 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Bootstrap(s) executed (duration: 4 ms)
+2013-05-08 09:56:27 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executing the bootstrap(s)
+2013-05-08 09:56:27 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap(s) executed (duration: 8 ms)
+2013-05-08 09:56:27 [com.wakanda-software.DebuggerTests] INFO - Solution started (duration: 120 ms)
+2013-05-08 09:57:46 [com.wakanda-software.DebuggerTests.DebuggerTests.JS4D] ERROR - [1] Unable to resolve "mathh"!, HTTP connection handler
+2013-05-08 09:57:46 [com.wakanda-software.DebuggerTests.DebuggerTests.JS4D] ERROR - [2] Error evaluating javascript file:///D:/DebuggerTests/DebuggerTests/main2.js, HTTP connection handler
+2013-05-08 09:57:58 [com.wakanda-software.DebuggerTests] INFO - Stopping the solution
+2013-05-08 09:57:58 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Stopping the project
+2013-05-08 09:58:00 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project stopped (duration: 2041 ms)
+2013-05-08 09:58:00 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Stopping the project
+2013-05-08 09:58:02 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project stopped (duration: 2040 ms)
+2013-05-08 09:58:02 [com.wakanda-software.DebuggerTests] INFO - Solution stopped (duration: 4083 ms)
+2013-05-08 09:58:02 [com.wakanda-software.DebuggerTests] INFO - Closing the solution
+2013-05-08 09:58:02 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Closing the project
+2013-05-08 09:58:02 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Closing the database
+2013-05-08 09:58:03 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Database closed (duration: 426 ms)
+2013-05-08 09:58:03 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Project closed (duration: 453 ms)
+2013-05-08 09:58:03 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Closing the project
+2013-05-08 09:58:03 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Project closed (duration: 33 ms)
+2013-05-08 09:58:03 [com.wakanda-software.DebuggerTests] INFO - Solution closed (duration: 927 ms)
+2013-05-08 10:00:04 [com.wakanda-software] INFO - Opens the solution "D:\DebuggerTests\DebuggerTests Solution\DebuggerTests.waSolution" for running
+2013-05-08 10:00:04 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened
+2013-05-08 10:00:04 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Datastore opened
+2013-05-08 10:00:04 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project opened
+2013-05-08 10:00:04 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project opened
+2013-05-08 10:00:04 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution opened
+2013-05-08 10:00:04 [com.wakanda-software] INFO - Starts "DebuggerTests" solution
+2013-05-08 10:00:04 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP Server started
+2013-05-08 10:00:04 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project started
+2013-05-08 10:00:05 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP Server started
+2013-05-08 10:00:05 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project started
+2013-05-08 10:00:05 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executes the bootstrap file(s)
+2013-05-08 10:00:05 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap file(s) executed
+2013-05-08 10:00:05 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executes the bootstrap file(s)
+2013-05-08 10:00:05 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Bootstrap file(s) executed
+2013-05-08 10:00:05 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution started
+2013-05-08 10:00:05 [com.wakanda-software] INFO - "DebuggerTests" solution has been successfully opened for running (duration: 302 ms)
+2013-05-08 11:36:41 [com.wakanda-software] INFO - Stops "DebuggerTests" solution
+2013-05-08 11:36:42 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project stopped
+2013-05-08 11:36:43 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project stopped
+2013-05-08 11:36:43 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution stopped
+2013-05-08 11:36:43 [com.wakanda-software] INFO - Closes "DebuggerTests" solution
+2013-05-08 11:36:43 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project closed
+2013-05-08 11:36:43 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project closed
+2013-05-08 11:36:44 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution closed
+2013-05-21 11:49:32 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened
+2013-05-21 11:49:32 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Datastore opened
+2013-05-21 11:49:32 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project opened
+2013-05-21 11:49:32 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project opened
+2013-05-21 11:49:32 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution opened
+2013-05-21 11:49:32 [com.wakanda-software] INFO - Starts "DebuggerTests" solution
+2013-05-21 11:49:32 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP Server started
+2013-05-21 11:49:32 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project started
+2013-05-21 11:49:32 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP Server started
+2013-05-21 11:49:32 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project started
+2013-05-21 11:49:32 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executes the bootstrap file(s)
+2013-05-21 11:49:32 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap file(s) executed
+2013-05-21 11:49:32 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executes the bootstrap file(s)
+2013-05-21 11:49:32 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Bootstrap file(s) executed
+2013-05-21 11:49:32 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution started
+2013-05-21 11:49:32 [com.wakanda-software] INFO - "DebuggerTests" solution has been successfully opened for running (duration: 290 ms)
+2013-05-21 11:49:36 [com.wakanda-software.DebuggerTests.ServerAdmin.iasv] ERROR - [1068] Cannot find JavaScript language context, task #7020, task name is HTTP connection handler
+2013-05-21 11:49:36 [com.wakanda-software.HTTP] ERROR - [500] , task #7020, task name is HTTP connection handler
+2013-05-21 11:49:37 [com.wakanda-software] INFO - Stops "DebuggerTests" solution
+2013-05-21 11:49:39 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project stopped
+2013-05-21 11:49:40 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project stopped
+2013-05-21 11:49:40 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution stopped
+2013-05-21 11:49:40 [com.wakanda-software] INFO - Closes "DebuggerTests" solution
+2013-05-21 11:49:40 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project closed
+2013-05-21 11:49:40 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project closed
+2013-05-21 11:49:41 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution closed
+2013-06-04 08:52:31 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened
+2013-06-04 08:52:31 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Datastore opened
+2013-06-04 08:52:31 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project opened
+2013-06-04 08:52:31 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project opened
+2013-06-04 08:52:31 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution opened
+2013-06-04 08:52:31 [com.wakanda-software] INFO - Starts "DebuggerTests" solution
+2013-06-04 08:52:31 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP Server started
+2013-06-04 08:52:31 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project started
+2013-06-04 08:52:32 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP Server started
+2013-06-04 08:52:32 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project started
+2013-06-04 08:52:32 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executes the bootstrap file(s)
+2013-06-04 08:52:32 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap file(s) executed
+2013-06-04 08:52:32 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executes the bootstrap file(s)
+2013-06-04 08:53:03 [com.wakanda-software] INFO - Opens the solution "D:\DebuggerTests\DebuggerTests Solution\DebuggerTests.waSolution" for running
+2013-06-04 08:53:04 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened
+2013-06-04 08:53:04 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Datastore opened
+2013-06-04 08:53:04 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project opened
+2013-06-04 08:53:04 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project opened
+2013-06-04 08:53:04 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution opened
+2013-06-04 08:53:04 [com.wakanda-software] INFO - Starts "DebuggerTests" solution
+2013-06-04 08:53:04 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP Server started
+2013-06-04 08:53:04 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project started
+2013-06-04 08:53:04 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP Server started
+2013-06-04 08:53:04 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project started
+2013-06-04 08:53:04 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executes the bootstrap file(s)
+2013-06-04 08:53:04 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap file(s) executed
+2013-06-04 08:53:04 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executes the bootstrap file(s)
+2013-06-04 08:58:47 [com.wakanda-software] INFO - Opens the solution "D:\DebuggerTests\DebuggerTests Solution\DebuggerTests.waSolution" for running
+2013-06-04 08:58:47 [com.wakanda-software.DebuggerTests.xbox] ERROR - [604] Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus.
+, task #6612
+2013-06-04 08:58:47 [com.wakanda-software.DebuggerTests.ugmg] ERROR - [15] , task #6612
+2013-06-04 08:58:47 [com.wakanda-software.DebuggerTests.iasv] ERROR - [1009] Cannot load users and groups directory, task #6612
+2013-06-04 08:58:47 [com.wakanda-software.DebuggerTests] WARN - "DebuggerTests" solution opened with errors
+2013-06-04 08:58:47 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution closed
+2013-06-04 09:05:04 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened
+2013-06-04 09:05:04 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Datastore opened
+2013-06-04 09:05:04 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project opened
+2013-06-04 09:05:04 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project opened
+2013-06-04 09:05:04 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution opened
+2013-06-04 09:05:04 [com.wakanda-software] INFO - Starts "DebuggerTests" solution
+2013-06-04 09:05:05 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP Server started
+2013-06-04 09:05:05 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project started
+2013-06-04 09:05:05 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP Server started
+2013-06-04 09:05:05 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project started
+2013-06-04 09:05:05 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executes the bootstrap file(s)
+2013-06-04 09:05:05 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap file(s) executed
+2013-06-04 09:05:05 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executes the bootstrap file(s)
+2013-06-04 09:05:42 [com.wakanda-software] INFO - Opens the solution "D:\DebuggerTests\DebuggerTests Solution\DebuggerTests.waSolution" for running
+2013-06-04 09:05:43 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened
+2013-06-04 09:05:43 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Datastore opened
+2013-06-04 09:05:43 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project opened
+2013-06-04 09:05:43 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project opened
+2013-06-04 09:05:43 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution opened
+2013-06-04 09:05:43 [com.wakanda-software] INFO - Starts "DebuggerTests" solution
+2013-06-04 09:05:43 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP Server started
+2013-06-04 09:05:43 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project started
+2013-06-04 09:05:43 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP Server started
+2013-06-04 09:05:43 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project started
+2013-06-04 09:05:43 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executes the bootstrap file(s)
+2013-06-04 09:05:43 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap file(s) executed
+2013-06-04 09:05:43 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executes the bootstrap file(s)
+2013-06-04 09:06:18 [com.wakanda-software] INFO - Opens the solution "D:\DebuggerTests\DebuggerTests Solution\DebuggerTests.waSolution" for running
+2013-06-04 09:06:18 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened
+2013-06-04 09:06:18 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Datastore opened
+2013-06-04 09:06:18 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project opened
+2013-06-04 09:06:18 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project opened
+2013-06-04 09:06:18 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution opened
+2013-06-04 09:06:18 [com.wakanda-software] INFO - Starts "DebuggerTests" solution
+2013-06-04 09:06:18 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP Server started
+2013-06-04 09:06:18 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project started
+2013-06-04 09:06:18 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP Server started
+2013-06-04 09:06:18 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project started
+2013-06-04 09:06:18 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executes the bootstrap file(s)
+2013-06-04 09:06:18 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap file(s) executed
+2013-06-04 09:06:18 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executes the bootstrap file(s)
+2013-06-04 09:07:00 [com.wakanda-software] INFO - Opens the solution "D:\DebuggerTests\DebuggerTests Solution\DebuggerTests.waSolution" for running
+2013-06-04 09:07:00 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened
+2013-06-04 09:07:00 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Datastore opened
+2013-06-04 09:07:00 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project opened
+2013-06-04 09:07:00 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project opened
+2013-06-04 09:07:00 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution opened
+2013-06-04 09:07:00 [com.wakanda-software] INFO - Starts "DebuggerTests" solution
+2013-06-04 09:07:00 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP Server started
+2013-06-04 09:07:00 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project started
+2013-06-04 09:07:00 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP Server started
+2013-06-04 09:07:00 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project started
+2013-06-04 09:07:00 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executes the bootstrap file(s)
+2013-06-04 09:07:00 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap file(s) executed
+2013-06-04 09:07:00 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executes the bootstrap file(s)
+2013-06-04 09:07:32 [com.wakanda-software] INFO - Opens the solution "D:\DebuggerTests\DebuggerTests Solution\DebuggerTests.waSolution" for running
+2013-06-04 09:07:32 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened
+2013-06-04 09:07:32 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Datastore opened
+2013-06-04 09:07:32 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project opened
+2013-06-04 09:07:32 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project opened
+2013-06-04 09:07:32 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution opened
+2013-06-04 09:07:32 [com.wakanda-software] INFO - Starts "DebuggerTests" solution
+2013-06-04 09:07:33 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP Server started
+2013-06-04 09:07:33 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project started
+2013-06-04 09:07:33 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP Server started
+2013-06-04 09:07:33 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project started
+2013-06-04 09:07:33 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executes the bootstrap file(s)
+2013-06-04 09:07:33 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap file(s) executed
+2013-06-04 09:07:33 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executes the bootstrap file(s)
+2013-06-04 11:09:20 [com.wakanda-software] INFO - Opens the solution "D:\DebuggerTests\DebuggerTests Solution\DebuggerTests.waSolution" for running
+2013-06-04 11:09:20 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened
+2013-06-04 11:09:20 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Datastore opened
+2013-06-04 11:09:20 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project opened
+2013-06-04 11:09:20 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project opened
+2013-06-04 11:09:20 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution opened
+2013-06-04 11:09:20 [com.wakanda-software] INFO - Starts "DebuggerTests" solution
+2013-06-04 11:09:21 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP Server started
+2013-06-04 11:09:21 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project started
+2013-06-04 11:09:21 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP Server started
+2013-06-04 11:09:21 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project started
+2013-06-04 11:09:21 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executes the bootstrap file(s)
+2013-06-04 11:09:21 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap file(s) executed
+2013-06-04 11:09:21 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executes the bootstrap file(s)
+2013-06-04 11:10:00 [com.wakanda-software] INFO - Opens the solution "D:\DebuggerTests\DebuggerTests Solution\DebuggerTests.waSolution" for running
+2013-06-04 11:10:00 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened
+2013-06-04 11:10:00 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Datastore opened
+2013-06-04 11:10:00 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project opened
+2013-06-04 11:10:00 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project opened
+2013-06-04 11:10:00 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution opened
+2013-06-04 11:10:00 [com.wakanda-software] INFO - Starts "DebuggerTests" solution
+2013-06-04 11:10:00 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP Server started
+2013-06-04 11:10:00 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project started
+2013-06-04 11:10:00 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP Server started
+2013-06-04 11:10:00 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project started
+2013-06-04 11:10:00 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executes the bootstrap file(s)
+2013-06-04 11:10:00 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap file(s) executed
+2013-06-04 11:10:00 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executes the bootstrap file(s)
+2013-06-04 11:15:35 [com.wakanda-software] INFO - Opens the solution "D:\DebuggerTests\DebuggerTests Solution\DebuggerTests.waSolution" for running
+2013-06-04 11:15:35 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened
+2013-06-04 11:15:35 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Datastore opened
+2013-06-04 11:15:35 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project opened
+2013-06-04 11:15:35 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project opened
+2013-06-04 11:15:35 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution opened
+2013-06-04 11:15:35 [com.wakanda-software] INFO - Starts "DebuggerTests" solution
+2013-06-04 11:15:35 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP Server started
+2013-06-04 11:15:35 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project started
+2013-06-04 11:15:35 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP Server started
+2013-06-04 11:15:35 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project started
+2013-06-04 11:15:35 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executes the bootstrap file(s)
+2013-06-04 11:15:35 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap file(s) executed
+2013-06-04 11:15:35 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executes the bootstrap file(s)
+2013-06-04 11:16:09 [com.wakanda-software] INFO - Opens the solution "D:\DebuggerTests\DebuggerTests Solution\DebuggerTests.waSolution" for running
+2013-06-04 11:16:09 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened
+2013-06-04 11:16:09 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Datastore opened
+2013-06-04 11:16:09 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project opened
+2013-06-04 11:16:09 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project opened
+2013-06-04 11:16:09 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution opened
+2013-06-04 11:16:09 [com.wakanda-software] INFO - Starts "DebuggerTests" solution
+2013-06-04 11:16:09 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP Server started
+2013-06-04 11:16:09 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project started
+2013-06-04 11:16:09 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP Server started
+2013-06-04 11:16:09 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project started
+2013-06-04 11:16:09 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executes the bootstrap file(s)
+2013-06-04 11:16:09 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap file(s) executed
+2013-06-04 11:16:09 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executes the bootstrap file(s)
+2013-06-04 11:16:34 [com.wakanda-software] INFO - Opens the solution "D:\DebuggerTests\DebuggerTests Solution\DebuggerTests.waSolution" for running
+2013-06-04 11:16:34 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened
+2013-06-04 11:16:34 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Datastore opened
+2013-06-04 11:16:34 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project opened
+2013-06-04 11:16:34 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project opened
+2013-06-04 11:16:34 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution opened
+2013-06-04 11:16:34 [com.wakanda-software] INFO - Starts "DebuggerTests" solution
+2013-06-04 11:16:34 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP Server started
+2013-06-04 11:16:34 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project started
+2013-06-04 11:16:35 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP Server started
+2013-06-04 11:16:35 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project started
+2013-06-04 11:16:35 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executes the bootstrap file(s)
+2013-06-04 11:16:35 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap file(s) executed
+2013-06-04 11:16:35 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executes the bootstrap file(s)
+2013-06-04 11:17:29 [com.wakanda-software] INFO - Opens the solution "D:\DebuggerTests\DebuggerTests Solution\DebuggerTests.waSolution" for running
+2013-06-04 11:17:29 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened
+2013-06-04 11:17:29 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Datastore opened
+2013-06-04 11:17:29 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project opened
+2013-06-04 11:17:29 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project opened
+2013-06-04 11:17:29 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution opened
+2013-06-04 11:17:29 [com.wakanda-software] INFO - Starts "DebuggerTests" solution
+2013-06-04 11:17:29 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP Server started
+2013-06-04 11:17:29 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project started
+2013-06-04 11:17:29 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP Server started
+2013-06-04 11:17:29 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project started
+2013-06-04 11:17:29 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executes the bootstrap file(s)
+2013-06-04 11:17:29 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap file(s) executed
+2013-06-04 11:17:29 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executes the bootstrap file(s)
+2013-06-04 11:17:29 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Bootstrap file(s) executed
+2013-06-04 11:17:29 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution started
+2013-06-04 11:17:29 [com.wakanda-software] INFO - "DebuggerTests" solution has been successfully opened for running (duration: 331 ms)
+2013-06-04 11:17:51 [com.wakanda-software] INFO - Stops "DebuggerTests" solution
+2013-06-04 11:17:52 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project stopped
+2013-06-04 11:17:53 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project stopped
+2013-06-04 11:17:53 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution stopped
+2013-06-04 11:17:53 [com.wakanda-software] INFO - Closes "DebuggerTests" solution
+2013-06-04 11:17:54 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project closed
+2013-06-04 11:17:54 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project closed
+2013-06-04 11:17:54 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution closed
+2013-06-04 11:18:06 [com.wakanda-software] INFO - Opens the solution "D:\DebuggerTests\DebuggerTests Solution\DebuggerTests.waSolution" for running
+2013-06-04 11:18:06 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened
+2013-06-04 11:18:06 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Datastore opened
+2013-06-04 11:18:06 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project opened
+2013-06-04 11:18:06 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project opened
+2013-06-04 11:18:06 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution opened
+2013-06-04 11:18:06 [com.wakanda-software] INFO - Starts "DebuggerTests" solution
+2013-06-04 11:18:06 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP Server started
+2013-06-04 11:18:06 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project started
+2013-06-04 11:18:06 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP Server started
+2013-06-04 11:18:06 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project started
+2013-06-04 11:18:06 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executes the bootstrap file(s)
+2013-06-04 11:18:06 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap file(s) executed
+2013-06-04 11:18:06 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executes the bootstrap file(s)
+2013-06-04 11:18:45 [com.wakanda-software] INFO - Opens the solution "D:\DebuggerTests\DebuggerTests Solution\DebuggerTests.waSolution" for running
+2013-06-04 11:18:45 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened
+2013-06-04 11:18:45 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Datastore opened
+2013-06-04 11:18:45 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project opened
+2013-06-04 11:18:45 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project opened
+2013-06-04 11:18:45 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution opened
+2013-06-04 11:18:45 [com.wakanda-software] INFO - Starts "DebuggerTests" solution
+2013-06-04 11:18:45 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP Server started
+2013-06-04 11:18:45 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project started
+2013-06-04 11:18:45 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP Server started
+2013-06-04 11:18:45 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project started
+2013-06-04 11:18:45 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executes the bootstrap file(s)
+2013-06-04 11:18:45 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap file(s) executed
+2013-06-04 11:18:45 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executes the bootstrap file(s)
+2013-06-04 11:18:45 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Bootstrap file(s) executed
+2013-06-04 11:18:45 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution started
+2013-06-04 11:18:45 [com.wakanda-software] INFO - "DebuggerTests" solution has been successfully opened for running (duration: 329 ms)
+2013-06-04 11:33:22 [com.wakanda-software] INFO - Stops "DebuggerTests" solution
+2013-06-04 11:33:23 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project stopped
+2013-06-04 11:33:24 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project stopped
+2013-06-04 11:33:24 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution stopped
+2013-06-04 11:33:24 [com.wakanda-software] INFO - Closes "DebuggerTests" solution
+2013-06-04 11:33:25 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project closed
+2013-06-04 11:33:25 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project closed
+2013-06-04 11:33:25 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution closed
+2013-06-05 11:49:23 [com.wakanda-software] INFO - Opens the solution "D:\DebuggerTests\DebuggerTests Solution\DebuggerTests.waSolution" for running
+2013-06-05 11:49:23 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened
+2013-06-05 11:49:23 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Datastore opened
+2013-06-05 11:49:23 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project opened
+2013-06-05 11:49:23 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project opened
+2013-06-05 11:49:23 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution opened
+2013-06-05 11:49:23 [com.wakanda-software] INFO - Starts "DebuggerTests" solution
+2013-06-05 11:49:24 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP Server started
+2013-06-05 11:49:24 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project started
+2013-06-05 11:49:24 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP Server started
+2013-06-05 11:49:24 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project started
+2013-06-05 11:49:24 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executes the bootstrap file(s)
+2013-06-05 11:49:24 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap file(s) executed
+2013-06-05 11:49:24 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executes the bootstrap file(s)
+2013-06-05 11:49:24 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Bootstrap file(s) executed
+2013-06-05 11:49:24 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution started
+2013-06-05 11:49:24 [com.wakanda-software] INFO - "DebuggerTests" solution has been successfully opened for running (duration: 377 ms)
+2013-06-05 12:25:55 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - ahmed
+2013-06-05 12:25:55 [com.wakanda-software.DebuggerTests.DebuggerTests.console] INFO - {"data":["ahmed"]}
+2013-06-05 12:25:57 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - JAAFRI
+2013-06-05 12:25:57 [com.wakanda-software.DebuggerTests.DebuggerTests.console] INFO - {"data":["JAAFRI"]}
+2013-06-05 12:26:13 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - fuck
+2013-06-05 12:26:13 [com.wakanda-software.DebuggerTests.DebuggerTests.console] INFO - {"data":["fuck"]}
+2013-06-05 12:26:26 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - fuckkk
+2013-06-05 12:26:26 [com.wakanda-software.DebuggerTests.DebuggerTests.console] INFO - {"data":["fuckkk"]}
+2013-06-05 12:26:58 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - 10
+2013-06-05 12:26:58 [com.wakanda-software.DebuggerTests.DebuggerTests.console] INFO - {"data":[10]}
+2013-06-05 16:19:29 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - ahmed
+2013-06-05 16:19:29 [com.wakanda-software.DebuggerTests.DebuggerTests.console] INFO - {"data":["ahmed"]}
+2013-06-05 16:19:29 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - JAAFRI
+2013-06-05 16:19:29 [com.wakanda-software.DebuggerTests.DebuggerTests.console] INFO - {"data":["JAAFRI"]}
+2013-06-05 16:19:31 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - ahmed
+2013-06-05 16:19:31 [com.wakanda-software.DebuggerTests.DebuggerTests.console] INFO - {"data":["ahmed"]}
+2013-06-05 16:19:31 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - JAAFRI
+2013-06-05 16:19:31 [com.wakanda-software.DebuggerTests.DebuggerTests.console] INFO - {"data":["JAAFRI"]}
+2013-06-05 18:13:04 [com.wakanda-software] INFO - Stops "DebuggerTests" solution
+2013-06-05 18:13:05 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project stopped
+2013-06-05 18:13:06 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project stopped
+2013-06-05 18:13:06 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution stopped
+2013-06-05 18:13:06 [com.wakanda-software] INFO - Closes "DebuggerTests" solution
+2013-06-05 18:13:06 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project closed
+2013-06-05 18:13:06 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project closed
+2013-06-05 18:13:07 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution closed
+2013-06-05 18:13:59 [com.wakanda-software] INFO - Opens the solution "D:\DebuggerTests\DebuggerTests Solution\DebuggerTests.waSolution" for running
+2013-06-05 18:13:59 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened
+2013-06-05 18:13:59 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Datastore opened
+2013-06-05 18:13:59 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project opened
+2013-06-05 18:13:59 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project opened
+2013-06-05 18:13:59 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution opened
+2013-06-05 18:13:59 [com.wakanda-software] INFO - Starts "DebuggerTests" solution
+2013-06-05 18:14:00 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP Server started
+2013-06-05 18:14:00 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project started
+2013-06-05 18:14:00 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP Server started
+2013-06-05 18:14:00 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project started
+2013-06-05 18:14:00 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executes the bootstrap file(s)
+2013-06-05 18:14:00 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap file(s) executed
+2013-06-05 18:14:00 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executes the bootstrap file(s)
+2013-06-05 18:14:00 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Bootstrap file(s) executed
+2013-06-05 18:14:00 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution started
+2013-06-05 18:14:00 [com.wakanda-software] INFO - "DebuggerTests" solution has been successfully opened for running (duration: 466 ms)
+2013-06-05 18:32:32 [com.wakanda-software] INFO - Opens the solution "D:\DebuggerTests\DebuggerTests Solution\DebuggerTests.waSolution" for running
+2013-06-05 18:32:32 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened
+2013-06-05 18:32:32 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Datastore opened
+2013-06-05 18:32:32 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project opened
+2013-06-05 18:32:32 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project opened
+2013-06-05 18:32:32 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution opened
+2013-06-05 18:32:32 [com.wakanda-software] INFO - Starts "DebuggerTests" solution
+2013-06-05 18:32:32 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP Server started
+2013-06-05 18:32:32 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project started
+2013-06-05 18:32:32 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP Server started
+2013-06-05 18:32:32 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project started
+2013-06-05 18:32:32 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executes the bootstrap file(s)
+2013-06-05 18:32:32 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap file(s) executed
+2013-06-05 18:32:32 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executes the bootstrap file(s)
+2013-06-05 18:32:32 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Bootstrap file(s) executed
+2013-06-05 18:32:32 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution started
+2013-06-05 18:32:32 [com.wakanda-software] INFO - "DebuggerTests" solution has been successfully opened for running (duration: 341 ms)
+2013-06-05 18:32:52 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - fuckkk
+2013-06-05 18:32:52 [com.wakanda-software.DebuggerTests.DebuggerTests.console] INFO - {"data":["fuckkk"]}
+2013-06-06 09:40:26 [com.wakanda-software] INFO - Stops "DebuggerTests" solution
+2013-06-06 09:40:27 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project stopped
+2013-06-06 09:40:29 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project stopped
+2013-06-06 09:40:29 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution stopped
+2013-06-06 09:40:29 [com.wakanda-software] INFO - Closes "DebuggerTests" solution
+2013-06-06 09:40:29 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project closed
+2013-06-06 09:40:29 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project closed
+2013-06-06 09:40:29 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution closed
+2013-06-11 11:15:23 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened
+2013-06-11 11:15:24 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Datastore opened
+2013-06-11 11:15:24 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project opened
+2013-06-11 11:15:24 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project opened
+2013-06-11 11:15:24 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution opened
+2013-06-11 11:15:24 [com.wakanda-software] INFO - Starts "DebuggerTests" solution
+2013-06-11 11:15:24 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP Server started
+2013-06-11 11:15:24 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project started
+2013-06-11 11:15:24 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP Server started
+2013-06-11 11:15:24 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project started
+2013-06-11 11:15:24 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executes the bootstrap file(s)
+2013-06-11 11:15:24 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap file(s) executed
+2013-06-11 11:15:24 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executes the bootstrap file(s)
+2013-06-11 11:15:24 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Bootstrap file(s) executed
+2013-06-11 11:15:24 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution started
+2013-06-11 11:15:24 [com.wakanda-software] INFO - "DebuggerTests" solution has been successfully opened for running (duration: 1068 ms)
+2013-06-11 11:48:40 [com.wakanda-software] INFO - Stops "DebuggerTests" solution
+2013-06-11 11:48:41 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project stopped
+2013-06-11 11:48:42 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project stopped
+2013-06-11 11:48:42 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution stopped
+2013-06-11 11:48:42 [com.wakanda-software] INFO - Closes "DebuggerTests" solution
+2013-06-11 11:48:42 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project closed
+2013-06-11 11:48:42 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project closed
+2013-06-11 11:48:43 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution closed
+2013-06-11 11:49:52 [com.wakanda-software] INFO - Opens the solution "D:\DebuggerTests\DebuggerTests Solution\DebuggerTests.waSolution" for running
+2013-06-11 11:49:53 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened
+2013-06-11 11:49:53 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Datastore opened
+2013-06-11 11:49:53 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project opened
+2013-06-11 11:49:53 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project opened
+2013-06-11 11:49:53 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution opened
+2013-06-11 11:49:53 [com.wakanda-software] INFO - Starts "DebuggerTests" solution
+2013-06-11 11:49:53 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP Server started
+2013-06-11 11:49:53 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project started
+2013-06-11 11:49:53 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP Server started
+2013-06-11 11:49:53 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project started
+2013-06-11 11:49:53 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executes the bootstrap file(s)
+2013-06-11 11:49:53 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap file(s) executed
+2013-06-11 11:49:53 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executes the bootstrap file(s)
+2013-06-11 11:49:53 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Bootstrap file(s) executed
+2013-06-11 11:49:53 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution started
+2013-06-11 11:49:53 [com.wakanda-software] INFO - "DebuggerTests" solution has been successfully opened for running (duration: 299 ms)
+2013-06-11 11:54:21 [com.wakanda-software] INFO - Stops "DebuggerTests" solution
+2013-06-11 11:54:22 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project stopped
+2013-06-11 11:54:23 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project stopped
+2013-06-11 11:54:23 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution stopped
+2013-06-11 11:54:23 [com.wakanda-software] INFO - Closes "DebuggerTests" solution
+2013-06-11 11:54:23 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project closed
+2013-06-11 11:54:23 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project closed
+2013-06-11 11:54:24 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution closed
+2013-06-11 11:54:29 [com.wakanda-software] INFO - Opens the solution "D:\DebuggerTests\DebuggerTests Solution\DebuggerTests.waSolution" for running
+2013-06-11 11:54:29 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened
+2013-06-11 11:54:29 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Datastore opened
+2013-06-11 11:54:29 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project opened
+2013-06-11 11:54:29 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project opened
+2013-06-11 11:54:29 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution opened
+2013-06-11 11:54:29 [com.wakanda-software] INFO - Starts "DebuggerTests" solution
+2013-06-11 11:54:29 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP Server started
+2013-06-11 11:54:29 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project started
+2013-06-11 11:54:29 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP Server started
+2013-06-11 11:54:29 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project started
+2013-06-11 11:54:29 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executes the bootstrap file(s)
+2013-06-11 11:54:29 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap file(s) executed
+2013-06-11 11:54:29 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executes the bootstrap file(s)
+2013-06-11 11:54:29 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Bootstrap file(s) executed
+2013-06-11 11:54:29 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution started
+2013-06-11 11:54:29 [com.wakanda-software] INFO - "DebuggerTests" solution has been successfully opened for running (duration: 341 ms)
+2013-06-11 12:12:56 [com.wakanda-software] INFO - Stops "DebuggerTests" solution
+2013-06-11 12:12:57 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project stopped
+2013-06-11 12:12:58 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project stopped
+2013-06-11 12:12:58 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution stopped
+2013-06-11 12:12:58 [com.wakanda-software] INFO - Closes "DebuggerTests" solution
+2013-06-11 12:12:59 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project closed
+2013-06-11 12:12:59 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project closed
+2013-06-11 12:12:59 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution closed
+2013-06-11 16:40:39 [com.wakanda-software] INFO - Opens the solution "D:\DebuggerTests\DebuggerTests Solution\DebuggerTests.waSolution" for running
+2013-06-11 16:40:39 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened
+2013-06-11 16:40:39 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Datastore opened
+2013-06-11 16:40:39 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project opened
+2013-06-11 16:40:39 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project opened
+2013-06-11 16:40:39 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution opened
+2013-06-11 16:40:39 [com.wakanda-software] INFO - Starts "DebuggerTests" solution
+2013-06-11 16:40:39 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP Server started
+2013-06-11 16:40:39 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project started
+2013-06-11 16:40:40 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP Server started
+2013-06-11 16:40:40 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project started
+2013-06-11 16:40:40 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executes the bootstrap file(s)
+2013-06-11 16:40:40 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap file(s) executed
+2013-06-11 16:40:40 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executes the bootstrap file(s)
+2013-06-11 16:40:40 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Bootstrap file(s) executed
+2013-06-11 16:40:40 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution started
+2013-06-11 16:40:40 [com.wakanda-software] INFO - "DebuggerTests" solution has been successfully opened for running (duration: 388 ms)
+2013-06-11 17:58:55 [com.wakanda-software.srvr] ERROR - [49] SSL internal error : error:140940E5:SSL routines:SSL3_READ_BYTES:ssl handshake failure, task #7664, task name is HTTP connection handler
+2013-06-11 17:58:55 [com.wakanda-software.srvr] ERROR - [49] SSL internal error : error:140940E5:SSL routines:SSL3_READ_BYTES:ssl handshake failure, task #2764, task name is HTTP connection handler
+2013-06-11 17:58:55 [com.wakanda-software.srvr] ERROR - [49] SSL internal error : error:14094416:SSL routines:SSL3_READ_BYTES:sslv3 alert certificate unknown, task #7664, task name is HTTP connection handler
+2013-06-11 17:58:55 [com.wakanda-software.srvr] ERROR - [49] SSL internal error : error:14094416:SSL routines:SSL3_READ_BYTES:sslv3 alert certificate unknown, task #2764, task name is HTTP connection handler
+2013-06-11 17:58:55 [com.wakanda-software.srvr] ERROR - [42] SSL read failed, task #7664, task name is HTTP connection handler
+2013-06-11 17:58:55 [com.wakanda-software.srvr] ERROR - [42] SSL read failed, task #2764, task name is HTTP connection handler
+2013-06-11 17:58:55 [com.wakanda-software.srvr] ERROR - [42] SSL read failed, task #7664, task name is HTTP connection handler
+2013-06-11 17:58:55 [com.wakanda-software.srvr] ERROR - [42] SSL read failed, task #2764, task name is HTTP connection handler
+2013-06-11 17:58:55 [com.wakanda-software.srvr] ERROR - [49] SSL internal error : error:140940E5:SSL routines:SSL3_READ_BYTES:ssl handshake failure, task #8564, task name is HTTP connection handler
+2013-06-11 17:58:55 [com.wakanda-software.srvr] ERROR - [49] SSL internal error : error:140940E5:SSL routines:SSL3_READ_BYTES:ssl handshake failure, task #4460, task name is HTTP connection handler
+2013-06-11 17:58:55 [com.wakanda-software.srvr] ERROR - [49] SSL internal error : error:14094416:SSL routines:SSL3_READ_BYTES:sslv3 alert certificate unknown, task #8564, task name is HTTP connection handler
+2013-06-11 17:58:55 [com.wakanda-software.srvr] ERROR - [49] SSL internal error : error:14094416:SSL routines:SSL3_READ_BYTES:sslv3 alert certificate unknown, task #4460, task name is HTTP connection handler
+2013-06-11 17:58:55 [com.wakanda-software.srvr] ERROR - [42] SSL read failed, task #8564, task name is HTTP connection handler
+2013-06-11 17:58:55 [com.wakanda-software.srvr] ERROR - [42] SSL read failed, task #4460, task name is HTTP connection handler
+2013-06-11 17:58:55 [com.wakanda-software.srvr] ERROR - [49] SSL internal error : error:140940E5:SSL routines:SSL3_READ_BYTES:ssl handshake failure, task #8848, task name is HTTP connection handler
+2013-06-11 17:58:55 [com.wakanda-software.srvr] ERROR - [42] SSL read failed, task #8564, task name is HTTP connection handler
+2013-06-11 17:58:55 [com.wakanda-software.srvr] ERROR - [42] SSL read failed, task #4460, task name is HTTP connection handler
+2013-06-11 17:58:55 [com.wakanda-software.srvr] ERROR - [49] SSL internal error : error:14094416:SSL routines:SSL3_READ_BYTES:sslv3 alert certificate unknown, task #8848, task name is HTTP connection handler
+2013-06-11 17:58:55 [com.wakanda-software.srvr] ERROR - [42] SSL read failed, task #8848, task name is HTTP connection handler
+2013-06-11 17:58:55 [com.wakanda-software.srvr] ERROR - [49] SSL internal error : error:140940E5:SSL routines:SSL3_READ_BYTES:ssl handshake failure, task #2488, task name is HTTP connection handler
+2013-06-11 17:58:55 [com.wakanda-software.srvr] ERROR - [42] SSL read failed, task #8848, task name is HTTP connection handler
+2013-06-11 17:58:55 [com.wakanda-software.srvr] ERROR - [49] SSL internal error : error:14094416:SSL routines:SSL3_READ_BYTES:sslv3 alert certificate unknown, task #2488, task name is HTTP connection handler
+2013-06-11 17:58:55 [com.wakanda-software.srvr] ERROR - [42] SSL read failed, task #2488, task name is HTTP connection handler
+2013-06-11 17:58:55 [com.wakanda-software.srvr] ERROR - [42] SSL read failed, task #2488, task name is HTTP connection handler
+2013-06-11 17:58:55 [com.wakanda-software.srvr] ERROR - [49] SSL internal error : error:140940E5:SSL routines:SSL3_READ_BYTES:ssl handshake failure, task #4804, task name is HTTP connection handler
+2013-06-11 17:58:55 [com.wakanda-software.srvr] ERROR - [49] SSL internal error : error:14094416:SSL routines:SSL3_READ_BYTES:sslv3 alert certificate unknown, task #4804, task name is HTTP connection handler
+2013-06-11 17:58:55 [com.wakanda-software.srvr] ERROR - [42] SSL read failed, task #4804, task name is HTTP connection handler
+2013-06-11 17:58:55 [com.wakanda-software.srvr] ERROR - [42] SSL read failed, task #4804, task name is HTTP connection handler
+2013-06-11 17:58:55 [com.wakanda-software.srvr] ERROR - [49] SSL internal error : error:140940E5:SSL routines:SSL3_READ_BYTES:ssl handshake failure, task #4804, task name is HTTP connection handler
+2013-06-11 17:58:55 [com.wakanda-software.srvr] ERROR - [49] SSL internal error : error:14094416:SSL routines:SSL3_READ_BYTES:sslv3 alert certificate unknown, task #4804, task name is HTTP connection handler
+2013-06-11 17:58:55 [com.wakanda-software.srvr] ERROR - [42] SSL read failed, task #4804, task name is HTTP connection handler
+2013-06-11 17:58:55 [com.wakanda-software.srvr] ERROR - [42] SSL read failed, task #4804, task name is HTTP connection handler
+2013-06-11 17:58:55 [com.wakanda-software.srvr] ERROR - [49] SSL internal error : error:140940E5:SSL routines:SSL3_READ_BYTES:ssl handshake failure, task #4804, task name is HTTP connection handler
+2013-06-11 17:58:55 [com.wakanda-software.srvr] ERROR - [49] SSL internal error : error:14094416:SSL routines:SSL3_READ_BYTES:sslv3 alert certificate unknown, task #4804, task name is HTTP connection handler
+2013-06-11 17:58:55 [com.wakanda-software.srvr] ERROR - [42] SSL read failed, task #4804, task name is HTTP connection handler
+2013-06-11 17:58:55 [com.wakanda-software.srvr] ERROR - [42] SSL read failed, task #4804, task name is HTTP connection handler
+2013-06-12 14:23:33 [com.wakanda-software] INFO - Stops "DebuggerTests" solution
+2013-06-12 14:23:33 [com.wakanda-software.DebuggerTests.DebuggerTests.JS4D] ERROR - [1] ReferenceError: Can't find variable: ok, task #6556, task name is HTTP connection handler
+2013-06-12 14:23:33 [com.wakanda-software.DebuggerTests.DebuggerTests.JS4D] ERROR - [2] Error evaluating javascript file:///C:/Users/jifoo20/Documents/Wakanda/SaadProject/SaadProject/Modules/totoo.js, task #6556, task name is HTTP connection handler
+2013-06-12 14:23:33 [com.wakanda-software.DebuggerTests.DebuggerTests.JS4D] ERROR - [1] TypeError: 'undefined' is not an object (evaluating 'referer.split'), task #9344, task name is HTTP connection handler
+2013-06-12 14:23:33 [com.wakanda-software.DebuggerTests.DebuggerTests.JS4D] ERROR - [1] TypeError: 'undefined' is not an object (evaluating 'referer.split'), task #6488, task name is HTTP connection handler
+2013-06-12 14:23:33 [com.wakanda-software.DebuggerTests.DebuggerTests.JS4D] ERROR - [1] TypeError: 'undefined' is not an object (evaluating 'referer.split'), task #10616, task name is HTTP connection handler
+2013-06-12 14:23:33 [com.wakanda-software.DebuggerTests.DebuggerTests.JS4D] ERROR - [1] TypeError: 'undefined' is not an object (evaluating 'referer.split'), task #7856, task name is HTTP connection handler
+2013-06-12 14:23:33 [com.wakanda-software.DebuggerTests.DebuggerTests.JS4D] ERROR - [1] TypeError: 'undefined' is not an object (evaluating 'referer.split'), task #2660, task name is HTTP connection handler
+2013-06-12 14:23:33 [com.wakanda-software.DebuggerTests.DebuggerTests.JS4D] ERROR - [1] TypeError: 'undefined' is not an object (evaluating 'referer.split'), task #9040, task name is HTTP connection handler
+2013-06-12 14:23:33 [com.wakanda-software.HTTP] ERROR - [500] , task #6488, task name is HTTP connection handler
+2013-06-12 14:23:33 [com.wakanda-software.DebuggerTests.DebuggerTests.JS4D] ERROR - [1] TypeError: 'undefined' is not an object (evaluating 'referer.split'), task #2128, task name is HTTP connection handler
+2013-06-12 14:23:33 [com.wakanda-software.HTTP] ERROR - [500] , task #10616, task name is HTTP connection handler
+2013-06-12 14:23:33 [com.wakanda-software.DebuggerTests.DebuggerTests.JS4D] ERROR - [1] TypeError: 'undefined' is not an object (evaluating 'referer.split'), task #5748, task name is HTTP connection handler
+2013-06-12 14:23:33 [com.wakanda-software.HTTP] ERROR - [500] , task #9040, task name is HTTP connection handler
+2013-06-12 14:23:33 [com.wakanda-software.DebuggerTests.DebuggerTests.JS4D] ERROR - [1] TypeError: 'undefined' is not an object (evaluating 'referer.split'), task #3732, task name is HTTP connection handler
+2013-06-12 14:23:33 [com.wakanda-software.DebuggerTests.DebuggerTests.JS4D] ERROR - [1] TypeError: 'undefined' is not an object (evaluating 'referer.split'), task #612, task name is HTTP connection handler
+2013-06-12 14:23:33 [com.wakanda-software.HTTP] ERROR - [500] , task #2660, task name is HTTP connection handler
+2013-06-12 14:23:33 [com.wakanda-software.DebuggerTests.DebuggerTests.JS4D] ERROR - [1] TypeError: 'undefined' is not an object (evaluating 'referer.split'), task #9724, task name is HTTP connection handler
+2013-06-12 14:23:33 [com.wakanda-software.DebuggerTests.DebuggerTests.JS4D] ERROR - [1] TypeError: 'undefined' is not an object (evaluating 'referer.split'), task #6028, task name is HTTP connection handler
+2013-06-12 14:23:33 [com.wakanda-software.HTTP] ERROR - [500] , task #9344, task name is HTTP connection handler
+2013-06-12 14:23:33 [com.wakanda-software.xbox] ERROR - [1] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte.
+, task #6556, task name is HTTP connection handler
+2013-06-12 14:23:33 [com.wakanda-software.HTTP] ERROR - [500] , task #5748, task name is HTTP connection handler
+2013-06-12 14:23:33 [com.wakanda-software.HTTP] ERROR - [500] , task #9724, task name is HTTP connection handler
+2013-06-12 14:23:33 [com.wakanda-software.xbox] ERROR - [1] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte.
+, task #5748, task name is HTTP connection handler
+2013-06-12 14:23:33 [com.wakanda-software.xbox] ERROR - [1] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte.
+, task #9724, task name is HTTP connection handler
+2013-06-12 14:23:33 [com.wakanda-software.HTTP] ERROR - [500] , task #2128, task name is HTTP connection handler
+2013-06-12 14:23:33 [com.wakanda-software.HTTP] ERROR - [500] , task #612, task name is HTTP connection handler
+2013-06-12 14:23:33 [com.wakanda-software.xbox] ERROR - [1] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte.
+, task #2128, task name is HTTP connection handler
+2013-06-12 14:23:33 [com.wakanda-software.HTTP] ERROR - [500] , task #3732, task name is HTTP connection handler
+2013-06-12 14:23:33 [com.wakanda-software.HTTP] ERROR - [500] , task #7856, task name is HTTP connection handler
+2013-06-12 14:23:33 [com.wakanda-software.HTTP] ERROR - [500] , task #6028, task name is HTTP connection handler
+2013-06-12 14:23:33 [com.wakanda-software.DebuggerTests.DebuggerTests.JS4D] ERROR - [1] TypeError: 'undefined' is not an object (evaluating 'referer.split'), task #3732, task name is HTTP connection handler
+2013-06-12 14:23:33 [com.wakanda-software.HTTP] ERROR - [500] , task #3732, task name is HTTP connection handler
+2013-06-12 14:23:33 [com.wakanda-software.DebuggerTests.DebuggerTests.JS4D] ERROR - [1] TypeError: 'undefined' is not an object (evaluating 'referer.split'), task #3732, task name is HTTP connection handler
+2013-06-12 14:23:33 [com.wakanda-software.HTTP] ERROR - [500] , task #3732, task name is HTTP connection handler
+2013-06-12 14:23:34 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project stopped
+2013-06-12 14:23:35 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project stopped
+2013-06-12 14:23:35 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution stopped
+2013-06-12 14:23:35 [com.wakanda-software] INFO - Closes "DebuggerTests" solution
+2013-06-12 14:23:36 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project closed
+2013-06-12 14:23:36 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project closed
+2013-06-12 14:23:36 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution closed
+2013-06-13 15:23:18 [com.wakanda-software.supervisor] INFO -  created 
+2013-06-13 15:23:18 [com.wakanda-software] INFO - Opens the solution "D:\DebuggerTests\DebuggerTests Solution\DebuggerTests.waSolution" for running
+2013-06-13 15:23:18 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened
+2013-06-13 15:23:18 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Datastore opened
+2013-06-13 15:23:18 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project opened
+2013-06-13 15:23:18 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project opened
+2013-06-13 15:23:18 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution opened
+2013-06-13 15:23:18 [com.wakanda-software] INFO - Starts "DebuggerTests" solution
+2013-06-13 15:23:18 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP Server started
+2013-06-13 15:23:18 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project started
+2013-06-13 15:23:19 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP Server started
+2013-06-13 15:23:19 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project started
+2013-06-13 15:23:19 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executes the bootstrap file(s)
+2013-06-13 15:23:19 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap file(s) executed
+2013-06-13 15:23:19 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executes the bootstrap file(s)
+2013-06-13 15:23:19 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Bootstrap file(s) executed
+2013-06-13 15:23:19 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution started
+2013-06-13 15:23:19 [com.wakanda-software] INFO - "DebuggerTests" solution has been successfully opened for running (duration: 665 ms)
+2013-06-13 15:23:19 [com.wakanda-software.supervisor] INFO - solution opened
+2013-06-13 15:23:21 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO -  created 
+2013-06-13 15:23:22 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - 
+2013-06-13 15:23:34 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO -  created 
+2013-06-13 15:23:34 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - 
+2013-06-13 15:24:16 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO -  created 
+2013-06-13 15:24:16 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - 
+2013-06-13 16:54:28 [com.wakanda-software] INFO - Stops "DebuggerTests" solution
+2013-06-13 16:54:29 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project stopped
+2013-06-13 16:54:31 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project stopped
+2013-06-13 16:54:31 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution stopped
+2013-06-13 16:54:31 [com.wakanda-software] INFO - Closes "DebuggerTests" solution
+2013-06-13 16:54:31 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project closed
+2013-06-13 16:54:31 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project closed
+2013-06-13 16:54:32 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution closed
+2013-06-14 15:26:58 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened
+2013-06-14 15:26:58 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Datastore opened
+2013-06-14 15:26:58 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project opened
+2013-06-14 15:26:58 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project opened
+2013-06-14 15:26:58 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution opened
+2013-06-14 15:26:58 [com.wakanda-software] INFO - Starts "DebuggerTests" solution
+2013-06-14 15:26:59 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP Server started
+2013-06-14 15:26:59 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project started
+2013-06-14 15:26:59 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP Server started
+2013-06-14 15:26:59 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project started
+2013-06-14 15:26:59 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executes the bootstrap file(s)
+2013-06-14 15:26:59 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap file(s) executed
+2013-06-14 15:26:59 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executes the bootstrap file(s)
+2013-06-14 15:26:59 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Bootstrap file(s) executed
+2013-06-14 15:26:59 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution started
+2013-06-14 15:26:59 [com.wakanda-software] INFO - "DebuggerTests" solution has been successfully opened for running (duration: 644 ms)
+2013-06-14 15:28:30 [com.wakanda-software.xbox] ERROR - [3] , task #5196, task name is HTTP connection handler
+2013-06-14 15:28:30 [com.wakanda-software.xbox] ERROR - [1] Une opération a été tentée sur autre chose qu’un socket.
+, task #5196, task name is HTTP connection handler
+2013-06-14 15:28:30 [com.wakanda-software.xbox] ERROR - [3] , task #5196, task name is HTTP connection handler
+2013-06-14 15:28:30 [com.wakanda-software.xbox] ERROR - [1] Une opération a été tentée sur autre chose qu’un socket.
+, task #5196, task name is HTTP connection handler
+2013-06-14 15:28:30 [com.wakanda-software.srvr] ERROR - [16] NULL end-point, task #5196, task name is HTTP connection handler
+2013-06-14 15:28:43 [com.wakanda-software.xbox] ERROR - [3] , task #4684, task name is HTTP connection handler
+2013-06-14 15:28:43 [com.wakanda-software.xbox] ERROR - [1] Une opération a été tentée sur autre chose qu’un socket.
+, task #4684, task name is HTTP connection handler
+2013-06-14 15:28:43 [com.wakanda-software.xbox] ERROR - [3] , task #4684, task name is HTTP connection handler
+2013-06-14 15:28:43 [com.wakanda-software.xbox] ERROR - [1] Une opération a été tentée sur autre chose qu’un socket.
+, task #4684, task name is HTTP connection handler
+2013-06-14 15:28:43 [com.wakanda-software.srvr] ERROR - [16] NULL end-point, task #4684, task name is HTTP connection handler
+2013-06-14 15:28:51 [com.wakanda-software.xbox] ERROR - [3] , task #4928, task name is HTTP connection handler
+2013-06-14 15:28:51 [com.wakanda-software.xbox] ERROR - [1] Une opération a été tentée sur autre chose qu’un socket.
+, task #4928, task name is HTTP connection handler
+2013-06-14 15:28:51 [com.wakanda-software.xbox] ERROR - [3] , task #4928, task name is HTTP connection handler
+2013-06-14 15:28:51 [com.wakanda-software.xbox] ERROR - [1] Une opération a été tentée sur autre chose qu’un socket.
+, task #4928, task name is HTTP connection handler
+2013-06-14 15:28:51 [com.wakanda-software.srvr] ERROR - [16] NULL end-point, task #4928, task name is HTTP connection handler
+2013-06-14 15:29:54 [com.wakanda-software.xbox] ERROR - [3] , task #4684, task name is HTTP connection handler
+2013-06-14 15:29:54 [com.wakanda-software.xbox] ERROR - [1] Une opération a été tentée sur autre chose qu’un socket.
+, task #4684, task name is HTTP connection handler
+2013-06-14 15:29:54 [com.wakanda-software.xbox] ERROR - [3] , task #4684, task name is HTTP connection handler
+2013-06-14 15:29:54 [com.wakanda-software.xbox] ERROR - [1] Une opération a été tentée sur autre chose qu’un socket.
+, task #4684, task name is HTTP connection handler
+2013-06-14 15:29:54 [com.wakanda-software.srvr] ERROR - [16] NULL end-point, task #4684, task name is HTTP connection handler
+2013-06-14 15:36:52 [com.wakanda-software.DebuggerTests.ServerAdmin.iasv] ERROR - [1068] Cannot find JavaScript language context, task #4700, task name is HTTP connection handler
+2013-06-14 15:36:52 [com.wakanda-software.HTTP] ERROR - [500] , task #4700, task name is HTTP connection handler
+2013-06-14 15:37:17 [com.wakanda-software] INFO - Stops "DebuggerTests" solution
+2013-06-14 15:37:19 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project stopped
+2013-06-14 15:37:20 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project stopped
+2013-06-14 15:37:20 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution stopped
+2013-06-14 15:37:20 [com.wakanda-software] INFO - Closes "DebuggerTests" solution
+2013-06-14 15:37:20 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project closed
+2013-06-14 15:37:21 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project closed
+2013-06-14 15:37:21 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution closed
+2013-06-14 15:37:36 [com.wakanda-software.supervisor] INFO -  created 
+2013-06-14 15:37:36 [com.wakanda-software] INFO - Opens the solution "D:\DebuggerTests\DebuggerTests Solution\DebuggerTests.waSolution" for running
+2013-06-14 15:37:36 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened
+2013-06-14 15:37:36 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Datastore opened
+2013-06-14 15:37:36 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project opened
+2013-06-14 15:37:36 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project opened
+2013-06-14 15:37:36 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution opened
+2013-06-14 15:37:36 [com.wakanda-software] INFO - Starts "DebuggerTests" solution
+2013-06-14 15:37:36 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP Server started
+2013-06-14 15:37:36 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project started
+2013-06-14 15:37:36 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP Server started
+2013-06-14 15:37:36 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project started
+2013-06-14 15:37:36 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executes the bootstrap file(s)
+2013-06-14 15:37:36 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap file(s) executed
+2013-06-14 15:37:36 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executes the bootstrap file(s)
+2013-06-14 15:37:36 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Bootstrap file(s) executed
+2013-06-14 15:37:36 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution started
+2013-06-14 15:37:36 [com.wakanda-software] INFO - "DebuggerTests" solution has been successfully opened for running (duration: 445 ms)
+2013-06-14 15:37:36 [com.wakanda-software.supervisor] INFO - solution opened
+2013-06-14 15:37:40 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO -  created 
+2013-06-14 15:37:40 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - 
+2013-06-14 15:38:11 [com.wakanda-software.xbox] ERROR - [3] , task #712, task name is HTTP connection handler
+2013-06-14 15:38:11 [com.wakanda-software.xbox] ERROR - [1] Une opération a été tentée sur autre chose qu’un socket.
+, task #712, task name is HTTP connection handler
+2013-06-14 15:38:11 [com.wakanda-software.xbox] ERROR - [3] , task #712, task name is HTTP connection handler
+2013-06-14 15:38:11 [com.wakanda-software.xbox] ERROR - [1] Une opération a été tentée sur autre chose qu’un socket.
+, task #712, task name is HTTP connection handler
+2013-06-14 15:38:11 [com.wakanda-software.srvr] ERROR - [16] NULL end-point, task #712, task name is HTTP connection handler
+2013-06-27 11:20:45 [com.wakanda-software] INFO - Opens the solution "D:\DebuggerTests\DebuggerTests Solution\DebuggerTests.waSolution" for running
+2013-06-27 11:20:45 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened
+2013-06-27 11:20:45 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Datastore opened
+2013-06-27 11:20:45 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project opened
+2013-06-27 11:20:45 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project opened
+2013-06-27 11:20:45 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution opened
+2013-06-27 11:20:45 [com.wakanda-software] INFO - Starts "DebuggerTests" solution
+2013-06-27 11:20:45 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP Server started
+2013-06-27 11:20:45 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project started
+2013-06-27 11:20:45 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP Server started
+2013-06-27 11:20:45 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project started
+2013-06-27 11:20:45 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executes the bootstrap file(s)
+2013-06-27 11:20:45 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap file(s) executed
+2013-06-27 11:20:45 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executes the bootstrap file(s)
+2013-06-27 11:20:45 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Bootstrap file(s) executed
+2013-06-27 11:20:45 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution started
+2013-06-27 11:20:45 [com.wakanda-software] INFO - "DebuggerTests" solution has been successfully opened for running (duration: 338 ms)
+2013-06-27 11:37:01 [com.wakanda-software.DebuggerTests.ServerAdmin.iasv] ERROR - [1068] Cannot find JavaScript language context, task #1828, task name is HTTP connection handler
+2013-06-27 11:37:01 [com.wakanda-software.HTTP] ERROR - [500] , task #1828, task name is HTTP connection handler
+2013-06-27 11:37:01 [com.wakanda-software.DebuggerTests.ServerAdmin.iasv] ERROR - [1068] Cannot find JavaScript language context, task #1828, task name is HTTP connection handler
+2013-06-27 11:37:01 [com.wakanda-software.HTTP] ERROR - [500] , task #1828, task name is HTTP connection handler
+2013-06-27 11:38:38 [com.wakanda-software] INFO - Stops "DebuggerTests" solution
+2013-06-27 11:38:38 [com.wakanda-software.xbox] ERROR - [1] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte.
+, task #6904, task name is HTTP connection handler
+2013-06-27 11:38:39 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project stopped
+2013-06-27 11:38:40 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project stopped
+2013-06-27 11:38:40 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution stopped
+2013-06-27 11:38:40 [com.wakanda-software] INFO - Closes "DebuggerTests" solution
+2013-06-27 11:38:40 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project closed
+2013-06-27 11:38:40 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project closed
+2013-06-27 11:38:41 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution closed
+2013-06-27 11:41:36 [com.wakanda-software] INFO - Opens the solution "D:\DebuggerTests\DebuggerTests Solution\DebuggerTests.waSolution" for running
+2013-06-27 11:41:37 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened
+2013-06-27 11:41:37 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Datastore opened
+2013-06-27 11:41:37 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project opened
+2013-06-27 11:41:37 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project opened
+2013-06-27 11:41:37 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution opened
+2013-06-27 11:41:37 [com.wakanda-software] INFO - Starts "DebuggerTests" solution
+2013-06-27 11:41:37 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP Server started
+2013-06-27 11:41:37 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project started
+2013-06-27 11:41:37 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP Server started
+2013-06-27 11:41:37 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project started
+2013-06-27 11:41:37 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executes the bootstrap file(s)
+2013-06-27 11:41:37 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap file(s) executed
+2013-06-27 11:41:37 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executes the bootstrap file(s)
+2013-06-27 11:41:37 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Bootstrap file(s) executed
+2013-06-27 11:41:37 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution started
+2013-06-27 11:41:37 [com.wakanda-software] INFO - "DebuggerTests" solution has been successfully opened for running (duration: 344 ms)
+2013-06-27 11:43:04 [com.wakanda-software.DebuggerTests.DebuggerTests.iasv] ERROR - [1033] call to 'calculate' function failed, task #8148, task name is HTTP connection handler
+2013-06-27 11:43:04 [com.wakanda-software.HTTP] ERROR - [500] , task #8148, task name is HTTP connection handler
+2013-06-27 12:11:16 [com.wakanda-software.DebuggerTests.DebuggerTests.iasv] ERROR - [1033] call to 'calculate' function failed, task #8148, task name is HTTP connection handler
+2013-06-27 12:11:16 [com.wakanda-software.HTTP] ERROR - [500] , task #8148, task name is HTTP connection handler
+2013-06-27 12:12:49 [com.wakanda-software] INFO - Stops "DebuggerTests" solution
+2013-06-27 12:12:50 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project stopped
+2013-06-27 12:12:51 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project stopped
+2013-06-27 12:12:51 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution stopped
+2013-06-27 12:12:51 [com.wakanda-software] INFO - Closes "DebuggerTests" solution
+2013-06-27 12:12:52 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project closed
+2013-06-27 12:12:52 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project closed
+2013-06-27 12:12:52 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution closed
+2013-06-27 12:12:56 [com.wakanda-software] INFO - Opens the solution "D:\DebuggerTests\DebuggerTests Solution\DebuggerTests.waSolution" for running
+2013-06-27 12:12:56 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened
+2013-06-27 12:12:56 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Datastore opened
+2013-06-27 12:12:56 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project opened
+2013-06-27 12:12:56 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project opened
+2013-06-27 12:12:56 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution opened
+2013-06-27 12:12:56 [com.wakanda-software] INFO - Starts "DebuggerTests" solution
+2013-06-27 12:12:57 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP Server started
+2013-06-27 12:12:57 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project started
+2013-06-27 12:12:57 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP Server started
+2013-06-27 12:12:57 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project started
+2013-06-27 12:12:57 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executes the bootstrap file(s)
+2013-06-27 12:12:57 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap file(s) executed
+2013-06-27 12:12:57 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executes the bootstrap file(s)
+2013-06-27 12:12:57 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Bootstrap file(s) executed
+2013-06-27 12:12:57 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution started
+2013-06-27 12:12:57 [com.wakanda-software] INFO - "DebuggerTests" solution has been successfully opened for running (duration: 336 ms)
+2013-06-27 12:13:28 [com.wakanda-software.DebuggerTests.DebuggerTests.iasv] ERROR - [1033] call to 'calculate' function failed, task #3096, task name is HTTP connection handler
+2013-06-27 12:13:28 [com.wakanda-software.xbox] ERROR - [3] , task #7920, task name is HTTP connection handler
+2013-06-27 12:13:28 [com.wakanda-software.xbox] ERROR - [1] Une opération a été tentée sur autre chose qu’un socket.
+, task #7920, task name is HTTP connection handler
+2013-06-27 12:13:28 [com.wakanda-software.xbox] ERROR - [3] , task #7920, task name is HTTP connection handler
+2013-06-27 12:13:28 [com.wakanda-software.HTTP] ERROR - [500] , task #3096, task name is HTTP connection handler
+2013-06-27 12:13:28 [com.wakanda-software.xbox] ERROR - [1] Une opération a été tentée sur autre chose qu’un socket.
+, task #7920, task name is HTTP connection handler
+2013-06-27 12:13:28 [com.wakanda-software.srvr] ERROR - [16] NULL end-point, task #7920, task name is HTTP connection handler
+2013-06-27 12:13:57 [com.wakanda-software.DebuggerTests.DebuggerTests.JS4D] ERROR - [1] Error: Wrong type for parameter #1, expected File or String., task #3096, task name is HTTP connection handler
+2013-06-27 12:13:57 [com.wakanda-software.HTTP] ERROR - [500] , task #3096, task name is HTTP connection handler
+2013-06-27 12:14:03 [com.wakanda-software.DebuggerTests.DebuggerTests.JS4D] ERROR - [1] Error: Wrong type for parameter #1, expected File or String., task #3096, task name is HTTP connection handler
+2013-06-27 12:14:03 [com.wakanda-software.HTTP] ERROR - [500] , task #3096, task name is HTTP connection handler
+2013-06-27 12:14:22 [com.wakanda-software.DebuggerTests.DebuggerTests.JS4D] ERROR - [1] Error: Wrong type for parameter #1, expected File or String., task #7700, task name is HTTP connection handler
+2013-06-27 12:14:22 [com.wakanda-software.HTTP] ERROR - [500] , task #7700, task name is HTTP connection handler
+2013-06-27 12:14:50 [com.wakanda-software.DebuggerTests.DebuggerTests.JS4D] ERROR - [1] Error: Wrong type for parameter #1, expected File or String., task #1916, task name is HTTP connection handler
+2013-06-27 12:14:50 [com.wakanda-software.HTTP] ERROR - [500] , task #1916, task name is HTTP connection handler
+2013-06-27 12:27:09 [com.wakanda-software] INFO - Stops "DebuggerTests" solution
+2013-06-27 12:27:10 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project stopped
+2013-06-27 12:27:11 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project stopped
+2013-06-27 12:27:11 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution stopped
+2013-06-27 12:27:11 [com.wakanda-software] INFO - Closes "DebuggerTests" solution
+2013-06-27 12:27:12 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project closed
+2013-06-27 12:27:12 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project closed
+2013-06-27 12:27:12 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution closed
+2013-06-27 12:28:22 [com.wakanda-software] INFO - Opens the solution "D:\DebuggerTests\DebuggerTests Solution\DebuggerTests.waSolution" for running
+2013-06-27 12:28:22 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened
+2013-06-27 12:28:22 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Datastore opened
+2013-06-27 12:28:22 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project opened
+2013-06-27 12:28:22 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project opened
+2013-06-27 12:28:22 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution opened
+2013-06-27 12:28:22 [com.wakanda-software] INFO - Starts "DebuggerTests" solution
+2013-06-27 12:28:22 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP Server started
+2013-06-27 12:28:22 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project started
+2013-06-27 12:28:22 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP Server started
+2013-06-27 12:28:22 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project started
+2013-06-27 12:28:22 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executes the bootstrap file(s)
+2013-06-27 12:28:22 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap file(s) executed
+2013-06-27 12:28:22 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executes the bootstrap file(s)
+2013-06-27 12:28:22 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Bootstrap file(s) executed
+2013-06-27 12:28:22 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution started
+2013-06-27 12:28:22 [com.wakanda-software] INFO - "DebuggerTests" solution has been successfully opened for running (duration: 331 ms)
+2013-06-27 12:28:55 [com.wakanda-software.DebuggerTests.DebuggerTests.iasv] ERROR - [1033] call to 'breakpoint' function failed, task #7980, task name is HTTP connection handler
+2013-06-27 12:28:55 [com.wakanda-software.HTTP] ERROR - [500] , task #7980, task name is HTTP connection handler
+2013-06-27 12:29:16 [com.wakanda-software.DebuggerTests.DebuggerTests.iasv] ERROR - [1033] call to 'debug' function failed, task #7980, task name is HTTP connection handler
+2013-06-27 12:29:16 [com.wakanda-software.HTTP] ERROR - [500] , task #7980, task name is HTTP connection handler
+2013-06-27 12:33:07 [com.wakanda-software] INFO - Stops "DebuggerTests" solution
+2013-06-27 12:33:08 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project stopped
+2013-06-27 12:33:09 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project stopped
+2013-06-27 12:33:09 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution stopped
+2013-06-27 12:33:09 [com.wakanda-software] INFO - Closes "DebuggerTests" solution
+2013-06-27 12:33:10 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project closed
+2013-06-27 12:33:10 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project closed
+2013-06-27 12:33:10 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution closed
+2013-06-27 12:44:01 [com.wakanda-software] INFO - Opens the solution "D:\DebuggerTests\DebuggerTests Solution\DebuggerTests.waSolution" for running
+2013-06-27 12:44:02 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened
+2013-06-27 12:44:02 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Datastore opened
+2013-06-27 12:44:02 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project opened
+2013-06-27 12:44:02 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project opened
+2013-06-27 12:44:02 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution opened
+2013-06-27 12:44:02 [com.wakanda-software] INFO - Starts "DebuggerTests" solution
+2013-06-27 12:44:02 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP Server started
+2013-06-27 12:44:02 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project started
+2013-06-27 12:44:02 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP Server started
+2013-06-27 12:44:02 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project started
+2013-06-27 12:44:02 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executes the bootstrap file(s)
+2013-06-27 12:44:02 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap file(s) executed
+2013-06-27 12:44:02 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executes the bootstrap file(s)
+2013-06-27 12:44:02 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Bootstrap file(s) executed
+2013-06-27 12:44:02 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution started
+2013-06-27 12:44:02 [com.wakanda-software] INFO - "DebuggerTests" solution has been successfully opened for running (duration: 365 ms)
+2013-06-27 12:44:15 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - ahmed
+2013-06-27 12:44:15 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - JAAFRI
+2013-06-27 12:44:17 [com.wakanda-software.xbox] ERROR - [3] , task #6200, task name is HTTP connection handler
+2013-06-27 12:44:17 [com.wakanda-software.xbox] ERROR - [1] Une opération a été tentée sur autre chose qu’un socket.
+, task #6200, task name is HTTP connection handler
+2013-06-27 12:44:17 [com.wakanda-software.xbox] ERROR - [3] , task #6200, task name is HTTP connection handler
+2013-06-27 12:44:17 [com.wakanda-software.xbox] ERROR - [1] Une opération a été tentée sur autre chose qu’un socket.
+, task #6200, task name is HTTP connection handler
+2013-06-27 12:44:17 [com.wakanda-software.srvr] ERROR - [16] NULL end-point, task #6200, task name is HTTP connection handler
+2013-06-27 12:44:27 [com.wakanda-software.DebuggerTests.DebuggerTests.iasv] ERROR - [1033] call to 'debug' function failed, task #8180, task name is HTTP connection handler
+2013-06-27 12:44:27 [com.wakanda-software.xbox] ERROR - [3] , task #9544, task name is HTTP connection handler
+2013-06-27 12:44:27 [com.wakanda-software.xbox] ERROR - [1] Une opération a été tentée sur autre chose qu’un socket.
+, task #9544, task name is HTTP connection handler
+2013-06-27 12:44:27 [com.wakanda-software.xbox] ERROR - [3] , task #9544, task name is HTTP connection handler
+2013-06-27 12:44:27 [com.wakanda-software.xbox] ERROR - [1] Une opération a été tentée sur autre chose qu’un socket.
+, task #9544, task name is HTTP connection handler
+2013-06-27 12:44:27 [com.wakanda-software.srvr] ERROR - [16] NULL end-point, task #9544, task name is HTTP connection handler
+2013-06-27 12:44:27 [com.wakanda-software.HTTP] ERROR - [500] , task #8180, task name is HTTP connection handler
+2013-06-27 12:44:32 [com.wakanda-software.DebuggerTests.DebuggerTests.iasv] ERROR - [1033] call to 'debug' function failed, task #8180, task name is HTTP connection handler
+2013-06-27 12:44:32 [com.wakanda-software.HTTP] ERROR - [500] , task #8180, task name is HTTP connection handler
+2013-06-27 12:44:35 [com.wakanda-software.DebuggerTests.DebuggerTests.iasv] ERROR - [1033] call to 'debug' function failed, task #8180, task name is HTTP connection handler
+2013-06-27 12:44:35 [com.wakanda-software.HTTP] ERROR - [500] , task #8180, task name is HTTP connection handler
+2013-06-27 12:44:43 [com.wakanda-software.DebuggerTests.DebuggerTests.iasv] ERROR - [1033] call to 'debug' function failed, task #8180, task name is HTTP connection handler
+2013-06-27 12:44:43 [com.wakanda-software.HTTP] ERROR - [500] , task #8180, task name is HTTP connection handler
+2013-06-27 12:44:48 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - ahmed
+2013-06-27 12:44:48 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - JAAFRI
+2013-06-27 12:44:54 [com.wakanda-software.DebuggerTests.DebuggerTests.iasv] ERROR - [1033] call to 'debug' function failed, task #3964, task name is HTTP connection handler
+2013-06-27 12:44:54 [com.wakanda-software.HTTP] ERROR - [500] , task #3964, task name is HTTP connection handler
+2013-06-27 12:45:00 [com.wakanda-software.DebuggerTests.DebuggerTests.iasv] ERROR - [1033] call to 'debug' function failed, task #8180, task name is HTTP connection handler
+2013-06-27 12:45:00 [com.wakanda-software.HTTP] ERROR - [500] , task #8180, task name is HTTP connection handler
+2013-06-27 12:45:12 [com.wakanda-software.xbox] ERROR - [3] , task #9976, task name is HTTP connection handler
+2013-06-27 12:45:12 [com.wakanda-software.xbox] ERROR - [1] Une opération a été tentée sur autre chose qu’un socket.
+, task #9976, task name is HTTP connection handler
+2013-06-27 12:45:12 [com.wakanda-software.xbox] ERROR - [3] , task #9976, task name is HTTP connection handler
+2013-06-27 12:45:12 [com.wakanda-software.xbox] ERROR - [1] Une opération a été tentée sur autre chose qu’un socket.
+, task #9976, task name is HTTP connection handler
+2013-06-27 12:45:12 [com.wakanda-software.srvr] ERROR - [16] NULL end-point, task #9976, task name is HTTP connection handler
+2013-06-27 12:45:16 [com.wakanda-software.xbox] ERROR - [3] , task #5000, task name is HTTP connection handler
+2013-06-27 12:45:16 [com.wakanda-software.xbox] ERROR - [1] Une opération a été tentée sur autre chose qu’un socket.
+, task #5000, task name is HTTP connection handler
+2013-06-27 12:45:16 [com.wakanda-software.xbox] ERROR - [3] , task #5000, task name is HTTP connection handler
+2013-06-27 12:45:16 [com.wakanda-software.xbox] ERROR - [1] Une opération a été tentée sur autre chose qu’un socket.
+, task #5000, task name is HTTP connection handler
+2013-06-27 12:45:16 [com.wakanda-software.srvr] ERROR - [16] NULL end-point, task #5000, task name is HTTP connection handler
+2013-06-27 12:45:21 [com.wakanda-software.DebuggerTests.DebuggerTests.iasv] ERROR - [1033] call to 'breakpoint' function failed, task #3964, task name is HTTP connection handler
+2013-06-27 12:45:21 [com.wakanda-software.HTTP] ERROR - [500] , task #3964, task name is HTTP connection handler
+2013-06-27 12:45:21 [com.wakanda-software.xbox] ERROR - [1] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte.
+, task #3964, task name is HTTP connection handler
+2013-06-27 12:45:22 [com.wakanda-software.xbox] ERROR - [3] , task #5692, task name is HTTP connection handler
+2013-06-27 12:45:22 [com.wakanda-software.xbox] ERROR - [1] Une opération a été tentée sur autre chose qu’un socket.
+, task #5692, task name is HTTP connection handler
+2013-06-27 12:45:22 [com.wakanda-software.xbox] ERROR - [3] , task #5692, task name is HTTP connection handler
+2013-06-27 12:45:22 [com.wakanda-software.DebuggerTests.DebuggerTests.iasv] ERROR - [1033] call to 'breakpoint' function failed, task #8180, task name is HTTP connection handler
+2013-06-27 12:45:22 [com.wakanda-software.xbox] ERROR - [1] Une opération a été tentée sur autre chose qu’un socket.
+, task #5692, task name is HTTP connection handler
+2013-06-27 12:45:22 [com.wakanda-software.srvr] ERROR - [16] NULL end-point, task #5692, task name is HTTP connection handler
+2013-06-27 12:45:22 [com.wakanda-software.HTTP] ERROR - [500] , task #8180, task name is HTTP connection handler
+2013-06-27 12:45:22 [com.wakanda-software.xbox] ERROR - [1] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte.
+, task #8180, task name is HTTP connection handler
+2013-06-27 12:45:23 [com.wakanda-software.xbox] ERROR - [3] , task #8092, task name is HTTP connection handler
+2013-06-27 12:45:23 [com.wakanda-software.DebuggerTests.DebuggerTests.iasv] ERROR - [1033] call to 'breakpoint' function failed, task #8892, task name is HTTP connection handler
+2013-06-27 12:45:23 [com.wakanda-software.xbox] ERROR - [1] Une opération a été tentée sur autre chose qu’un socket.
+, task #8092, task name is HTTP connection handler
+2013-06-27 12:45:23 [com.wakanda-software.xbox] ERROR - [3] , task #8092, task name is HTTP connection handler
+2013-06-27 12:45:23 [com.wakanda-software.xbox] ERROR - [1] Une opération a été tentée sur autre chose qu’un socket.
+, task #8092, task name is HTTP connection handler
+2013-06-27 12:45:23 [com.wakanda-software.srvr] ERROR - [16] NULL end-point, task #8092, task name is HTTP connection handler
+2013-06-27 12:45:23 [com.wakanda-software.HTTP] ERROR - [500] , task #8892, task name is HTTP connection handler
+2013-06-27 12:45:25 [com.wakanda-software.DebuggerTests.DebuggerTests.iasv] ERROR - [1033] call to 'breakpoint' function failed, task #8892, task name is HTTP connection handler
+2013-06-27 12:45:25 [com.wakanda-software.HTTP] ERROR - [500] , task #8892, task name is HTTP connection handler
+2013-06-27 12:45:28 [com.wakanda-software.DebuggerTests.DebuggerTests.iasv] ERROR - [1033] call to 'breakpoint' function failed, task #8892, task name is HTTP connection handler
+2013-06-27 12:45:28 [com.wakanda-software.HTTP] ERROR - [500] , task #8892, task name is HTTP connection handler
+2013-06-27 12:45:29 [com.wakanda-software.DebuggerTests.DebuggerTests.iasv] ERROR - [1033] call to 'breakpoint' function failed, task #8892, task name is HTTP connection handler
+2013-06-27 12:45:29 [com.wakanda-software.HTTP] ERROR - [500] , task #8892, task name is HTTP connection handler
+2013-06-27 12:45:31 [com.wakanda-software.DebuggerTests.DebuggerTests.iasv] ERROR - [1033] call to 'breakpoint' function failed, task #8892, task name is HTTP connection handler
+2013-06-27 12:45:31 [com.wakanda-software.HTTP] ERROR - [500] , task #8892, task name is HTTP connection handler
+2013-06-27 12:45:31 [com.wakanda-software.DebuggerTests.DebuggerTests.iasv] ERROR - [1033] call to 'breakpoint' function failed, task #8892, task name is HTTP connection handler
+2013-06-27 12:45:31 [com.wakanda-software.HTTP] ERROR - [500] , task #8892, task name is HTTP connection handler
+2013-06-27 12:45:31 [com.wakanda-software.DebuggerTests.DebuggerTests.iasv] ERROR - [1033] call to 'breakpoint' function failed, task #8892, task name is HTTP connection handler
+2013-06-27 12:45:31 [com.wakanda-software.HTTP] ERROR - [500] , task #8892, task name is HTTP connection handler
+2013-06-27 12:45:31 [com.wakanda-software.DebuggerTests.DebuggerTests.iasv] ERROR - [1033] call to 'breakpoint' function failed, task #8892, task name is HTTP connection handler
+2013-06-27 12:45:31 [com.wakanda-software.HTTP] ERROR - [500] , task #8892, task name is HTTP connection handler
+2013-06-27 12:45:41 [com.wakanda-software.DebuggerTests.DebuggerTests.iasv] ERROR - [1033] call to 'breakpoint' function failed, task #8892, task name is HTTP connection handler
+2013-06-27 12:45:41 [com.wakanda-software.HTTP] ERROR - [500] , task #8892, task name is HTTP connection handler
+2013-06-27 15:33:13 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - ahmed
+2013-06-27 15:33:13 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - JAAFRI
+2013-06-27 15:33:24 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - ahmed
+2013-06-27 15:33:24 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - JAAFRI
+2013-06-27 15:33:27 [com.wakanda-software.xbox] ERROR - [3] , task #7128, task name is HTTP connection handler
+2013-06-27 15:33:27 [com.wakanda-software.xbox] ERROR - [1] Une opération a été tentée sur autre chose qu’un socket.
+, task #7128, task name is HTTP connection handler
+2013-06-27 15:33:27 [com.wakanda-software.xbox] ERROR - [3] , task #7128, task name is HTTP connection handler
+2013-06-27 15:33:27 [com.wakanda-software.xbox] ERROR - [1] Une opération a été tentée sur autre chose qu’un socket.
+, task #7128, task name is HTTP connection handler
+2013-06-27 15:33:27 [com.wakanda-software.srvr] ERROR - [16] NULL end-point, task #7128, task name is HTTP connection handler
+2013-06-27 15:33:30 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - ahmed
+2013-06-27 15:33:30 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - JAAFRI
+2013-06-27 15:44:19 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - ahmed
+2013-06-27 15:44:19 [com.wakanda-software.DebuggerTests.DebuggerTests.console] INFO - {"data":["ahmed"]}
+2013-06-27 15:44:19 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - JAAFRI
+2013-06-27 15:44:19 [com.wakanda-software.DebuggerTests.DebuggerTests.console] INFO - {"data":["JAAFRI"]}
+2013-06-27 17:41:56 [com.wakanda-software.DebuggerTests.DebuggerTests.JS4D] ERROR - [1] Unable to resolve "mathh"!, task #8892, task name is HTTP connection handler
+2013-06-27 17:41:56 [com.wakanda-software.DebuggerTests.DebuggerTests.JS4D] ERROR - [2] Error evaluating javascript file:///D:/DebuggerTests/DebuggerTests/main2.js, task #8892, task name is HTTP connection handler
+2013-06-27 17:42:20 [com.wakanda-software.DebuggerTests.DebuggerTests.JS4D] ERROR - [1] Unable to resolve "mathh"!, task #8892, task name is HTTP connection handler
+2013-06-27 17:42:20 [com.wakanda-software.DebuggerTests.DebuggerTests.JS4D] ERROR - [2] Error evaluating javascript file:///D:/DebuggerTests/DebuggerTests/main2.js, task #8892, task name is HTTP connection handler
+2013-06-27 17:42:52 [com.wakanda-software.DebuggerTests.DebuggerTests.JS4D] ERROR - [1] ReferenceError: Can't find variable: debug, task #8892, task name is HTTP connection handler
+2013-06-27 17:42:52 [com.wakanda-software.DebuggerTests.DebuggerTests.JS4D] ERROR - [2] Error evaluating javascript file:///D:/DebuggerTests/DebuggerTests/Untitled1.js, task #8892, task name is HTTP connection handler
+2013-06-27 17:49:52 [com.wakanda-software] INFO - Stops "DebuggerTests" solution
+2013-06-27 17:49:53 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project stopped
+2013-06-27 17:49:55 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project stopped
+2013-06-27 17:49:55 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution stopped
+2013-06-27 17:49:55 [com.wakanda-software] INFO - Closes "DebuggerTests" solution
+2013-06-27 17:49:55 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project closed
+2013-06-27 17:49:55 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project closed
+2013-06-27 17:49:55 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution closed
+2013-06-28 13:12:07 [com.wakanda-software] INFO - Opens the solution "D:\DebuggerTests\DebuggerTests Solution\DebuggerTests.waSolution" for running
+2013-06-28 13:12:07 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened
+2013-06-28 13:12:07 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Datastore opened
+2013-06-28 13:12:07 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project opened
+2013-06-28 13:12:07 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project opened
+2013-06-28 13:12:07 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution opened
+2013-06-28 13:12:07 [com.wakanda-software] INFO - Starts "DebuggerTests" solution
+2013-06-28 13:12:07 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP Server started
+2013-06-28 13:12:07 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project started
+2013-06-28 13:12:07 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP Server started
+2013-06-28 13:12:07 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project started
+2013-06-28 13:12:07 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executes the bootstrap file(s)
+2013-06-28 13:12:07 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap file(s) executed
+2013-06-28 13:12:07 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executes the bootstrap file(s)
+2013-06-28 13:12:07 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Bootstrap file(s) executed
+2013-06-28 13:12:07 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution started
+2013-06-28 13:12:07 [com.wakanda-software] INFO - "DebuggerTests" solution has been successfully opened for running (duration: 226 ms)
+2014-03-12 17:05:40 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened
+2014-03-12 17:05:40 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Datastore opened
+2014-03-12 17:05:40 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project opened
+2014-03-12 17:05:40 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project opened
+2014-03-12 17:05:40 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution opened
+2014-03-12 17:05:40 [com.wakanda-software] INFO - Starts "DebuggerTests" solution
+2014-03-12 17:05:40 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - >buildInit() - mode :  release
+2014-03-12 17:05:40 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2014-03-12 17:05:40 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - >buildInit() - added package definition to storage
+2014-03-12 17:05:40 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - <buildInit()
+2014-03-12 17:05:40 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP Server started
+2014-03-12 17:05:40 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project started
+2014-03-12 17:05:40 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - >buildInit() - mode :  release
+2014-03-12 17:05:40 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2014-03-12 17:05:40 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - >buildInit() - added package definition to storage
+2014-03-12 17:05:40 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - <buildInit()
+2014-03-12 17:05:40 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP Server started
+2014-03-12 17:05:40 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project started
+2014-03-12 17:05:40 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executes the bootstrap file(s)
+2014-03-12 17:05:40 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap file(s) executed
+2014-03-12 17:05:40 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executes the bootstrap file(s)
+2014-03-12 17:05:40 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Bootstrap file(s) executed
+2014-03-12 17:05:40 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution started
+2014-03-12 17:05:40 [com.wakanda-software] INFO - "DebuggerTests" solution has been successfully opened for running (duration: 528 ms)
+2014-03-12 17:05:40 [com.wakanda-software.supervisor] INFO - solution opened
+2014-03-12 17:10:13 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO -  created 
+2014-03-12 17:10:13 [com.wakanda-software] INFO - Stops "DebuggerTests" solution
+2014-03-12 17:10:14 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project stopped
+2014-03-12 17:10:15 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project stopped
+2014-03-12 17:10:15 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution stopped
+2014-03-12 17:10:15 [com.wakanda-software] INFO - Closes "DebuggerTests" solution
+2014-03-12 17:10:15 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project closed
+2014-03-12 17:10:15 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project closed
+2014-03-12 17:10:16 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution closed
+2014-03-12 17:10:28 [com.wakanda-software.supervisor] INFO - solution closed
+2014-03-12 17:10:28 [com.wakanda-software] INFO - Opens the solution "C:\WorkspaceP4VVV\RIA\tests\dev\main\server\remotetools\debugger\src\test\resources\org\wakanda\debuggerchrome\solutions\DebuggerTests\DebuggerTests Solution\DebuggerTests.waSolution" for running
+2014-03-12 17:10:28 [com.wakanda-software.DebuggerTests] INFO - Users and groups directory opened
+2014-03-12 17:10:28 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Datastore opened
+2014-03-12 17:10:28 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project opened
+2014-03-12 17:10:28 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project opened
+2014-03-12 17:10:28 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution opened
+2014-03-12 17:10:28 [com.wakanda-software] INFO - Starts "DebuggerTests" solution
+2014-03-12 17:10:28 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - >buildInit() - mode :  release
+2014-03-12 17:10:28 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2014-03-12 17:10:28 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - >buildInit() - added package definition to storage
+2014-03-12 17:10:28 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - <buildInit()
+2014-03-12 17:10:28 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - HTTP Server started
+2014-03-12 17:10:28 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project started
+2014-03-12 17:10:28 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - >buildInit() - mode :  release
+2014-03-12 17:10:28 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2014-03-12 17:10:28 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - >buildInit() - added package definition to storage
+2014-03-12 17:10:28 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - <buildInit()
+2014-03-12 17:10:29 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - HTTP Server started
+2014-03-12 17:10:29 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project started
+2014-03-12 17:10:29 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Executes the bootstrap file(s)
+2014-03-12 17:10:29 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - Bootstrap file(s) executed
+2014-03-12 17:10:29 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Executes the bootstrap file(s)
+2014-03-12 17:10:29 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - Bootstrap file(s) executed
+2014-03-12 17:10:29 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution started
+2014-03-12 17:10:29 [com.wakanda-software] INFO - "DebuggerTests" solution has been successfully opened for running (duration: 381 ms)
+2014-03-12 17:10:29 [com.wakanda-software.supervisor] INFO - solution opened
+2014-03-12 17:10:32 [com.wakanda-software] INFO - Stops "DebuggerTests" solution
+2014-03-12 17:10:33 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project stopped
+2014-03-12 17:10:34 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project stopped
+2014-03-12 17:10:34 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution stopped
+2014-03-12 17:10:34 [com.wakanda-software] INFO - Closes "DebuggerTests" solution
+2014-03-12 17:10:34 [com.wakanda-software.DebuggerTests.DebuggerTests] INFO - "DebuggerTests" project closed
+2014-03-12 17:10:35 [com.wakanda-software.DebuggerTests.ServerAdmin] INFO - "ServerAdmin" project closed
+2014-03-12 17:10:35 [com.wakanda-software.DebuggerTests] INFO - "DebuggerTests" solution closed

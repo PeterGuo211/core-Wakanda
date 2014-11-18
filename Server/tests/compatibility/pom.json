@@ -1,0 +1,9 @@
+{
+    "description": "Basic compatibility tests with previous branches",
+    "kind": "ssjs",
+    "oldJenkinsName": "TestServerCompatibility",
+    "tester": "sebastien.courvoisier@4d.com",
+    "visibility": "public",
+    "developer": "sergiy.temnikov@4d.com",
+    "stable": true
+}

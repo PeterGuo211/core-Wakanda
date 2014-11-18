@@ -1,0 +1,36 @@
+{
+    "description": "Main GoNoGo Server tests",
+    "kind": "shell",
+    "oldJenkinsName": "GoNoGoServer",
+    "tester": "geoffrey.beauny@4d.com",
+    "visibility": "public",
+    "developer": "sergiy.temnikov@4d.com",
+    "gonogo": true,
+	"stable": true,
+    "builders": {
+    	"Mac": {
+    		"build": [
+    			{
+    				"type": "Shell",
+    				"command": "$UTILS_TESTS_PATH/mac/GoNoGoServer/run.sh $SERVER_TESTS_PATH $UTILS_TESTS_PATH $WORKSPACE $BUILD_TEST_DIR $WAKANDA_SERVER_PATH"
+			}
+    		]
+    	},
+    	"Windows": {
+    		"build": [
+    			{
+    				"type": "BatchFile",
+    				"command": "%UTILS_TESTS_PATH%\\win\\GoNoGoServer\\run.bat %SERVER_TESTS_PATH% %UTILS_TESTS_PATH% %WORKSPACE% %BUILD_TEST_DIR% %WAKANDA_SERVER_PATH%"
+			}
+    		]
+    	},
+    	"Linux": {
+    		"build": [
+    			{
+    				"type": "Shell",
+    				"command": "$UTILS_TESTS_PATH/linux/GoNoGoServer/run.sh $SERVER_TESTS_PATH $UTILS_TESTS_PATH $WORKSPACE $BUILD_TEST_DIR $WAKANDA_SERVER_PATH"
+			}
+    		]
+    	}
+    }
+}

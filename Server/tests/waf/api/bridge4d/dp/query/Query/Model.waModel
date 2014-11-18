@@ -1,0 +1,13 @@
+﻿{
+	"toJSON": true,
+	"extraProperties": {
+		"version": "2",
+		"classes": {},
+		"model": {
+			"workspaceLeft": 0,
+			"workspaceTop": 0,
+			"scriptMode": "manual"
+		}
+	},
+	"dataClasses": []
+}

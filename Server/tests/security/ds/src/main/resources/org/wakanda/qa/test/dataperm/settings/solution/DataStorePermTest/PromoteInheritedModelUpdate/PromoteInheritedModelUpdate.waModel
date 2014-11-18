@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><EntityModelCatalog>
+
+<dbInfo name="PromoteInheritedModelUpdate" uuid="DEB2380315EE8E47AF7052ECFC4FADBC"/>
+
+<dataClasses name="PromoteInheritedModelUpdate" className="PromoteInheritedModelUpdate" collectionName="PromoteInheritedModelUpdateCollection" scope="public" uuid="7F517A0106174946B0F4B64625C8CE1A" tablePos="1">
+
+	<extraProperties ____objectunic="true" panelColor="#C4BD97">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="25" Y="20"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" uuid="D18ED78CF4B72E44BB6FEC49229E5E69" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<attributes name="name" kind="storage" scope="public" uuid="8E7C7F7C7E797B40883920D46EF7BE54" fieldPos="2" type="string"/>
+
+	<methods name="promoteInheritedModelUpdate" applyTo="dataClass" scope="public" from="guidedModel.PromoteInheritedModelUpdate.methods.promoteInheritedModelUpdate"/>
+
+</dataClasses>
+</EntityModelCatalog>

@@ -1,0 +1,10 @@
+{
+    "desc": "Tests of the RPC API",
+    "kind": "csjs",
+    "oldJenkinsName": "TestClientRPCRPCTest",
+    "developer": "erwan.carriou@4d.com",
+    "tester": "sebastien.courvoisier@4d.com",
+    "visibility": "public",
+    "description": "Main tests of the WAF RPC API",
+    "stable": true
+}

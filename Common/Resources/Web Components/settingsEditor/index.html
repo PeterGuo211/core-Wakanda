@@ -1,0 +1,50 @@
+<!--
+* This file is part of Wakanda software, licensed by 4D under
+*  (i) the GNU General Public License version 3 (GNU GPL v3), or
+*  (ii) the Affero General Public License version 3 (AGPL v3) or
+*  (iii) a commercial license.
+* This file remains the exclusive property of 4D and/or its licensors
+* and is protected by national and international legislations.
+* In any event, Licensee's compliance with the terms and conditions
+* of the applicable license constitutes a prerequisite to any use of this file.
+* Except as otherwise expressly stated in the applicable license,
+* such license does not include any other license or rights on this file,
+* 4D's and/or its licensors' trademarks and/or other proprietary rights.
+* Consequently, no title, copyright or other proprietary rights
+* other than those specified in the applicable license is granted.
+-->
+<html>
+    <head>
+        <title>Wakanda Settings</title>
+        <meta charset="utf-8" />
+        <meta name="WAF.config.modules" content="WAF.core" />
+        <meta name="WAF.config.openAjax" content="1.0" />
+        <meta name="WAF.config.debug" content="true" />
+        <meta name="WAF.config.uniTest" content="true" />
+        <meta name="WAF.config.load" content="./scripts/settings.js" />
+        <!-- specific-->
+        <script type="text/javascript" src="scripts/common.js"></script>
+        <script type="text/javascript" src="scripts/solution.js"></script>
+        <script type="text/javascript" src="scripts/project.js"></script>
+        <!-- _____________________________________________ stylesheet _____________________________________________ -->
+        <!--// libraries // -->
+        <!--// jquery ui  //-->
+        <link rel="stylesheet" type="text/css" href="/walib/WAF/lib/jquery-ui/themes/base/jquery.ui.all.css"/>
+        <!-- skins default styles -->
+        <link rel="stylesheet" type="text/css" href="../common/skins/default/styles/default.css" />
+        <!--// this page //-->
+        <link rel="stylesheet" type="text/css" href="styles/settings.css"/>
+    </head>
+    <body>
+        <div class="page" style="overflow: hidden;">
+            <div id="settings"></div>
+        </div>
+        <div class="hidden"><input type="file" id="inputFile"/></div>
+        <!-- call the WAF loader -->
+        <script type="text/javascript" src="/walib/WAF/Loader.js"></script>
+        <!-- _______________________________________________ scripts ______________________________________________ -->
+        <!--// common //-->
+        <script type="text/javascript" src="/walib/WAF/lib/jquery/jquery.min.js"></script>
+        <script type="text/javascript" src="/walib/WAF/lib/jquery-ui/jquery-ui.min.js"></script>
+    </body>
+</html>

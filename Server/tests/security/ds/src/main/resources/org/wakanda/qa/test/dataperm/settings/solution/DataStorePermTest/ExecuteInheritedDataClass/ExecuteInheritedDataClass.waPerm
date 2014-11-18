@@ -1,0 +1,3 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><permissions>
+<allow action="execute" groupID="DDB413384BBAC345AE6FBC7203497783" resource="ExecuteInheritedDataClass.ExecuteInheritedDataClass" temporaryForcePermissions="false" type="dataClass"/>
+</permissions>

@@ -1,0 +1,9 @@
+{
+    "description": "Tests of the DataProvider API (query)",
+    "kind": "csjs",
+    "oldJenkinsName": "TestClientQueryDP1SimpleOperators",
+    "tester": "ismail.bougnouch@4d.com",
+    "visibility": "public",
+    "developer": "lr@4d.com",
+	"stable": true
+}

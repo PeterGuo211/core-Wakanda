@@ -1,0 +1,24 @@
+﻿[
+    {
+        "urlPath":"redirectedToGoogle",
+        "location":"https://google.fr"
+    },
+  	{
+        "urlPath":"redirectedToIndexPage",
+        "location":"http://127.0.0.1:8081/index.waPage/index.html"
+    },
+    {
+    	"urlPath":"picturesProject",
+    	"localPath":"/PROJECT/image/",
+    	"index":"002_01.png" 
+	},
+	{
+	   	"urlPath":"picturesWebFolder",
+    	"localPath":"/WEBFOLDER/image/",
+    	"index":"002_01.png"
+	}, 
+	{
+		"urlRegex":"/css/.*", 
+		"location":"http://127.0.0.1:8081/index.waPage/index.html"
+	}
+]

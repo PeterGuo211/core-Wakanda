@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Test Client Directory API</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="cache-control" content="no-cache" />
+    </head>
+    
+    <body>
+        <script type="text/javascript">
+            {test}
+            var onUnitTestReady = function() {
+                    window.setTimeout(function() {
+                        unitTest.run(testCase, function() {
+<!--                            $("body").append(this.getHtmlReport());-->
+                            this.sendXmlReport("http://" + location.host + "/testReporter/", "{jobLocation}{jobId}");
+                        });
+                    }, 8000);
+                };
+        </script>
+        <script type="text/javascript" src="/walib/WAF/Loader.js"></script>
+        <script type="text/javascript" src="/unitTest.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,10 @@
+{
+    "description": "Tests of the DataProvider API (core)",
+    "kind": "csjs",
+    "oldJenkinsName": ["TestClientDataProvider1DPSourceObject", "TestClientDataProvider2DPDataStore", "TestClientDataProvider3DPDataStoreClass", "TestClientDataProvider4DPEntity", "TestClientDataProvider5DPEntityAttribute", "TestClientDataProvider6DPEntityCollection"],
+    "tester": "ismail.bougnouch@4d.com",
+    "visibility": "public",
+    "developer": "lr@4d.com",
+	"stable": true
+	
+}

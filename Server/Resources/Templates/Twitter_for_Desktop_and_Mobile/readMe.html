@@ -1,0 +1,61 @@
+<!--
+* This file is part of Wakanda software, licensed by 4D under
+*  (i) the GNU General Public License version 3 (GNU GPL v3), or
+*  (ii) the Affero General Public License version 3 (AGPL v3) or
+*  (iii) a commercial license.
+* This file remains the exclusive property of 4D and/or its licensors
+* and is protected by national and international legislations.
+* In any event, Licensee's compliance with the terms and conditions
+* of the applicable license constitutes a prerequisite to any use of this file.
+* Except as otherwise expressly stated in the applicable license,
+* such license does not include any other license or rights on this file,
+* 4D's and/or its licensors' trademarks and/or other proprietary rights.
+* Consequently, no title, copyright or other proprietary rights
+* other than those specified in the applicable license is granted.
+-->
+<!DOCTYPE html>
+<html><head>
+
+
+
+
+
+
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Recipes template</title></head><body>
+<h1>Twitter Client for desktop and mobile<br>
+</h1>
+<h2><img src="./preview.png" alt="recipes preview icon" valign="top" align="right" hspace="10" vspace="10">level </h2>
+<p>medium</p>
+<h2>Description</h2>
+<p>This is a demo template explaining how to dispatch an http request
+depending on different variables, using the dispatch service. In this example, we want to root the
+request for mobile divices, so the variables will be the device and the
+presence of a file designed for mobile.</p>
+<!-- p>This project template shows the running results of the tutorial available bellow.</p -->
+<h2>Introduced technologies</h2>
+<ol>
+  <li>Http rooting and addHttpRequestHandler<br>
+</li>
+  <li>Creation of different interfaces for mobile and desktop. <br>
+</li></ol><h3>Use the application</h3>
+<ol>
+  <li>click on the "run project"button  (<img src="readMe/runProject.png" alt="run project button" align="absmiddle" height="24" width="24">)</li>
+  <li>use your&nbsp; application</li>
+</ol>
+
+<img style="width: 350px; height: 171px;" src="readMe/interface.png" alt="run the application"><br>
+<br>
+<h2>How to</h2>
+In order to add a file designed for mobile device (for smartphone or tablet) <span style="font-weight: bold;">right selected Add &gt; New Page for Smartphone / tablets</span>. <br>
+<br>
+<span style="font-weight: bold;"></span>Fisrt of all, <span style="font-weight: bold;">add the </span>"platform" service to the waSettings file :<br>
+<br>
+&lt;service name="platform" pattern="" autostart="true"/&gt;<br>
+<br>
+&nbsp;&nbsp;&nbsp; <br>
+<br><span style="font-weight: bold;">
+Note</span>. We assume that into every mobile folders (smarthone, tablet) all the roots files are named index.html.<br>
+<br>
+
+</body></html>

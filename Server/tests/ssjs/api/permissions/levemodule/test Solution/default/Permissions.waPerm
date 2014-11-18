@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><permissions>
+<allow type="module" resource="modulewithperm" action="executeFromClient" groupID="E260E87BE59CD241AC33ECDD1C221EC2" customProperty="toBeChecked"/>
+<allow type="module" resource="modulewithperm" action="promote" groupID="E260E87BE59CD241AC33ECDD1C221EC2" customProperty="toBeChecked"/>
+<allow type="function" resource="modulewithoutperm/test1" action="executeFromClient" groupID="E260E87BE59CD241AC33ECDD1C221EC2"/>
+<allow type="function" resource="modulewithoutperm/test2" action="promote" groupID="E260E87BE59CD241AC33ECDD1C221EC2"/>
+</permissions>

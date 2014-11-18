@@ -1,0 +1,47 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.wakanda.qa.test</groupId>
+	<artifactId>backupAPI</artifactId>
+	<version>1.0</version>
+	<name>backup-restore-Test</name>
+
+	<parent>
+		<groupId>org.wakanda.qa.commons</groupId>
+		<artifactId>server-parent</artifactId>
+		<version>LATEST</version>
+	</parent>
+
+	<properties>
+		<description>Backup advanced UT.
+		Test101 => TestBackupDataStore_NoJ_DefaultConf 
+		Test102 => TestBackupDataStore_NoJ_DestinationAndBRF 
+		Test103 => TestBackupDataStore_NoJ_DestinationAndUseUniqueNames_False 
+		Test104 => TestBackupDataStore_NoJ_DestinationAndUseUniqueNames 
+		Test105 => TestBackupDataStore_NoJ_FullSettings_False 
+		Test106 => TestBackupDataStore_NoJ_FullSettings 
+		Test107 => TestBackupDataStore_NoJ_JustBackupRegistryFolder 
+		Test108 => TestBackupDataStore_NoJ_JustSpecificDestination 
+		Test109 => TestBackupDataStore_NoJ_JustUseUniqueNames_False 
+		Test110 => TestBackupDataStore_NoJ_JustUseUniqueNames 
+		Test111 => TestBackupDataStore_NoJ_UseUniqueNamesAndBRF_F 
+		Test112 => TestBackupDataStore_NoJ_UseUniqueNamesAndBRF 
+		Test113 => TestLastBackups
+		 </description>
+		<tester>mohamed.elghachi@4d.com</tester>
+		<developer>olivier.randriamanana@4d.com</developer>
+		<visibility>public</visibility>
+		<preTestsClass>org.wakanda.qa.test.backup.RunServer</preTestsClass>
+		<postTestsClass>org.wakanda.qa.test.backup.StopServer</postTestsClass>
+		<gonogo>true</gonogo>
+		<stable>false</stable>
+	</properties>
+
+	<repositories>
+		<repository>
+			<id>snapshots</id>
+			<url>http://194.98.194.72:9000/nexus/content/repositories/snapshots/</url>
+		</repository>
+	</repositories>
+
+</project>

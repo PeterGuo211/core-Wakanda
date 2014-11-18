@@ -1,0 +1,10 @@
+{
+    "description": "Tests of the DataSource API (core)",
+    "kind": "csjs",
+    "oldJenkinsName": ["TestClientDataSource0DataSourceClass", "TestClientDataSource1SourceObject", "TestClientDataSource2SDAndMetaData", "TestClientDataSource3SDAttribute", "TestClientDataSource4SDBrowsingData", "TestClientDataSource5SDQueries", "TestClientDataSource6SDDataManagement", "TestClientDataSource7SDEventsManagement", "TestClientDataSource8LocalDataSource"],
+    "tester": "ismail.bougnouch@4d.com",
+    "visibility": "public",
+    "developer": "lr@4d.com",
+	"stable": true,
+    "gonogo": true
+}

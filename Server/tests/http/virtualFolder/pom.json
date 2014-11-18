@@ -1,0 +1,8 @@
+{
+    "description": "Tests of the Virtual Folder",
+    "kind": "ssjs",
+    "tester": "geoffrey.beauny@4d.com",
+    "visibility": "public",
+    "developer": "Yannick.Trinh@4d.com",
+	"stable": true
+}

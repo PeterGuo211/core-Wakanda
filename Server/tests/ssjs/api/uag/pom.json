@@ -1,0 +1,10 @@
+{
+    "description": "Tests of the UAG API",
+    "kind": "ssjs",
+    "oldJenkinsName": ["TestServerUAGDirectory", "TestServerUAGGroup", "TestServerUAGSession", "TestServerUAGUser"],
+    "tester": "soufiane.tigrioui@4d.com",
+    "visibility": "public",
+    "developer": "lr@4d.com",
+	"stable": true,
+    "gonogo": true
+}

@@ -1,0 +1,9 @@
+{
+    "description": "Tests of the handling of BOM by the File API",
+    "kind": "ssjs",
+    "oldJenkinsName": "TestServerBOM",
+    "tester": "sebastien.courvoisier@4d.com",
+    "visibility": "public",
+    "developer": "ke-fong.lin@4d.com",
+    "stable": true
+}

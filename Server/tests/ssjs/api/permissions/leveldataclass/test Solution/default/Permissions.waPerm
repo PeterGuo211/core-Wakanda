@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><permissions>
+	<allow type="module" resource="SecureModule" action="executeFromClient" groupID="01000000000000000000000000000000"/>
+	<allow type="function" resource="NotSecureModule/defaultAccessSecured" action="executeFromClient" groupID="01000000000000000000000000000000"/>
+	<allow type="module" resource="ModuleWithDefaultPermissions" action="executeFromClient"/>
+	<allow type="function" resource="ModuleWithDefaultPermissions/defaultAccessSecured" action="executeFromClient" groupID="01000000000000000000000000000000"/>
+	<allow type="function" resource="ModuleFunctionWithPromote/defaultAccessPromote" action="promote" groupID="01000000000000000000000000000000"/>
+	<allow action="read" groupName="DataClassGroup" groupID="E1DDA5343AF8184883CAD9C8E0DB4836" resource="Model.DataClass" temporaryForcePermissions="false" type="dataClass"/>
+	<allow action="create" groupName="DataClassGroup" groupID="E1DDA5343AF8184883CAD9C8E0DB4836" resource="Model.DataClass" temporaryForcePermissions="false" type="dataClass"/>
+	<allow action="update" groupName="DataClassGroup" groupID="E1DDA5343AF8184883CAD9C8E0DB4836" resource="Model.DataClass" temporaryForcePermissions="false" type="dataClass"/>
+	<allow action="remove" groupName="DataClassGroup" groupID="E1DDA5343AF8184883CAD9C8E0DB4836" resource="Model.DataClass" temporaryForcePermissions="false" type="dataClass"/>
+	<allow action="describe" groupName="DataClassGroup" groupID="E1DDA5343AF8184883CAD9C8E0DB4836" resource="Model.DataClass" temporaryForcePermissions="false" type="dataClass"/>
+	<allow action="promote" groupName="DataClassGroup" groupID="E1DDA5343AF8184883CAD9C8E0DB4836" resource="Model.DataClass" temporaryForcePermissions="false" type="dataClass"/>
+	<allow action="execute" groupName="DataClassGroup" groupID="E1DDA5343AF8184883CAD9C8E0DB4836" resource="Model.DataClass" temporaryForcePermissions="false" type="dataClass"/>
+</permissions>

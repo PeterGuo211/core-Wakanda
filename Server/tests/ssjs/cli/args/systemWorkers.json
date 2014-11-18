@@ -1,0 +1,35 @@
+﻿[
+    {
+        "name" : "git",
+        "executable" :
+        [
+            { "path" : "/.GIT_BIN/git" },
+            { "path" : "/.USR_LOCAL/bin/git" },
+            { "path" : "/.USR_LOCAL/git/bin/git" },
+            { "path" : "/.USR_BIN/git" },
+            { "path" : "/.USR_BIN/git/bin/git" }
+        ]
+    },
+	{
+        "name" : "wkhtmltopdf",
+        "executable" :
+        [
+            { "path" : "/WAKANDA-RESOURCES/wkhtmltopdf/wkhtmltopdf" },
+            { "path" : "/WAKANDA-RESOURCES/wkhtmltopdf/wkhtmltopdf.app/Contents/MacOS/wkhtmltopdf" }
+        ]
+    },
+	{
+        "name": "cmd",
+        "executable": [
+			{ "path": "/.SYSTEM/cmd" }
+        ]
+    },
+	{
+        "name": "sh",
+        "executable": [
+			{ "path": "/.SYSTEM/sh" },
+            { "path": "/.SYSTEM/dash" },
+            { "path": "/bin/dash" }
+        ]
+    }
+]

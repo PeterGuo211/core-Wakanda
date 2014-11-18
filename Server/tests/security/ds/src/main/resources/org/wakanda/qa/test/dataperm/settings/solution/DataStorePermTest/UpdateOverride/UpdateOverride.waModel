@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><EntityModelCatalog>
+
+<dbInfo name="UpdateOverride" uuid="DEB2380315EE8E47AF7052ECFC4FADBC"/>
+
+<dataClasses collectionName="UpdateOverrideCollection" className="UpdateOverride" uuid="B9FFDA7E44962B49A954580BA98BB8A2" tablePos="1">
+
+	<extraProperties ____objectunic="true" panelColor="#B2A2C7">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="25" Y="20"/>
+
+		</panel>
+
+	</extraProperties>
+
+	<attributes name="ID" kind="storage" type="long" uuid="0AD5082372EBB245A2FC4416A0362074" fieldPos="1" autosequence="true" unique="true" primKey="true"/>
+
+	<attributes name="name" scope="public" uuid="48588AE0A17AE9419C39A4EBE8E850C5" fieldPos="2" type="string" kind="storage"/>
+
+</dataClasses>
+</EntityModelCatalog>

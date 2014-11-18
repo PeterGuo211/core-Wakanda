@@ -1,0 +1,72 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.wakanda.qa</groupId>
+  <artifactId>image-runtime</artifactId>
+  <version>1.0</version>
+	<developers>
+		<developer>
+			<name>Ibtissam Omaalla</name>
+			<organization>4D</organization>
+			<email>ibtissam.omalla@4d.com</email>
+		</developer>
+	</developers>
+	
+	<properties>
+		<jenkins.old.name>ImageRuntime</jenkins.old.name>
+		<tester>ibtissam.omalla@4d.com</tester>
+		<visibility>public</visibility>
+		<description>Tests of the Checkbox Widget at run time</description>
+		<stable>true</stable>
+	</properties>
+	
+	<dependencies>
+		<dependency>
+			<groupId>org.wakanda.qa</groupId>
+			<artifactId>gui-runtime-utils</artifactId>
+			<version>LATEST</version>
+		</dependency>
+	</dependencies>
+
+	<repositories>
+		<repository>
+			<id>releases</id>
+			<url>http://194.98.194.72:9000/nexus/content/repositories/releases/</url>
+		</repository>
+	</repositories>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>2.2</version>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>test-jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.9</version>
+				<configuration>
+					<test>TestsEntry</test>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

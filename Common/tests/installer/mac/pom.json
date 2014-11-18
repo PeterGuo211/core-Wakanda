@@ -1,0 +1,9 @@
+{
+    "description": "Tests of the Wakanda installers for Mac",
+    "kind": "cli",
+    "bench": false,
+    "tester": "sebastien.courvoisier@4d.com",
+    "visibility": "private",
+    "developer": "mathieu.steininger@4d.com",
+    "stable": true
+}

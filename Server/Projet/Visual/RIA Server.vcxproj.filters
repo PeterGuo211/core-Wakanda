@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{100e6f13-5c99-4b89-a884-7bdef1f8a082}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Testing">
+      <UniqueIdentifier>{b5a1cecf-4c3d-4124-bab6-5c8279a616ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{d3cecc89-28db-4613-a6d8-9efc78cd25a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Solution">
+      <UniqueIdentifier>{e2945936-8fcb-4f9d-ac2a-9b47f7308d0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Component communication">
+      <UniqueIdentifier>{abbe1040-c9dc-419b-84c5-96722b5b0693}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application">
+      <UniqueIdentifier>{a65e0b23-68dc-429f-a124-84019699a456}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Javascript">
+      <UniqueIdentifier>{682f02d9-8af7-49a1-a784-42e8d4dd9a42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Settings">
+      <UniqueIdentifier>{ded9b243-4e75-44a1-bdbc-758e06a338aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\JSON RPC">
+      <UniqueIdentifier>{ba47d418-815f-44a4-aef8-12bd3af484ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sessions">
+      <UniqueIdentifier>{ecc519a9-f024-4c4a-be89-3679869bc202}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Wakanda.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WakandaVersNum.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\testMySQLConnector.h">
+      <Filter>Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\headers4d.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Sources\VRIAServerConstants.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\VRIAServerLogger.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\VRIAServerProgressIndicator.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\VRIAServerTools.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\VRIAServerTypes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Sources\VRIAUTIs.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\VBreakPointsManager.h">
+      <Filter>Source Files\Solution</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\VDataService.h">
+      <Filter>Source Files\Solution</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Sources\VProject.h">
+      <Filter>Source Files\Solution</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Sources\VProjectItem.h">
+      <Filter>Source Files\Solution</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Sources\VProjectItemBehaviour.h">
+      <Filter>Source Files\Solution</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\VRemoteDebuggerBreakpointsManager.h">
+      <Filter>Source Files\Solution</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\VRIAServerHTTPRequestHandler.h">
+      <Filter>Source Files\Solution</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\VRIAServerProject.h">
+      <Filter>Source Files\Solution</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\VRIAServerProjectContext.h">
+      <Filter>Source Files\Solution</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\VRIAServerSolution.h">
+      <Filter>Source Files\Solution</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Sources\VSolution.h">
+      <Filter>Source Files\Solution</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Sources\VSolutionManagerConstants.h">
+      <Filter>Source Files\Solution</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Sources\VSolutionStartupParameters.h">
+      <Filter>Source Files\Solution</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\VRIAJSDebuggerSettings.h">
+      <Filter>Source Files\Component communication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\VRIAServerComponentBridge.h">
+      <Filter>Source Files\Component communication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Sources\VRIAServerComponentBridgeAbstract.h">
+      <Filter>Source Files\Component communication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Sources\VRIAServerComponentBridgeTypes.h">
+      <Filter>Source Files\Component communication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\VRIAServerSupervisor.h">
+      <Filter>Source Files\Component communication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\VRIAServerApplication.h">
+      <Filter>Source Files\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Sources\commonJSAPI.h">
+      <Filter>Source Files\Javascript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\VJSApplication.h">
+      <Filter>Source Files\Javascript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\VJSConsole.h">
+      <Filter>Source Files\Javascript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\VJSDataServiceCore.h">
+      <Filter>Source Files\Javascript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\VJSPermissions.h">
+      <Filter>Source Files\Javascript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\VJSRPCCatalog.h">
+      <Filter>Source Files\Javascript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\VJSRPCServiceCore.h">
+      <Filter>Source Files\Javascript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\VJSSolution.h">
+      <Filter>Source Files\Javascript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\VJSWebAppServiceCore.h">
+      <Filter>Source Files\Javascript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\VRIAServerJSAPI.h">
+      <Filter>Source Files\Javascript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\VRIAServerJSContextMgr.h">
+      <Filter>Source Files\Javascript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\VRIAServerJSCore.h">
+      <Filter>Source Files\Javascript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Sources\VProjectSettings.h">
+      <Filter>Source Files\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Sources\VRIASettingsFile.h">
+      <Filter>Source Files\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Sources\VRIASettingsKeys.h">
+      <Filter>Source Files\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Sources\VSolutionSettings.h">
+      <Filter>Source Files\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Sources\VRPCCatalog.h">
+      <Filter>Source Files\JSON RPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\VRPCService.h">
+      <Filter>Source Files\JSON RPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Sources\VRIAPermissions.h">
+      <Filter>Source Files\Sessions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\VRIAServerHTTPSession.h">
+      <Filter>Source Files\Sessions</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Sources\testMySQLConnector.cpp">
+      <Filter>Testing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\VRIAServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Sources\VRIAServerConstants.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\VRIAServerLogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\VRIAServerProgressIndicator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\VRIAServerTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Sources\VRIAUTIs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\VDataService.cpp">
+      <Filter>Source Files\Solution</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Sources\VProject.cpp">
+      <Filter>Source Files\Solution</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Sources\VProjectItem.cpp">
+      <Filter>Source Files\Solution</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Sources\VProjectItemBehaviour.cpp">
+      <Filter>Source Files\Solution</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\VRemoteDebuggerBreakpointsManager.cpp">
+      <Filter>Source Files\Solution</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\VRIAServerHTTPRequestHandler.cpp">
+      <Filter>Source Files\Solution</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\VRIAServerProject.cpp">
+      <Filter>Source Files\Solution</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\VRIAServerProjectContext.cpp">
+      <Filter>Source Files\Solution</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\VRIAServerSolution.cpp">
+      <Filter>Source Files\Solution</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Sources\VSolution.cpp">
+      <Filter>Source Files\Solution</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Sources\VSolutionStartupParameters.cpp">
+      <Filter>Source Files\Solution</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\VRIAJSDebuggerSettings.cpp">
+      <Filter>Source Files\Component communication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\VRIAServerComponentBridge.cpp">
+      <Filter>Source Files\Component communication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\VRIAServerSupervisor.cpp">
+      <Filter>Source Files\Component communication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\main.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\VRIAServerApplication.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Sources\commonJSAPI.cpp">
+      <Filter>Source Files\Javascript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\VJSApplication.cpp">
+      <Filter>Source Files\Javascript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\VJSConsole.cpp">
+      <Filter>Source Files\Javascript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\VJSDataServiceCore.cpp">
+      <Filter>Source Files\Javascript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\VJSPermissions.cpp">
+      <Filter>Source Files\Javascript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\VJSRPCCatalog.cpp">
+      <Filter>Source Files\Javascript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\VJSRPCServiceCore.cpp">
+      <Filter>Source Files\Javascript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\VJSSolution.cpp">
+      <Filter>Source Files\Javascript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\VJSWebAppServiceCore.cpp">
+      <Filter>Source Files\Javascript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\VRIAServerJSAPI.cpp">
+      <Filter>Source Files\Javascript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\VRIAServerJSContextMgr.cpp">
+      <Filter>Source Files\Javascript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\VRIAServerJSCore.cpp">
+      <Filter>Source Files\Javascript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Sources\VProjectSettings.cpp">
+      <Filter>Source Files\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Sources\VRIASettingsFile.cpp">
+      <Filter>Source Files\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Sources\VRIASettingsKeys.cpp">
+      <Filter>Source Files\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Sources\VSolutionSettings.cpp">
+      <Filter>Source Files\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Sources\VRPCCatalog.cpp">
+      <Filter>Source Files\JSON RPC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\VRPCService.cpp">
+      <Filter>Source Files\JSON RPC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Sources\VRIAPermissions.cpp">
+      <Filter>Source Files\Sessions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\VRIAServerHTTPSession.cpp">
+      <Filter>Source Files\Sessions</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

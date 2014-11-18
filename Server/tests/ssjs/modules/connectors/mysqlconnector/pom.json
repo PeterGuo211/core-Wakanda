@@ -1,0 +1,10 @@
+{
+    "description": "Tests of the MySQLConnector Module",
+    "kind": "ssjs",
+    "oldJenkinsName": "TestServerMySQLConnectorMySQLConnector",
+    "tester": "saad.yousfi@4d.com",
+    "visibility": "public",
+    "developer": "abdessamad.elkasimi@4d.com",
+    "enterpriseOnly": true,
+    "gonogo": true
+}

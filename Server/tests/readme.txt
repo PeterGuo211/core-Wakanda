@@ -1,0 +1,1 @@
+The "server" folder contains all the tests related to Wakanda Server. 

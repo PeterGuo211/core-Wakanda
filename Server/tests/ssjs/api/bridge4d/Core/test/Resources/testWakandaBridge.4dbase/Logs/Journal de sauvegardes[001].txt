@@ -1,0 +1,11 @@
+*** Full Backup
+Creating archive : C:\Users\Wakanda Team\Desktop\BrigesTests\4D_Test_DB\testWakandaBridge.4dbase\testWakandaBridge[0001].4BK
+Creating log backup : C:\Users\Wakanda Team\Desktop\BrigesTests\4D_Test_DB\testWakandaBridge.4dbase\testWakandaBridge[0000].4BL
+Attachment(s): 
+	C:\Users\Wakanda Team\Desktop\BrigesTests\4D_Test_DB\testWakandaBridge.4dbase\testWakandaBridge.4DSyncHeader [NOT FOUND]
+	C:\Users\Wakanda Team\Desktop\BrigesTests\4D_Test_DB\testWakandaBridge.4dbase\testWakandaBridge.4DSyncData [NOT FOUND]
+	C:\Users\Wakanda Team\Desktop\BrigesTests\4D_Test_DB\testWakandaBridge.4dbase\testWakandaBridge.4DIndx [OK]
+Scheduled 29/05/2013 16:34:53
+Starting 29/05/2013 16:34:53
+Ending 29/05/2013 16:34:53
+

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><EntityModelCatalog>
+
+<dbInfo name="ExecuteOverride" uuid="DEB2380315EE8E47AF7052ECFC4FADBC"/>
+
+<dataClasses name="ExecuteOverrideDataClass" className="ExecuteOverrideDataClass" collectionName="ExecuteOverrideDataClassCollection" scope="public" uuid="81E0E8893EE60E4EA67F8EF559316EF8" tablePos="2">
+
+	<extraProperties ____objectunic="true" panelColor="#CCC1D9">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="275" Y="20"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" uuid="00140DB019593C4EB61F72CEB2988C13" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<methods name="secured" applyTo="dataClass" scope="public" from="guidedModel.ExecuteOverrideDataClass.methods.secured"/>
+
+</dataClasses>
+
+<dataClasses name="ExecuteOverrideModel" className="ExecuteOverrideModel" collectionName="ExecuteOverrideModelCollection" scope="public" uuid="5EEA34535724E64CA761090B28505B02" tablePos="1">
+
+	<extraProperties ____objectunic="true" panelColor="#CCC1D9">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="25" Y="20"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" uuid="BCFB1E56D854AA4585D265C666D7CF0B" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<methods name="secured" applyTo="dataClass" scope="public" from="guidedModel.ExecuteOverrideModel.methods.secured"/>
+
+</dataClasses>
+</EntityModelCatalog>

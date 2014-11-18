@@ -1,0 +1,8 @@
+{
+    "description": "Tests of the Global Application Solution API",
+    "kind": "ssjs",
+    "tester": "geoffrey.beauny@4d.com",
+    "visibility": "public",
+    "developer": "stephane.clairet@4d.com",
+	"stable": true
+}

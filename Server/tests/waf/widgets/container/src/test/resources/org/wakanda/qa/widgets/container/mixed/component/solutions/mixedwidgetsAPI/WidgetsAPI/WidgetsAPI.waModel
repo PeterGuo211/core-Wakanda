@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><EntityModelCatalog>
+
+<dbInfo name="retro" uuid="DEB2380315EE8E47AF7052ECFC4FADBC"/>
+
+<dataClasses name="Employees" className="Employees" collectionName="EmployeesCollection" scope="public" uuid="5658623098CF0C43942F9C87D1F5BFF4" tablePos="1">
+
+	<extraProperties ____objectunic="true" panelColor="#eee">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="25" Y="20"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" uuid="8E5B3E351015C247B8AF1E09612EB198" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<attributes name="name" kind="storage" scope="public" uuid="D2CE80D1830AC44F88E38B4C9F73844B" fieldPos="2" type="string"/>
+
+	<attributes name="sexe" kind="storage" scope="public" uuid="F1926DF7764F3F4D8A80D76C1A0CA6A7" fieldPos="3" type="bool"/>
+
+	<attributes name="pic" kind="storage" scope="public" uuid="4CCDB09C03B9F341A7DF889460374B8F" fieldPos="4" type="image"/>
+
+	<attributes name="birthday" kind="storage" scope="public" uuid="4E4D05B862701146BB6CB5E739C937BC" fieldPos="5" type="date"/>
+
+</dataClasses>
+</EntityModelCatalog>

@@ -1,0 +1,1 @@
+﻿include(application.getFolder('path') + '../test.js');testCase._should.ignore.testSharedWorkerContructor = false;require("unitTest").run(testCase).getReport();

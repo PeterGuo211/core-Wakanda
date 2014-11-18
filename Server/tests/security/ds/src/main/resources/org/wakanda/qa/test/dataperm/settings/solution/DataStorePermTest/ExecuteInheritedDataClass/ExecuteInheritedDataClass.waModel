@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><EntityModelCatalog>
+
+<dbInfo name="ExecuteInheritedDataClass" uuid="DEB2380315EE8E47AF7052ECFC4FADBC"/>
+
+<dataClasses collectionName="ExecuteInheritedDataClassCollection" className="ExecuteInheritedDataClass" uuid="F41CFBB12B578041A87BDC07C4B16ED5" tablePos="1">
+
+	<extraProperties ____objectunic="true" panelColor="#7F7F7F">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="25" Y="20"/>
+
+		</panel>
+
+	</extraProperties>
+
+	<attributes name="ID" kind="storage" type="long" uuid="AC46AF30E0B8614C9A61331E6AFCE3B7" fieldPos="1" autosequence="true" unique="true" primKey="true"/>
+
+	<methods name="secured" applyTo="dataClass" from="guidedModel.ExecuteInheritedDataClass.methods.secured" scope="public"/>
+
+</dataClasses>
+</EntityModelCatalog>

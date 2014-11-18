@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+	<folder path="./WebFolder/">
+		<tag name="webFolder"/>
+	</folder>
+	<folder path="./Widgets/">
+		<tag name="widgets"/>
+	</folder>
+	<folder path="./Themes/">
+		<tag name="themes"/>
+	</folder>
+	<file path="./DataSourceTest.waSettings">
+		<tag name="settings"/>
+	</file>
+	<file path="./bootStraps/boot.js">
+		<tag name="bootStrap"/>
+	</file>
+	<file path="./bootStraps/initdata.js">
+		<tag name="bootStrap"/>
+	</file>
+	<file path="./Model.waModel">
+		<tag name="catalog"/>
+	</file>
+</project>

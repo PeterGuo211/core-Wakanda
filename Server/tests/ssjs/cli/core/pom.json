@@ -1,0 +1,9 @@
+{
+    "description": "Tests of the CLI mode",
+    "kind": "cli",
+    "bench": false,
+    "tester": "sebastien.courvoisier@4d.com",
+    "visibility": "public",
+    "developer": "stephane.clairet@4d.com",
+    "stable": true
+}

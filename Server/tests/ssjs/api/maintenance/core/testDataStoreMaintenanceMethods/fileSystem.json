@@ -1,0 +1,27 @@
+﻿[
+    {
+           "name":"DSVERIFY",
+           "parent":"PROJECT",
+           "path":"dsVerify/",
+           "writable":true
+    }, 
+    {
+           "name":"VERIFYDATASTORE",
+           "parent":"PROJECT",
+           "path":"verifyDataStore/",
+           "writable":true
+    },
+    {
+           "name":"REPAIRDATASTORE",
+           "parent":"PROJECT",
+           "path":"repairDataStore/",
+           "writable":true
+    }, 
+    {
+           "name":"COMPACTDATASTORE",
+           "parent":"PROJECT",
+           "path":"compactDataStore/",
+           "writable":true
+    },
+    
+]

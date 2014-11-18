@@ -1,0 +1,8 @@
+{
+    "description": "Tests of the Crypto hash API",
+    "kind": "ssjs",
+    "tester": "geoffrey.beauny@4d.com",
+    "visibility": "public",
+    "developer": "julien.montmartin@4d.com",
+	"stable": true
+}

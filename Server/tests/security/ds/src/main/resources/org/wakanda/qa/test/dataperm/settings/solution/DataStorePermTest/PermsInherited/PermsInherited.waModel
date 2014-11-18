@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><EntityModelCatalog>
+
+<dbInfo name="PermsInherited" uuid="DEB2380315EE8E47AF7052ECFC4FADBC"/>
+
+<dataClasses name="InheritedCreatePerm" className="CreateInherited" collectionName="CreateInheritedCollection" scope="public" uuid="0EAD587C92B94D4489C59F3420D9DB0B" tablePos="3">
+
+	<extraProperties ____objectunic="true" panelColor="#548DD4">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="32" Y="185"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" uuid="5EE4AA813AACF546B6748738BE69E7CC" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<attributes name="name" kind="storage" scope="public" uuid="E97E418811EA1649B3FA17CDA4E0D2BB" fieldPos="2" type="string"/>
+
+</dataClasses>
+
+<dataClasses name="InheritedReadPerm" className="ReadInherited" collectionName="ReadInheritedCollection" scope="public" uuid="D57850B45E1CBD4E98A087E5E84E51C5" tablePos="1">
+
+	<extraProperties ____objectunic="true" panelColor="#76923C">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="19" Y="20"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" uuid="067E340A8C3296489CCF0E41336A61AF" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<attributes name="name" kind="storage" scope="public" uuid="D3D86B24FA7BDF48B04B02786D824A06" fieldPos="2" type="string"/>
+
+</dataClasses>
+
+<dataClasses name="InheritedRemovePerm" className="RemoveInherited" collectionName="RemoveInheritedCollection" scope="public" uuid="2C58BF56DADEB9428086A37D4892E82B" tablePos="4">
+
+	<extraProperties ____objectunic="true" panelColor="#8DB3E2">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="259" Y="188"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" uuid="E66BAD3A3A019A4DAE071516ED4DC438" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<attributes name="name" kind="storage" scope="public" uuid="579E2874ED94FB4AB04499B0E6DC9827" fieldPos="2" type="string"/>
+
+</dataClasses>
+
+<dataClasses name="InheritedUpdatePerm" className="UpdateInherited" collectionName="UpdateInheritedCollection" scope="public" uuid="FAB593C2809D82499C65FA01191379A1" tablePos="2">
+
+	<extraProperties ____objectunic="true" panelColor="#B2A2C7">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="258" Y="27"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" uuid="2756F820CB89D1428F1B2BDC127BD259" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<attributes name="name" kind="storage" scope="public" uuid="2370D55D37FB3B4194EB795E12EFE3C4" fieldPos="2" type="string"/>
+
+</dataClasses>
+</EntityModelCatalog>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets">
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros">
+    <XERCES_OUTPUT>$(DepotRoot)\xerces\3.0.1\xerces\Build$(VisualStudioVersion)\$(PlatformName)\$(Configuration)\</XERCES_OUTPUT>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>"$(DepotRoot)\xerces\3.0.1\xerces\src";%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>XERCES_3_0_1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <BuildMacro Include="XERCES_OUTPUT">
+      <Value>$(XERCES_OUTPUT)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>

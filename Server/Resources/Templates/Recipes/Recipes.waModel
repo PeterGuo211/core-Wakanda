@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><EntityModelCatalog>
+
+<dbInfo uuid="DEB2380315EE8E47AF7052ECFC4FADBC" collation_locale="fr"/>
+
+<dataClasses collectionName="IngredientDescriptionCollection" className="IngredientDescription" uuid="4C222750D7848E4DB5F4EDBFD7669A0F" tablePos="1">
+
+	<extraProperties ____objectunic="true" panelColor="#BFBFBF">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="25" Y="20"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" type="long" uuid="9F39722410F1364D96DB00C7BF6D5983" fieldPos="1" autosequence="true" unique="true" primKey="true"/>
+
+	<attributes name="name" scope="public" uuid="4EF7D1671CB13D4CB5DBC923D020BC6C" fieldPos="2" type="string" kind="storage"/>
+
+	<attributes name="ingredients" scope="public" reversePath="true" path="reference" type="IngredientCollection" kind="relatedEntities"/>
+</dataClasses>
+
+<dataClasses collectionName="IngredientCollection" className="Ingredient" uuid="78B26898C70A4C4CAE1A95D233B81B7D" tablePos="2">
+
+	<extraProperties ____objectunic="true" panelColor="#548DD4">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="413" Y="26"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" type="long" uuid="E4BB2D87C9A8DA46A0FF456C00AF7D07" fieldPos="1" autosequence="true" unique="true" primKey="true"/>
+
+	<attributes name="quantity" scope="public" uuid="4D95D3CBE7139D49B6713A4CA054BC47" fieldPos="2" type="number" kind="storage"/>
+
+	<attributes name="unit" scope="public" uuid="1BF158FED491F945A31AEF6349D23A44" fieldPos="3" type="string" kind="storage"/>
+
+	<attributes name="recipe" kind="relatedEntity" type="Recipe" uuid="A4060B5F5EBA0E49838AEA24FA3672E1" fieldPos="4" path="Recipe" scope="public"/>
+
+	<attributes name="name" scope="public" path="reference.name" type="string" kind="alias"/>
+
+	<attributes name="reference" kind="relatedEntity" type="IngredientDescription" uuid="98491939BC13DF4EB5F346C777AF1195" fieldPos="7" path="IngredientDescription" scope="public"/>
+</dataClasses>
+
+<dataClasses collectionName="RecipeCollection" className="Recipe" uuid="B651ECCC6AA9BA4E9C0FEB0553131319" tablePos="3">
+
+	<extraProperties ____objectunic="true" panelColor="#76923C">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="22" Y="238"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" type="long" uuid="B3849050C46C224E9067B35C13777E1C" fieldPos="1" autosequence="true" unique="true" primKey="true"/>
+
+	<attributes name="title" scope="public" uuid="6A2D52C663A3234889FB79BDC7AE61A3" fieldPos="2" type="string" kind="storage"/>
+
+	<attributes name="servings" scope="public" uuid="A7270826DDA4DD4C9C798232C453FB10" fieldPos="3" type="long" kind="storage"/>
+
+	<attributes name="ingredients" scope="public" reversePath="true" path="recipe" type="IngredientCollection" kind="relatedEntities"/>
+
+	<attributes name="directions" scope="public" uuid="52B95576BB163B4CB6F2538F68F27B34" fieldPos="4" type="string" kind="storage"/>
+</dataClasses>
+</EntityModelCatalog>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><permissions>
+	<allow type="module" resource="SecureModule" action="executeFromClient" groupID="01000000000000000000000000000000"/>
+	<allow type="function" resource="NotSecureModule/defaultAccessSecured" action="executeFromClient" groupID="01000000000000000000000000000000"/>
+	<allow type="module" resource="ModuleWithDefaultPermissions" action="executeFromClient"/>
+	<allow type="function" resource="ModuleWithDefaultPermissions/defaultAccessSecured" action="executeFromClient" groupID="01000000000000000000000000000000"/>
+	<allow type="function" resource="ModuleFunctionWithPromote/defaultAccessPromote" action="promote" groupID="01000000000000000000000000000000"/>
+	<allow action="read" groupName="User" groupID="9805262948878047AAFCBED939D3D930" resource="Model.DataClass.attribute" temporaryForcePermissions="false" type="attribute"/>
+	<allow action="create" groupName="User" groupID="9805262948878047AAFCBED939D3D930" resource="Model.DataClass.attribute" temporaryForcePermissions="false" type="attribute"/>
+	<allow action="update" groupName="User" groupID="9805262948878047AAFCBED939D3D930" resource="Model.DataClass.attribute" temporaryForcePermissions="false" type="attribute"/>
+	<allow action="read" groupName="ModelGroup" groupID="CF1A9BA069C6664FB08B3CCC22226FD5" resource="Model" temporaryForcePermissions="false" type="model"/>
+	<allow action="create" groupName="ModelGroup" groupID="CF1A9BA069C6664FB08B3CCC22226FD5" resource="Model" temporaryForcePermissions="false" type="model"/>
+	<allow action="update" groupName="ModelGroup" groupID="CF1A9BA069C6664FB08B3CCC22226FD5" resource="Model" temporaryForcePermissions="false" type="model"/>
+	<allow action="remove" groupName="ModelGroup" groupID="CF1A9BA069C6664FB08B3CCC22226FD5" resource="Model" temporaryForcePermissions="false" type="model"/>
+	<allow action="describe" groupName="ModelGroup" groupID="CF1A9BA069C6664FB08B3CCC22226FD5" resource="Model" temporaryForcePermissions="false" type="model"/>
+	<allow action="execute" groupName="ModelGroup" groupID="CF1A9BA069C6664FB08B3CCC22226FD5" resource="Model" temporaryForcePermissions="false" type="model"/>
+	<allow action="promote" groupName="ModelGroup" groupID="CF1A9BA069C6664FB08B3CCC22226FD5" resource="Model" temporaryForcePermissions="false" type="model"/>
+</permissions>

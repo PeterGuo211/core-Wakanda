@@ -1,0 +1,120 @@
+<!--
+* This file is part of Wakanda software, licensed by 4D under
+*  (i) the GNU General Public License version 3 (GNU GPL v3), or
+*  (ii) the Affero General Public License version 3 (AGPL v3) or
+*  (iii) a commercial license.
+* This file remains the exclusive property of 4D and/or its licensors
+* and is protected by national and international legislations.
+* In any event, Licensee's compliance with the terms and conditions
+* of the applicable license constitutes a prerequisite to any use of this file.
+* Except as otherwise expressly stated in the applicable license,
+* such license does not include any other license or rights on this file,
+* 4D's and/or its licensors' trademarks and/or other proprietary rights.
+* Consequently, no title, copyright or other proprietary rights
+* other than those specified in the applicable license is granted.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Business expenses sheet template</title>
+</head>
+<body>
+<h1>Business expenses sheet template</h1>
+<img src="./preview.png" alt="library preview icon" hspace="10" vspace="10" align="right">
+<h2>level </h2>
+<p>medium</p>
+<h2>Description</h2>
+<p>This template shows how you can create from scratch and run a simple business expense sheet application.</p>
+<!-- p>This project template shows the running results of the tutorial available bellow.</p -->
+<h2>Introduced technologies</h2>
+<ol>
+  <li> Datastore Datastore Classes</li>
+  <li> Data Sources and Datagrids</li>
+  <li>Widgets binding</li>
+  <li>Calculated attributes (JavaScript)</li>
+</ol>
+<!-- h2>Tutorial</h2>
+<h3>Create a blank project</h3>
+<ol>
+  <li>click on the &quot;new project&quot; button (<img src="./readMe/newProject.png" alt="new project button" width="24" height="24" align="absmiddle">)</li>
+  <li>hit the "enter" key to use the default blank project</li>
+  <li>give it a name (ex: &quot;business expense sheet&quot;)</li>
+</ol>
+<p><img src="readMe/create project.png" alt="create a project" width="400" height="291"></p>
+<p>&nbsp; </p>
+<h3>Create the data Model</h3>
+<ol>
+  <li>click on the "Catalog" button  (<img src="readMe/catalog.png" alt="catalog button" width="24" height="24" align="absmiddle">).<br>
+    <em>It opens the Entity Model editor.</em></li>
+</ol>
+<h4>Create the &quot;expense&quot; model</h4>
+<ol>
+  <li>write &quot;expense&quot; and hit the &quot;enter&quot; key. <br>
+    <em>It creates the &quot;expense&quot; Model with a default &quot;ID&quot; attribute, and give the focus for its second attribute name</em>.</li>
+  <li>write &quot;day&quot;, , hit &quot;enter&quot;, hit &quot;n&quot;, hit &quot;enter&quot;. <br>
+  <em>It creates the &quot;day&quot; attribute as a number (autocompleted from &quot;n&quot;)</em></li>
+  <li>write &quot;description&quot;, hit &quot;enter&quot; 3 times<br>
+    <em>It creates the &quot;description&quot; attribute as a string by default</em></li>
+  <li>create the  &quot;transport&quot;,  &quot;restaurant&quot;,  &quot;hostel&quot;,  and &quot;total&quot;, attributes as numbers</li>
+  <li>on the &quot;total&quot; attribute, in the properties panel, set &quot;script kind&quot; to &quot;javascript&quot;, and click on the &quot;on get&quot; icon (<img src="./readMe/on get.png" alt="on get icon" width="19" height="21" align="absmiddle">)<br>
+  <em>It opens the JavaScript code editor and create a &quot;getter&quot; handler for the &quot;total&quot; attribute</em></li>
+  <li>write this code in the body of the function:<br>
+  <em>return this.transport + this.restaurant + this.hostel;</em></li>
+</ol>
+<h4>Create the &quot;business expense sheet&quot; model</h4>
+<ol>
+  <li>go back to the catalog editor,</li>
+  <li>create a &quot;business expense sheet&quot; model (click on the &quot;+&quot; icon in the entity model list panel)</li>
+  <li>create a &quot;year&quot; attribute as a number</li>
+  <li>create &quot;month&quot;, &quot;employee&quot;, and &quot;department&quot; attributes as strings</li>
+  <li>create the  &quot;transport&quot;,  &quot;restaurant&quot;,  &quot;hostel&quot;,  and &quot;total&quot; attributes as numbers</li>
+  <li>create the &quot;expenses&quot; attribute as &quot;expense[many]&quot;</li>
+  <li>on the &quot;transport&quot; attribute, in the properties panel, set &quot;script kind&quot; to &quot;javascript&quot;, and click on the &quot;on get&quot; icon (<img src="./readMe/on get.png" alt="on get icon" width="19" height="21" align="absmiddle">)</li>
+  <li>write this code in the body of the function:<br>
+  <em>return this.expenses.sum('transport');</em></li>
+  <li>add the same getter function on the &quot;restaurant&quot;,  &quot;hostel&quot;,  and &quot;total&quot; attributes</li>
+</ol>
+<h4>Save  the catalog </h4>
+<ol>
+  <li>close the code editor and click &quot;Save&quot; to save the JavaScript getter functions.</li>
+  <li>close the editor and click &quot;Save&quot; to save the Model.</li>
+</ol>
+<p><img src="readMe/create model.png" alt="create a data model" width="400" height="186"></p>
+<p>&nbsp;</p>
+<h3>Create the Grafic User Interface</h3>
+<ol>
+  <li>click on the "Main UI" button  (<img src="readMe/main ui.png" alt="main UI button" width="24" height="24" align="absmiddle">).<br>
+  <em>it opens the main interface file (ex: &quot;index.html&quot;) in the GUI Designer</em>.</li>
+</ol>
+<h4>Create the &quot;business expense sheet&quot; datagrid</h4>
+<ol>
+  <li>drag and drop the &quot;Grid&quot; widget from the widgets panel to the blank workspace<br>
+  <img src="readMe/grid icon.png" width="166" height="53" alt="datagrid icon">  </li>
+  <li>drag and drop the &quot;business expense sheet&quot; model from the data source panel to the Grid widget you just created.<br>
+    <em>The grid is automatically binded to your &quot;author&quot; data model.</em></li>
+</ol>
+<h4>Create the &quot;expense&quot; datagrid</h4>
+<ol>
+  <li>drag and drop another &quot;Grid&quot; widget from the widgets panel to the blank workspace</li>
+  <li>expand the &quot;business expense sheet&quot; data source in the data source panel<br>
+  </li>
+  <li>drag and drop its &quot;expenses&quot; attribute  to the second Grid widget<br>
+    <em>This new grid is automatically binded to the &quot;expenses&quot; of the selected &quot;business expense sheet&quot;.</em></li>
+</ol>
+<h4>Save  the user interface</h4>
+<ol>
+  <li>close the designer and click &quot;Save&quot; to save your interface</li>
+</ol>
+<p><img src="readMe/create interface.png" alt="create a graphic user interface" width="400" height="198"></p>
+<p>&nbsp; </p>
+<h3>Use the application</h3>
+<ol>
+  <li>click on the &quot;run project&quot; button  (<img src="readMe/runProject.png" alt="run project button" width="24" height="24" align="absmiddle">)</li>
+  <li>use your application application</li>
+</ol>
+</p -->
+<img src="readMe/running application.png" alt="run the application" width="400" height="252">
+</body>
+
+</html>

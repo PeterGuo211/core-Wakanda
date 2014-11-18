@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><EntityModelCatalog>
+
+<dbInfo name="CreateInherited" uuid="DEB2380315EE8E47AF7052ECFC4FADBC"/>
+
+<dataClasses name="InheritedCreatePerm" className="CreateInherited" collectionName="CreateInheritedCollection" scope="public" uuid="64D181E547A5B44BA8C76B978DB44DA0" tablePos="1">
+
+	<extraProperties ____objectunic="true" panelColor="#B7DDE8">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="25" Y="20"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" uuid="A585C8ADE249224B8DD93858DF659B58" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<attributes name="name" kind="storage" scope="public" uuid="AF91F6140673194780177478817BDE96" fieldPos="2" type="string"/>
+
+</dataClasses>
+</EntityModelCatalog>

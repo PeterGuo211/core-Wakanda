@@ -1,0 +1,20 @@
+﻿var isGood = true;
+		var s = "";
+		var path = application.getFolder("path");
+		var path1 = path + "img/wak0.png";
+		var path2 = path + "img/wakanda.png";
+		var path3 = path + "img/wak1.jpg";
+		var myImage1 = loadImage(path1);
+		var myImage2 = loadImage(path2);
+		var myImage3 = loadImage(path3);
+		var array = new Array();
+		array[0] = {cname:"M",cimage:myImage1};
+		array[1] = {cname:"B",cimage:myImage2};
+		array[2] = {cname:"P",cimage:myImage3};
+		var ent = ds.MyClassForImageTest2.createEntity();
+		ent.ID = 0;
+		ent.cname='test';
+		ent.cimage=myImage1.toBlob();
+		ent.save();
+		
+debugger;

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><EntityModelCatalog>
+
+<dbInfo uuid="DEB2380315EE8E47AF7052ECFC4FADBC" collation_locale="fr"/>
+
+<dataClasses collectionName="BookCollection" className="Book" uuid="F77A1EF9B25E8843B3E882100E9018A4" tablePos="1">
+
+	<extraProperties ____objectunic="true" panelColor="#7F7F7F">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="80" Y="25"/>
+</panel>
+</extraProperties>
+
+	<attributes name="isbn" scope="public" uuid="C523A74A32613749A0A891FA2676395F" fieldPos="1" type="string" kind="storage" primKey="true" unique="true"/>
+
+	<attributes name="title" scope="public" uuid="3DC829AF7F09A4468A0238A5AD303553" fieldPos="2" type="string" kind="storage"/>
+
+	<attributes name="editionDate" scope="public" uuid="1180F0457F1C6444B44FB84A0C4DD2C0" fieldPos="3" type="date" kind="storage"/>
+
+	<attributes name="description" scope="public" uuid="DF3C1C5640101E448B05D9861B20703E" fieldPos="4" type="string" kind="storage"/>
+
+	<attributes name="author" kind="relatedEntity" type="Author" uuid="C13FCEF1F366404A905BE85C60A4540C" fieldPos="5" path="Author" scope="public"/>
+</dataClasses>
+
+<dataClasses collectionName="AuthorCollection" className="Author" uuid="16DF1D0842D2F940B7100308A7693FBB" tablePos="2">
+
+	<extraProperties ____objectunic="true" panelColor="#D8D8D8">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="350" Y="118"/>
+
+		</panel>
+
+	</extraProperties>
+
+	<attributes name="ID" kind="storage" type="long" uuid="481BA33347C21A47B84CC7C1EFF15A88" fieldPos="1" autosequence="true" unique="true" primKey="true"/>
+
+	<attributes name="name" scope="public" uuid="7D1DCB1768CF8A4D83069ADB0180503D" fieldPos="2" type="string" kind="storage"/>
+
+	<attributes name="books" scope="public" reversePath="true" path="author" type="BookCollection" kind="relatedEntities"/>
+
+</dataClasses>
+</EntityModelCatalog>

@@ -1,0 +1,295 @@
+#!/bin/bash
+
+echo "
+ [INFO]-------------------------------------
+ [INFO]
+ [INFO]
+ [INFO] 4D | Auto Test Mac | Wakanda Server 
+ [INFO] Function Shell Script
+ [INFO]
+ [INFO]
+ [INFO]--------------------------------------
+"
+
+#Add special functions here :
+
+#[INFO]--------------------------------------------------------------------
+#[INFO]------------------Killing all WS Processus--------------------------
+#[INFO] Get PID for just started Process and kill them
+
+function Kill_All_WS_PROC()
+
+{
+
+
+if [ -f /tmp/pidWakanda.txt ]
+  then
+        for i in $(grep '[0-9]\{4\}' /tmp/pidWakanda.txt)
+        do
+                kill -9 $i > /dev/null 2>&1
+                echo "Processus with PID : ${i} killed for Release Version"
+        done
+   else
+        echo "File pidWakanda.txt doesn't exist"
+fi
+
+if rm /tmp/pidWakanda.txt
+  then
+        echo "File pidWakanda.txt is removed"
+  else
+        echo "File pidWakanda.txt is already removed"
+fi
+
+
+}
+
+#[INFO]----------------------------------------------------------------
+#[INFO]------------------Killing WS Processus--------------------------
+
+#[INFO]----------------------------------------------------------------
+#[INFO]-------------------------cURL RPC & REST------------------------
+
+
+function cURL_RPC_OPEN_Wakanda_Solution()
+
+{
+ 
+while read rpcRequest
+do
+    echo "Request ${rpcRequest}"
+
+    rpcResponse=$(curl --noproxy ${host} --data "${rpcRequest}" -H "${contentType}" -H "${acceptType}" -H "${acceptEncoding}" ${host}:${port[${1}]}/${uri})
+
+    echo "Response ${rpcResponse}"
+
+    sleep 5
+
+done <<EOF
+{"jsonrpc":"2.0","id":1234,"module":"admin","method":"openSolution","params":["${SolutionsRelease}/${SolutionName[${2}]}/${Solution[${2}]}.waSolution"]}
+EOF
+   
+}
+
+
+function cURL_RPC_CLOSE_Wakanda_Solution() 
+
+{
+
+while read rpcRequest
+do
+    echo "Request ${rpcRequest}"
+
+    rpcResponse=$(curl --noproxy ${host} --data "${rpcRequest}" -H "${contentType}" -H "${acceptType}" -H "${acceptEncoding}" ${host}:${port[${1}]}/${uri})
+
+    echo "Response ${rpcResponse}"
+
+    sleep 5
+
+done <<EOF
+{"jsonrpc":"2.0","id":1234,"module":"admin","method":"closeSolution","params":["${SolutionsRelease}/${SolutionName[${2}]}/${Solution[${2}]}.waSolution"]}
+EOF
+
+}
+
+
+function cURL_RPC_OPEN_RECENT_Wakanda_Solution() 
+
+{
+
+while read rpcRequest
+do
+    echo "Request ${rpcRequest}"
+
+    rpcResponse=$(curl --noproxy ${host} --data "${rpcRequest}" -H "${contentType}" -H "${acceptType}" -H "${acceptEncoding}" ${host}:${port[${1}]}/${uri})
+
+    echo "Response ${rpcResponse}"
+
+    sleep 5
+
+done <<EOF
+{"jsonrpc":"2.0","id":1234,"module":"admin","method":"closeSolution","params":["${SolutionsRelease}/${SolutionName[${2}]/${Solution[${2}]}.waSolution"]}
+EOF
+
+}
+
+#function cURL_RPC_RETURN_ARRAY_RECENT_Wakanda_Solution() {
+
+#}
+
+#function cURL_REST_UPDATE_DATA() {
+
+#}
+
+#function cURL_REST_POST_DATA() {
+
+#}
+
+#function cURL_REST_DELETE_DATA() {
+
+#}
+  
+#[INFO]-------------------------cURL RPC & REST------------------------
+#[INFO]----------------------------------------------------------------
+
+#[INFO]------------------------Score Match-----------------------------
+#[INFO]----------------------------------------------------------------
+
+#function ScoreMatch() {
+
+
+
+#}
+
+#[INFO]------------------------Score Match-----------------------------
+#[INFO]----------------------------------------------------------------
+
+
+#[INFO]------------------------Wakanda Execution-----------------------
+#[INFO]----------------------------------------------------------------
+
+function WakandaInstanceRelease() 
+
+{
+
+echo "Execute Wakanda Server :" 
+"$1" & echo $! >> /tmp/pidWakanda.txt & > ${LOGFILESERVER_RELEASE} 2>&1 &
+
+sleep 10
+
+}
+
+#[INFO]------------------------Wakanda Execution-----------------------
+#[INFO]----------------------------------------------------------------
+
+#[INFO]------------------Simple GET on 127.0.0.1:8080------------------
+#[INFO]----------------------------------------------------------------
+
+function SimpleGETServer() 
+
+{
+
+wget --no-proxy -v -o ${HomeDirectory}${Directory}global_log_${DATELOG}/tmpGET_${DATELOG}/SimpleGetServer/logSimpleGetServer -P ${HomeDirectory}${Directory}global_log_${DATELOG}/tmpGET_${DATELOG}/SimpleGetServer ${WEBADMIN}
+
+}
+
+#[INFO]------------------Simple GET on 127.0.0.1:8080------------------
+#[INFO]----------------------------------------------------------------
+
+
+
+#[INFO]------------------Simple GET on 127.0.0.1:8081------------------
+#[INFO]----------------------------------------------------------------
+
+function SimpleGETSolution()
+
+{
+
+wget --no-proxy -v -o ${HomeDirectory}${Directory}global_log_${DATELOG}/tmpGET_${DATELOG}/SimpleGetSolution/logSimpleGetSolution -P ${HomeDirectory}${Directory}global_log_${DATELOG}/tmpGET_${DATELOG}/SimpleGetSolution ${WEBADMIN_SOLUTION}
+
+}
+
+#[INFO]------------------Simple GET on 127.0.0.1:8081------------------
+#[INFO]----------------------------------------------------------------
+
+#[INFO]------------------Simple SSL GET on 127.0.0.1:4434--------------
+#[INFO]----------------------------------------------------------------
+
+function SimpleGETSolutionSSL()
+
+{
+
+wget --no-proxy --no-check-certificate -v -o ${HomeDirectory}${Directory}global_log_${DATELOG}/tmpGET_${DATELOG}/SimpleGetSolutionSSL/logSimpleGetSolutionSSL -P ${HomeDirectory}${Directory}global_log_${DATELOG}/tmpGET_${DATELOG}/SimpleGetSolutionSSL ${protocole[${1}]}${LOCALHOST}:${port[${2}]}
+
+}
+
+#[INFO]------------------Simple SSL GET on 127.0.0.1:4434--------------
+#[INFO]----------------------------------------------------------------
+
+#[INFO]------------------GET rest responce 127.0.0.1:8081--------------
+#[INFO]----------------------------------------------------------------
+
+function GETrestFile()
+
+{
+
+wget --no-proxy -v -o ${HomeDirectory}${Directory}global_log_${DATELOG}/tmpJSON_${DATELOG}/Rest/logGetrestFile -P ${HomeDirectory}${Directory}global_log_${DATELOG}/tmpJSON_${DATELOG}/Rest  ${LOCALHOST}:${port[${1}]}/rest/
+
+}
+
+#[INFO]------------------GET rest responce 127.0.0.1:8081--------------
+#[INFO]----------------------------------------------------------------
+
+#[INFO]------------------GET SSL rest responce 127.0.0.1:4434----------
+#[INFO]----------------------------------------------------------------
+
+function GETrestFileSSL()
+
+{
+
+wget --no-proxy --no-check-certificate -v -o ${HomeDirectory}${Directory}global_log_${DATELOG}/tmpJSON_${DATELOG}/RestSSL/logGetrestFileSSL -P ${HomeDirectory}${Directory}global_log_${DATELOG}/tmpJSON_${DATELOG}/RestSSL ${protocole[${1}]}${LOCALHOST}:${port[${2}]}/rest/
+
+}
+
+#[INFO]------------------GET SSL rest responce 127.0.0.1:4434----------
+#[INFO]----------------------------------------------------------------
+
+#[INFO]-----------------Simple GET on NETWORK IP:8081------------------
+#[INFO]----------------------------------------------------------------
+
+function GETNetworkIP()
+
+{
+
+wget --no-proxy -v -o ${HomeDirectory}${Directory}global_log_${DATELOG}/tmpGET_${DATELOG}/GetPrivateIP/logGetNetworkIP -P ${HomeDirectory}${Directory}global_log_${DATELOG}/tmpGET_${DATELOG}/GetPrivateIP ${PRIVATE_IP}:${port[1]}
+
+}
+
+#[INFO]-----------------Simple GET on NETWORK IP:8081------------------
+#[INFO]----------------------------------------------------------------
+
+#[INFO]-----------------Simple SSL GET on NETWORK IP:8081--------------
+#[INFO]----------------------------------------------------------------
+
+function GETNetworkIPSSL()
+
+{
+
+wget --no-proxy --no-check-certificate -v -o ${HomeDirectory}${Directory}global_log_${DATELOG}/tmpGET_${DATELOG}/GetPrivateIPSSL/logGetNetworkIPSSL -P ${HomeDirectory}${Directory}global_log_${DATELOG}/tmpGET_${DATELOG}/GetPrivateIPSSL ${protocole[${1}]}${PRIVATE_IP}:${port[${2}]}
+
+}
+
+#[INFO]-----------------Simple SSL GET on NETWORK IP:8081--------------
+#[INFO]----------------------------------------------------------------
+
+#[INFO]-----------------------------TIMER------------------------------
+#[INFO]----------------------------------------------------------------
+
+function TIMER()
+
+{
+
+TIME_END=$(date +%s)
+DIFF=$(( $TIME_END - $TIME_START ))
+
+}
+
+#[INFO]-----------------------------TIMER------------------------------
+#[INFO]----------------------------------------------------------------
+
+#[INFO]-------------------Colorz Infos for text------------------------
+#[INFO]----------------------------------------------------------------
+
+
+black='\E[30;47m'
+red='\E[31;47m'
+green='\E[32;47m'
+yellow='\E[33;47m'
+blue='\E[34;47m'
+magenta='\E[35;47m'
+cyan='\E[36;47m'
+white='\E[37;47m'
+   
+
+#[INFO]---------------------Coloz Infos for text-----------------------
+#[INFO]----------------------------------------------------------------
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <file path="./Settings/ServerAdmin.waSettings">
+    <tag name="settings"/>
+  </file>
+  <file path="./ServerAdmin.waPerm">
+    <tag name="permissions"/>
+  </file>
+  <folder path="./WebFolder/">
+    <tag name="webFolder"/>
+  </folder>
+</project>

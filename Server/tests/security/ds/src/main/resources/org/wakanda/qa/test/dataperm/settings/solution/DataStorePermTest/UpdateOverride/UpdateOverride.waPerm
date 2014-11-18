@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><permissions>
+<allow action="update" groupID="F0E6925647E3584AB152309292354387" resource="UpdateOverride" temporaryForcePermissions="false" type="model"/>
+<allow action="update" groupID="60EE5734426C794EAF4E7D092AB53C76" resource="UpdateOverride.UpdateOverride" temporaryForcePermissions="false" type="dataClass"/>
+</permissions>

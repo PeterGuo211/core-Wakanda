@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><EntityModelCatalog>
+
+<dbInfo name="ForceExecuteModel" uuid="DEB2380315EE8E47AF7052ECFC4FADBC"/>
+
+<dataClasses name="ForceExecuteModel" className="ForceExecuteModel" collectionName="ForceExecuteModelCollection" scope="public" uuid="3241D89FA91D0544AC7E3243B22655C1" tablePos="1">
+
+	<extraProperties ____objectunic="true" panelColor="#CCC1D9">
+
+		<panel ____objectunic="true" isOpen="true">
+
+			<position ____objectunic="true" X="25" Y="20"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" uuid="FB4AE1033C1E664BBAF764E611DBCBBB" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<methods name="secured" applyTo="dataClass" scope="public" from="guidedModel.ForceExecuteModel.methods.secured"/>
+
+</dataClasses>
+</EntityModelCatalog>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!--
+* This file is part of Wakanda software, licensed by 4D under
+*  (i) the GNU General Public License version 3 (GNU GPL v3), or
+*  (ii) the Affero General Public License version 3 (AGPL v3) or
+*  (iii) a commercial license.
+* This file remains the exclusive property of 4D and/or its licensors
+* and is protected by national and international legislations.
+* In any event, Licensee's compliance with the terms and conditions
+* of the applicable license constitutes a prerequisite to any use of this file.
+* Except as otherwise expressly stated in the applicable license,
+* such license does not include any other license or rights on this file,
+* 4D's and/or its licensors' trademarks and/or other proprietary rights.
+* Consequently, no title, copyright or other proprietary rights
+* other than those specified in the applicable license is granted.
+-->
+<html>
+    <head>
+
+        <title>Wakanda Remote Debugger</title>
+
+        <link rel = "stylesheet" href = "/walib/debugger/css/redmond/jquery-ui-1.8.24.custom.css" />
+        <link rel = "stylesheet" href = "/walib/debugger/css/index.css" />
+
+        <script type = "text/javascript" src = "/walib/WAF/lib/jquery/jquery.min.js"></script>
+        <script type = "text/javascript" src = "/walib/WAF/lib/jquery-ui/jquery-ui.min.js"></script>
+        <script type = "text/javascript" src = "/walib/debugger/js/lib/underscore-min.js"></script>
+        <script type = "text/javascript" src = "/walib/debugger/js/lib/backbone-min.js"></script>
+        <script type = "text/javascript" src = "/walib/debugger/js/lib/backbone.localStorage-min.js"></script>
+
+    </head>
+    <body>
+        <div id="navbar-header" role="navigation">
+            <img src="img/Wak-logo.png">
+                <a id="navbar-brand" href="#">Wakanda Remote Debugger</a>
+        </div>
+        <div id="main">
+            <div id="tabs">
+                <div id="contexts">
+                    <h2>Context List</h2>
+                    <div id="contexts_list">
+                    </div>
+                </div>
+                <div id="debuggerFrames">
+                    <div id="framesDiv">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="notifications">
+            <button>Enable Desktop Notification</button>
+        </div>
+        <div id="states">
+        </div>
+
+        <!--AUTHENTICATION DIALOG BEGIN-->
+
+        <div id="auth" class="hidden">
+            <table style="width:100%">
+                <tr>
+                    <td style="width:auto">
+                        Login :
+                    </td>
+                    <td>
+                        <input id="login" type="text"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width:auto">
+                        Password :
+                    </td>
+                    <td>
+                        <input id="password" type="password"/>
+                    </td>
+                </tr>
+            </table>
+            <br/>
+            <span id="errorMsg"></span> <a id="auth_submit">Send</a>
+        </div>
+
+        <!--AUTHENTICATION DIALOG END-->
+
+        <script type="text/template" id="serverStatusTemplate">
+            <span>Connection State:</span>
+            <span id="wakserv_state"><%= status %></span>; 
+
+            <span><%= solution ?  'Solution Name:': '' %></span>
+            <span id="wakserv_solution"><%= solution %></span>
+
+        </script>
+
+
+        <script type="text/template" id="contextItemTemplate">
+
+            <div class="context_head">
+            <a href="#" class="expand"></a>
+            <span class="fileName"><%= file %></span>,<span class="lineNumber"><%= line %></span>
+            <a href="#" class="abort_button"></a>
+            <span>#<%= id %></span>
+            </div>
+            <div class="context_body"><%= code %></div>
+
+        </script>
+
+
+        <script type = "text/javascript" src = "/walib/debugger/js/app/utils.js"></script>
+
+        <script type = "text/javascript" src = "/walib/debugger/js/app/models/server-status-model.js"></script>
+        <script type = "text/javascript" src = "/walib/debugger/js/app/models/context-item-model.js"></script>
+        <script type = "text/javascript" src = "/walib/debugger/js/app/collections/context-items.js"></script>
+
+
+        <script type = "text/javascript" src = "/walib/debugger/js/app/views/context-item-view.js"></script>
+        <script type = "text/javascript" src = "/walib/debugger/js/app/views/context-items-view.js"></script>
+        <script type = "text/javascript" src = "/walib/debugger/js/app/views/server-status-view.js"></script>
+        <script type = "text/javascript" src = "/walib/debugger/js/app/views/debugger-frame-view.js"></script>
+        <script type = "text/javascript" src = "/walib/debugger/js/app/views/chromium-view.js"></script>
+
+        <script type = "text/javascript" src = "/walib/debugger/js/app/wakanda-connection.js"></script>
+        <script type = "text/javascript" src = "/walib/debugger/js/app/views/main-view.js"></script>
+        <script type = "text/javascript" src = "/walib/debugger/js/app/views/notification.js"></script>
+        <script type = "text/javascript" src = "/walib/debugger/js/app/app.js"></script>
+    </body>
+
+</html>

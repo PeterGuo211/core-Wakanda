@@ -1,0 +1,1 @@
+/*** @author admin*/for (var i = 1; i < 100; i++){	var emp = new ds.Employees();	emp.name = "Employee_"+i;	emp.save();}

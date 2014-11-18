@@ -1,0 +1,1 @@
+﻿{"name":"BugComp/comp4.waComponent","version":"1.0.0","webComponent":"comp4.waComponent/comp4.js","loadDependencies":[{"id":"Widget/dataGrid","type":"widget"},{"id":"comp4.waComponent/comp4.html","path":"WEBFOLDER","type":"html"},{"id":"comp4.waComponent/comp4.css","path":"WEBFOLDER","type":"style"},{"id":"comp4.waComponent/comp4.js","path":"WEBFOLDER","type":"script"}]}

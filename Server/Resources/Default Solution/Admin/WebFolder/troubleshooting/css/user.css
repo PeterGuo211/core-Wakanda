@@ -1,0 +1,447 @@
+/**
+ * This file is part of Wakanda software, licensed by 4D under
+ *  (i) the GNU General Public License version 3 (GNU GPL v3), or
+ *  (ii) the Affero General Public License version 3 (AGPL v3) or
+ *  (iii) a commercial license.
+ * This file remains the exclusive property of 4D and/or its licensors
+ * and is protected by national and international legislations.
+ * In any event, Licensee's compliance with the terms and conditions
+ * of the applicable license constitutes a prerequisite to any use of this file.
+ * Except as otherwise expressly stated in the applicable license,
+ * such license does not include any other license or rights on this file,
+ * 4D's and/or its licensors' trademarks and/or other proprietary rights.
+ * Consequently, no title, copyright or other proprietary rights
+ * other than those specified in the applicable license is granted.
+ **/
+
+/**
+ * -------------------------------------------------------
+ * @section Main
+ * -------------------------------------------------------
+ */
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;    
+}
+
+ul, li {
+    list-style: none;
+}
+
+html {
+    min-height: 100%;
+    color: rgb(51, 51, 51);
+}
+
+body {
+    font-family: "Helvetica Neue", helvetica, "Trebuchet MS", arial, sans-serif;
+    font-size: 20px;
+
+    background-color: rgba(0, 0, 0, 0.15);
+    background-image: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,1)), color-stop(70%,rgba(255,255,255,0)));
+    background-image: -webkit-radial-gradient(center, circle cover,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 70%);
+    background-image:    -moz-radial-gradient(center, circle cover,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 70%);
+    background-image:     -ms-radial-gradient(center, circle cover,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 70%);
+    background-image:      -o-radial-gradient(center, circle cover,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 70%);
+    background-image:         radial-gradient(circle at center,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 70%);
+    
+    background-size: 1700px 1700px;
+    background-position: 50% -500px;
+    background-repeat: no-repeat;
+    
+    -webkit-transition: font-size 0.1s;
+       -moz-transition: font-size 0.1s;
+            transition: font-size 0.1s;
+}
+button {
+    font-family: inherit;
+}
+textarea {
+    font-family: "courier";
+}
+
+/**
+ * -------------------------------------------------------
+ * @section Container
+ * -------------------------------------------------------
+ */
+.container {
+    display: block;
+    width: 100%;
+   
+    margin: 0 auto;
+    padding: 1px 25px 0;
+}
+
+/**
+ * -------------------------------------------------------
+ * @section Header
+ * -------------------------------------------------------
+ */
+header {
+    width: 100%;
+    display: table;
+    
+    margin: 30px 0 15px;
+}
+
+header .cell {
+    display: table-cell;
+    vertical-align: middle;
+    
+    padding: 0 15px;
+}
+header h1 {
+    margin-bottom: 0.2em;
+    text-align: right;
+
+    color: #fff;
+    font-size: 1.2em;
+}
+header h2 {
+    text-align: right;
+
+    font-size: 0.7em;
+    font-weight: normal;
+    text-shadow: 0 0.07em #fff;
+}
+
+/**
+ * -------------------------------------------------------
+ * @section Content & cols
+ * -------------------------------------------------------
+ */
+.content {
+    position: relative;
+    display: block;
+    width: 100%;
+
+    margin-bottom: 3em;
+    
+    border-radius: 5px;
+    
+    background-color: #fff;
+    
+    /*
+    -webkit-transition-property: all;
+       -moz-transition-property: all;
+            transition-property: all;
+    
+    -webkit-transition-duration: 0.5s;
+       -moz-transition-duration: 0.5s;
+            transition-duration: 0.5s;    
+    */
+}
+.content:after {
+    content: '';
+    display: block;
+    
+    clear: both;
+}
+
+.content .sections {
+    position: relative;
+    
+    float: left;
+    width: 70%;
+    
+    /*
+    -webkit-transition: all 0.2s;
+       -moz-transition: all 0.2s;
+            transition: all 0.2s;
+    */
+    
+}
+.content .menu {
+    position: absolute;
+    width: 30%;    
+
+    top: 0;
+    right: 0;
+    
+    padding: 15px;
+    
+    /*
+    -webkit-transition: all 0.2s;
+       -moz-transition: all 0.2s;
+            transition: all 0.2s;
+    */
+}
+
+/**
+ * -------------------------------------------------------
+ * @section Nav
+ * -------------------------------------------------------
+ */
+.content .menu nav {
+    width: 100%;
+}
+.content .menu nav.affix {
+    background-color: #fff;
+}
+.content .menu nav ul li {
+    margin: 0 0 2px;
+    padding: 0.5em 15px;
+    
+    background-color: #f2f3f2;
+    font-weight: normal;
+    font-size: 0.8em;
+    text-align: right;
+    
+    opacity: 0.6;
+
+    /*
+    -webkit-transition: opacity 0.2s;
+       -moz-transition: opacity 0.2s;
+            transition: opacity 0.2s;
+    */
+}
+.content .menu nav ul li:hover {
+    opacity: 1;
+}
+.content .menu nav ul li.active,
+.content .menu nav ul li:hover {
+    opacity: 1;
+}
+.content .menu nav ul li a {
+    text-decoration: none;
+    color: #666;
+}
+.content .menu nav.affix {
+    position: fixed;
+    top: 0;
+    width: auto;
+}
+
+/**
+ * -------------------------------------------------------
+ * @section Sections
+ * -------------------------------------------------------
+ */
+.sections {
+    margin: 15px 0;
+    padding: 0 15px;
+    border-right: 1px solid #d6d6d6;
+    
+    background: #fff;
+}
+section {
+    padding: 15px;
+    
+    border-bottom: 1px solid #d6d6d6;
+    
+    background-color: #fff;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #eaecec), color-stop(1, #fff));
+    background-image: -webkit-linear-gradient(top, #eaecec 0%, #fff 100%);
+    background-image:    -moz-linear-gradient(top, #eaecec 0%, #fff 100%);
+    background-image:     -ms-linear-gradient(top, #eaecec 0%, #fff 100%);
+    background-image:      -o-linear-gradient(top, #eaecec 0%, #fff 100%);
+    background-image:         linear-gradient(top, #eaecec 0%, #fff 100%);
+    background-size: 100% 50px;
+    background-repeat: no-repeat;
+}
+section h3 {
+    margin-bottom: 10px;
+
+    text-align: left;
+    font-size: 1em;
+    
+    cursor: pointer;
+}
+section h3:after {
+    content:'+';
+    float:right;
+    
+    line-height: 0.6em;
+    font-size: 1.5em;
+}
+section h3.expanded:after {
+    content:'-';
+}
+section h3.expanded + div {
+    height: auto;
+    display: block;
+}
+section h3 + div {
+    overflow: hidden;
+    display: none;
+}
+section.expanded > div {
+    height: auto;
+}
+section ul {
+    margin-bottom: 10px;
+}
+section ul li {
+    width: 100%;
+    display: table;
+    
+    border-bottom: 1px dotted transparent;
+    
+    font-size: 0.7em;
+    line-height: 2;
+    color: rgb(102, 102, 102);
+    text-align: right;
+}
+section ul li:hover {
+    border-bottom-color: rgb(204, 204, 204);
+    background-color: rgba(204, 204, 204, 0.2);
+}
+section ul li strong {
+    display: table-cell;
+    padding: 0 7px;
+    text-align: left;
+}
+section ul li span {
+    display: table-cell;
+    
+    padding: 0 7px;
+    
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+
+#summary {
+    text-align: right;
+}
+#summary textarea {
+    width: 100%;
+    height: 250px;
+    
+    margin-bottom: 5px;
+    border: 1px solid #d6d6d6;
+    
+    resize: none;
+}
+#summary button {
+    padding: 5px 15px;
+    
+    border: 1px solid  #d6d6d6;
+    
+    background-color:  rgb(227, 227, 235);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fdfdfd), color-stop(1, #eaecec));
+    background-image: -webkit-linear-gradient(top, #fdfdfd 0%, #eaecec 100%);
+    background-image:    -moz-linear-gradient(top, #fdfdfd 0%, #eaecec 100%);
+    background-image:     -ms-linear-gradient(top, #fdfdfd 0%, #eaecec 100%);
+    background-image:      -o-linear-gradient(top, #fdfdfd 0%, #eaecec 100%);
+    background-image:         linear-gradient(top, #fdfdfd 0%, #eaecec 100%);
+    
+    font-weight: bold;
+    font-size: 0.75em;
+    
+    cursor: pointer;
+}
+#summary button:active {
+    background-color:  rgb(227, 227, 235);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #eaecec), color-stop(1, #fdfdfd));
+    background-image: -webkit-linear-gradient(top, #eaecec  0%, #fdfdfd 100%);
+    background-image:    -moz-linear-gradient(top, #eaecec  0%, #fdfdfd 100%);
+    background-image:     -ms-linear-gradient(top, #eaecec  0%, #fdfdfd 100%);
+    background-image:      -o-linear-gradient(top, #eaecec  0%, #fdfdfd 100%);
+    background-image:         linear-gradient(top, #eaecec  0%, #fdfdfd 100%);
+    
+    cursor: pointer;
+}
+
+/**
+ * -------------------------------------------------------
+ * @section Media Queries
+ * -------------------------------------------------------
+ */
+
+/* Fonts */
+@media screen and (max-width: 450px) {
+    body {
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 450px) and (max-width: 550px) {
+    body {
+        font-size: 17px;
+    }
+}
+@media screen and (min-width: 550px) and (max-width: 600px) {
+    body {
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    header .cell h1:before {
+        content: 'Wakanda ';
+    }
+    header .cell img {
+        display: none;
+    }
+}
+
+/* General */
+@media screen and (max-width: 995px) {
+    .container {
+        padding: 1px 0;
+    }
+    .content {
+        margin-bottom: 0;
+        border-radius: 0;
+    }
+}
+/* Max Width and Nav Bar */
+@media screen and (max-width: 1050px) {
+    .content {
+        padding-bottom: 3em;
+    }
+    .content .menu {
+        padding: 0;
+        left: 0;
+        width: auto;
+    }
+    .content .menu nav {
+        width: 100%;
+        padding: 1em 0;
+      
+    }
+    .content .menu nav.affix {
+        width: auto;
+        right: 0;
+        left: 0;
+        border-bottom: 1px solid #d6d6d6;
+    }
+    .content .menu nav ul {
+        width: -webkit-fit-content;
+        width:    -moz-fit-content;
+        width:         fit-content;
+        margin: auto;        
+    }
+    .content .menu nav ul li {
+        display: block;
+        float: left;
+        
+        margin: 0 2px 0 0;
+    }
+    .content .sections {
+        width: 100%;
+        
+        top: 3em;
+        
+        border-right-width: 0;
+    }    
+    
+}
+@media screen and (min-width: 1050px) {
+    .container {
+        width: 1050px;
+    }
+    .content nav ul {
+        width: 270px;
+    }
+}
+@media screen and (min-width: 995px) and (max-width: 1050px) {
+    .content .menu nav.affix {
+       right: 25px;
+       left: 25px;
+       width: auto;
+    }
+}

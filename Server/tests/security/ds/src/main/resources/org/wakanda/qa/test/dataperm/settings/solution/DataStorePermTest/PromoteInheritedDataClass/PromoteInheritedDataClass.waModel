@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><EntityModelCatalog>
+
+<dbInfo name="PromoteInheritedDataClass" uuid="DEB2380315EE8E47AF7052ECFC4FADBC"/>
+
+<dataClasses name="PromoteInheritedDataClassCreate" className="PromoteInheritedDataClassCreate" collectionName="PromoteInheritedDataClassCreateCollection" scope="public" uuid="B0AB6FFC9436B94FAFD84FA6B4D6B10B" tablePos="2">
+
+	<extraProperties ____objectunic="true" panelColor="#fff">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="false">
+
+			<position ____objectunic="true" X="325" Y="20"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" uuid="572159AC313FAA43B145626F6A5F77C6" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<attributes name="name" kind="storage" scope="public" uuid="F922938AB9579D41BB65F519AE247B92" fieldPos="2" type="string"/>
+
+	<methods name="promoteInheritedDataClassCreate" applyTo="dataClass" scope="public" from="guidedModel.PromoteInheritedDataClassCreate.methods.promoteInheritedDataClassCreate"/>
+
+</dataClasses>
+
+<dataClasses name="PromoteInheritedDataClassRead" className="PromoteInheritedDataClassRead" collectionName="PromoteInheritedDataClassReadCollection" scope="public" uuid="5641C45B7CFF9248A3184CA4683744CC" tablePos="1">
+
+	<extraProperties ____objectunic="true" panelColor="#B2A2C7">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="false">
+
+			<position ____objectunic="true" X="25" Y="20"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" uuid="2CDD9EC45BF74A46A69572E0865F2FDA" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<methods name="promoteInheritedDataClassRead" applyTo="dataClass" scope="public" from="guidedModel.PromoteInheritedDataClassRead.methods.promoteInheritedDataClassRead"/>
+
+</dataClasses>
+
+<dataClasses name="PromoteInheritedDataClassRemove" className="PromoteInheritedDataClassRemove" collectionName="PromoteInheritedDataClassRemoveCollection" scope="public" uuid="345D50106ECD754C937487CBB138FA5E" tablePos="4">
+
+	<extraProperties ____objectunic="true" panelColor="#B2A2C7">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="false">
+
+			<position ____objectunic="true" X="350" Y="173"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" uuid="7BEA529D62693845BF6B16875CF00E9B" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<attributes name="name" kind="storage" scope="public" uuid="7F8911DD1DAD214A88E1441C3CCA162C" fieldPos="2" type="string"/>
+
+	<methods name="promoteInheritedDataClassRemove" applyTo="dataClass" scope="public" from="guidedModel.PromoteInheritedDataClassRemove.methods.promoteInheritedDataClassRemove"/>
+
+</dataClasses>
+
+<dataClasses name="PromoteInheritedDataClassUpdate" className="PromoteInheritedDataClassUpdate" collectionName="PromoteInheritedDataClassUpdateCollection" scope="public" uuid="3B002918253D804E8F306B7120E59962" tablePos="3">
+
+	<extraProperties ____objectunic="true" panelColor="#996699">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="false">
+
+			<position ____objectunic="true" X="25" Y="170"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" uuid="304C738F514B3B42ABBA8A7926FA091F" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<attributes name="name" kind="storage" scope="public" uuid="CBF6C44C9E576440B306FA1832318E43" fieldPos="2" type="string"/>
+
+	<methods name="promoteInheritedDataClassUpdate" applyTo="dataClass" scope="public" from="guidedModel.PromoteInheritedDataClassUpdate.methods.promoteInheritedDataClassUpdate"/>
+
+</dataClasses>
+</EntityModelCatalog>

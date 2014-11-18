@@ -1,0 +1,535 @@
+/*
+* This file is part of Wakanda software, licensed by 4D under
+*  (i) the GNU General Public License version 3 (GNU GPL v3), or
+*  (ii) the Affero General Public License version 3 (AGPL v3) or
+*  (iii) a commercial license.
+* This file remains the exclusive property of 4D and/or its licensors
+* and is protected by national and international legislations.
+* In any event, Licensee's compliance with the terms and conditions
+* of the applicable license constitutes a prerequisite to any use of this file.
+* Except as otherwise expressly stated in the applicable license,
+* such license does not include any other license or rights on this file,
+* 4D's and/or its licensors' trademarks and/or other proprietary rights.
+* Consequently, no title, copyright or other proprietary rights
+* other than those specified in the applicable license is granted.
+*/
+#dataClassContentTable {
+	
+/*	margin-top : 5px;*/
+	width : 100%;
+	overflow-y: auto;
+}
+
+.ui-widget .dataBrowser_error {
+	color : red;
+	font-size : 14px;
+	text-align : center;
+	vertical-align: middle;
+}
+
+.waf-login-dialog{
+	z-index: 9999999 !important;
+}
+
+.dataBrowser_error .ui-dialog-titlebar-close{
+    display: none;
+}
+
+#dataClassContentTable tbody {
+	overflow-y: auto;
+}
+
+#dataClassContentTable tbody tr.entityModels td {
+	padding : 5px;
+}
+
+.datastore-classes-head {
+	height: 25px;
+	padding: 15px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#F5F5F5), color-stop(0.6, #E5E5E5), to(#D5D5D5));
+	background: -moz-linear-gradient(top, #F5F5F5, #E5E5E5, #D5D5D5);
+	background: -ms-linear-gradient(top, #F5F5F5, #E5E5E5, #D5D5D5);
+	background: -o-linear-gradient(top, #F5F5F5, #E5E5E5, #D5D5D5);
+	background: linear-gradient(top, #F5F5F5, #E5E5E5, #D5D5D5);
+}
+
+#toolbar_dataBrowser li {
+	height: 50px;
+	padding : 10px;
+	font-size: 11px;
+}
+
+#dataClassContentTable tbody tr,
+#dataBrowserOpenWindowLabel {
+	
+	cursor : pointer;
+}
+
+#dataBrowserOpenWindow {
+	display : none;
+}
+
+#databrowser_tabview {
+	padding-top : 60px;
+}
+
+.line-contexted,
+.line-hover {
+	
+	background: -webkit-gradient(linear, left top, left bottom, from(#e8f2ff), color-stop(0.6, #dfedff), to(#cbe2ff));
+	background: -moz-linear-gradient(top, #e8f2ff, #dfedff, #cbe2ff);
+	background: -ms-linear-gradient(top, #e8f2ff, #dfedff, #cbe2ff);
+	background: -o-linear-gradient(top, #e8f2ff, #dfedff, #cbe2ff);
+	background: linear-gradient(top, #e8f2ff, #dfedff, #cbe2ff);
+}
+
+.dataBrowser-tabView-container {
+	display : table-caption;
+}
+
+.ui-widget .dataBrowser-dialog-container {
+	width: 100%;
+	font-size: 11px;
+	position : relative;
+	top : 0px;
+	left : 0px;
+	right : 0px;
+	bottom : 0px;
+}
+
+html .ui-widget * {
+	font-size: 11px;
+}
+
+.ui-dialog {
+	position: absolute;
+	padding: 0;
+	width: 300px;
+	overflow: hidden;
+}
+
+.ui-dialog-content.ui-dialog
+{
+	padding: 0 0 0 0;
+}
+
+.ui-dialog-content.ui-dialog .ui-dialog-content 
+{
+	padding: 0 0 0 0;
+	overflow:hidden;
+}
+
+.ui-dialog-content.ui-widget
+{
+	font-size:11px;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+.ui-dialog-content.ui-widget-content {
+	margin : 0px;
+	overflow: hidden;
+}
+
+.ui-dialog .ui-dialog-title {
+	font-weight : bold;
+	float : none;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+	padding: 0px;
+	text-align: center;
+	font-size : 14px;
+	height: 20px;
+}
+
+.line-selected {
+	border-color: #af4500;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ffa669));
+	background: -moz-linear-gradient(top, #fff, #ffa669);
+	background: -ms-linear-gradient(top, #fff, #ffa669);
+	background: -o-linear-gradient(top, #fff, #ffa669);
+	background: linear-gradient(top, #fff, #ffa669);
+}
+
+/* query content */
+.dataBrowser-query {
+	height: 50px;
+	padding : 5px;
+	width : 100%;
+}
+.dataBrowser-tabView-container .dataBrowser-query {
+	z-index: 1;
+	position : absolute;
+}
+
+.dataBrowser-query-label {
+	position : absolute;
+	top : 7px;
+	left : 5px;
+	vertical-align : middle;
+	padding : 8px 10px;
+	height: 50px;
+	min-height: 40px;
+	margin-right: 5px;
+	width : auto;
+	font-weight : bold;
+}
+
+.dataBrowser-tabView-container .dataBrowser-query-label {
+	
+}
+.ui-widget .dataBrowser-query-label {
+	font-weight : bold;
+}
+
+.dataBrowser-query-input {
+	-webkit-box-shadow: rgba(255, 255, 255, 0) 0px 0px 0px 0px inset;
+	-moz-box-shadow: rgba(255, 255, 255, 0) 0px 0px 0px 0px inset;
+	box-shadow: rgba(255, 255, 255, 0) 0px 0px 0px 0px inset;
+	height: 100%;
+	max-height : 40px;
+	min-height: 35px;
+	margin-right: 5px;
+	width : 100%;
+	border : 0px;
+	padding-left : 50px;
+	padding-right : 85px;
+	color : black !important;
+}
+
+.dataBrowser-tabView-container.dataBrowser-query-input {
+	
+}
+
+.dataBrowser-query-button {
+	background-image: url("/walib/dataBrowser/images/query.png");
+	background-repeat : no-repeat;
+	background-position: center;
+	background-color : transparent;
+	border : 0;
+	width: 40px;
+	min-width: 40px;
+	height : 50px;
+	min-height: 40px;
+	padding : 10px 5px;
+	position : absolute;
+	top : 0px;
+	right : 50px;
+}
+
+.dataBrowser-tabView-container.dataBrowser-query-button {
+	
+}
+
+.dataBrowser-query-button:hover {
+	background-image: url("/walib/dataBrowser/images/query-over.png");	
+}
+
+.dataBrowser-query-reset-button {
+	background-image: url("/walib/dataBrowser/images/action_remove.png");
+	background-repeat : no-repeat;
+	background-position: center;
+	background-color : transparent;
+	border : 0;
+	width: 16px;
+	min-width: 16px;
+	height : 50px;
+	min-height: 40px;
+	padding : 10px 5px;
+	position : absolute;
+	top : 0px;
+	right : 37px;
+}
+
+.dataBrowser-query-refresh-button {
+	background-image: url("/walib/dataBrowser/images/refresh.png");
+	background-repeat : no-repeat;
+	background-position: center;
+	background-color : transparent;
+	border : 0;
+	width: 30px;
+	min-width: 25px;
+	height : 50px;
+	min-height: 40px;
+	padding : 10px 5px;
+	position : absolute;
+	top : 0px;
+	right : 8px;
+}
+
+.dataBrowser-tabView-container .dataBrowser-query-reset-button {
+	
+}
+/* end query content */
+
+/* data content */
+.dataBrowser-dataContainer {
+	top : 0px;
+	position: relative;
+	width : 100%;
+	height: 100%;
+}
+
+.dataBrowser-tabView-container .dataBrowser-dataContainer {
+	position: absolute;
+	padding-top: 50px;
+}
+
+.dataBrowser-grid {
+	position: relative;
+	top : 0px;
+	height: 100%;
+}
+
+
+.dataBrowser-splitter {
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: rgb(174, 174, 174);
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: rgb(174, 174, 174);
+	width: 5px;
+	height : 100%;
+	top: 50px;
+	position : relative;
+	float : left;
+	cursor: col-resize;
+	z-index: auto;
+}
+
+.dataBrowser-autoForm {
+	top : 0px;
+	right : 0px;
+	height: 100%;
+	overflow: auto;
+	position : absolute;
+}
+
+.dataBrowser-autoForm-dialog {
+	left : 0px;
+	width : 100%;
+}
+
+.dataBrowser-autoForm-tabView {
+	width : 50%;
+	padding-top: 50px;
+}
+
+.dataBrowser-autoForm .dataBrowser-autoForm-container {
+	width: 100%;
+	height: 100%;
+	padding-left : 5px;
+}
+
+.dataBrowser-dataTips {
+	position : fixed;
+	background-color : white;
+	border : 1px solid gray;
+	border-radius: 5px 5px;
+	-moz-border-radius: 5px 5px;
+	padding : 5px;
+}
+
+.related-element-link-header,
+.related-element-link {
+	float:left;
+	width: 100%;
+}
+
+
+.related-element-link-header {
+	border-bottom : 1px solid black;
+}
+
+.related-element-link {
+	padding : 5px 10px;
+	cursor: pointer;
+}
+.related-element-link-disabled {
+	background-color : gray;
+	color : silver;
+	cursor: default;
+}
+
+.dataBrowser-active-button,
+.dataBrowser-active-button.waf-state-hover {
+	background-image: -webkit-linear-gradient(bottom, hsla(0, 0%, 0%, 0) 0%, hsla(0, 0%, 0%, 0) 68%, hsla(0, 0%, 0%, 0.3) 100%);
+	background-image: -moz-linear-gradient(bottom, hsla(0, 0%, 0%, 0) 0%, hsla(0, 0%, 0%, 0) 68%, hsla(0, 0%, 0%, 0.3) 100%);
+	background-image: -ms-linear-gradient(bottom, hsla(0, 0%, 0%, 0) 0%, hsla(0, 0%, 0%, 0) 68%, hsla(0, 0%, 0%, 0.3) 100%);
+	background-image: -o-linear-gradient(bottom, hsla(0, 0%, 0%, 0) 0%, hsla(0, 0%, 0%, 0) 68%, hsla(0, 0%, 0%, 0.3) 100%);
+	background-image: linear-gradient(bottom, hsla(0, 0%, 0%, 0) 0%, hsla(0, 0%, 0%, 0) 68%, hsla(0, 0%, 0%, 0.3) 100%);
+}
+
+.waf-widget.waf-menuItem.dataBrowser-active-button {
+	background-image: -webkit-linear-gradient(bottom, hsla(0, 0%, 0%, 0) 0%, hsla(0, 0%, 0%, 0) 68%, hsla(0, 0%, 0%, 0.3) 100%);
+	background-image: -moz-linear-gradient(bottom, hsla(0, 0%, 0%, 0) 0%, hsla(0, 0%, 0%, 0) 68%, hsla(0, 0%, 0%, 0.3) 100%);
+	background-image: -ms-linear-gradient(bottom, hsla(0, 0%, 0%, 0) 0%, hsla(0, 0%, 0%, 0) 68%, hsla(0, 0%, 0%, 0.3) 100%);
+	background-image: -o-linear-gradient(bottom, hsla(0, 0%, 0%, 0) 0%, hsla(0, 0%, 0%, 0) 68%, hsla(0, 0%, 0%, 0.3) 100%);
+	background-image: linear-gradient(bottom, hsla(0, 0%, 0%, 0) 0%, hsla(0, 0%, 0%, 0) 68%, hsla(0, 0%, 0%, 0.3) 100%);
+	color : white;
+	background-color: #009FC7;
+}
+
+#dataBrowserExportDataClass {
+	background-image: url("/walib/dataBrowser/images/exportDataEm24.png");
+	background-repeat: no-repeat;
+	background-position: center right;
+	padding-right: 24px !important;
+}
+
+#dataBrowserExportDataClass:hover {
+	background-image: url("/walib/dataBrowser/images/exportDataEm24Hover.png");
+}
+
+#dataBrowserImportDataClass {
+	background-image: url("/walib/dataBrowser/images/importDataEm24.png");
+	background-repeat: no-repeat;
+	background-position: center right;
+	padding-right: 24px !important;
+}
+
+#dataBrowserImportDataClass:hover {
+	background-image: url("/walib/dataBrowser/images/importDataEm24Hover.png");
+}
+
+.dataBrowser-exportTips {
+	position : absolute;
+	background-color : white;
+	border : 1px solid #737373;
+	border-radius: 5px 5px;
+	-moz-border-radius: 5px 5px;
+	padding : 5px;
+	color : #737373;
+	font-size: 11px;
+	z-index: 10000000;
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: bold;
+}
+
+#dataBrowserChangeStyle {
+	float: right;
+}
+
+#tabToWindowDraggingDiv {
+	width : 600px;
+	height : 400px;
+	border : 2px dashed gray;
+	position: absolute;
+	z-index: 999999;
+}
+#menuBarTabView {
+	z-index: 1;
+	width: 100%;
+}
+
+/*.colPrev{
+    height:10px;
+    width:10px;
+    float:left;
+    margin-left:4px;
+    border: 1px solid #999;
+    background-color:#eee;
+    margin-top:4px;
+    margin-right : 5px;
+    position : relative;
+    top : -3px;
+}*/
+.data-browser-permission-error-message {
+	color : red !important;
+	padding : 5px;
+}
+
+.data-browser-permission-error-message p {
+	text-align : center;
+}
+
+/**
+ * 	TODO : remove when tabview style is finished
+ */
+.default .waf-menuItem-level-0 {
+	font-size: 11px;
+}
+
+#confirmExportDialogContent {
+	font-size: 11px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#confirmExportDialog {
+	padding: 5px 0 0 0;
+}
+
+.ui-dialog .ui-dialog-buttonpane {
+	margin: 5px 0 0 0;
+	padding: 0 0em 0em 0em;
+}
+
+#dataBrowser_error_dialog {
+	width: 100%;
+	height: 100%;
+	text-align : center;
+	vertical-align : middle;
+	color : black;
+	background-color : white;
+	font-size: 16px;
+	padding : 50px;
+}
+
+#dataBrowserLoding {
+	background-image: url('/walib/dataBrowser/images/loading.gif');
+	background-color: rgb(229, 229, 229);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	
+	z-index: 999999;
+}
+
+#dataClassContextMenuBg {
+	position : fixed;
+	background-color : transparent;
+	z-index: 999999;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+#dataClassContextMenuContainer {
+	position : fixed;
+	background-color : white;
+	border : 1px solid gray;
+	width: auto;
+	border-radius: 5px 5px;
+	-moz-border-radius: 5px 5px;
+	padding : 5px 0px 5px 5px;
+	z-index: 999999;
+}
+
+.context-menu-header,
+.context-menu-item {
+	float:left;
+	width: 100%;
+}
+
+.context-menu-header {
+	border-bottom : 1px solid black;
+	cursor: default;
+}
+
+.context-menu-item {
+	padding : 5px 5px;
+	cursor: pointer;
+}
+
+.context-menu-item.hover,
+.related-element-link.hover {
+	background-color: rgb(229, 229, 229);
+}

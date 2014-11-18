@@ -1,0 +1,1 @@
+﻿var path = getFolder().path;require('unitTest').run(path+"test2.js").getReport();

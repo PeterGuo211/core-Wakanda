@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><permissions>
+<allow action="read" groupID="0FFE0664C717154D95B45F5071490A62" resource="ForceRead" temporaryForcePermissions="true" type="model"/>
+<allow action="read" groupID="A5AFEC032F2E904EA6F28AE2829D0AB3" resource="ForceRead.ForceRead" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="update" groupName="Update" groupID="60EE5734426C794EAF4E7D092AB53C76" resource="ForceRead.ForceRead" temporaryForcePermissions="false" type="dataClass"/>
+<allow action="remove" groupName="Remove" groupID="64272E2C4F0DD54882CB8856E946D1AA" resource="ForceRead.ForceRead" temporaryForcePermissions="false" type="dataClass"/>
+</permissions>

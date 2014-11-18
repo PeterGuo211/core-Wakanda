@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><permissions>
+<allow action="execute" groupID="DDB413384BBAC345AE6FBC7203497783" resource="ForceExecuteDataClass.ForceExecuteDataClass" temporaryForcePermissions="true" type="dataClass"/>
+<allow action="execute" groupID="3D81E23FA45D3545970CD8C0144A15D0" resource="ForceExecuteDataClass.ForceExecuteDataClass.secured" temporaryForcePermissions="false" type="method"/>
+</permissions>

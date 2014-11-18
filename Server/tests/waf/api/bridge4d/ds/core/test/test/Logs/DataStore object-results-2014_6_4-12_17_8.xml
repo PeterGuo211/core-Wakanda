@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites success="100%" time="105" name="yuitests1401880628101" hostname="127.0.0.1:8081" href="http://127.0.0.1:8081/testClient?path=c:\Users\SoufianeT\Perforce\WS_Soufiane_Windows\depot\Wakanda\main\Server\tests\waf\api\bridge4d\dp\core\test\test1DPSourceObject.js" passed="2" failures="0" skipped="0" tests="2">
+    <testsuite name="DataStore object" href="http://127.0.0.1:8081/testClient?path=c:\Users\SoufianeT\Perforce\WS_Soufiane_Windows\depot\Wakanda\main\Server\tests\waf\api\bridge4d\dp\core\test\test1DPSourceObject.js#DataStore object" passed="2" failures="0" skipped="0" tests="2">
+        <testcase name="testDSObjectExists" href="http://127.0.0.1:8081/testClient?path=c:\Users\SoufianeT\Perforce\WS_Soufiane_Windows\depot\Wakanda\main\Server\tests\waf\api\bridge4d\dp\core\test\test1DPSourceObject.js#testDSObjectExists" passed="true" time="14">
+            <success message="Test passed"><![CDATA[Test passed]]></success>
+        </testcase>
+        <testcase name="testDSObjectValue" href="http://127.0.0.1:8081/testClient?path=c:\Users\SoufianeT\Perforce\WS_Soufiane_Windows\depot\Wakanda\main\Server\tests\waf\api\bridge4d\dp\core\test\test1DPSourceObject.js#testDSObjectValue" passed="true" time="0">
+            <success message="Test passed"><![CDATA[Test passed]]></success>
+        </testcase>
+    </testsuite>
+</testsuites>

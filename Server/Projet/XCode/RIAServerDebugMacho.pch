@@ -1,0 +1,15 @@
+#pragma precompile_target "RIAServerDebugMacho"
+
+#define VERSION_MACHO	1
+#define VERSION_CARBON	1
+#define VERSIONDEBUG	1
+
+#ifndef RIA_SERVER
+#define RIA_SERVER		1
+#endif
+
+// must be defined as we use FrameWork-includes
+#define __CF_USE_FRAMEWORK_INCLUDES__ 1
+
+#include "headers4d.h"
+

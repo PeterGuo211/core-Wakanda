@@ -1,0 +1,8 @@
+{
+    "description": "Tests of the dataStore Maintenance Methods API",
+    "kind": "ssjs",
+    "tester": "geoffrey.beauny@4d.com",
+    "visibility": "public",
+    "developer": "lr@4d.com",
+	"stable": true
+}

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><EntityModelCatalog>
+
+<dbInfo name="ForceRead" uuid="DEB2380315EE8E47AF7052ECFC4FADBC"/>
+
+<dataClasses name="ForceRead" className="ForceRead" collectionName="ForceReadCollection" scope="public" uuid="41B1E1E0B9C8EE45834EFA1DBCA3C442" tablePos="1">
+
+	<extraProperties ____objectunic="true" panelColor="#8DB3E2">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="25" Y="20"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" uuid="2B2A6B307BD1CE42B22324012F335C58" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<attributes name="name" kind="storage" scope="public" uuid="7A2BD5A4668CDC409FF412B0DAE3C667" fieldPos="2" type="string"/>
+
+</dataClasses>
+</EntityModelCatalog>

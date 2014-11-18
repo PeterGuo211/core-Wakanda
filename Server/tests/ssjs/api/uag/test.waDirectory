@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><directory>
+
+<user name="default" ID="918F70E95AF9EC42A4A6E08A76F37113" fullName="Default user" password="ae88412831d12195b26dfabfe4b5572c"/>
+
+<user name="userFilter1" ID="1092D76D04DED84BBF761BD2312BE140" fullName="" password=""/>
+
+<user name="userFilter2" ID="D77BB7A86C990A4AB0B3A7730801485C" fullName="" password=""/>
+
+<user name="userFilter3" ID="24B20582DF76D74E9BAC2E3406165280" fullName="" password=""/>
+
+<user name="check-parents" ID="2DBF9112F21EA148BD41C2A9BB952251" fullName="" password=""/>
+
+<user name="check-putinto-1" ID="C3253F654B51514693E762DC7F4FAE3B" fullName="" password=""/>
+
+<user name="check-removefrom-1" ID="CAAFBD7AF5500746BEC4D785AB792383" fullName="" password=""/>
+
+<user name="check-remove" ID="40FDE8E4D2071149B19E75CB84ED2030" fullName="" password=""/>
+
+<user name="check-putinto-2" ID="53EB9FC3DF520349AE876113619A1C95" fullName="" password=""/>
+
+<user name="check-removefrom-2" ID="DE44CE338D878D478FF7F8A9B150B27F" fullName="" password=""/>
+
+<user name="check-removefrom-3" ID="638CB8956CA2AA4EA2A58E111428F6C7" fullName="" password=""/>
+
+<user name="change-password" ID="C67926CD33341048B10E376B1A493BC6" fullName="" password="dfb9fe910afd49a39ccd05eb802676dd"/>
+
+<user ID="18ACBC5D5E99714A9EBF5C9D8FDAAEDE" name="user-parent-1" fullName=""/>
+
+<user ID="B4058A1C8B1BD94DA9E71BECBC68F9A1" name="user-parent-2-filter*" fullName=""/>
+
+<user ID="18DB6A506445C044B636DF3967941C37" name="user-child-1.1-1" fullName=""/>
+
+<user ID="D4CCABFDC56594408348EBCFC8345564" name="user-child-1.2-1" fullName=""/>
+
+<user ID="F749E8EB996CEE498E73E9AF113F62F2" name="user-child-1.1-2-filter*" fullName=""/>
+
+<user ID="C429F8E327EF814999F6927E884A2103" name="user-child-2.1-1" fullName=""/>
+
+<user ID="9D4685AB798CB54CBA3A35808B609F3A" name="user-child-2.2-1-filter*" fullName=""/>
+
+<user ID="BBFAFF7C34C5BB48B2C8C92AD082F696" name="user-child-3.1-1" fullName=""/>
+
+<user ID="6656EFDE23EAA240919607129F40C359" name="user-child-3.1-2-filter*" fullName=""/>
+
+<user ID="F8C9C928EE193E4CA74471C673FB7848" name="promotewith-higher" fullName="To check when  session.promoteWith() returns 0"/>
+
+<group name="Admin" ID="01000000000000000000000000000000" fullName="Admin"/>
+
+<group name="Debugger" ID="02000000000000000000000000000000" fullName="Debugger"/>
+
+<group name="GroupFilter1" ID="83D9074C9AC41948B4265A8B52FD9EE6" fullName="GroupFilter1"/>
+
+<group name="GroupFilter2" ID="AFC2648008ACD34A8D14ED8A419E7BD5" fullName="GroupFilter2"/>
+
+<group name="GroupFilter3" ID="1C7501B13C28594D9ADF3DEF14C2569E" fullName="GroupFilter3"/>
+
+<group name="Default" ID="FD208032751A944D9A36D8BF1DCD7134" fullName="Default">
+
+	<include user="default" userID="918F70E95AF9EC42A4A6E08A76F37113"/>
+</group>
+
+<group name="Level-1.1" ID="B240BEDD438196478C7C235B8D04132F" fullName="Level-1.1">
+
+	<include user="check-parents" userID="2DBF9112F21EA148BD41C2A9BB952251"/>
+</group>
+
+<group name="Level-Filter-1.2" ID="52EF76B0B79D5D43A4C457D241466B7C" fullName="Level-Filter-1.2">
+
+	<include user="check-parents" userID="2DBF9112F21EA148BD41C2A9BB952251"/>
+</group>
+
+<group name="Level-1.3" ID="B5B3FE898CA3A940B7F69C501A0D9D5B" fullName="Level-1.3">
+
+	<include user="check-parents" userID="2DBF9112F21EA148BD41C2A9BB952251"/>
+</group>
+
+<group name="Level-2.1" ID="AEAC9CAEC81F634B973B2EEA69292C7C" fullName="Level-2.1">
+
+	<include group="Level-1.1" groupID="B240BEDD438196478C7C235B8D04132F"/>
+</group>
+
+<group name="Level-2.2" ID="DE8488729CB851408777E241D33E3113" fullName="Level-2.2">
+
+	<include group="Level-Filter-1.2" groupID="52EF76B0B79D5D43A4C457D241466B7C"/>
+</group>
+
+<group name="Level-3.1" ID="EB2F520B61BEBE44BF5B9589422DFA13" fullName="Level-3.1">
+
+	<include group="Level-2.1" groupID="AEAC9CAEC81F634B973B2EEA69292C7C"/>
+</group>
+
+<group name="Level-Filter-1.4" ID="1BE82203957F1D4CB70270F77710FF74" fullName="Level-Filter-1.4">
+
+	<include user="check-parents" userID="2DBF9112F21EA148BD41C2A9BB952251"/>
+</group>
+
+<group name="Level-Filter-2.3" ID="3488823CC1B2864FA4ED7A1C8B882AC9" fullName="Level-Filter-2.3">
+
+	<include group="Level-1.3" groupID="B5B3FE898CA3A940B7F69C501A0D9D5B"/>
+
+	<include group="Level-Filter-1.4" groupID="1BE82203957F1D4CB70270F77710FF74"/>
+</group>
+
+<group name="Level-Filter-3.2" ID="78069F4EBF72F9458CC17108FE59D645" fullName="Level-Filter-3.2">
+
+	<include group="Level-2.2" groupID="DE8488729CB851408777E241D33E3113"/>
+</group>
+
+<group name="Check-PutInto-1" ID="5BEBF3BC6FDFC444892C349E88A5FC7B" fullName="Check-PutInto-1"/>
+
+<group name="Check-PutInto-2" ID="17FDF7B3FA75654A93D040A1C6A0D6BC" fullName="Check-PutInto-2"/>
+
+<group name="Check-PutInto-3" ID="CDCA8AE76DF53B4BA82CCEC5E89783BB" fullName="Check-PutInto-3"/>
+
+<group name="Check-RemoveFrom-1" ID="C82A92C517CA8948A59C11E245A6E17A" fullName="Check-RemoveFrom-1">
+
+	<include user="check-removefrom-1" userID="CAAFBD7AF5500746BEC4D785AB792383"/>
+
+	<include user="check-removefrom-2" userID="DE44CE338D878D478FF7F8A9B150B27F"/>
+
+	<include user="check-removefrom-3" userID="638CB8956CA2AA4EA2A58E111428F6C7"/>
+
+	<include group="ToRemoveFrom-1" groupID="46AFEB45239A974D8863C3F93A5F89FC"/>
+
+	<include group="ToRemoveFrom-2" groupID="78A5F3AF54F8D644A4BBC6ECA19EF927"/>
+
+	<include group="ToRemoveFrom-3" groupID="E2CE5C06C24FDE43A22E73C3CCF83AE9"/>
+</group>
+
+<group name="Check-RemoveFrom-2" ID="4D5B3648774F2946ABBBD2EC7861A796" fullName="Check-RemoveFrom-2">
+
+	<include user="check-removefrom-1" userID="CAAFBD7AF5500746BEC4D785AB792383"/>
+
+	<include user="check-removefrom-2" userID="DE44CE338D878D478FF7F8A9B150B27F"/>
+
+	<include user="check-removefrom-3" userID="638CB8956CA2AA4EA2A58E111428F6C7"/>
+
+	<include group="ToRemoveFrom-1" groupID="46AFEB45239A974D8863C3F93A5F89FC"/>
+
+	<include group="ToRemoveFrom-2" groupID="78A5F3AF54F8D644A4BBC6ECA19EF927"/>
+
+	<include group="ToRemoveFrom-3" groupID="E2CE5C06C24FDE43A22E73C3CCF83AE9"/>
+</group>
+
+<group name="Check-RemoveFrom-3" ID="776A731A38AE524AB43A04C0BCD0E57F" fullName="Check-RemoveFrom-3">
+
+	<include user="check-removefrom-1" userID="CAAFBD7AF5500746BEC4D785AB792383"/>
+
+	<include user="check-removefrom-2" userID="DE44CE338D878D478FF7F8A9B150B27F"/>
+
+	<include user="check-removefrom-3" userID="638CB8956CA2AA4EA2A58E111428F6C7"/>
+
+	<include group="ToRemoveFrom-1" groupID="46AFEB45239A974D8863C3F93A5F89FC"/>
+
+	<include group="ToRemoveFrom-2" groupID="78A5F3AF54F8D644A4BBC6ECA19EF927"/>
+
+	<include group="ToRemoveFrom-3" groupID="E2CE5C06C24FDE43A22E73C3CCF83AE9"/>
+</group>
+
+<group name="Check-PutInto-4" ID="9C2FFD0327294642BB819DC204B02903" fullName="Check-PutInto-4"/>
+
+<group name="Check-PutInto-5" ID="A7B819697FF53F41A490A53FD788BFA7" fullName="Check-PutInto-5"/>
+
+<group name="Check-PutInto-6" ID="B463000BE4BBB34A84719223F1C42294" fullName="Check-PutInto-6"/>
+
+<group name="Check-RemoveFrom-4" ID="67EE27A08EAB9842A1A16E1E4B0705E0" fullName="Check-RemoveFrom-4">
+
+	<include user="check-removefrom-2" userID="DE44CE338D878D478FF7F8A9B150B27F"/>
+
+	<include user="check-removefrom-3" userID="638CB8956CA2AA4EA2A58E111428F6C7"/>
+
+	<include group="ToRemoveFrom-2" groupID="78A5F3AF54F8D644A4BBC6ECA19EF927"/>
+
+	<include group="ToRemoveFrom-3" groupID="E2CE5C06C24FDE43A22E73C3CCF83AE9"/>
+</group>
+
+<group name="Check-RemoveFrom-5" ID="53D10A627988DF4691B0866EEF55BF55" fullName="Check-RemoveFrom-5"/>
+
+<group name="Check-RemoveFrom-6" ID="BD58194D6E554D4EAB49BB289798C171" fullName="Check-RemoveFrom-6"/>
+
+<group ID="2AD386806AEA7D4184030E25DACF13FF" name="Child-Filter-1.4"/>
+
+<group ID="514117E8AF29EC4AA9680AFBC2971AC4" name="Child-Filter-1.3">
+
+	<include group="Child-Filter-2.3" groupID="66B636E8C4A42B4E807844461E8D9CFC"/>
+
+</group>
+
+<group ID="DB0C9DE869075B4B9BC5B32D443A255E" name="Child-1.1">
+
+	<include group="Child-2.1" groupID="39B62A0E9780D1418FE3C114758395D2"/>
+
+	<include user="user-child-1.1-1" ID="18DB6A506445C044B636DF3967941C37"/>
+
+	<include user="user-child-1.1-2-filter*" ID="F749E8EB996CEE498E73E9AF113F62F2"/>
+
+</group>
+
+<group ID="2C6D91ACEAEE6541897E3EB1173858A3" name="Child-1.2">
+
+	<include group="Child-2.2" groupID="5E5A8CAA3FD1DC4EA9B9AAB5BF523B6C"/>
+
+	<include group="Child-Filter-2.3" groupID="66B636E8C4A42B4E807844461E8D9CFC"/>
+
+	<include group="Child-2.1" groupID="39B62A0E9780D1418FE3C114758395D2"/>
+
+	<include user="user-child-1.2-1" ID="D4CCABFDC56594408348EBCFC8345564"/>
+
+</group>
+
+<group ID="39B62A0E9780D1418FE3C114758395D2" name="Child-2.1">
+
+	<include group="Child-3.1" groupID="95C4CBE4B1BA5D4297906BE9B2A89738"/>
+
+	<include group="Child-Filter-3.2" groupID="3B262165B0055546A81F086EB7F639BB"/>
+
+	<include user="user-child-2.1-1" ID="C429F8E327EF814999F6927E884A2103"/>
+
+</group>
+
+<group ID="5E5A8CAA3FD1DC4EA9B9AAB5BF523B6C" name="Child-2.2">
+
+	<include user="user-child-2.2-1-filter*" ID="9D4685AB798CB54CBA3A35808B609F3A"/>
+
+</group>
+
+<group ID="95C4CBE4B1BA5D4297906BE9B2A89738" name="Child-3.1">
+
+	<include user="user-child-3.1-1" ID="BBFAFF7C34C5BB48B2C8C92AD082F696"/>
+
+	<include user="user-child-3.1-2-filter*" ID="6656EFDE23EAA240919607129F40C359"/>
+
+</group>
+
+<group ID="48FF6552E6F36044916F48ACBEDB1386" name="Parent">
+
+	<include group="Child-Filter-1.4" groupID="2AD386806AEA7D4184030E25DACF13FF"/>
+
+	<include group="Child-Filter-1.3" groupID="514117E8AF29EC4AA9680AFBC2971AC4"/>
+
+	<include group="Child-1.1" groupID="DB0C9DE869075B4B9BC5B32D443A255E"/>
+
+	<include group="Child-1.2" groupID="2C6D91ACEAEE6541897E3EB1173858A3"/>
+
+	<include user="user-parent-2-filter*" ID="B4058A1C8B1BD94DA9E71BECBC68F9A1"/>
+
+	<include user="user-parent-1" ID="18ACBC5D5E99714A9EBF5C9D8FDAAEDE"/>
+
+</group>
+
+<group ID="66B636E8C4A42B4E807844461E8D9CFC" name="Child-Filter-2.3">
+
+	<include group="Child-3.1" groupID="95C4CBE4B1BA5D4297906BE9B2A89738"/>
+
+</group>
+
+<group ID="3B262165B0055546A81F086EB7F639BB" name="Child-Filter-3.2"/>
+
+<group ID="7316BD842F1494408A9923583CC54930" name="Parent-Filter">
+
+	<include group="Child-1.1" groupID="DB0C9DE869075B4B9BC5B32D443A255E"/>
+
+</group>
+
+<group ID="097367B1F178A9498CFCC740FCFECE58" name="ToPutInto-1"/>
+
+<group ID="7FEB054EC7D336409D496F0BA3D737B0" name="ToPutInto-2"/>
+
+<group ID="C1507D6F4C1A02428CC1F9949F0CEA49" name="ToPutInto-3"/>
+
+<group ID="83BDE0C882A4124E91053710B7589CF4" name="Check-Remove"/>
+
+<group ID="46AFEB45239A974D8863C3F93A5F89FC" name="ToRemoveFrom-1"/>
+
+<group ID="78A5F3AF54F8D644A4BBC6ECA19EF927" name="ToRemoveFrom-2">
+
+	<include group="Check-PutInto-1" groupID="5BEBF3BC6FDFC444892C349E88A5FC7B"/>
+
+	<include group="Check-PutInto-2" groupID="17FDF7B3FA75654A93D040A1C6A0D6BC"/>
+
+</group>
+
+<group ID="E2CE5C06C24FDE43A22E73C3CCF83AE9" name="ToRemoveFrom-3"/>
+
+<group ID="E885855BB9C2064298983EE268DF1132" name="Other"/>
+
+<group ID="CD6A208B32DF38409D25CFA5472E5B93" name="PromoteWith-1"/>
+
+<group ID="AF956ABEA978F4469F505EAC5928DA49" name="PromoteWith-2"/>
+
+<group ID="0B2113068957D34B9854B487BC607646" name="PromoteWith-3"/>
+
+<group ID="01647B6388C84643BBDEC516F74A5D8F" name="HigherAccessRight">
+
+	<include user="promotewith-higher" userID="F8C9C928EE193E4CA74471C673FB7848"/>
+
+</group>
+
+<group ID="DCBC8CEA542C964F8D1AC63E610372B1" name="LowerAccessRight">
+
+	<include group="HigherAccessRight" groupID="01647B6388C84643BBDEC516F74A5D8F"/>
+
+</group>
+</directory>

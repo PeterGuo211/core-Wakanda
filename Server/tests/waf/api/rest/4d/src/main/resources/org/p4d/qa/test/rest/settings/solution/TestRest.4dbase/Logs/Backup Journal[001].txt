@@ -1,0 +1,10 @@
+*** Full Backup
+Creating archive : C:\Users\TIGRIOUI\Desktop\REST-4D\TestRest.4dbase\TestRest[0001].4BK
+Attachment(s): 
+	C:\Users\TIGRIOUI\Desktop\REST-4D\TestRest.4dbase\TestRest.4DSyncHeader [NOT FOUND]
+	C:\Users\TIGRIOUI\Desktop\REST-4D\TestRest.4dbase\TestRest.4DSyncData [NOT FOUND]
+	C:\Users\TIGRIOUI\Desktop\REST-4D\TestRest.4dbase\TestRest.4DIndx [OK]
+Scheduled 10/09/2013 11:38:07
+Starting 10/09/2013 11:38:07
+Ending 10/09/2013 11:38:09
+

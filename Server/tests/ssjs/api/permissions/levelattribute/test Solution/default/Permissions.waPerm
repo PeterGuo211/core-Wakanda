@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><permissions>
+	<allow type="module" resource="SecureModule" action="executeFromClient" groupID="01000000000000000000000000000000"/>
+	<allow type="function" resource="NotSecureModule/defaultAccessSecured" action="executeFromClient" groupID="01000000000000000000000000000000"/>
+	<allow type="module" resource="ModuleWithDefaultPermissions" action="executeFromClient"/>
+	<allow type="function" resource="ModuleWithDefaultPermissions/defaultAccessSecured" action="executeFromClient" groupID="01000000000000000000000000000000"/>
+	<allow type="function" resource="ModuleFunctionWithPromote/defaultAccessPromote" action="promote" groupID="01000000000000000000000000000000"/>
+	<allow action="read" groupName="User" groupID="9805262948878047AAFCBED939D3D930" resource="Model.DataClass.attribute" temporaryForcePermissions="false" type="attribute"/>
+	<allow action="create" groupName="User" groupID="9805262948878047AAFCBED939D3D930" resource="Model.DataClass.attribute" temporaryForcePermissions="false" type="attribute"/>
+	<allow action="update" groupName="User" groupID="9805262948878047AAFCBED939D3D930" resource="Model.DataClass.attribute" temporaryForcePermissions="false" type="attribute"/>
+	<allow action="read" groupName="AttributeGroup" groupID="C31B97ABA170E440BA3DCDDEB6914A0A" resource="Model.DataClass.attribute_with_perm" temporaryForcePermissions="false" type="attribute"/>
+	<allow action="create" groupName="AttributeGroup" groupID="C31B97ABA170E440BA3DCDDEB6914A0A" resource="Model.DataClass.attribute_with_perm" temporaryForcePermissions="false" type="attribute"/>
+	<allow action="update" groupName="AttributeGroup" groupID="C31B97ABA170E440BA3DCDDEB6914A0A" resource="Model.DataClass.attribute_with_perm" temporaryForcePermissions="false" type="attribute"/>
+	<allow action="execute" groupName="AttributeGroup" groupID="C31B97ABA170E440BA3DCDDEB6914A0A" resource="Model.DataClass.method_with_perm" temporaryForcePermissions="false" type="method"/>
+	<allow action="promote" groupName="AttributeGroup" groupID="C31B97ABA170E440BA3DCDDEB6914A0A" resource="Model.DataClass.method_with_perm" temporaryForcePermissions="false" type="method"/>
+</permissions>

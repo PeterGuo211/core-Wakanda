@@ -1,0 +1,15 @@
+{
+    "name": "waf-Git",
+    "description": "Git source control module",
+    "version": "1.0",
+    "author" : "4D Wakanda Team",
+    "homepage": "http://wakanda.org",
+    "main" : "./waf-Git",
+    "licenses" : [
+        {
+            "type": "MIT",
+            "url": "http://github.com/Wakanda/waf-mail/blob/master/MIT-LICENSE"
+        }
+    ],
+    "keywords": ["git"]
+}

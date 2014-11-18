@@ -1,0 +1,1 @@
+﻿{"name":"BugComp/comp.waComponent","version":"1.0.0","webComponent":"comp.waComponent/comp.js","loadDependencies":[{"id":"Widget/button","type":"widget"},{"id":"comp.waComponent/comp.html","path":"WEBFOLDER","type":"html"},{"id":"comp.waComponent/comp.css","path":"WEBFOLDER","type":"style"},{"id":"comp.waComponent/comp.js","path":"WEBFOLDER","type":"script"}]}

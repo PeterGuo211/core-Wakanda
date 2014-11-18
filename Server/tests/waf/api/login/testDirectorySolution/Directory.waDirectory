@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><directory>
+
+<group ID="01000000000000000000000000000000" name="Admin"/>
+
+<group ID="65ED884D09E08C49ACCC181AB4B9E80D" name="Group">
+
+	<include user="user" userID="F4588AA9C176A54F87BDA781C59524F6"/>
+</group>
+
+<group ID="8D06688C1A61B7409A947A8E78729937" name="Empty"/>
+
+<group ID="0FA0CBC9C5BDF544A06D031FA981DC00" name="Parent">
+
+	<include group="Child" groupID="1D9F305BCA593D4F85A4CC2DC6FC336E"/>
+</group>
+
+<group ID="1D9F305BCA593D4F85A4CC2DC6FC336E" name="Child">
+
+	<include user="grandson" userID="EAE0179AA03BBE4C9467342973179AE1"/>
+</group>
+
+<user ID="F4588AA9C176A54F87BDA781C59524F6" name="user" fullName="" password="0bc3f3f679892b29c99dd7c4fcc3c8bb"/>
+
+<user ID="5752EE57051AD8489CCB524569FE50C1" name="empty-pwd" fullName=""/>
+
+<user ID="EAE0179AA03BBE4C9467342973179AE1" name="grandson" fullName=""/>
+</directory>

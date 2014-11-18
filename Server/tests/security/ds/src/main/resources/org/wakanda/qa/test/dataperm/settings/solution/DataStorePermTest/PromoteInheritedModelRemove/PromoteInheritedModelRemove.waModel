@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><EntityModelCatalog>
+
+<dbInfo name="PromoteInheritedModelRemove" uuid="DEB2380315EE8E47AF7052ECFC4FADBC"/>
+
+<dataClasses name="PromoteInheritedModelRemove" className="PromoteInheritedModelRemove" collectionName="PromoteInheritedModelRemoveCollection" scope="public" uuid="D2E48C39B8F3F747A1E1617742AA3A20" tablePos="1">
+
+	<extraProperties ____objectunic="true" panelColor="#B7DDE8">
+
+		<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+			<position ____objectunic="true" X="25" Y="20"/>
+</panel>
+</extraProperties>
+
+	<attributes name="ID" kind="storage" scope="public" uuid="4EE7CFA068DFCC4C9518B4247805444C" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<attributes name="name" kind="storage" scope="public" uuid="5A83B2D4FD22984C9DA8EBE79A8FF432" fieldPos="2" type="string"/>
+
+	<methods name="promoteInheritedModelRemove" applyTo="dataClass" scope="public" from="guidedModel.PromoteInheritedModelRemove.methods.promoteInheritedModelRemove"/>
+
+</dataClasses>
+</EntityModelCatalog>

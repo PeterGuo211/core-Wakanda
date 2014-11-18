@@ -1,0 +1,9 @@
+{
+    "description": "Tests SSJS Permissions Level Module",
+    "kind": "ssjs",
+    "tester": "soufiane.tigrioui@4d.com",
+    "visibility": "public",
+    "developer": "stephane.clairet@4d.com",
+	"stable": true,
+    "gonogo": true
+}

@@ -1,0 +1,87 @@
+2014-03-07 16:40:33 [com.wakanda-software.supervisor] INFO - solution closed
+2014-03-07 16:40:33 [com.wakanda-software] INFO - Opens the solution "D:\wsMohcine-v2\RIA\tests\dev\main\server\waf\api\customWidgets\listProperties\src\test\resources\org\wakanda\qa\customWidget\properties\solutions\PropertiesListSolution\PropertiesListSolution Solution\PropertiesListSolution.waSolution" for running
+2014-03-07 16:40:33 [com.wakanda-software.PropertiesListSolution] INFO - Users and groups directory opened
+2014-03-07 16:40:33 [com.wakanda-software.PropertiesListSolution.PropertiesListSolution] INFO - Datastore opened
+2014-03-07 16:40:33 [com.wakanda-software.PropertiesListSolution.PropertiesListSolution] INFO - "PropertiesListSolution" project opened
+2014-03-07 16:40:33 [com.wakanda-software.PropertiesListSolution.EventsTest] INFO - Datastore opened
+2014-03-07 16:40:33 [com.wakanda-software.PropertiesListSolution.EventsTest] INFO - "EventsTest" project opened
+2014-03-07 16:40:33 [com.wakanda-software.PropertiesListSolution.ServerAdmin] INFO - "ServerAdmin" project opened
+2014-03-07 16:40:33 [com.wakanda-software.PropertiesListSolution] INFO - "PropertiesListSolution" solution opened
+2014-03-07 16:40:33 [com.wakanda-software] INFO - Starts "PropertiesListSolution" solution
+2014-03-07 16:40:33 [com.wakanda-software.PropertiesListSolution.ServerAdmin] INFO - >buildInit() - mode :  release
+2014-03-07 16:40:33 [com.wakanda-software.PropertiesListSolution.ServerAdmin] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2014-03-07 16:40:33 [com.wakanda-software.PropertiesListSolution.ServerAdmin] INFO - >buildInit() - added package definition to storage
+2014-03-07 16:40:33 [com.wakanda-software.PropertiesListSolution.ServerAdmin] INFO - <buildInit()
+2014-03-07 16:40:33 [com.wakanda-software.PropertiesListSolution.ServerAdmin] INFO - HTTP Server started
+2014-03-07 16:40:33 [com.wakanda-software.PropertiesListSolution.ServerAdmin] INFO - "ServerAdmin" project started
+2014-03-07 16:40:34 [com.wakanda-software.PropertiesListSolution.PropertiesListSolution] INFO - >buildInit() - mode :  release
+2014-03-07 16:40:34 [com.wakanda-software.PropertiesListSolution.PropertiesListSolution] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2014-03-07 16:40:34 [com.wakanda-software.PropertiesListSolution.PropertiesListSolution] INFO - >buildInit() - added package definition to storage
+2014-03-07 16:40:34 [com.wakanda-software.PropertiesListSolution.PropertiesListSolution] INFO - <buildInit()
+2014-03-07 16:40:34 [com.wakanda-software.PropertiesListSolution.PropertiesListSolution] INFO - HTTP Server started
+2014-03-07 16:40:34 [com.wakanda-software.PropertiesListSolution.PropertiesListSolution] INFO - "PropertiesListSolution" project started
+2014-03-07 16:40:34 [com.wakanda-software.PropertiesListSolution.EventsTest] INFO - >buildInit() - mode :  release
+2014-03-07 16:40:34 [com.wakanda-software.PropertiesListSolution.EventsTest] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2014-03-07 16:40:34 [com.wakanda-software.PropertiesListSolution.EventsTest] INFO - >buildInit() - added package definition to storage
+2014-03-07 16:40:34 [com.wakanda-software.PropertiesListSolution.EventsTest] INFO - <buildInit()
+2014-03-07 16:40:34 [com.wakanda-software.PropertiesListSolution.EventsTest] INFO - HTTP Server started
+2014-03-07 16:40:34 [com.wakanda-software.PropertiesListSolution.EventsTest] INFO - "EventsTest" project started
+2014-03-07 16:40:34 [com.wakanda-software.PropertiesListSolution.ServerAdmin] INFO - Executes the bootstrap file(s)
+2014-03-07 16:40:34 [com.wakanda-software.PropertiesListSolution.ServerAdmin] INFO - Bootstrap file(s) executed
+2014-03-07 16:40:34 [com.wakanda-software.PropertiesListSolution.PropertiesListSolution] INFO - Executes the bootstrap file(s)
+2014-03-07 16:40:34 [com.wakanda-software.PropertiesListSolution.PropertiesListSolution] INFO - Bootstrap file(s) executed
+2014-03-07 16:40:34 [com.wakanda-software.PropertiesListSolution.EventsTest] INFO - Executes the bootstrap file(s)
+2014-03-07 16:40:34 [com.wakanda-software.PropertiesListSolution.EventsTest] INFO - Bootstrap file(s) executed
+2014-03-07 16:40:34 [com.wakanda-software.PropertiesListSolution] INFO - "PropertiesListSolution" solution started
+2014-03-07 16:40:34 [com.wakanda-software] INFO - "PropertiesListSolution" solution has been successfully opened for running (duration: 444 ms)
+2014-03-07 16:40:34 [com.wakanda-software.supervisor] INFO - solution opened
+2014-03-07 17:13:12 [com.wakanda-software.PropertiesListSolution.ServerAdmin] INFO -  created 
+2014-03-07 17:13:13 [com.wakanda-software] INFO - Stops "PropertiesListSolution" solution
+2014-03-07 17:13:14 [com.wakanda-software.PropertiesListSolution.EventsTest] INFO - "EventsTest" project stopped
+2014-03-07 17:13:15 [com.wakanda-software.PropertiesListSolution.PropertiesListSolution] INFO - "PropertiesListSolution" project stopped
+2014-03-07 17:13:16 [com.wakanda-software.PropertiesListSolution.ServerAdmin] INFO - "ServerAdmin" project stopped
+2014-03-07 17:13:16 [com.wakanda-software.PropertiesListSolution] INFO - "PropertiesListSolution" solution stopped
+2014-03-07 17:13:16 [com.wakanda-software] INFO - Closes "PropertiesListSolution" solution
+2014-03-07 17:13:16 [com.wakanda-software.PropertiesListSolution.EventsTest] INFO - "EventsTest" project closed
+2014-03-07 17:13:17 [com.wakanda-software.PropertiesListSolution.PropertiesListSolution] INFO - "PropertiesListSolution" project closed
+2014-03-07 17:13:17 [com.wakanda-software.PropertiesListSolution.ServerAdmin] INFO - "ServerAdmin" project closed
+2014-03-07 17:13:17 [com.wakanda-software.PropertiesListSolution.xbox] ERROR - [5] Accès refusé.
+, task #7892
+2014-03-07 17:13:17 [com.wakanda-software.PropertiesListSolution] INFO - "PropertiesListSolution" solution closed
+2014-03-07 17:13:23 [com.wakanda-software.supervisor] INFO - solution closed
+2014-03-07 17:13:23 [com.wakanda-software] INFO - Opens the solution "D:\wsMohcine-v2\RIA\tests\dev\main\server\waf\api\customWidgets\listProperties\src\test\resources\org\wakanda\qa\customWidget\properties\solutions\PropertiesListSolution\PropertiesListSolution Solution\PropertiesListSolution.waSolution" for running
+2014-03-07 17:13:23 [com.wakanda-software.PropertiesListSolution] INFO - Users and groups directory opened
+2014-03-07 17:13:23 [com.wakanda-software.PropertiesListSolution.PropertiesListSolution] INFO - Datastore opened
+2014-03-07 17:13:23 [com.wakanda-software.PropertiesListSolution.PropertiesListSolution] INFO - "PropertiesListSolution" project opened
+2014-03-07 17:13:23 [com.wakanda-software.PropertiesListSolution.EventsTest] INFO - Datastore opened
+2014-03-07 17:13:23 [com.wakanda-software.PropertiesListSolution.EventsTest] INFO - "EventsTest" project opened
+2014-03-07 17:13:23 [com.wakanda-software.PropertiesListSolution.ServerAdmin] INFO - "ServerAdmin" project opened
+2014-03-07 17:13:23 [com.wakanda-software.PropertiesListSolution] INFO - "PropertiesListSolution" solution opened
+2014-03-07 17:13:23 [com.wakanda-software] INFO - Starts "PropertiesListSolution" solution
+2014-03-07 17:13:23 [com.wakanda-software.PropertiesListSolution.ServerAdmin] INFO - >buildInit() - mode :  release
+2014-03-07 17:13:23 [com.wakanda-software.PropertiesListSolution.ServerAdmin] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2014-03-07 17:13:23 [com.wakanda-software.PropertiesListSolution.ServerAdmin] INFO - >buildInit() - added package definition to storage
+2014-03-07 17:13:23 [com.wakanda-software.PropertiesListSolution.ServerAdmin] INFO - <buildInit()
+2014-03-07 17:13:23 [com.wakanda-software.PropertiesListSolution.ServerAdmin] INFO - HTTP Server started
+2014-03-07 17:13:23 [com.wakanda-software.PropertiesListSolution.ServerAdmin] INFO - "ServerAdmin" project started
+2014-03-07 17:13:23 [com.wakanda-software.PropertiesListSolution.PropertiesListSolution] INFO - >buildInit() - mode :  release
+2014-03-07 17:13:23 [com.wakanda-software.PropertiesListSolution.PropertiesListSolution] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2014-03-07 17:13:23 [com.wakanda-software.PropertiesListSolution.PropertiesListSolution] INFO - >buildInit() - added package definition to storage
+2014-03-07 17:13:23 [com.wakanda-software.PropertiesListSolution.PropertiesListSolution] INFO - <buildInit()
+2014-03-07 17:13:23 [com.wakanda-software.PropertiesListSolution.PropertiesListSolution] INFO - HTTP Server started
+2014-03-07 17:13:23 [com.wakanda-software.PropertiesListSolution.PropertiesListSolution] INFO - "PropertiesListSolution" project started
+2014-03-07 17:13:23 [com.wakanda-software.PropertiesListSolution.EventsTest] INFO - >buildInit() - mode :  release
+2014-03-07 17:13:23 [com.wakanda-software.PropertiesListSolution.EventsTest] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2014-03-07 17:13:23 [com.wakanda-software.PropertiesListSolution.EventsTest] INFO - >buildInit() - added package definition to storage
+2014-03-07 17:13:23 [com.wakanda-software.PropertiesListSolution.EventsTest] INFO - <buildInit()
+2014-03-07 17:13:23 [com.wakanda-software.PropertiesListSolution.EventsTest] INFO - HTTP Server started
+2014-03-07 17:13:23 [com.wakanda-software.PropertiesListSolution.EventsTest] INFO - "EventsTest" project started
+2014-03-07 17:13:23 [com.wakanda-software.PropertiesListSolution.ServerAdmin] INFO - Executes the bootstrap file(s)
+2014-03-07 17:13:23 [com.wakanda-software.PropertiesListSolution.ServerAdmin] INFO - Bootstrap file(s) executed
+2014-03-07 17:13:23 [com.wakanda-software.PropertiesListSolution.PropertiesListSolution] INFO - Executes the bootstrap file(s)
+2014-03-07 17:13:23 [com.wakanda-software.PropertiesListSolution.PropertiesListSolution] INFO - Bootstrap file(s) executed
+2014-03-07 17:13:23 [com.wakanda-software.PropertiesListSolution.EventsTest] INFO - Executes the bootstrap file(s)
+2014-03-07 17:13:23 [com.wakanda-software.PropertiesListSolution.EventsTest] INFO - Bootstrap file(s) executed
+2014-03-07 17:13:23 [com.wakanda-software.PropertiesListSolution] INFO - "PropertiesListSolution" solution started
+2014-03-07 17:13:23 [com.wakanda-software] INFO - "PropertiesListSolution" solution has been successfully opened for running (duration: 414 ms)
+2014-03-07 17:13:23 [com.wakanda-software.supervisor] INFO - solution opened

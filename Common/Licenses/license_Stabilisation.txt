@@ -1,0 +1,101 @@
+WAKANDA DEVELOPER RELEASE - WAKANDA STABILIZATION RELEASE - INFORMATION ABOUT LICENSING
+
+The Wakanda platform comes in three primary parts: Wakanda Server, Wakanda Studio, and the Wakanda Framework (WAF).
+1. WAF (Wakanda Framework, or the “Program”) is governed by the terms and conditions of the GNU General Public License v3 (“GNU GPLv3”), available at http://www.gnu.org/licenses/gpl-3.0.html
+The GNU GPLv3 relating to WAF is effective as of October 15, 2011.
+Disclaimer of Warranty.
+THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM “AS IS” WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+Limitation of Liability.
+IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+2. The following License Agreement remains applicable and/or shall apply to any other software than WAF, namely Wakanda Studio and Wakanda Server. In this context, “Software” as defined in the Wakanda Prototype Evaluation License Agreement excludes WAF.
+WAKANDA PROTOTYPE EVALUATION LICENSE AGREEMENT
+
+You should read carefully all the terms and conditions of this Agreement between 4D SAS, a French "Société par Actions Simplifiée" and yourself (hereinafter referred to as "LICENSEE"). By pressing on the button "Accept", you agree to be bound by all the terms and conditions of this Agreement, as defined hereinafter.
+You acknowledge having been informed that the execution of the Agreement implies that you comply with the eligibility criteria defined by 4D SAS.
+In addition, you acknowledge having been informed that (i) the Software is a prototype and therefore, it has not been completely tested and/or tuned and that (ii) the execution of the Agreement does not imply any obligation for 4D SAS to release the Software and/or its successive versions as a "product".
+If you do not agree with the terms and conditions of the Agreement, you are not allowed to Use the Software.
+This Agreement defines the terms and conditions of the License related to the Software for which LICENSEE has acquired the corresponding license, given that Licensee may download the Software from: www.wakanda.org/downloads.
+The following words have a specific significance:
+“4D SAS” means the French "Société par Actions Simplifiée", registered at the Register of Trade and Companies of Nanterre - France - under N° 318 918 851.
+“Agreement” means this License agreement;
+"Authorized User" means the LICENSEE’s employees who are authorized to Use the Software in accordance with the terms and conditions of the Agreement.
+"Documentation" means all the English Version of the electronic documentation files and/or the documentation contained - possibly - in or on the related Media or the Software user's manual.
+"Environment" means the computer hardware ("platform(s)"), operating system and the software required for Use in conjunction with the Software, as indicated by 4D. 
+"License" means the evaluation license relating to the Software, in accordance with the terms of the Agreement.
+
+"Media" means all methods through which LICENSEE obtained the Software, which include the web sites of 4D SAS.
+"Software" means the English version and non-commercialized prototype program (developer preview, alpha, ßeta, Stabilization or Live version) - in machine-readable form - that may be downloaded at ftp.wakanda.org, subject to compliance with the terms and conditions of the Agreement. The Software includes any copy made of it, and - possibly - its related Documentation, and any replacement or change provided under the Agreement, and more generally any update of the Software.
+"Use" means the use of the Software for LICENSEE's own needs exclusively pursuant to the terms and conditions of the Agreement.
+1. OWNERSHIP AND LICENSE
+The Software is an original creation and the exclusive ownership of 4D SAS or its licensors.
+
+This is a license Agreement and NOT an agreement for sale.
+
+4D SAS and/or its licensors continue to be the sole owner(s) of the copy of the Software and all other copies that LICENSEE is authorized to have or make in accordance with this Agreement; it being agreed that LICENSEE shall reproduce all the proprietary notices in any copy of the Software - partial or whole - made by LICENSEE and that such copies are subject to the terms and conditions of the Agreement.
+LICENSEE's rights to Use the Software are specified in this Agreement and 4D SAS retains all rights not expressly granted to LICENSEE in this Agreement. No other express or implied rights are granted to LICENSEE relating to the Software.
+2. PROVISION OF THE SOFTWARE
+LICENSEE may - at its own risks and under its sole responsibility - download the Software from: http://www.wakanda.org/downloads and carry out the installation of the Software within the Environment itself.
+3. RIGHTS GRANTED
+3.1. SOFTWARE
+4D SAS grants LICENSEE with a limited, royalty-free, personal, and non-exclusive right to Use the Software in the Environment and in the language indicated on its Media.
+LICENSEE is allowed to download, install and Use the Software in the Environment and for its own needs exclusively for evaluation and testing purposes exclusively, at LICENSEE's own risks and under its sole responsibility.
+LICENSEE shall not:
+• use the Software for any production purposes, in particular for development purposes
+• use the Software in any situation subject to invoicing;
+• sublicense, sell, lease, rent, share the Use of the Software or otherwise transfer it, or permit any third party to use the Software for consulting services, time sharing, service bureau, outsourcing services, application service provider services, or application hosting provider services and more generally LICENSEE shall not grant any kind of rights regarding the Software or any portion thereof in any form to any third party without the prior written consent of 4D SAS; it being agreed that in any event LICENSEE shall be responsible for making such third parties aware of, and for their written agreement with terms and conditions at least as restrictive and protective of the Software as those stated in the Agreement. LICENSEE shall communicate to 4D SAS copies of the related agreements;
+• transfer the Software to another computer platform or operating system;
+• modify, translate, reverse-engineer, decompile, disassemble, partially or completely, the Software, except as otherwise mentioned by the legal measures in force. Nevertheless, LICENSEE shall ask 4D SAS for the information which is necessary to achieve the interoperability of the Software with another program and this, before any decompilation;
+• remove or alter any Software identification, proprietary notice, labels or trademarks which appear on or in the Software, except as otherwise expressly allowed by 4D SAS;
+• disclose the results of any benchmark or other test of the Software, without the prior written consent of 4D SAS;
+• use the Software in violation of any Country, Treaty, Federal or State law, regulation or rules, including laws with respect to misuse or improper use of information.
+3.2. DOCUMENTATION RIGHTS
+LICENSEE may:
+• print the Documentation for use with the Software;
+• transfer the HTML files to a server for use on the LICENSEE’s Intranet;• transfer the Documentation on a hard drive for use by LICENSEE with the Software.LICENSEE may not:• distribute the Documentation;
+• transfer the Documentation in any manner that causes it to be accessed on the Internet;• make derivative works of the Documentation.
+3.3. OTHER RIGHTS
+The Software may include one or more libraries, files or other items intended to help LICENSEE to Use the Software. 4D SAS grants LICENSEE the right to Use these libraries, files and other items provided LICENSEE complies with the terms of this Agreement and any terms specific to the libraries or files. LICENSEE should refer to the Documentation and the "Read me" file included in the Software for additional information and terms.
+LICENSEE is informed that the Software may give access to a library that allows LICENSEE to code certain information in the applications developed with the Software. LICENSEE agrees that some laws do not allow or limit the use of the algorithms contained in this library and agrees to comply with all applicable laws and regulations related to such use.
+In any case, it is LICENSEE's responsibility to make sure that the Authorized User of the Software complies with the terms of this Agreement.
+4. LICENSEE’S OBLIGATIONS
+In consideration of the rights granted, LICENSEE endeavors to provide promptly 4D SAS with reports relating to all errors and bugs of the Software (including Documentation if any), any improvements recommended relating to the Software and Documentation and any comments and/or recommendations made by LICENSEE, if any; it being that such recommendation does not imply any obligation of any kind for 4D SAS. All reports, designs an specifications made by LICENSEE under this section shall be the sole property of 4D SAS and this, as a counterpart of the rights granted by the Agreement.
+5. EXCLUSION OF WARRANTY
+The Software is provided  "as is", without any express or implied warranty; LICENSEE being solely responsible for the download, installation and Use of the Software  4D SAS does not provide any warranty for the Use, the functionality and the performances of the Software. It doesn't certify either that the Software is free from bugs and/or errors.
+More specifically, 4D SAS does not warrant that the functions included in the Software will meet LICENSEE's requirements or that the operation will be uninterrupted. The entire risk as to the choice of the Use of the Software is with LICENSEE. It is LICENSEE's responsibility to take the necessary steps for the protection of its data.
+Further, 4D SAS does not warrant that it will market the Software in the same version as the one which is the subject of the Agreement, nor that it will release the Software as a "product".
+Should the Software become a marketable "product", the execution of a software license agreement is necessary to use it for production purposes. This Agreement does not imply that 4D SAS has any obligation regarding the execution of such software license agreement.
+LICENSEE acknowledges and agrees that the Agreement does not include any support and/or maintenance services.
+6. DISCLAIMER AND LIMITATION OF LIABILITY
+LICENSEE acknowledges and agrees that it is solely responsible for (i) downloading, installation and Use of the Software and (ii) the adequate protection of its data.
+In no event, shall 4D SAS be liable for:• any damage to LICENSEE's computer system or loss of data that results from the downloading of the Software;• for any direct, indirect, incidental and/or consequential damages caused to LICENSEE, any user or third party, even in case of negligence, including but not limited, to the interruption of the good order work of the Software, the loss of profits, loss of data or any other financial loss arising from the Use of the Software or inability to Use it even if 4D SAS has been notified of the possibility of such damages.
+Further, 4D SAS does not control, nor accepts any responsibility relating to downloading of Software through websites or online services proposed by third parties.
+The foregoing does not affect or prejudice LICENSEE's statutory rights.
+7. TERM AND TERMINATION
+7.1. This License is effective as of the downloading of Software and remains valid until the availability of any license replacing this License, at the following url address: www.wakanda.org/license, given that 4D SAS doesn’t have any obligation with this respect. 
+7.2. Any Party may terminate the Agreement at any time and at its sole discretion, subject to a prior notice to the other Party
+7.3. Should LICENSEE cease to comply with 4D SAS’ eligibility criteria and/or the terms and conditions of the Agreement for any reason whatsoever, this Agreement and the License granted hereunder shall immediately and automatically terminate without prejudice to any damages and indemnification that 4D SAS could be entitled.
+7.3. At the end of the Agreement for any reason whatsoever, LICENSEE shall immediately (i) stop using the Software, (ii) destroy or return it, and any copy made whether partial or whole, to 4D SAS and (iii) purge all electronic memories of any Confidential Information and (iii) communicate all information relating to the Software. Upon 4D SAS' request, LICENSEE shall immediately certify by means of a written document duly signed by a legal representative that the provisions of the present article have been respected.
+8. AUDIT
+LICENSEE permits 4D SAS to perform either itself or by any representative any audit or control in order to verify that LICENSEE complies with all provisions of this Agreement, in particular those relating to terms and conditions of Use of the Software.
+If such audit reveals non-conformities with the provisions of the Agreement, LICENSEE shall pay all reasonable costs relating to the audit and this, without prejudice to the other remedies of 4D SAS.
+This provision shall survive for two (2) years following the end of the Agreement for any reason whatsoever.
+9. PERSONAL DATA
+In compliance with the law N°78-17 of January 6, 1978, as amended by the law N°2004-801 of August 6, 2004, LICENSEE is entitled to a right of access, modification and suppression of al personal data which concerns LICENSEE. To do so, LICENSEE may contact 4D SAS – Administrative and Financial Department – 60, rue d'Alsace, 92110 Clichy, France or by e-mail to the following electronic address: wakanda@4d.com.
+10. MISCELLANEOUS PROVISIONS
+10.1. The relationship between 4D SAS and LICENSEE is that of LICENSOR/LICENSEE. In all matters relating to the present Agreement, LICENSEE will act as an independent party.
+10.2. LICENSEE is not allowed to assign or otherwise its rights and obligations pursuant to the Agreement, without the prior written consent of 4D SAS.
+10.3. It is LICENSEE's responsibility to comply with any applicable French export control laws and regulations. LICENSEE shall not directly or indirectly transfer the Software to any country to which such transfer would be prohibited by any applicable export control laws or would be subject to an export license or any administrative authorization, without having obtain first, such license or authorization. Further, LICENSEE warrants that LICENSEE is not a national or a resident of a country to which exporting the Software is not allowed by virtue of any Export laws or regulations.
+
+10.4. This Agreement constitutes the entire agreement between 4D SAS and LICENSEE relating to the Software and supersedes any prior purchase order, communications, advertising or representations concerning the Software. No change or modification to this Agreement will be valid unless it is in writing, and is signed by LICENSEE and an authorized officer of 4D SAS.
+10.5. If any provision of this Agreement is held to be unenforceable upon a definite legal or reglementary provision or a statutory or judicial determination, the remainder of this Agreement shall continue in full force and effect.
+10.6. The waiver by 4D SAS of one breach or default hereunder does not constitute the waiver of any subsequent breach or default.
+10.7. The original of the Agreement has been written in English and each party waives any right it may have to have the Agreement written in another language. The parties represent that they have the ability to read and write in English, and have read and understand the Agreement. If the Agreement is translated into a language other than English, the English version and interpretation shall govern and prevail.
+10.8. The Agreement shall be governed by and construed in accordance with the laws of France. Any dispute, controversy or claim arising out of or relating to the Agreement or to the breach, termination or invalidity thereof, shall be subject to the exclusive jurisdiction of the Commercial Court of Nanterre (Tribunal de Commerce de Nanterre) France.
+10.9. The original of the Agreement has been written in English and each party waives any right it may have to have the Agreement written in another language. The parties represent that they have the ability to read and write in English and have understood the Agreement. If the Agreement is translated into a language other than English, the English version shall govern and prevail.
+
+A printed version of this Agreement under electronic form and any warning notice delivered under electronic form by 4D SAS, shall be accepted in the course of any legal proceedings regarding the execution of this Agreement.
+LICENSEE ACKNOWLEDGES TO HAVE READ, UNDERSTOOD AND AGREED TO BE BOUND BY THE TERMS AND CONDITIONS OF THE AGREEMENT.
+Should LICENSEE have any questions concerning this Agreement or wish to request any information from 4D SAS, please contact 4D SAS 33 (0)1 40 87 92 00 (e-mail: wakanda@4d.com).
+
+* Notice to United States Government members: Use, duplication or disclosure by the US Government is subject to restrictions stated in paragraph (c) (1) (ii) of the Rights in Technical Data and Computer Software clause at 252.227-7013.
+All Wakanda and/or 4D product names are registered trademarks of 4D SAS. All other trade names and trademarks are trademarks or registered trademarks of their respective holders.

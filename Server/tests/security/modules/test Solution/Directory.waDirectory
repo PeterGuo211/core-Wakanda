@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><directory>
+	<group ID="01000000000000000000000000000000" name="Admin">
+		<include user="admin" ID="00FF7AD704651A45B1EA3C365D39A535"/>
+	</group>
+	<group ID="9805262948878047AAFCBED939D3D930" name="User">
+		<include user="user" ID="10C9EB9A8C2C7445A45E082714B31D7D"/>
+	</group>
+	<group ID="861A69A73BBDB54C87BECD01DFFD4350" name="Promote"/>
+	<user ID="00FF7AD704651A45B1EA3C365D39A535" name="admin" fullName="" password="003b744708c16733d1eb3371bec208fd"/>
+	<user ID="10C9EB9A8C2C7445A45E082714B31D7D" name="user" fullName="" password="814d684be9cb6eddd2bc756e0bf7af16"/>
+	<user ID="BC83D4956DB85C43890A5A9FE49BECF3" name="default" fullName="" password="950621e2ead6a847e14408c804627a27"/>
+</directory>

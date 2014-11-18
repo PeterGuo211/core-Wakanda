@@ -1,0 +1,8 @@
+{
+    "description": "Tests of the GlobalScope API",
+    "kind": "ssjs",
+    "tester": "yann.jego@4d.com",
+    "visibility": "public",
+    "developer": "lr@4d.com",
+	"stable": true
+}

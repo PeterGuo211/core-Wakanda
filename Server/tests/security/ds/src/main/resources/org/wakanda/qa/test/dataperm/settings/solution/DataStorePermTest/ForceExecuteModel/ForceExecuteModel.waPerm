@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><permissions>
+<allow action="execute" groupID="D2F7B46AC2578548ABAF6E214F83BD11" resource="ForceExecuteModel" temporaryForcePermissions="true" type="model"/>
+<allow action="execute" groupID="3D81E23FA45D3545970CD8C0144A15D0" resource="ForceExecuteModel.ForceExecuteModel.secured" temporaryForcePermissions="false" type="method"/>
+</permissions>

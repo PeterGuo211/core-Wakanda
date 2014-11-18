@@ -1,0 +1,11 @@
+{
+    "description": "Tests of the ODBC Module with Oracle (Oracle Database 11g Express Edition) data base",
+    "kind": "ssjs",
+    "oldJenkinsName": "TestServerODBCConnectorWithMySQL",
+    "tester": "saad.yousfi@4d.com",
+    "visibility": "public",
+    "developer": "abdessamad.elkasimi@4d.com",
+    "enterpriseOnly": true,
+    "stable": true,
+    "os": ["windows", "linux"]
+}

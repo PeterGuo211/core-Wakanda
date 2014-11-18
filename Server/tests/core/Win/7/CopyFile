@@ -1,0 +1,60 @@
+#!/bin/bash
+
+echo "
+ [INFO]-------------------------------------
+ [INFO]
+ [INFO]
+ [INFO] Written by Geoffrey Beauny
+ [INFO] 4D | Auto Test Linux | Wakanda Server 
+ [INFO] CopyFile Shell Script
+ [INFO]
+ [INFO]
+ [INFO]--------------------------------------
+"
+
+echo "
+[INFO]--------------------------------------
+[INFO]Copy files [Builds, Solutions, ...]
+[INFO]--------------------------------------
+"
+
+#[INFO]---------------------Rsync Build : Version Debug----------------------
+#[INFO]----------------------------------------------------------------------
+
+function RsyncDebugBuild()
+
+{
+
+echo "Copy of files : Version Debug:"
+rsync -a --info=progress2 ${WakandaBuild}/${cl}/Debug/Linux_x86_64/ ${HomeDirectoryDebug}
+echo "done 100%" 
+
+}
+
+#[INFO]----------------------------------------------------------------------
+
+#[INFO]---------------------Rsync Build : Version Debug----------------------
+#[INFO]----------------------------------------------------------------------
+
+function RsyncReleaseBuild()
+
+{
+
+echo "Copy of files : Version Release:"
+rsync -a --info=progress2 ${WakandaBuild}/${cl}/Release/US/Linux_US_x86_64/ ${HomeDirectoryRelease}
+echo "done 100%" 
+
+}
+#[INFO]----------------------------------------------------------------------
+
+function RsyncSolutions() 
+
+{
+
+echo "We get all solutions on Debug and Release versions"
+rsync -av --info=progress2 ${SolutionsTest} ${SolutionsDebug}
+rsync -av --info=progress2 ${SolutionsTest} ${SolutionsRelease}
+echo "done 100%"
+
+}
+

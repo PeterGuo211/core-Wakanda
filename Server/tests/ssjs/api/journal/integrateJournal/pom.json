@@ -1,0 +1,7 @@
+{
+    "description": "Tests of the integrateDataStoreJournal API",
+    "kind": "ssjs",
+    "tester": "mohamed.elghachi@4d.com",
+    "visibility": "public",
+    "developer": "olivier.randriamanana@4d.com"
+}

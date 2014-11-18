@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><directory>
+
+<user ID="2D5A3F64D3C73B4091D39D6294C1DC93" name="read" fullName="" password="dc784de5a7e6bee267ea8be043c7eec1"/>
+
+<user ID="FBD002968850BF4AB8386D05B8D7CF77" name="create" fullName="" password="bf7dbe4dae01b5263fafe274309948b5"/>
+
+<user ID="6CBCC2F35885484B8D0591BBBB05A38A" name="update" fullName="" password="f1efe0e1377ace3136252d3bb703356c"/>
+
+<user ID="AF4357E9CA975B409AF8193210EA5F41" name="remove" fullName="" password="5f07e9175d9ed176cc36f780cf1c79ad"/>
+
+<user ID="7283C6DBB0F4F04D9D0179BE7D1E8162" name="execute" fullName="" password="c02de0d57888416323322ad281566775"/>
+
+<user ID="4679123EBA313F449F4E60D7F9B3AE5F" name="promote" fullName="" password="7b9e48ef6d8795805d3166d0d2a7d793"/>
+
+<user ID="ED9272397DAEAA4DA2BA9C128AB79DEB" name="admin" fullName="" password="003b744708c16733d1eb3371bec208fd"/>
+
+<user ID="F710CEFC619F134BA8E6C1B8695E0F62" name="noperm" fullName="" password="1fdb312f5cbe4711eb2987e08d2f0c6e"/>
+
+<user ID="009B07841B74BD449DD609143A5CEC44" name="readInherited" fullName="" password="796fc619a41b8f4028e727dd7516edfd"/>
+
+<user ID="E2B432461D17B44DB7A086855140B649" name="createInherited" fullName="" password="9b59311043ece6295b4d13f6787401b6"/>
+
+<user ID="A600BA9C7675594AAA1879E3B9C13968" name="updateInherited" fullName="" password="39d1ef7fe787878ff7c18923b110c9a6"/>
+
+<user ID="D1695EA02CC0F6429A7B72863850A74B" name="removeInherited" fullName="" password="2733b9d22de69b7badff91c956e8c5ac"/>
+
+<user ID="307A187496CDDA46ACA92EE72DCD58E4" name="executeInheritedModel" fullName="" password="e9f2f56469e5f835bac7e5c103961ecb"/>
+
+<user ID="24EE745F45258C4F9D4617C12C6922E6" name="promoteInheritedModel" fullName="" password="e7a159195db1c95bb4a425de8ef81917"/>
+
+<user ID="13CEDEBF83212345B3B5FDCBE384DB78" name="executeInheritedDataClass" fullName="" password="d3d0369a617db3af40bcecc38443d727"/>
+
+<user ID="736D00F2023FBB499ACA5AC494A68972" name="promoteInheritedDataClass" fullName="" password="d674244b0c2437ac9fbac67f44906311"/>
+
+<group ID="A5AFEC032F2E904EA6F28AE2829D0AB3" name="Read">
+
+	<include user="read" userID="2D5A3F64D3C73B4091D39D6294C1DC93"/>
+
+	<include group="Admin" groupID="01000000000000000000000000000000"/>
+</group>
+
+<group ID="10EFBEFCF938EC4C9F189DCA691DB353" name="Create">
+
+	<include user="create" userID="FBD002968850BF4AB8386D05B8D7CF77"/>
+
+	<include group="Admin" groupID="01000000000000000000000000000000"/>
+</group>
+
+<group ID="60EE5734426C794EAF4E7D092AB53C76" name="Update">
+
+	<include user="update" userID="6CBCC2F35885484B8D0591BBBB05A38A"/>
+
+	<include group="Admin" groupID="01000000000000000000000000000000"/>
+</group>
+
+<group ID="64272E2C4F0DD54882CB8856E946D1AA" name="Remove">
+
+	<include user="remove" userID="AF4357E9CA975B409AF8193210EA5F41"/>
+
+	<include group="Admin" groupID="01000000000000000000000000000000"/>
+</group>
+
+<group ID="3D81E23FA45D3545970CD8C0144A15D0" name="Execute">
+
+	<include user="execute" userID="7283C6DBB0F4F04D9D0179BE7D1E8162"/>
+
+	<include group="Admin" groupID="01000000000000000000000000000000"/>
+</group>
+
+<group ID="40ADFAFA61A95D4884C8D968C011846D" name="Promote">
+
+	<include user="promote" userID="4679123EBA313F449F4E60D7F9B3AE5F"/>
+
+	<include group="Admin" groupID="01000000000000000000000000000000"/>
+</group>
+
+<group ID="01000000000000000000000000000000" name="Admin">
+
+	<include user="admin" ID="ED9272397DAEAA4DA2BA9C128AB79DEB"/>
+</group>
+
+<group ID="02000000000000000000000000000000" name="Debugger"/>
+
+<group ID="9A3DFFED2436A34BBBE53EFECAF274E2" name="CreateInherited">
+
+	<include group="Admin" groupID="01000000000000000000000000000000"/>
+
+	<include user="createInherited" ID="E2B432461D17B44DB7A086855140B649"/>
+</group>
+
+<group ID="0FFE0664C717154D95B45F5071490A62" name="ReadInherited">
+
+	<include group="Admin" groupID="01000000000000000000000000000000"/>
+
+	<include user="readInherited" ID="009B07841B74BD449DD609143A5CEC44"/>
+</group>
+
+<group ID="F0E6925647E3584AB152309292354387" name="UpdateInherited">
+
+	<include group="Admin" groupID="01000000000000000000000000000000"/>
+
+	<include user="updateInherited" ID="A600BA9C7675594AAA1879E3B9C13968"/>
+</group>
+
+<group ID="157296910853164B849597BC24349966" name="RemoveInherited">
+
+	<include group="Admin" groupID="01000000000000000000000000000000"/>
+
+	<include user="removeInherited" ID="D1695EA02CC0F6429A7B72863850A74B"/>
+</group>
+
+<group ID="D2F7B46AC2578548ABAF6E214F83BD11" name="ExecuteInheritedModel">
+
+	<include group="Admin" groupID="01000000000000000000000000000000"/>
+
+	<include user="executeInheritedModel" ID="307A187496CDDA46ACA92EE72DCD58E4"/>
+</group>
+
+<group ID="330DF5F875676645B80DA0081E1B1B40" name="PromoteInheritedModel">
+
+	<include group="Admin" groupID="01000000000000000000000000000000"/>
+
+	<include user="promoteInheritedModel" ID="24EE745F45258C4F9D4617C12C6922E6"/>
+</group>
+
+<group ID="1E873B96CD43EF41A47397F3541BC928" name="PromoteRead">
+
+	<include group="Admin" groupID="01000000000000000000000000000000"/>
+
+</group>
+
+<group ID="ED70FEEEF00CBE4ABA0529F663D7F45E" name="PromoteCreate">
+
+	<include group="Admin" groupID="01000000000000000000000000000000"/>
+
+</group>
+
+<group ID="50769141CD926749B8B9203E1427E5FE" name="PromoteUpdate"/>
+
+<group ID="0AA3844BC7D9BD489AD5693F296BC1DA" name="PromoteRemove"/>
+
+<group ID="DDB413384BBAC345AE6FBC7203497783" name="ExecuteInheritedDataClass">
+
+	<include user="executeInheritedDataClass" ID="13CEDEBF83212345B3B5FDCBE384DB78"/>
+
+	<include group="Admin" groupID="01000000000000000000000000000000"/>
+</group>
+
+<group ID="28BC044C124BC44BBD2B72D331B250A9" name="PromoteInheritedDataClass">
+
+	<include user="promoteInheritedDataClass" ID="736D00F2023FBB499ACA5AC494A68972"/>
+
+	<include group="Admin" groupID="01000000000000000000000000000000"/>
+</group>
+</directory>

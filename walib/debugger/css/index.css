@@ -1,0 +1,476 @@
+/*
+* This file is part of Wakanda software, licensed by 4D under
+*  (i) the GNU General Public License version 3 (GNU GPL v3), or
+*  (ii) the Affero General Public License version 3 (AGPL v3) or
+*  (iii) a commercial license.
+* This file remains the exclusive property of 4D and/or its licensors
+* and is protected by national and international legislations.
+* In any event, Licensee's compliance with the terms and conditions
+* of the applicable license constitutes a prerequisite to any use of this file.
+* Except as otherwise expressly stated in the applicable license,
+* such license does not include any other license or rights on this file,
+* 4D's and/or its licensors' trademarks and/or other proprietary rights.
+* Consequently, no title, copyright or other proprietary rights
+* other than those specified in the applicable license is granted.
+*/
+
+/**
+ * -------------------------------------------------------
+ * @section Main Structure
+ * -------------------------------------------------------
+ */
+* {
+    margin: 0;
+    padding: 0;
+
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: none;
+}
+
+body {
+    display: relative;
+    font-family: Lucida Grande, sans-serif;
+}
+#main {
+    position: absolute;
+
+    top:    50px;
+    right:  0;
+    bottom: 50px;
+    left:   0;
+}
+#tabs {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+#contexts {
+    display: table-cell;
+    width:  350px;
+    height: 100%;
+
+    min-width: 250px;
+}
+#contexts .ui-resizable-handle {
+    cursor: ew-resize;
+    width: 20px;
+    right: -5px;
+}
+#debuggerFrames {
+    display: table-cell;
+    height: 100%;
+
+    min-width: 600px;
+}
+#kami {
+    position: absolute;
+
+    top:    10px;
+    right:  10px;
+    bottom: 0px;
+    left:   10px;
+}
+
+#states {
+    position: absolute;
+    bottom: 17px;
+    left: 20px;
+}
+#wakserv_state {
+    font-weight: bold;
+}
+#wakserv_solution {
+    font-weight: bold;
+}
+
+#notifications {
+    position:absolute;
+    right:30px;
+    bottom:12px;
+}
+
+#notifications button {
+    padding: 4px 16px;
+}
+
+/**
+ * -------------------------------------------------------
+ * @subsection Server-Side Javascript Contexts
+ * -------------------------------------------------------
+ */
+#contexts {
+    border: 1px solid #ccc;
+    border-top: none;
+    border-left: none;
+
+    background-color: #ffffff;
+}
+#contexts h2 {
+    position: relative;
+
+    height: 23px;
+
+    padding-top: 3px;
+
+    border-bottom: 1px solid #a3a3a3;
+
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(whiteSmoke), to(#E5E5E5));
+    background-image: -webkit-linear-gradient(top, whiteSmoke 0%, #E5E5E5 100%);
+    background-image:         linear-gradient(top, whiteSmoke 0%, #E5E5E5 100%);
+
+    color: #595959;
+    text-align: center;
+    font-weight: normal;
+    font-size: 12px;
+}
+#contexts h2:after {
+    content: '';
+
+    position: absolute;
+    display: block;
+
+    width:  8px;
+    height: 10px;
+
+    top:   7px;
+    right: 4px;
+
+    background-image: url('../devtools/Images/statusbarResizerHorizontal.png');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+#contexts_list {
+    width: 100%;
+    -webkit-user-select: none;
+}
+
+#contexts_list .context {
+    text-shadow: 0 1px 0 #fff;
+
+    line-height: 20px;
+    font-weight: bold;
+    font-size: 12px;
+}
+#contexts_list .context.cur_context {
+    outline: 1px solid #3f58cc;
+}
+
+#contexts_list .context .context_head {
+    height: 20px;
+    padding-right: 17px;
+    border-bottom: 1px solid #bdbdbd;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#F3F3F3), color-stop(0.05, #F3F3F3), color-stop(0.05, #E6E6E6), to(#D1D1D1));
+    color: #6e6e6e;
+}
+#contexts_list .context .context_head span {
+    float: right;
+}
+#contexts_list .context .context_head span.lineNumber,
+#contexts_list .context .context_head span.fileName {
+    float: none;
+}
+#contexts_list .context .context_head .abort_button {
+    float: right;
+
+    display: block;
+
+    width:  14px;
+    height: 20px;
+
+    margin: 0 0 0 3px;
+
+    background-image: url('../devtools/Images/closeButtons.png');
+    background-repeat: no-repeat;
+    background-position: 0 2px;
+}
+#contexts_list .context .context_head .abort_button:hover {
+    background-position: -14px 2px;
+}
+#contexts_list .context .context_head .abort_button:active {
+    background-position: -28px 2px;
+}
+
+
+#contexts_list .context .context_head .expand {
+    display: block;
+    float: left;
+
+    width:  20px;
+    height: 20px;
+
+    background-image: url('../devtools/Images/disclosureTriangleSmallRight.png');
+    background-position: 6px 6px;
+    background-repeat: no-repeat;
+}
+#contexts_list .context.expanded .context_head .expand {
+    background-image: url('../devtools/Images/disclosureTriangleSmallDown.png');
+}
+
+
+#contexts_list .context .context_head .continue_button {
+    float: right;
+
+    display: block;
+
+    width:  16px;
+    height: 20px;
+
+    margin: 0 0 0 3px;
+
+    /*  background-image: url('../devtools/Images/debuggerContinue.png');*/
+    background-repeat: no-repeat;
+    background-position: 0 2px;
+}
+
+#contexts_list .context .context_head:active {
+    border-bottom-color: #B2B2B2;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#E7E7E7), color-stop(0.05, #E7E7E7), color-stop(0.05, #CFCFCF), to(#BABABA));
+}
+#contexts_list .context.cur_context .context_head {
+    border-bottom: 0;
+    background-color: #00a2e8;
+    background-image: none;
+
+    text-shadow: 0 1px 0 #ccc;
+    color: #333;
+}
+
+#contexts_list .context .context_body {
+    display: none;
+    height: 20px;
+}
+#contexts_list .context .context_body::before {
+    content: '';
+    display: block;
+    float: left;
+
+    width:  20px;
+    height: 20px;
+}
+#contexts_list .context.expanded .context_body {
+    display: block;
+}
+#contexts_list .context.cur_context .context_body {
+    background-color: #99d9ea;
+    color: #000;
+}
+
+
+
+
+
+
+#contexts_table tr {
+    border-bottom: 1px solid #8c7568;
+
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#F3F3F3), color-stop(0.05, #F3F3F3), color-stop(0.05, #E6E6E6), to(#D1D1D1));
+    background-image: -webkit-linear-gradient(top, #F3F3F3 0%, #D1D1D1 100%);
+    background-image:         linear-gradient(top, #F3F3F3 0%, #D1D1D1 100%);
+}
+#contexts_table td {
+    padding: 5px 5px;
+}
+#contexts_table .context {
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+    color: #333;
+}
+#contexts_table .context_type {
+    padding:0 5px;
+}
+#contexts_table .context_process {
+    padding:0 5px;
+}
+#contexts_table .context_file {
+    color: #111;
+    text-align: left;
+}
+#contexts_table .context_line{
+}
+#contexts_table .context_actions{
+    padding-right: 15px;
+    width: auto;
+
+    text-align: right;
+    font-size: 10px;
+}
+
+/**
+ * -------------------------------------------------------
+ * @subsection Debug tool frame
+ * -------------------------------------------------------
+ */
+#debuggerFrames {
+    position: relative;
+
+    border: 1px solid #ccc;
+    border-top: none;
+    border-left: none;
+
+    background-color: #FFF;
+}
+#framesDiv {
+    position: absolute;
+    top:    0;
+    right:  0;
+    bottom: 0;
+    left:   0;
+}
+.debugFrame {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+
+    border: 0;
+}
+
+/**
+ * -------------------------------------------------------
+ * @subsection Login Box
+ * -------------------------------------------------------
+ */
+
+#login{
+    position : relative;
+    width : 100%;
+    right : 0px;
+}
+
+#password{
+    position : relative;
+    width : 100%;
+    right : 0px;
+}
+
+#auth_submit{
+    position : absolute;
+    right : 30px;
+}
+
+#errorMsg{
+    color : red;
+}
+
+/*
+#auth {
+    position: absolute;
+
+    top:    0;
+    right:  0;
+    bottom: 0;
+    left:   0;
+}
+    #auth .loginbox {
+        width: 400px;
+        margin: 100px auto;
+        padding: 20px;
+    }
+
+#login {
+    position: relative;
+    width: 100%;
+    right: 0px;
+}
+#password {
+    position: relative;
+    width: 100%;
+    right: 0px;
+}
+#auth_submit {
+    position: absolute;
+    right: 30px;
+}
+#errorMsg{
+    color: red;
+}
+*/
+
+/**
+ * -------------------------------------------------------
+ * @section Skin & Colors
+ * -------------------------------------------------------
+ */
+
+
+#states {
+    border-top: 0;
+
+    -webkit-border-top-right-radius: 0px;
+    -webkit-border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+
+    font-size: 12px;
+    color: #999999;
+}
+
+#debuggerFrames {
+
+}
+
+.context:hover {
+    background-color: rgba(140, 117, 104, 0.4);
+    cursor: pointer;
+}
+.context.cur_context {
+    background-color: rgba(242, 123, 53, 0.5);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0.4)), color-stop(50%, rgba(255, 255, 255, 0.2)), color-stop(50%, rgba(255, 255, 255, 0.17)), color-stop(100%, rgba(255, 255, 255, 0)));
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.17) 50%, rgba(255, 255, 255, 0) 100%);
+    background-image:         linear-gradient(top, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.17) 50%, rgba(255, 255, 255, 0) 100%);
+}
+
+.grey12{
+    font-size: 0.8em;
+    color: #999999;
+}
+
+.grey12 .blue{
+    font-size: 1.08em;
+    color: blue;
+}
+
+
+#wakserv_solution {
+    color: blue;
+}
+
+
+#navbar-header {
+    width: 100%;
+    background-color: #222222;
+    height: 50px;
+    padding: 13px;
+}
+
+#navbar-header img{
+    width: 32px;
+    height: 32px;
+    float: left;
+    margin-top: -7px;
+}
+
+a#navbar-brand {
+    margin: 0px 0px 5px 18px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #999999;
+}
+
+a#navbar-brand:hover {
+    color: white;
+}
+
+.success{
+    color: green;
+}
+
+.warning {
+    color: #F8902F;
+}

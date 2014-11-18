@@ -1,0 +1,1 @@
+//Populate Employeesfor (var i = 0; i < 100; i++){	var emp = new ds.Employees();	emp.name = "emp_"+i;	emp.save();}

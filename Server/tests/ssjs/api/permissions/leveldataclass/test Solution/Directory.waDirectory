@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><directory>
+	<group ID="01000000000000000000000000000000" name="Admin">
+		<include user="admin" ID="00FF7AD704651A45B1EA3C365D39A535"/>
+	</group>
+	<group ID="E1DDA5343AF8184883CAD9C8E0DB4836" name="DataClassGroup"/>
+	<user ID="00FF7AD704651A45B1EA3C365D39A535" name="admin" fullName="" password="003b744708c16733d1eb3371bec208fd"/>
+</directory>

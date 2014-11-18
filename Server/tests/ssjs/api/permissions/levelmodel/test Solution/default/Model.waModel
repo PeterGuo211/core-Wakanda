@@ -1,0 +1,77 @@
+﻿{
+	"toJSON": true,
+	"extraProperties": {
+		"version": "2",
+		"classes": {
+			"DataClass": {
+				"panelColor": "#76923C",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": true,
+					"position": {
+						"X": 25,
+						"Y": 20
+					}
+				}
+			}
+		},
+		"model": {
+			"scriptMode": "manual",
+			"workspaceLeft": 0,
+			"workspaceTop": 0,
+			"lastScriptLocation": {
+				"DataClass": {
+					"method": "DataClass/DataClass-methods.js"
+				}
+			}
+		}
+	},
+	"dataClasses": [
+		{
+			"name": "DataClass",
+			"className": "DataClass",
+			"collectionName": "DataClassCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				},
+				{
+					"name": "attribute_with_perm",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "attribute_without_perm",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				}
+			],
+			"methods": [
+				{
+					"name": "method_with_perm",
+					"applyTo": "entity",
+					"scope": "public",
+					"from": "$mainModel.DataClass.entityMethods.method_with_perm",
+					"userDefined": true
+				},
+				{
+					"name": "method_without_perm",
+					"applyTo": "entity",
+					"scope": "public",
+					"from": "$mainModel.DataClass.entityMethods.method_without_perm",
+					"userDefined": true
+				}
+			]
+		}
+	],
+	"type": []
+}

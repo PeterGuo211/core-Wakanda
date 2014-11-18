@@ -1,0 +1,9 @@
+{
+    "kind": "ssjs",
+    "oldJenkinsName": "TestServerXHR",
+    "developer": "julien.montmartin@4d.com",
+    "tester": "sebastien.courvoisier@4d.com",
+    "visibility": "public",
+    "description": "Main tests of the SSJS XHR API",
+    "stable": true
+}

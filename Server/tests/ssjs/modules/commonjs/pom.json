@@ -1,0 +1,9 @@
+{
+    "description": "Tests of the commonJSunitTest Modules",
+    "kind": "ssjs",
+    "tester": "geoffrey.beauny@4d.com",
+    "visibility": "public",
+    "developer": "alexandre.morgaut@4d.com",
+	"stable": true
+}
+
